@@ -1,0 +1,32 @@
+{
+  "id": "sergeant-brigandine",
+  "name": "Sergeant Brigandine",
+  "nameZh": "军士重板甲衣",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/sergeant-brigandine.webp",
+  "durability": 265,
+  "price": 4550,
+  "properties": {
+    "maxMana": -14,
+    "manaRestoration": -3,
+    "defense": 19,
+    "evasion": -10,
+    "critAvoid": 15,
+    "fortitude": 10,
+    "resistances": {
+      "bleeding": 34,
+      "physical": 26,
+      "piercing": 7,
+      "blunt": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Sergeants and veteran mercenaries sport this type of armor while they're saving up for something more substantial.",
+  "descriptionZh": "有些军官和久经沙场的雇佣兵为了攒钱置办一身好盔甲，就会先用这样的盔甲将就着。"
+}

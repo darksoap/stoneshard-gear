@@ -1,0 +1,28 @@
+{
+  "id": "sharp-shoes",
+  "name": "Sharp Shoes",
+  "nameZh": "尖头鞋",
+  "slot": "legs",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/sharp-shoes.webp",
+  "durability": 45,
+  "price": 25,
+  "properties": {
+    "manaRestoration": 1,
+    "fatigueGain": 7,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 3,
+      "knockback": 3,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A design that has been the pinnacle of peasant fashion for the last twenty years.",
+  "descriptionZh": "最近二十年来，农村再没出现过这么时髦的鞋子。"
+}

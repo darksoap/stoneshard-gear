@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ItemCard from '../../../components/ItemCard.astro';
+import FilterPanel from '../../../components/FilterPanel.astro';
+import SortSelect from '../../../components/SortSelect.astro';
+import { getCollection } from 'astro:content';
+import { armorSlotLabels, armorSlotSlugs } from '../../../i18n/zh';
+
+export async function getStaticPaths() {
+  const armor = await getCollection('armor');
+  const slots = [...new Set(armor.map(a => a.data.slot))];
+  
+  return slots.map(slot => {
+    const slug = armorSlotSlugs[slot];
+    return {
+      params: { type: slug },
+      props: { slot },
+    };
+  }).filter(p => p.params.type);
+}
+
+interface Props {
+  slot: string;
+}
+
+const { slot } = Astro.props;
+const armor = await getCollection('armor');
+const filteredArmor = armor.filter(a => a.data.slot === slot);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const slotLabel = armorSlotLabels[slot] || slot;
+
+const isJewelry = slot === 'ring' || slot === 'amulet';
+
+const availableFilters: any = {
+  rarities: [...new Set(filteredArmor.map(a => a.data.rarity))],
+  tiers: [...new Set(filteredArmor.map(a => a.data.tier))].sort((a, b) => a - b),
+  materials: [...new Set(filteredArmor.map(a => a.data.material))],
+};
+
+if (!isJewelry) {
+  availableFilters.armorClasses = [...new Set(filteredArmor.map(a => a.data['class']))].filter(Boolean);
+}
+
+const itemsData = filteredArmor.map(a => ({
+  id: a.id,
+  data: a.data,
+}));
+---
+
+<BaseLayout title={`${slotLabel} - 护甲`} description={`${slotLabel}列表，共${filteredArmor.length}件`}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <nav class="mb-4 text-xs text-text-muted">
+      <a href={`${base}/armor`} class="hover:text-accent transition-colors">护甲与首饰</a>
+      <span class="mx-1.5 text-border">/</span>
+      <span class="text-text-secondary">{slotLabel}</span>
+    </nav>
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-white mb-2 tracking-wide">{slotLabel}</h1>
+      <div class="section-divider max-w-xs mb-3"></div>
+      <p class="text-text-secondary text-sm">共 <span id="total-count" class="text-accent-warm font-bold">{filteredArmor.length}</span> 件</p>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-6">
+      <aside class="lg:w-56 flex-shrink-0">
+        <FilterPanel itemType="armor" availableFilters={availableFilters} />
+      </aside>
+
+      <main class="flex-1 min-w-0">
+        <div class="flex items-center justify-between mb-4 px-3 py-2 bg-bg-secondary border border-border-dark rounded-lg">
+          <div class="text-text-muted text-xs">
+            显示 <span id="filtered-count" class="text-accent font-bold text-sm">{filteredArmor.length}</span> 件
+          </div>
+          <SortSelect />
+        </div>
+
+        <div id="results-grid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+          {itemsData.map((item) => (
+            <div 
+              class="item-card"
+              data-rarity={item.data.rarity}
+              data-tier={item.data.tier}
+              data-material={item.data.material}
+              data-armor-class={item.data['class'] || ''}
+              data-name={item.data.nameZh}
+              data-price={item.data.price}
+              data-durability={item.data.durability}
+            >
+              <ItemCard
+                id={item.data.id}
+                name={item.data.name}
+                nameZh={item.data.nameZh}
+                rarity={item.data.rarity}
+                tier={item.data.tier}
+                image={item.data.image}
+                href={`${base}/armor/${item.id}`}
+              />
+            </div>
+          ))}
+        </div>
+
+        <div id="no-results" class="hidden text-center py-12 text-text-muted">
+          没有找到符合条件的物品
+        </div>
+      </main>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import { initListFilter } from '../../../scripts/list-filter';
+
+  initListFilter({
+    filterTypes: ['rarity', 'tier', 'material', 'armor-class'],
+    urlParamMap: { rarity: 'rarity', tier: 'tier', material: 'material', 'armor-class': 'armorClass' },
+    extraDataAttrs: { 'armor-class': 'armorClass' },
+  });
+</script>

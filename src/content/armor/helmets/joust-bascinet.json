@@ -1,0 +1,57 @@
+{
+  "id": "joust-bascinet",
+  "name": "Joust Bascinet",
+  "nameZh": "长枪比武头盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/joust-bascinet.webp",
+  "durability": 270,
+  "price": 1625,
+  "properties": {
+    "accuracy": -3,
+    "damageReduction": 4,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "damageReceived": -5,
+    "defense": 17,
+    "critAvoid": 12,
+    "fortitude": 12,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 31,
+      "stun": 35,
+      "physical": 30
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The flowers adorning its brow symbolize nobility, temperance, and purity of intention.",
+  "descriptionZh": "这件轻盔顶部饰有白花，象征自制内敛和高风亮节。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-joust-bascinet",
+    "name": "Open Joust Bascinet",
+    "nameZh": "长枪比武头盔",
+    "image": "/images/armor/helmets/open-joust-bascinet.webp",
+    "durability": 270,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "damageReceived": -5,
+      "defense": 12,
+      "critAvoid": 8,
+      "fortitude": 8,
+      "resistances": {
+        "bleeding": 22,
+        "stun": 35,
+        "physical": 21
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "venomancer-staff",
+  "name": "Venomancer Staff",
+  "nameZh": "毒师长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/venomancer-staff.webp",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "durability": 60,
+  "price": 3875,
+  "properties": {
+    "armorPenetration": 10,
+    "manasteal": 5,
+    "skillsEnergyCost": 20,
+    "spellsEnergyCost": -4,
+    "magicPower": 4,
+    "miraclePower": 9,
+    "damages": {
+      "blunt": 10,
+      "poison": 3,
+      "caustic": 3
+    },
+    "magicPowers": {
+      "venomantic": 5
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "In knowledgeable hands, this staff can turn even the weakest poison into a deadly one.",
+  "descriptionZh": "如果这根长杖到了经验丰富的毒师手里，效力再弱的毒物都能变成夺人性命的毒药。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "long-gambeson",
+  "name": "Long Gambeson",
+  "nameZh": "夹棉长软铠",
+  "slot": "chest",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/long-gambeson.webp",
+  "durability": 80,
+  "price": 775,
+  "properties": {
+    "damageReduction": 6,
+    "defense": 6,
+    "evasion": 2,
+    "resistances": {
+      "bleeding": 14,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It protects well for its price. The main concern is overheating to death.",
+  "descriptionZh": "这个价钱，能有这样的防护效果，还算划算。唯一的缺点是能热死人。"
+}

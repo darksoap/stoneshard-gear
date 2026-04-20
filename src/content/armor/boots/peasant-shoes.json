@@ -1,0 +1,28 @@
+{
+  "id": "peasant-shoes",
+  "name": "Peasant Shoes",
+  "nameZh": "农家鞋",
+  "slot": "legs",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/peasant-shoes.webp",
+  "durability": 60,
+  "price": 50,
+  "properties": {
+    "critAvoid": 1,
+    "defense": 3,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 8,
+      "knockback": 5,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Such shoes are usually worn until they crumble right off the wearer's feet.",
+  "descriptionZh": "这种鞋子一般不穿到散架，农民都不会扔掉。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "naval-hatchet",
+  "name": "Naval Hatchet",
+  "nameZh": "海员斧",
+  "slot": "axe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/naval-hatchet.webp",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "durability": 110,
+  "price": 975,
+  "properties": {
+    "critAvoid": 5,
+    "armorPenetration": 10,
+    "bodypartDamage": 14,
+    "damageReduction": 6,
+    "bleedingChance": 14,
+    "skillsEnergyCost": 15
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The trade fleet of Brynn is small but well equipped - each sailor is required to always carry a hatchet in case of a pirate attack.",
+  "descriptionZh": "布林的商船队规模不大，但船上的防卫措施全面——-所有海员人手一把这种斧子，可以抵御海盗的袭击。"
+}

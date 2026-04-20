@@ -1,0 +1,30 @@
+{
+  "id": "siege-crossbow",
+  "name": "Siege Crossbow",
+  "nameZh": "攻城弩",
+  "slot": "crossbow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/siege-crossbow.webp",
+  "damage": {
+    "value": 35,
+    "type": "piercing"
+  },
+  "durability": 70,
+  "price": 8150,
+  "properties": {
+    "accuracy": -40,
+    "armorPenetration": 30,
+    "bodypartDamage": 35,
+    "knockbackChance": 40,
+    "immobilizationChance": 35,
+    "skillsEnergyCost": 40
+  },
+  "range": 9,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The brutal killing power of this crossbow gave birth to rumors that even soldiers hiding behind mantlets aren't safe from the bolts launched with it.",
+  "descriptionZh": "这种弩的威力巨大，就算对手躲在移动防护墙后面，据说也难能毫发无伤。"
+}

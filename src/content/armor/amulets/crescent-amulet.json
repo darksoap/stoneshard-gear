@@ -1,0 +1,24 @@
+{
+  "id": "crescent-amulet",
+  "name": "Crescent Amulet",
+  "nameZh": "弯月护身符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/amulets/crescent-amulet.webp",
+  "durability": 85,
+  "price": 1460,
+  "properties": {
+    "maxHealth": 8,
+    "critAvoid": 7,
+    "fortitude": 10,
+    "vision": 1
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Stars and celestial bodies are held in superstitious reverence in Ahjat, as their positions in the sky govern the outcome of rituals performed by Hazzun oracles.",
+  "descriptionZh": "艾哈雅特对于星辰和其他天体存在近乎迷信的崇拜，因为各类天体的位置直接左右哈尊先知祈神仪式的结果。"
+}

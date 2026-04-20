@@ -1,0 +1,31 @@
+{
+  "id": "tower-shield-a",
+  "name": "Tower Shield A",
+  "nameZh": "雇佣兵巨盾",
+  "slot": "shield",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/tower-shield-a.webp",
+  "durability": 360,
+  "price": 2625,
+  "properties": {
+    "damageReduction": 33,
+    "blockPower": 32,
+    "blockRecovery": -20,
+    "maxMana": -15,
+    "manaRestoration": -5,
+    "evasion": -20,
+    "critAvoid": 11,
+    "resistances": {
+      "knockback": 24,
+      "stun": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "About a third of someone' contract reward went toward the paints and hiring an artist. Well, we only live once.",
+  "descriptionZh": "某个人领契据攒下来的赏金，估计三分之一都花在了漆料和请漆匠上。嗐，谁叫人只能活一回呢？"
+}

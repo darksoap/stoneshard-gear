@@ -1,0 +1,23 @@
+{
+  "id": "topaz-circlet",
+  "name": "Topaz Circlet",
+  "nameZh": "黄玉头环",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/helmets/topaz-circlet.webp",
+  "durability": 40,
+  "price": 1375,
+  "properties": {
+    "magicPower": 9,
+    "miracleChance": 2,
+    "miraclePower": 5
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Topazes can be relatively cheap - pieces of equipment encrusted with them are commonly purchased by mages of modest income.",
+  "descriptionZh": "黄玉比较廉价，有些法师收入不多，就常常青睐镶了这种宝石的首饰。",
+  "class": "light"
+}

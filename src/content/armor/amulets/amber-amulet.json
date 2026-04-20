@@ -1,0 +1,24 @@
+{
+  "id": "amber-amulet",
+  "name": "Amber Amulet",
+  "nameZh": "琥珀护身符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/amulets/amber-amulet.webp",
+  "durability": 50,
+  "price": 120,
+  "properties": {
+    "healthRestoration": 4,
+    "resistances": {
+      "stun": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It must have arrived here from either Fjall or Skadia, the lands famous for their amber trade.",
+  "descriptionZh": "弗约和斯卡迪亚盛产琥珀，这枚护身符有可能来自这两个地方。"
+}

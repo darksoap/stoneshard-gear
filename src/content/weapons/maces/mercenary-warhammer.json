@@ -1,0 +1,31 @@
+{
+  "id": "mercenary-warhammer",
+  "name": "Mercenary Warhammer",
+  "nameZh": "佣兵战锤",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/mercenary-warhammer.webp",
+  "damage": {
+    "value": 23,
+    "type": "blunt"
+  },
+  "durability": 130,
+  "price": 2425,
+  "properties": {
+    "accuracy": 6,
+    "fumbleChance": -3,
+    "armorPenetration": 30,
+    "armorDamage": 45,
+    "dazeChance": 16,
+    "staggerChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A heavy warhammer is one of the few weapons that can give an infantryman a fighting chance against a dismounted knight.",
+  "descriptionZh": "有些时候，只有手持重型战锤的步兵，才能抵御落马骑士的进攻。"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "heater-shield-f",
+  "name": "Heater Shield F",
+  "nameZh": "熨斗盾",
+  "slot": "shield",
+  "class": "medium",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/heater-shield-f.webp",
+  "durability": 140,
+  "price": 325,
+  "properties": {
+    "damageReduction": 18,
+    "blockPower": 18,
+    "maxMana": -4,
+    "manaRestoration": -2,
+    "evasion": -2,
+    "resistances": {
+      "knockback": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A solid choice when fighting on foot. This particular shield bears an insignia of some noble house.",
+  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了某个贵族的家徽。"
+}

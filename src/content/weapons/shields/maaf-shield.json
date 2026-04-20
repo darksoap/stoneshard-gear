@@ -1,0 +1,29 @@
+{
+  "id": "maaf-shield",
+  "name": "Maaf Shield",
+  "nameZh": "玛弗盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/shields/maaf-shield.webp",
+  "durability": 105,
+  "price": 2050,
+  "properties": {
+    "critAvoid": 5,
+    "damageReduction": 14,
+    "blockPower": 14,
+    "blockRecovery": 12,
+    "maxMana": -2,
+    "resistances": {
+      "knockback": 5,
+      "stun": 5
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Maafs are the warrior estate which seized power in Ahjat a few centuries ago. Their round shields are hard to mistake for anything else.",
+  "descriptionZh": "玛弗是艾哈雅特的武士阶级，几百年之前夺下了艾哈雅特的统治权，他们的圆盾外观特点鲜明，很难与其他形制的盾牌混淆。"
+}

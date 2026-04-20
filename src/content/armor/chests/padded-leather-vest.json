@@ -1,0 +1,27 @@
+{
+  "id": "padded-leather-vest",
+  "name": "Padded Leather Vest",
+  "nameZh": "夹棉真皮马甲",
+  "slot": "chest",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/chests/padded-leather-vest.webp",
+  "durability": 40,
+  "price": 400,
+  "properties": {
+    "critAvoid": 3,
+    "defense": 3,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An attire that would be the main source of pride for any show-off from the slums.",
+  "descriptionZh": "对于贫民窟里爱显摆的人来说，这是最拿得出手的一身。"
+}

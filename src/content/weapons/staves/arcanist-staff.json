@@ -1,0 +1,40 @@
+{
+  "id": "arcanist-staff",
+  "name": "Arcanist Staff",
+  "nameZh": "秘术长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/arcanist-staff.webp",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "durability": 120,
+  "price": 2425,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 12,
+    "knockbackChance": 16,
+    "staggerChance": 21,
+    "maxMana": 6,
+    "manasteal": 5,
+    "skillsEnergyCost": -4,
+    "spellsEnergyCost": -4,
+    "magicPower": 3,
+    "damages": {
+      "blunt": 14,
+      "arcane": 6
+    },
+    "magicPowers": {
+      "arcanistic": 5
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Don't even try prying the enchanted amethyst out of this staff's headpiece - that is unless you want to spend the rest of your life outside of this plane of existence.",
+  "descriptionZh": "你要是不想下半辈子回不到当前这个位面了，就别总想着撬下杖头附了魔法的紫水晶。"
+}

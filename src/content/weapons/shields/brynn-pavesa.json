@@ -1,0 +1,31 @@
+{
+  "id": "brynn-pavesa",
+  "name": "Brynn Pavesa",
+  "nameZh": "布林帕维斯盾",
+  "slot": "shield",
+  "class": "heavy",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/brynn-pavesa.webp",
+  "durability": 420,
+  "price": 5550,
+  "properties": {
+    "damageReduction": 38,
+    "blockPower": 40,
+    "blockRecovery": -25,
+    "maxMana": -17,
+    "manaRestoration": -5,
+    "evasion": -20,
+    "critAvoid": 14,
+    "resistances": {
+      "knockback": 28,
+      "stun": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "These shields are employed by famous Crossbow Brigades, the elite units of the Brynn garrison.",
+  "descriptionZh": "布林戍军的精英部队——-声名赫赫的弩兵旅用的就是这种盾牌。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "joust-armor",
+  "name": "Joust Armor",
+  "nameZh": "长枪比武盔甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/chests/joust-armor.webp",
+  "durability": 360,
+  "price": 4725,
+  "properties": {
+    "damageReduction": 5,
+    "blockPower": 5,
+    "maxMana": -18,
+    "manaRestoration": -5,
+    "damageReceived": -5,
+    "defense": 21,
+    "evasion": -15,
+    "critAvoid": 20,
+    "resistances": {
+      "bleeding": 36,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Some of its combat effectiveness was stripped away in favor of imposing aesthetics. Still, it's hard to deny that this armor makes quite an impression.",
+  "descriptionZh": "这种盔甲为了外观，牺牲了一部分的实用性能，不过造型确实威武气派，这一点毋庸置疑。"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "vagabond-knight-sentinet",
+  "name": "Vagabond Knight Sentinet",
+  "nameZh": "流浪骑士森提亚盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/vagabond-knight-sentinet.webp",
+  "durability": 225,
+  "price": 6800,
+  "properties": {
+    "accuracy": -5,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "manasteal": 6,
+    "spellsEnergyCost": -6,
+    "magicPower": 3,
+    "miracleChance": 3,
+    "defense": 21,
+    "critAvoid": 18,
+    "fortitude": 15,
+    "vision": -2,
+    "weaponDamage": 3,
+    "resistances": {
+      "bleeding": 40,
+      "stun": 45,
+      "physical": 34,
+      "nature": 11,
+      "magic": 11
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The absolute mystery of this helmet's origins deepens with its engraved interior, which calls to mind elven craftsmanship - though, given the overall design, such a claim makes very little sense.",
+  "descriptionZh": "这顶盔的来路非常神秘，内壁的铭文更加让人捉摸不透。有人想到了精灵的工艺，可是看它整体的设计，完全不像精灵的制品。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-vagabond-knight-sentinet",
+    "name": "Open Vagabond Knight Sentinet",
+    "nameZh": "流浪骑士森提亚盔",
+    "image": "/images/armor/helmets/open-vagabond-knight-sentinet.webp",
+    "durability": 280,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "manasteal": 6,
+      "spellsEnergyCost": -6,
+      "magicPower": 3,
+      "miracleChance": 3,
+      "defense": 13,
+      "critAvoid": 11,
+      "fortitude": 9,
+      "weaponDamage": 3,
+      "resistances": {
+        "bleeding": 24,
+        "stun": 45,
+        "physical": 20
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

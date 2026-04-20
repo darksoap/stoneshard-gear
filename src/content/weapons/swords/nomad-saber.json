@@ -1,0 +1,29 @@
+{
+  "id": "nomad-saber",
+  "name": "Nomad Saber",
+  "nameZh": "游牧马刀",
+  "slot": "sword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/nomad-saber.webp",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "durability": 75,
+  "price": 1400,
+  "properties": {
+    "armorPenetration": 5,
+    "bodypartDamage": 15,
+    "damageReduction": 4,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "elven"
+  ],
+  "description": "The edge requires surprisingly little maintenance. If the rumors are true, the tribes of the Yellow Steppe achieve this by treating their swords with some special solution.",
+  "descriptionZh": "这把马刀非常神奇，几乎不需要保养。黄色草原的游牧部落据说会用特殊的溶液浸泡兵器。"
+}

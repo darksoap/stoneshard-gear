@@ -1,0 +1,39 @@
+{
+  "id": "astromancer-staff",
+  "name": "Astromancer Staff",
+  "nameZh": "星术长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/astromancer-staff.webp",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "durability": 60,
+  "price": 3875,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 20,
+    "spellsEnergyCost": -4,
+    "cooldownReduction": -5,
+    "magicPower": 4,
+    "miraclePower": 9,
+    "damages": {
+      "blunt": 10,
+      "fire": 2,
+      "frost": 2,
+      "arcane": 2
+    },
+    "magicPowers": {
+      "astromantic": 5
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Astromancers claim such staves to possess an astonishingly precise ability to model the motion of our... What do they call it? Right, our \"planet\".",
+  "descriptionZh": "据许多星术法师称，这根长杖可以精准模拟我们……他们说的那个词是什么来着？噢对，可以模拟我们“星球”移动的情况。"
+}

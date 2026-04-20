@@ -1,0 +1,57 @@
+{
+  "id": "luxurious-sallet",
+  "name": "Luxurious Sallet",
+  "nameZh": "豪华夏雷尔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/luxurious-sallet.webp",
+  "durability": 310,
+  "price": 6800,
+  "properties": {
+    "accuracy": -5,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "magicPower": 5,
+    "defense": 23,
+    "evasion": 5,
+    "critAvoid": 12,
+    "fortitude": 15,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 37,
+      "stun": 40,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "This helmet's original owner was Lord Nothward, notorious for his obsession with weapons and armor. Rather peculiarly, he was also an irredeemable coward insistent on avoiding the battlefield.",
+  "descriptionZh": "头盔原本属于诺斯沃德大人，此人极为热衷兵甲武备，可是却又胆小如鼠，亲自上阵这种事情，他向来是能免则免。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-luxurious-sallet",
+    "name": "Open Luxurious Sallet",
+    "nameZh": "豪华夏雷尔",
+    "image": "/images/armor/helmets/open-luxurious-sallet.webp",
+    "durability": 280,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "magicPower": 5,
+      "defense": 14,
+      "critAvoid": 7,
+      "fortitude": 9,
+      "resistances": {
+        "bleeding": 22,
+        "stun": 40,
+        "physical": 20
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

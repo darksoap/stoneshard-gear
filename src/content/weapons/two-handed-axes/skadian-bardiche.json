@@ -1,0 +1,28 @@
+{
+  "id": "skadian-bardiche",
+  "name": "Skadian Bardiche",
+  "nameZh": "斯卡迪亚月牙斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/skadian-bardiche.webp",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "durability": 210,
+  "price": 8425,
+  "properties": {
+    "critChance": 8,
+    "critEfficiency": 20,
+    "fumbleChance": 12,
+    "armorPenetration": 30,
+    "armorDamage": 30,
+    "bleedingChance": 12,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "description": "Skadian bardiches are a weapon of status. Only the greatest warriors - the champions and the retinue of Skadian princes - are allowed to carry them.",
+  "descriptionZh": "斯卡迪亚的月牙斧并非人人皆可用，只有极其优秀的战士——斯卡迪亚大公的扈从和比武勇士——才能配持。"
+}

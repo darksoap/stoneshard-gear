@@ -1,0 +1,28 @@
+{
+  "id": "royal-champion-belt",
+  "name": "Royal Champion Belt",
+  "nameZh": "王室冠军腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/belts/royal-champion-belt.webp",
+  "durability": 85,
+  "price": 1225,
+  "properties": {
+    "damageReduction": 8,
+    "blockRecovery": 5,
+    "critAvoid": 10,
+    "resistances": {
+      "bleeding": 5,
+      "pain": 10,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Whether due to age, infirmity, or fear, some of the realm's kings steered clear of the tournament grounds, leaving the task of upholding their honor to carefully chosen and trained knights - the royal champions",
+  "descriptionZh": "奥尔多各代国王有些或是因为年迈，或是因为体弱，或是因为胆怯，不会亲自走进比武大会的场地，而是把维护王室荣耀的任务交给精心挑选、训练的骑士——也就是“御前斗士”。"
+}

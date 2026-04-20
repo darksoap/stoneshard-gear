@@ -1,0 +1,37 @@
+{
+  "id": "necromancer-staff",
+  "name": "Necromancer Staff",
+  "nameZh": "死灵长杖",
+  "slot": "2hstaff",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/staves/necromancer-staff.webp",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "durability": 33,
+  "price": 1725,
+  "properties": {
+    "armorPenetration": 10,
+    "manasteal": 9,
+    "skillsEnergyCost": 13,
+    "spellsEnergyCost": -13,
+    "magicPower": 13,
+    "miscastChance": -6,
+    "miraclePower": 13,
+    "damageReceived": -6,
+    "fatigueGain": -9,
+    "damages": {
+      "blunt": 9,
+      "unholy": 6
+    }
+  },
+  "range": 1,
+  "tags": [
+    "special"
+  ],
+  "description": "Necromancers aren't bereft of a sense of humor, albeit theirs comes with a morbid twist: most of them find joy in desecrating graves of the clergy, using harvested skulls as a decoration for their staves.",
+  "descriptionZh": "死灵法师也懂幽默，只是与常人有所不同——据说他们许多人热衷亵渎祭司的坟墓，还会用死者的头骨装点自己的法杖。"
+}

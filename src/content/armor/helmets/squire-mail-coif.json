@@ -1,0 +1,29 @@
+{
+  "id": "squire-mail-coif",
+  "name": "Squire Mail Coif",
+  "nameZh": "扈从链甲头套",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/squire-mail-coif.webp",
+  "durability": 190,
+  "price": 2750,
+  "properties": {
+    "maxMana": -2,
+    "defense": 10,
+    "resistances": {
+      "bleeding": 14,
+      "stun": 13,
+      "physical": 18,
+      "slashing": 12,
+      "rending": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "With this coif on your head, it's only appropriate to join a quest for some holy chalices or rocks with a sword stuck in them.",
+  "descriptionZh": "套上这件头套之后，如果不去找什么圣杯或是插了宝剑的石头，那就太说不过去了。",
+  "class": "light"
+}

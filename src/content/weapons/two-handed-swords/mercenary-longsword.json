@@ -1,0 +1,29 @@
+{
+  "id": "mercenary-longsword",
+  "name": "Mercenary Longsword",
+  "nameZh": "佣兵长剑",
+  "slot": "2hsword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/mercenary-longsword.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 140,
+  "price": 4000,
+  "properties": {
+    "accuracy": 10,
+    "armorPenetration": 20,
+    "damageReduction": 8,
+    "staggerChance": 25,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "As mercenaries like to jest, the longer the sword, the shorter the opposition.",
+  "descriptionZh": "雇佣兵经常开玩笑说：“剑越长，敌人越矮。”"
+}

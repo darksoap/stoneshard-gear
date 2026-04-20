@@ -1,0 +1,31 @@
+{
+  "id": "doloire",
+  "name": "Doloire",
+  "nameZh": "砍斧",
+  "slot": "2haxe",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/doloire.webp",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "durability": 80,
+  "price": 125,
+  "properties": {
+    "accuracy": 2,
+    "critAvoid": 2,
+    "fumbleChance": 2,
+    "armorPenetration": 10,
+    "bodypartDamage": 20,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The doloire is also known as a \"wagoner's axe\". It's often carried by caravaneers tasked with escorting military wagons.",
+  "descriptionZh": "砍斧这个东西也经常有人叫“车夫斧”，既不是纯粹的工具，也算不上正儿八经的兵器，经常能在部队里护送兵车的车夫身上看见。"
+}

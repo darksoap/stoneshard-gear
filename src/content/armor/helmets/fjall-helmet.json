@@ -1,0 +1,35 @@
+{
+  "id": "fjall-helmet",
+  "name": "Fjall Helmet",
+  "nameZh": "强盗头盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/fjall-helmet.webp",
+  "durability": 115,
+  "price": 1000,
+  "properties": {
+    "critChance": 1,
+    "damageReduction": 2,
+    "maxMana": -4,
+    "manaRestoration": -1,
+    "defense": 10,
+    "fortitude": 3,
+    "resistances": {
+      "bleeding": 18,
+      "stun": 16,
+      "pain": 10,
+      "physical": 17,
+      "nature": 9,
+      "magic": 9,
+      "rending": 5
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "A helmet most favored by dwarven fighters: inexpensive to make, lightweight, and sufficiently intimidating.",
+  "descriptionZh": "这种头盔最受矮人战士青睐，毕竟制作成本低廉，轻便，而且威慑力足够强。",
+  "class": "medium"
+}

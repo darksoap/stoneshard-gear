@@ -1,0 +1,31 @@
+{
+  "id": "eederax",
+  "name": "Eederax",
+  "nameZh": "伊德斯斧",
+  "slot": "2haxe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/eederax.webp",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "durability": 155,
+  "price": 3625,
+  "properties": {
+    "critChance": 7,
+    "critEfficiency": 12,
+    "fumbleChance": 10,
+    "armorPenetration": 25,
+    "armorDamage": 40,
+    "knockbackChance": 10,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "When the Aldorian army was routed by the Nistrian cavalry at the battle of Thorny Hill, the Eeders militia took the humiliating defeat to heart and started attaching special anti-cavalry hooks to their axes.",
+  "descriptionZh": "荆棘山一役，尼斯特拉骑兵大破奥尔多军，伊德斯的民兵由此吸取教训，给他们的斧子加上了专门对付骑兵的勾刃。"
+}

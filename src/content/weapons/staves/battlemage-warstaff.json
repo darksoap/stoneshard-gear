@@ -1,0 +1,37 @@
+{
+  "id": "battlemage-warstaff",
+  "name": "Battlemage Warstaff",
+  "nameZh": "战地法师战杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/battlemage-warstaff.webp",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "durability": 145,
+  "price": 2425,
+  "properties": {
+    "critAvoid": 5,
+    "armorPenetration": 5,
+    "damageReduction": 12,
+    "blockRecovery": 5,
+    "knockbackChance": 16,
+    "staggerChance": 21,
+    "skillsEnergyCost": -6,
+    "spellsEnergyCost": -4,
+    "magicPower": 5,
+    "damages": {
+      "blunt": 18,
+      "arcane": 2
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Every so often, there's simply no time for casting spells, and fighting up close becomes the only option.",
+  "descriptionZh": "有些时候根本没有时间施法，近身打斗就成了唯一选择。"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "spiked-warclub",
+  "name": "Spiked Warclub",
+  "nameZh": "钉头战锤",
+  "slot": "2hmace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/spiked-warclub.webp",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "durability": 140,
+  "price": 1400,
+  "properties": {
+    "accuracy": -6,
+    "critEfficiency": 5,
+    "fumbleChance": 3,
+    "armorPenetration": 25,
+    "bodypartDamage": 15,
+    "bleedingChance": 15,
+    "stunChance": 10,
+    "knockbackChance": 30,
+    "staggerChance": 30,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "It's best not to find yourself on the receiving end of this warclub - its strikes not only shatter bones but also leave deep puncture wounds.",
+  "descriptionZh": "最好别被这种锤子砸中，这一锤子下去，不光骨头会断，身上还会砸出手指粗细的窟窿。"
+}

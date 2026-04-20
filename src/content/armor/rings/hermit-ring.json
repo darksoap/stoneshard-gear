@@ -1,0 +1,29 @@
+{
+  "id": "hermit-ring",
+  "name": "Hermit Ring",
+  "nameZh": "隐士戒指",
+  "slot": "ring",
+  "class": "light",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/rings/hermit-ring.webp",
+  "durability": 40,
+  "price": 920,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 5,
+    "maxHealth": 5,
+    "healthRestoration": 5,
+    "cooldownReduction": -5,
+    "resistances": {
+      "physical": 5,
+      "nature": 10
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Even though it looks plain and unassuming, putting this wooden ring on your finger brings in the surge of incredible vigor.",
+  "descriptionZh": "这个木头戒指虽然看着平平无奇，但戴上的瞬间能让你感受到活力不可思议的涌动。"
+}

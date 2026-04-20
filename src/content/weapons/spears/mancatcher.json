@@ -1,0 +1,31 @@
+{
+  "id": "mancatcher",
+  "name": "Mancatcher",
+  "nameZh": "捕人爪",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/mancatcher.webp",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "durability": 105,
+  "price": 525,
+  "properties": {
+    "accuracy": 2,
+    "critAvoid": 4,
+    "armorPenetration": 10,
+    "damageReduction": 4,
+    "bleedingChance": 20,
+    "immobilizationChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "An indispensable tool for pinning down fugitives and wild beasts, it can often be seen in the hands of bounty hunters.",
+  "descriptionZh": "赏金猎人手里经常出现这种兵器，不论是抓逃跑的敌人还是野兽，都离不开它。"
+}

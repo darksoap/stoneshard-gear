@@ -1,0 +1,27 @@
+{
+  "id": "captain-gloves",
+  "name": "Captain Gloves",
+  "nameZh": "长官手套",
+  "slot": "arms",
+  "class": "medium",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/captain-gloves.webp",
+  "durability": 210,
+  "price": 4700,
+  "properties": {
+    "maxMana": -9,
+    "manaRestoration": -1,
+    "defense": 18,
+    "resistances": {
+      "bleeding": 30,
+      "physical": 24
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Built for the battlefield, and equally useful for loudly slamming a fist on the war table when the campaign isn't going to plan.",
+  "descriptionZh": "设计的初衷只考虑了战场，但战况不顺利的时候，也适合“哐哐”砸沙盘。"
+}

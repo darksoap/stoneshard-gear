@@ -1,0 +1,28 @@
+{
+  "id": "apprentice-robe",
+  "name": "Apprentice Robe",
+  "nameZh": "新人长袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/apprentice-robe.webp",
+  "durability": 30,
+  "price": 100,
+  "properties": {
+    "maxMana": 2,
+    "manaRestoration": 1,
+    "magicPower": 5,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 1,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "The black color of this mantle indicates that a student wearing it hasn't yet decided which Circle they wish to pursue.",
+  "descriptionZh": "哪个学生要是穿了这种黑袍，就表示还没想好加入哪个法会。"
+}

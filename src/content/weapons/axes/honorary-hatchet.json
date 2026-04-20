@@ -1,0 +1,32 @@
+{
+  "id": "honorary-hatchet",
+  "name": "Honorary Hatchet",
+  "nameZh": "嘉奖手斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/axes/honorary-hatchet.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 120,
+  "price": 4850,
+  "properties": {
+    "accuracy": 4,
+    "armorPenetration": 15,
+    "armorDamage": 30,
+    "bodypartDamage": 31,
+    "bleedingChance": 31,
+    "skillsEnergyCost": 15,
+    "spellsEnergyCost": -5,
+    "cooldownReduction": -5
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Engraved on the blade is a phrase in Sentian Aldorian: \"To Gill Korde, for the valor and courage demonstrated by him and his troops at the Battle of Arnem.\"",
+  "descriptionZh": "斧刃上有一行铭文，是奥尔多文的森提亚方言：“赐吉尔·考德，旌其与部众于阿尔内姆一役所展之勇毅。”"
+}

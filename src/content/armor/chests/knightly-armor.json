@@ -1,0 +1,31 @@
+{
+  "id": "knightly-armor",
+  "name": "Knightly Armor",
+  "nameZh": "骑士胸甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/knightly-armor.webp",
+  "durability": 420,
+  "price": 9975,
+  "properties": {
+    "damageReduction": 4,
+    "blockRecovery": 5,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "defense": 26,
+    "evasion": -18,
+    "critAvoid": 24,
+    "resistances": {
+      "bleeding": 36,
+      "physical": 38
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Making a single suit of noble plate armor demands multiple craftsmen and months of hard work.",
+  "descriptionZh": "一件贵族板甲往往需要多名工匠好几个月才能造成。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "carved-topaz-pendant",
+  "name": "Carved Topaz Pendant",
+  "nameZh": "雕纹黄玉吊坠",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/amulets/carved-topaz-pendant.webp",
+  "durability": 95,
+  "price": 920,
+  "properties": {
+    "accuracy": 3,
+    "manaRestoration": 3,
+    "skillsEnergyCost": -4,
+    "cooldownReduction": -4
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Such necklaces are an essential attribute of prosperous city aristocrats, who never miss a chance to put their wealth on display.",
+  "descriptionZh": "城里的名门贵族不会放过任何炫耀家产的机会，这种项链他们家家必有。"
+}

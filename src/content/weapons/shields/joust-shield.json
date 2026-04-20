@@ -1,0 +1,27 @@
+{
+  "id": "joust-shield",
+  "name": "Joust Shield",
+  "nameZh": "长枪比武盾",
+  "slot": "shield",
+  "class": "medium",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/shields/joust-shield.webp",
+  "durability": 210,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 30,
+    "blockPower": 29,
+    "blockRecovery": 5,
+    "maxMana": -8,
+    "manaRestoration": -1,
+    "damageReceived": -5,
+    "evasion": -4
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The main purpose of jousts is to show off, so no expense is too great when it comes to elaborate shield paintings. In fact, the last joust before the war was so exceedingly festive that it was more reminiscent of a carnival than a celebration of combat prowess.",
+  "descriptionZh": "马上长枪比武的主要目的就是张扬和炫耀，所以比武的人为了装点这种盾牌，无论花多少钱都不会心疼。奥尔多内乱之前的那场马上长枪比武，声势浩大，现场沸反盈天，说是比武，莫不如说是狂欢节。"
+}

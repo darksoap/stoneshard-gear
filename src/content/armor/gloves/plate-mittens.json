@@ -1,0 +1,30 @@
+{
+  "id": "plate-mittens",
+  "name": "Plate Mittens",
+  "nameZh": "板甲手套",
+  "slot": "arms",
+  "class": "heavy",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/plate-mittens.webp",
+  "durability": 250,
+  "price": 1275,
+  "properties": {
+    "fumbleChance": 2,
+    "damageReduction": 3,
+    "maxMana": -14,
+    "manaRestoration": -4,
+    "defense": 16,
+    "critAvoid": 6,
+    "resistances": {
+      "bleeding": 29,
+      "physical": 28
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Wrist mobility is of little importance when it takes a small squad of soldiers to get through your armor.",
+  "descriptionZh": "假如敌人要动用一支小队才对付得了你这一身，手腕能不能自如活动也就没多大意义了。"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "work-gloves",
+  "name": "Work Gloves",
+  "nameZh": "劳动手套",
+  "slot": "arms",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/work-gloves.webp",
+  "durability": 45,
+  "price": 50,
+  "properties": {
+    "critEfficiency": 5,
+    "fumbleChance": -1,
+    "skillsEnergyCost": -3,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 8,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "For when you don't want to get your hands dirty.",
+  "descriptionZh": "戴上这个，手就不会弄脏了。"
+}

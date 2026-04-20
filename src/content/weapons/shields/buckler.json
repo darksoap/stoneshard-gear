@@ -1,0 +1,24 @@
+{
+  "id": "buckler",
+  "name": "Buckler",
+  "nameZh": "小圆盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/shields/buckler.webp",
+  "durability": 75,
+  "price": 325,
+  "properties": {
+    "critAvoid": 5,
+    "damageReduction": 9,
+    "blockPower": 8,
+    "blockRecovery": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Any duelist worth their salt must possess three things: a buckler, a trusty blade, and a carefully rehearsed Brynn accent.",
+  "descriptionZh": "正儿八经的对决手有三样东西绝对不能少——小圆盾、多年随身的兵器和精心学习的布林腔。"
+}

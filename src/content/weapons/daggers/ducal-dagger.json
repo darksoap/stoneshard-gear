@@ -1,0 +1,31 @@
+{
+  "id": "ducal-dagger",
+  "name": "Ducal Dagger",
+  "nameZh": "公爵匕首",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/daggers/ducal-dagger.webp",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "durability": 120,
+  "price": 3050,
+  "properties": {
+    "critChance": 2,
+    "critAvoid": 10,
+    "fumbleChance": -2,
+    "armorPenetration": 15,
+    "damageReduction": 11,
+    "blockPower": 9,
+    "bleedingChance": 20
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "The seal on the pommel leaves no room for interpretation: this exotic dagger used to belong to Orro Denye, the one and only Duke of Bronza.",
+  "descriptionZh": "柄上的家徽非常清楚，这把异域匕首的主人不是别人，正是布朗萨公爵奥洛·登耶。"
+}

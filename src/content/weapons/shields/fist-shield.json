@@ -1,0 +1,24 @@
+{
+  "id": "fist-shield",
+  "name": "Fist Shield",
+  "nameZh": "拳盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/fist-shield.webp",
+  "durability": 45,
+  "price": 50,
+  "properties": {
+    "critAvoid": 3,
+    "damageReduction": 5,
+    "blockPower": 4,
+    "blockRecovery": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Fist shields don't get in the way and allow to safely parry weaker attacks.",
+  "descriptionZh": "拳盾不会妨碍持盾人的动作，可以安全抵挡力度较小的攻击。"
+}

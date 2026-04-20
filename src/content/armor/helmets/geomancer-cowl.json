@@ -1,0 +1,35 @@
+{
+  "id": "geomancer-cowl",
+  "name": "Geomancer Cowl",
+  "nameZh": "地术兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/geomancer-cowl.webp",
+  "durability": 80,
+  "price": 2875,
+  "properties": {
+    "maxMana": 6,
+    "manaRestoration": 2,
+    "miscastChance": -4,
+    "damageReceived": -5,
+    "defense": 5,
+    "fortitude": 8,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 5,
+      "arcane": 10
+    },
+    "magicPowers": {
+      "geomantic": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Pulling up this cowl makes you feel inexplicable unity with the ground under your feet.",
+  "descriptionZh": "你套上这个兜帽的一瞬间，就会感觉到自己和脚下的大地变成了一体。",
+  "class": "light"
+}

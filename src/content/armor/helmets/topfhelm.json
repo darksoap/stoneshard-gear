@@ -1,0 +1,32 @@
+{
+  "id": "topfhelm",
+  "name": "Topfhelm",
+  "nameZh": "桶盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/topfhelm.webp",
+  "durability": 300,
+  "price": 2750,
+  "properties": {
+    "accuracy": -5,
+    "maxMana": -16,
+    "manaRestoration": -4,
+    "defense": 20,
+    "critAvoid": 7,
+    "fortitude": 7,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 34,
+      "stun": 30,
+      "physical": 27
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Topfhelms have been out of fashion for quite a while. Nowadays they are worn almost exclusively by gray-haired, irredeemably nostalgic veterans.",
+  "descriptionZh": "桶盔早就不时兴了，现在还戴这种头盔的，基本都是满头花白的老兵，张口闭口就是“当年如何如何”。",
+  "class": "heavy"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "flat-kettle-helmet",
+  "name": "Flat Kettle Helmet",
+  "nameZh": "圆顶锅盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/flat-kettle-helmet.webp",
+  "durability": 105,
+  "price": 425,
+  "properties": {
+    "maxMana": -1,
+    "defense": 8,
+    "critAvoid": 3,
+    "resistances": {
+      "bleeding": 15,
+      "stun": 10,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A kettle helmet is essentially a hat, albeit made of metal. Even an amateurish village blacksmith can be tasked with crafting one.",
+  "descriptionZh": "这种头盔本质上就是一顶金属帽子，连乡里普通的铁匠都能打。",
+  "class": "medium"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "assassin-dagger",
+  "name": "Assassin Dagger",
+  "nameZh": "暗杀匕首",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/assassin-dagger.webp",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "durability": 85,
+  "price": 3575,
+  "properties": {
+    "accuracy": 7,
+    "critChance": 7,
+    "critEfficiency": 5,
+    "fumbleChance": -2,
+    "armorPenetration": 15,
+    "bleedingChance": 18
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "One of King Etbert's decrees prohibited his vassals from quarreling with one another. Therefore, most conflicts began involving middlemen - assassins for hire, for instance.",
+  "descriptionZh": "埃特伯特国王曾经下令，禁止封臣发生私斗。从此之后，多数纠纷便通过中间人解决，例如买凶杀人。"
+}

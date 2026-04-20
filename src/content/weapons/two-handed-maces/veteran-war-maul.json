@@ -1,0 +1,31 @@
+{
+  "id": "veteran-war-maul",
+  "name": "Veteran War Maul",
+  "nameZh": "老兵战锤",
+  "slot": "2hmace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/veteran-war-maul.webp",
+  "damage": {
+    "value": 29,
+    "type": "blunt"
+  },
+  "durability": 170,
+  "price": 3400,
+  "properties": {
+    "accuracy": -8,
+    "armorPenetration": 40,
+    "bodypartDamage": 20,
+    "stunChance": 20,
+    "knockbackChance": 35,
+    "staggerChance": 35,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Sometimes the simplest solution is the best one - this maul is a testament to it.",
+  "descriptionZh": "这根大锤完美诠释了“最简单的设计有时候才是最好的设计”这个道理。"
+}

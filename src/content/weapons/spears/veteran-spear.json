@@ -1,0 +1,31 @@
+{
+  "id": "veteran-spear",
+  "name": "Veteran Spear",
+  "nameZh": "老兵矛",
+  "slot": "spear",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/veteran-spear.webp",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "durability": 190,
+  "price": 3025,
+  "properties": {
+    "accuracy": 8,
+    "critAvoid": 10,
+    "armorPenetration": 25,
+    "damageReduction": 13,
+    "blockPower": 11,
+    "knockbackChance": 30,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "As one prominent Aldorian commander used to say, wars are waged by knights but are won with spears. Spears like this one.",
+  "descriptionZh": "正如奥尔多的某位杰出将领所言，打仗开场要靠骑士，不过制胜就要靠这样的长矛了。"
+}

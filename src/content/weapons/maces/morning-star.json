@@ -1,0 +1,34 @@
+{
+  "id": "morning-star",
+  "name": "Morning Star",
+  "nameZh": "晨星锤",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/morning-star.webp",
+  "damage": {
+    "value": 19,
+    "type": "blunt"
+  },
+  "durability": 100,
+  "price": 975,
+  "properties": {
+    "armorPenetration": 20,
+    "bodypartDamage": 20,
+    "bleedingChance": 12,
+    "dazeChance": 10,
+    "staggerChance": 20,
+    "skillsEnergyCost": 15,
+    "damages": {
+      "piercing": 2,
+      "blunt": 19
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A hit or two, and this morgenstern will be the last star your enemy will ever see.",
+  "descriptionZh": "只需要一锤，最多两锤，你的敌人就看不到第二天早上的星星了。"
+}

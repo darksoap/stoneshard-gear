@@ -1,0 +1,30 @@
+{
+  "id": "cranequin-crossbow",
+  "name": "Cranequin Crossbow",
+  "nameZh": "齿轮弩",
+  "slot": "crossbow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/cranequin-crossbow.webp",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "durability": 60,
+  "price": 1575,
+  "properties": {
+    "accuracy": -38,
+    "armorPenetration": 25,
+    "bleedingChance": 25,
+    "knockbackChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": 20
+  },
+  "range": 8,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A cranequin is a cunning mechanism which made crossbows even more deadly than they had already been. At least a dozen engineers and master craftsmen from all over Aldor compete for the title of its original inventor.",
+  "descriptionZh": "齿轮弩的机械十分巧妙，因而杀伤力相对其他弩更高。奥尔多各地至少有十几位工程师和工匠大师将发明这种弩的功劳归在了自己头上。"
+}

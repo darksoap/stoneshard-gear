@@ -1,0 +1,29 @@
+{
+  "id": "veteran-broadaxe",
+  "name": "Veteran Broadaxe",
+  "nameZh": "重型阔斧",
+  "slot": "axe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/veteran-broadaxe.webp",
+  "damage": {
+    "value": 27,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 2650,
+  "properties": {
+    "critEfficiency": 18,
+    "armorPenetration": 20,
+    "bodypartDamage": 30,
+    "staggerChance": 20,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A frequent joke among the free companies is to hand one of these to a fresh recruit during drill, then stand back and enjoy the spectacle.",
+  "descriptionZh": "佣兵团的人经常拿这个捉弄新来的，操练的的时候发给他们一把这样的斧头，然后就能站在一边看笑话了。"
+}

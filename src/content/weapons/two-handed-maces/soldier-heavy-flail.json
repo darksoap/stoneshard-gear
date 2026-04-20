@@ -1,0 +1,32 @@
+{
+  "id": "soldier-heavy-flail",
+  "name": "Soldier Heavy Flail",
+  "nameZh": "士兵长连枷",
+  "slot": "2hmace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/soldier-heavy-flail.webp",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "durability": 125,
+  "price": 1650,
+  "properties": {
+    "accuracy": -8,
+    "fumbleChance": 8,
+    "armorPenetration": 15,
+    "bodypartDamage": 24,
+    "dazeChance": 20,
+    "stunChance": 22,
+    "staggerChance": 29,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Even plate armor can only do so much when it catches a solid hit from a full-cast flailhead.",
+  "descriptionZh": "即便是重甲骑士，挨上这个实心铸铁的棍头一下，也是非死即伤。"
+}

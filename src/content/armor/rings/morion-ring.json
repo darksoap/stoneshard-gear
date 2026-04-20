@@ -1,0 +1,23 @@
+{
+  "id": "morion-ring",
+  "name": "Morion Ring",
+  "nameZh": "烟晶戒指",
+  "slot": "ring",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/rings/morion-ring.webp",
+  "durability": 35,
+  "price": 440,
+  "properties": {
+    "maxHealth": 4,
+    "magicPower": 3,
+    "weaponDamage": 3
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Gold, silver, morion... Looks like someone wanted to have a piece of jewelry for every occasion.",
+  "descriptionZh": "金配银，再配烟晶……看样子有人是想有枚百搭的戒指，不论什么场合都可以戴着见人。"
+}

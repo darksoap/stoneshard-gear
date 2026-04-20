@@ -1,0 +1,30 @@
+{
+  "id": "scale-boots",
+  "name": "Scale Boots",
+  "nameZh": "鳞甲靴",
+  "slot": "legs",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/boots/scale-boots.webp",
+  "durability": 330,
+  "price": 2325,
+  "properties": {
+    "maxMana": -12,
+    "manaRestoration": -3,
+    "defense": 18,
+    "evasion": -6,
+    "critAvoid": 7,
+    "resistances": {
+      "bleeding": 27,
+      "knockback": 32,
+      "physical": 29
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "These were obviously inspired by the Nistrian military tradition - scaled armor is still a common sight around those parts.",
+  "descriptionZh": "这种靴子明显是受了尼斯特拉军传统的启发，那边至今依然常见鳞甲这种防具。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "orient-bracers",
+  "name": "Orient Bracers",
+  "nameZh": "东方护臂",
+  "slot": "arms",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/orient-bracers.webp",
+  "durability": 80,
+  "price": 3350,
+  "properties": {
+    "maxMana": 7,
+    "manaRestoration": 4,
+    "magicPower": 7,
+    "miracleChance": 4,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 10,
+      "physical": 7
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "The gilded acanthus ornaments are a staple of Hazzun jewelry. This technique was invented in ancient times and has seen very little change after being rediscovered by modern craftsmen.",
+  "descriptionZh": "哈尊的首饰经常有镀金的茛苕纹样。这种工艺发明于古代，现代工匠采用之后，就基本没怎么变过。"
+}

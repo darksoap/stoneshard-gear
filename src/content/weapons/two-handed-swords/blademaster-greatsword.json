@@ -1,0 +1,31 @@
+{
+  "id": "blademaster-greatsword",
+  "name": "Blademaster Greatsword",
+  "nameZh": "剑客大剑",
+  "slot": "2hsword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/blademaster-greatsword.webp",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "durability": 170,
+  "price": 8675,
+  "properties": {
+    "critChance": 6,
+    "critAvoid": 3,
+    "fumbleChance": 13,
+    "armorPenetration": 33,
+    "damageReduction": 3,
+    "bleedingChance": 31,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Blademasters are paid double wages to fight on the frontline - and they don't need to be asked twice to demonstrate why this expense is well-founded.",
+  "descriptionZh": "剑客在前线作战，报酬是其他人的两倍。你要是问为什么他们就翻倍？剑客往往当时就能让你明白翻倍的原因。"
+}

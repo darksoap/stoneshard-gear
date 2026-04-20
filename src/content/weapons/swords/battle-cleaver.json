@@ -1,0 +1,29 @@
+{
+  "id": "battle-cleaver",
+  "name": "Battle Cleaver",
+  "nameZh": "战刀",
+  "slot": "sword",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/battle-cleaver.webp",
+  "damage": {
+    "value": 17,
+    "type": "slashing"
+  },
+  "durability": 50,
+  "price": 75,
+  "properties": {
+    "critChance": 3,
+    "fumbleChance": 4,
+    "armorPenetration": 3,
+    "bleedingChance": 10,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A simple butcher's cleaver, crudely refashioned into a sword-like shape by an unknown craftsman.",
+  "descriptionZh": "普普通通的砍刀，不知道被哪个工匠改成了剑的式样。"
+}

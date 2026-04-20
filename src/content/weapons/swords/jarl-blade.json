@@ -1,0 +1,32 @@
+{
+  "id": "jarl-blade",
+  "name": "Jarl Blade",
+  "nameZh": "亚尔剑",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/jarl-blade.webp",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "durability": 90,
+  "price": 2900,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 3,
+    "critEfficiency": 10,
+    "armorPenetration": 10,
+    "bodypartDamage": 7,
+    "damageReduction": 8,
+    "bleedingChance": 17,
+    "skillsEnergyCost": 5
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Entire wars have been fought in Fjall to claim such a sword - and the title that comes with it.",
+  "descriptionZh": "弗约矮人之间连年的争斗，都是为了争夺这么一把剑和“亚尔”这个名号。"
+}

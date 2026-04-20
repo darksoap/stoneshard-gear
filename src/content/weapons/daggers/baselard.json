@@ -1,0 +1,29 @@
+{
+  "id": "baselard",
+  "name": "Baselard",
+  "nameZh": "巴塞拉德",
+  "slot": "dagger",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/baselard.webp",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "durability": 60,
+  "price": 750,
+  "properties": {
+    "accuracy": 5,
+    "critChance": 1,
+    "critAvoid": 3,
+    "armorPenetration": 10,
+    "bleedingChance": 15
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Baselards are so popular among both the nobility and townsmen that they are often viewed as an accessory rather than an actual weapon.",
+  "descriptionZh": "很多贵族和普通的城里人身上都会带着一把巴塞拉德，不过很多只是把它当做装饰，而非防身的兵器。"
+}

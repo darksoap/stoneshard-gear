@@ -1,0 +1,32 @@
+{
+  "id": "arcanist-mantle",
+  "name": "Arcanist Mantle",
+  "nameZh": "秘术法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/arcanist-mantle.webp",
+  "durability": 60,
+  "price": 4125,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 2,
+    "manasteal": 9,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 7,
+      "arcane": 20
+    },
+    "magicPowers": {
+      "arcanistic": 9
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A distinct mantle of the Circle of Arcanistics, thoroughly imbued with pure magic essence.",
+  "descriptionZh": "秘术法会专用法袍，已被魔法精华浸透。"
+}

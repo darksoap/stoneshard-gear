@@ -1,0 +1,36 @@
+{
+  "id": "theurgist-blade",
+  "name": "Theurgist Blade",
+  "nameZh": "圣宗剑",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/theurgist-blade.webp",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "durability": 100,
+  "price": 6125,
+  "properties": {
+    "accuracy": 7,
+    "armorPenetration": 15,
+    "damageReduction": 10,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -5,
+    "miracleChance": 3,
+    "miraclePower": 10,
+    "damages": {
+      "slashing": 24,
+      "sacred": 4
+    }
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Forged by great weaponsmiths in times immemorial, this blade still carries the blessing of the Host.",
+  "descriptionZh": "这把剑由古时的传奇兵匠铸成，至今依然拥有圣主的加持。"
+}

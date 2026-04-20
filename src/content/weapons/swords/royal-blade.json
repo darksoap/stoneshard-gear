@@ -1,0 +1,30 @@
+{
+  "id": "royal-blade",
+  "name": "Royal Blade",
+  "nameZh": "王家配剑",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/royal-blade.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 6125,
+  "properties": {
+    "accuracy": 7,
+    "armorPenetration": 15,
+    "damageReduction": 10,
+    "bleedingChance": 20,
+    "skillsEnergyCost": -5,
+    "damageReceived": -5
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "A sword from King Etbert's personal armory. Clearly not his favorite, otherwise it would have followed the monarch into his tomb.",
+  "descriptionZh": "这把剑原本属于埃特伯特国王，国王征战南北，统一奥尔多的时候，配的很有可能就是它。"
+}

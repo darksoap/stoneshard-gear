@@ -1,0 +1,26 @@
+{
+  "id": "veteran-belt",
+  "name": "Veteran Belt",
+  "nameZh": "老兵腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/veteran-belt.webp",
+  "durability": 70,
+  "price": 575,
+  "properties": {
+    "critAvoid": 7,
+    "damageReduction": 5,
+    "resistances": {
+      "pain": 12,
+      "physical": 2
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Built to persevere - even cleaving it apart would take more than a single strike.",
+  "descriptionZh": "做工扎实，就算直接一刀砍下去，都很难会断。"
+}

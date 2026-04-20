@@ -1,0 +1,27 @@
+{
+  "id": "gambeson",
+  "name": "Gambeson",
+  "nameZh": "夹棉软铠",
+  "slot": "chest",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/gambeson.webp",
+  "durability": 55,
+  "price": 300,
+  "properties": {
+    "damageReduction": 4,
+    "defense": 4,
+    "evasion": 2,
+    "resistances": {
+      "bleeding": 10,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Makes you look fat, but who cares about appearances in the thick of a fight?",
+  "descriptionZh": "穿上会显胖，可是战场上你是要命还是要形象？"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "travelling-shoes",
+  "name": "Travelling Shoes",
+  "nameZh": "旅人鞋",
+  "slot": "legs",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/travelling-shoes.webp",
+  "durability": 60,
+  "price": 225,
+  "properties": {
+    "manaRestoration": 2,
+    "fatigueGain": 10,
+    "defense": 3,
+    "resistances": {
+      "bleeding": 5,
+      "knockback": 5,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Shoes like these are cheap and wear well, the qualities which attract all kinds of vagabonds. Just make sure to keep them free of holes.",
+  "descriptionZh": "这种鞋子又便宜，又好穿，各种流浪汉都觉得好，只是时不时需要补一补。"
+}

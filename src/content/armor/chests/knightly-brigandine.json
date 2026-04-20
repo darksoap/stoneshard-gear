@@ -1,0 +1,32 @@
+{
+  "id": "knightly-brigandine",
+  "name": "Knightly Brigandine",
+  "nameZh": "骑士布面重甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/knightly-brigandine.webp",
+  "durability": 280,
+  "price": 8725,
+  "properties": {
+    "maxMana": -16,
+    "manaRestoration": -3,
+    "defense": 23,
+    "evasion": -12,
+    "critAvoid": 16,
+    "fortitude": 12,
+    "resistances": {
+      "bleeding": 37,
+      "physical": 30,
+      "piercing": 7,
+      "blunt": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A chestpiece held in high esteem by Aldorian knights. It provides almost the same level of protection as full plate but costs less and looks fancier.",
+  "descriptionZh": "奥尔多的骑士喜欢穿这种盔甲，因为它的防护效果几乎可以媲美全板甲，但是造价低，而且样式更好看。"
+}

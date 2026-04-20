@@ -1,0 +1,34 @@
+{
+  "id": "veteran-flail",
+  "name": "Veteran Flail",
+  "nameZh": "老兵连枷",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/veteran-flail.webp",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "durability": 95,
+  "price": 2550,
+  "properties": {
+    "accuracy": -6,
+    "critChance": 6,
+    "critEfficiency": 8,
+    "fumbleChance": 12,
+    "armorPenetration": 10,
+    "bodypartDamage": 18,
+    "bleedingChance": 7,
+    "dazeChance": 13,
+    "staggerChance": 29,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Only a seasoned fighter can handle a two-headed flail without embarrassing themselves.",
+  "descriptionZh": "只有经验丰富的战士，用两头的连枷才不会出丑。"
+}

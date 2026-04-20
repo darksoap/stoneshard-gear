@@ -1,0 +1,30 @@
+{
+  "id": "mercenary-cuirass",
+  "name": "Mercenary Cuirass",
+  "nameZh": "雇佣兵胸甲",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/mercenary-cuirass.webp",
+  "durability": 155,
+  "price": 3250,
+  "properties": {
+    "maxMana": -6,
+    "manaRestoration": -1,
+    "defense": 15,
+    "evasion": -3,
+    "critAvoid": 10,
+    "resistances": {
+      "bleeding": 26,
+      "physical": 23,
+      "piercing": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A breastplate worn by lonely mercenaries - it's relatively light, covers the vital spots, and doesn't cost all that much.",
+  "descriptionZh": "单独行动的雇佣兵会穿这种胸甲，毕竟分量比较轻，可以保护重要部位，而且价格也没那么高。"
+}

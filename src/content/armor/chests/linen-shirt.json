@@ -1,0 +1,28 @@
+{
+  "id": "linen-shirt",
+  "name": "Linen Shirt",
+  "nameZh": "麻布衬衫",
+  "slot": "chest",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/linen-shirt.webp",
+  "durability": 20,
+  "price": 25,
+  "properties": {
+    "skillsEnergyCost": -5,
+    "fatigueGain": 5,
+    "defense": 1,
+    "evasion": 6,
+    "resistances": {
+      "bleeding": 2,
+      "physical": 1
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some peasants own only a shirt on their back. Naturally, it's worn for every occasion.",
+  "descriptionZh": "有些农民只有这么一件像样的衬衫，过节穿、下地穿、出门见人也是它。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "jibean-talisman",
+  "name": "Jibean Talisman",
+  "nameZh": "吉贝护符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/amulets/jibean-talisman.webp",
+  "durability": 35,
+  "price": 1160,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 2,
+    "magicPower": 4
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "A gold amulet, generously painted with azure and purple. Such colors are a rare sight in Aldor.",
+  "descriptionZh": "金质护身符，漆色以蓝紫为主，这两种颜色在奥尔多非常罕见。"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "tripleheaded-flail",
+  "name": "Tripleheaded Flail",
+  "nameZh": "三头连枷",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/tripleheaded-flail.webp",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "durability": 100,
+  "price": 5350,
+  "properties": {
+    "accuracy": -8,
+    "critChance": 7,
+    "critEfficiency": 12,
+    "fumbleChance": 14,
+    "armorPenetration": 15,
+    "bodypartDamage": 26,
+    "bleedingChance": 9,
+    "dazeChance": 15,
+    "staggerChance": 35,
+    "skillsEnergyCost": 25,
+    "damages": {
+      "piercing": 3,
+      "blunt": 28
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A risky weapon for those who are confident in their skill.",
+  "descriptionZh": "这件兵器，即便熟悉，用起来也十分危险。"
+}

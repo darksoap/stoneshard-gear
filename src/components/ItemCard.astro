@@ -1,0 +1,51 @@
+---
+import { rarityLabels } from '../i18n/zh';
+
+interface Props {
+  id: string;
+  name: string;
+  nameZh: string;
+  rarity: string;
+  tier: number;
+  image: string;
+  href: string;
+}
+
+const { id, name, nameZh, rarity, tier, image, href } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const imgSrc = image.startsWith('/') ? `${base}${image}` : image;
+
+const rarityClass = `rarity-${rarity}`;
+const rarityLabel = rarityLabels[rarity] || rarity;
+---
+
+<a
+  href={href}
+  class="block bg-bg-secondary border border-border-dark rounded overflow-hidden hover:border-accent transition-all group"
+>
+  <div class="flex items-center gap-3 p-3">
+    <div class="item-img-wrap w-14 h-14 rounded flex-shrink-0 border border-border-dark">
+      <img
+        src={imgSrc}
+        alt={nameZh}
+        class="w-full h-full object-contain p-1"
+        loading="lazy"
+        onerror="this.classList.add('error')"
+      />
+    </div>
+    <div class="flex-1 min-w-0">
+      <h3 class={`font-bold text-base truncate ${rarityClass}`} title={nameZh}>
+        {nameZh}
+      </h3>
+      <p class="text-text-muted text-xs truncate" title={name}>{name}</p>
+      <div class="flex items-center gap-2 mt-1.5">
+        <span class="text-xs px-1.5 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border-dark">
+          {rarityLabel}
+        </span>
+        <span class="text-xs text-accent-warm">
+          {'★'.repeat(tier)}
+        </span>
+      </div>
+    </div>
+  </div>
+</a>

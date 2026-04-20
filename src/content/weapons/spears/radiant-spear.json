@@ -1,0 +1,37 @@
+{
+  "id": "radiant-spear",
+  "name": "Radiant Spear",
+  "nameZh": "光辉矛",
+  "slot": "spear",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/spears/radiant-spear.webp",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "durability": 165,
+  "price": 7150,
+  "properties": {
+    "accuracy": 12,
+    "fumbleChance": -10,
+    "armorPenetration": 30,
+    "bleedingChance": 30,
+    "immobilizationChance": 24,
+    "manaRestoration": 3,
+    "manasteal": 3,
+    "skillsEnergyCost": 20,
+    "fatigueGain": 9,
+    "damages": {
+      "piercing": 26,
+      "sacred": 3
+    }
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "The Radiant Wars offered plenty of opportunities to make a show of one's piety: the nobility spared no expense in adorning their weapons and armor with symbols of the Host.",
+  "descriptionZh": "光辉战争期间，展现诚心的机会俯拾皆是，贵族便不惜重金给兵甲加缀圣主的图纹，以此昭示自己的信仰。"
+}

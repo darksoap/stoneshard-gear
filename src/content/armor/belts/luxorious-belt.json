@@ -1,0 +1,23 @@
+{
+  "id": "luxorious-belt",
+  "name": "Luxorious Belt",
+  "nameZh": "豪华腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/luxorious-belt.webp",
+  "durability": 20,
+  "price": 400,
+  "properties": {
+    "maxMana": 3,
+    "cooldownReduction": -3,
+    "miscastChance": -3
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "The buckle is encrusted with a real ruby, greatly increasing its appeal in the eyes of any mage.",
+  "descriptionZh": "腰带扣上镶了一颗红宝石，大大提升了对法师的诱惑力。"
+}

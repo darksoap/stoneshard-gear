@@ -1,0 +1,32 @@
+{
+  "id": "knightly-flail",
+  "name": "Knightly Flail",
+  "nameZh": "骑士连枷",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/knightly-flail.webp",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "durability": 110,
+  "price": 5350,
+  "properties": {
+    "accuracy": -10,
+    "critChance": 6,
+    "fumbleChance": 12,
+    "armorPenetration": 15,
+    "bodypartDamage": 15,
+    "dazeChance": 22,
+    "staggerChance": 30,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Flails are considered to be a weapon of the low-born, but sometimes they are used by lords as well. Such \"noble\" flails are crafted with quality in mind.",
+  "descriptionZh": "很多人都觉得连枷是下等人用的东西，不过有些贵族大人也会用连枷。这些“贵族”连枷的做工跟平常的连枷可谓天壤之别。"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "visoreal-sentinet",
+  "name": "Visoreal Sentinet",
+  "nameZh": "面甲森提亚盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/visoreal-sentinet.webp",
+  "durability": 265,
+  "price": 6800,
+  "properties": {
+    "accuracy": -5,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "defense": 23,
+    "critAvoid": 10,
+    "fortitude": 18,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 42,
+      "stun": 45,
+      "physical": 36
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Complete with a full visor, sentinets offer protection on par with the more widespread sallets and barbutes. In some aspects, they even surpass them.",
+  "descriptionZh": "森提亚盔带上完整的面甲，防护性能就能媲美更加常见的夏雷尔和巴布特，有些方面甚至更强。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-visoreal-sentinet",
+    "name": "Open Visoreal Sentinet",
+    "nameZh": "面甲森提亚盔",
+    "image": "/images/armor/helmets/open-visoreal-sentinet.webp",
+    "durability": 280,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "defense": 14,
+      "critAvoid": 6,
+      "fortitude": 11,
+      "resistances": {
+        "bleeding": 25,
+        "stun": 45,
+        "physical": 22
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

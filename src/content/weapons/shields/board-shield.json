@@ -1,0 +1,23 @@
+{
+  "id": "board-shield",
+  "name": "Board Shield",
+  "nameZh": "板盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/board-shield.webp",
+  "durability": 60,
+  "price": 25,
+  "properties": {
+    "damageReduction": 10,
+    "blockPower": 8,
+    "blockRecovery": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This homemade shield is just a few rough planks cobbled together. Still better than nothing.",
+  "descriptionZh": "几块木板凑在一起，就是一块盾牌。虽然简陋，总比什么都没有好。"
+}

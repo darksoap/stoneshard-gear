@@ -1,0 +1,29 @@
+{
+  "id": "shackles",
+  "name": "Shackles",
+  "nameZh": "镣铐",
+  "slot": "tool",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/tool/shackles.webp",
+  "damage": {
+    "value": 0,
+    "type": "slashing"
+  },
+  "durability": 100,
+  "price": 50,
+  "properties": {
+    "critChance": -100,
+    "critAvoid": -100,
+    "fumbleChance": 100,
+    "cooldownReduction": 100,
+    "miscastChance": 100
+  },
+  "range": 1,
+  "tags": [
+    "special"
+  ],
+  "description": "A set of shackles with a short chain. The bracelets dig viciously into the skin, hindering arm movements and making it difficult to even lift a spoon to one's mouth.",
+  "descriptionZh": "镣铐中间有一截短链子，铐环很小，很容易磨破皮肤，非常妨碍手臂活动。戴着这个东西，连把勺子抬到嘴边都不容易。"
+}

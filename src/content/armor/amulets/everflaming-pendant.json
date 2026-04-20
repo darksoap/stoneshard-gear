@@ -1,0 +1,27 @@
+{
+  "id": "everflaming-pendant",
+  "name": "Everflaming Pendant",
+  "nameZh": "永焰吊坠",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/amulets/everflaming-pendant.webp",
+  "durability": 110,
+  "price": 1960,
+  "properties": {
+    "critChance": 3,
+    "cooldownReduction": -5,
+    "fortitude": 5,
+    "resistances": {
+      "nature": 7,
+      "fire": 33
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "The sun-worshiping cult of the Everflaming was outlawed by the grandfather of the current Amir of Jibey. Only a few isolated communes now remain of what was once a popular faith, having fled persecution to the distant fringes of the empire.",
+  "descriptionZh": "崇拜太阳的永焰教曾经风靡一时，只是很早之前就被吉贝阿米尔的祖父归为了不法之教，如今仅存若干公社，为了躲避迫害，逃到了帝国的边陲，彼此没有联系。"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hide-boots",
+  "name": "Hide Boots",
+  "nameZh": "生皮靴",
+  "slot": "legs",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/hide-boots.webp",
+  "durability": 80,
+  "price": 275,
+  "properties": {
+    "critAvoid": 2,
+    "defense": 4,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 10,
+      "knockback": 7,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A pair of sturdy boots made out of cow leather. In times of war, this sort of footwear greatly grows in demand.",
+  "descriptionZh": "生牛皮材质，结实，战乱年代需求最大。"
+}

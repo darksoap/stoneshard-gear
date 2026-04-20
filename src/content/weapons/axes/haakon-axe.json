@@ -1,0 +1,33 @@
+{
+  "id": "haakon-axe",
+  "name": "Haakon Axe",
+  "nameZh": "哈康的斧子",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/axes/haakon-axe.webp",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "durability": 155,
+  "price": 4850,
+  "properties": {
+    "accuracy": 7,
+    "fumbleChance": -3,
+    "armorPenetration": 15,
+    "armorDamage": 30,
+    "bodypartDamage": 25,
+    "bleedingChance": 24,
+    "manaRestoration": 5,
+    "manasteal": 5,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Entire sagas have been woven about the martial valor and tireless spirit of the legendary konung Haakon the Graybeard. Under his command, the dwarves managed, if only briefly, to conquer several Skadian cities.",
+  "descriptionZh": "苍髯哈康大王作为传奇人物，他的英勇善战与刚毅不拔成为了一部又一部萨迦歌颂的主题。在他的领导之下，矮人一度短时攻下斯卡迪亚的若干城池。"
+}

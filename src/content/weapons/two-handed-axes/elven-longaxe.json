@@ -1,0 +1,30 @@
+{
+  "id": "elven-longaxe",
+  "name": "Elven Longaxe",
+  "nameZh": "精灵长斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/elven-longaxe.webp",
+  "damage": {
+    "value": 38,
+    "type": "slashing"
+  },
+  "durability": 175,
+  "price": 7650,
+  "properties": {
+    "accuracy": -10,
+    "armorPenetration": 35,
+    "armorDamage": 15,
+    "bodypartDamage": 25,
+    "staggerChance": 35,
+    "skillsEnergyCost": 40
+  },
+  "range": 1,
+  "tags": [
+    "elven"
+  ],
+  "description": "Longaxes are exotic to elven lands - the peoples of Jacinth who use them can be counted on the fingers of one hand.",
+  "descriptionZh": "对于精灵而言，长斧是舶来品，红锆列国用这种兵器的人屈指可数。"
+}

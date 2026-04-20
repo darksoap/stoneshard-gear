@@ -1,0 +1,33 @@
+{
+  "id": "fjall-leather-cap",
+  "name": "Fjall Leather Cap",
+  "nameZh": "弗约狩猎帽子",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/fjall-leather-cap.webp",
+  "durability": 100,
+  "price": 600,
+  "properties": {
+    "fumbleChance": -1,
+    "abilitiesEnergyCost": -3,
+    "defense": 4,
+    "evasion": 4,
+    "critAvoid": 10,
+    "fortitude": 8,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 10,
+      "physical": 8,
+      "nature": 8,
+      "magic": 8
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "What it lacks in physical defenses, it makes up for with runesingers' enchantments.",
+  "descriptionZh": "虽然物理的防护欠缺，但有符文歌者的魔法弥补。",
+  "class": "light"
+}

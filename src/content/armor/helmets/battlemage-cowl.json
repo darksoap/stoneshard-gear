@@ -1,0 +1,32 @@
+{
+  "id": "battlemage-cowl",
+  "name": "Battlemage Cowl",
+  "nameZh": "战地法师兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/battlemage-cowl.webp",
+  "durability": 70,
+  "price": 2450,
+  "properties": {
+    "maxMana": 7,
+    "manaRestoration": 3,
+    "magicPower": 8,
+    "miscastChance": -4,
+    "defense": 5,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 9,
+      "physical": 6,
+      "nature": 9,
+      "magic": 9
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Its inner layer is embroidered with protective spells.",
+  "descriptionZh": "兜帽内里绣了一些防护法咒。",
+  "class": "light"
+}

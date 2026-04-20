@@ -1,0 +1,30 @@
+{
+  "id": "ahlspiess",
+  "name": "Ahlspiess",
+  "nameZh": "长锥枪",
+  "slot": "spear",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/ahlspiess.webp",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "durability": 155,
+  "price": 3400,
+  "properties": {
+    "accuracy": 10,
+    "fumbleChance": -8,
+    "armorPenetration": 25,
+    "bleedingChance": 25,
+    "immobilizationChance": 20,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A distant cousin of a goedendag, forged by a skilled weaponsmith.",
+  "descriptionZh": "胡登达赫矛的远亲，出自某位精工巧匠之手。"
+}

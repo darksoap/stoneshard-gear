@@ -1,0 +1,34 @@
+{
+  "id": "ornate-sling",
+  "name": "Ornate Sling",
+  "nameZh": "华纹投石索",
+  "slot": "sling",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/weapons/slings/ornate-sling.webp",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "durability": 155,
+  "price": 3050,
+  "properties": {
+    "accuracy": -50,
+    "critChance": 10,
+    "fumbleChance": -5,
+    "armorPenetration": 5,
+    "bodypartDamage": 20,
+    "dazeChance": 35,
+    "staggerChance": 30,
+    "skillsEnergyCost": 8,
+    "cooldownReduction": -10,
+    "fatigueGain": 10
+  },
+  "range": 9,
+  "tags": [
+    "unique"
+  ],
+  "description": "To the nobility, the sling is more a plaything than a true weapon, fit only for occasional displays of skill at a tournament.",
+  "descriptionZh": "对于贵族而言，投石索更像玩具，而非真正的兵器，只适合比武大会上炫耀武艺。"
+}

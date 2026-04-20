@@ -1,0 +1,35 @@
+{
+  "id": "monk-staff",
+  "name": "Monk Staff",
+  "nameZh": "僧杖",
+  "slot": "2hstaff",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/monk-staff.webp",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "durability": 75,
+  "price": 1075,
+  "properties": {
+    "armorPenetration": 10,
+    "manaRestoration": 4,
+    "skillsEnergyCost": 15,
+    "spellsEnergyCost": -6,
+    "cooldownReduction": -3,
+    "miscastChance": -5,
+    "fatigueGain": 8,
+    "damages": {
+      "blunt": 13,
+      "sacred": 1
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Aldorian monks' staves are blessed by the Host themself to help the faithful endure the hardships of daily toil and distant travels.",
+  "descriptionZh": "奥尔多修士的长杖据说得到了圣主的加持，可以帮助信徒忍受每日的辛苦和长途跋涉的奔波。"
+}

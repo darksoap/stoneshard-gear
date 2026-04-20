@@ -1,0 +1,29 @@
+{
+  "id": "scale-armor",
+  "name": "Scale Armor",
+  "nameZh": "鳞甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/scale-armor.webp",
+  "durability": 400,
+  "price": 3775,
+  "properties": {
+    "maxMana": -14,
+    "manaRestoration": -5,
+    "defense": 19,
+    "evasion": -12,
+    "critAvoid": 16,
+    "resistances": {
+      "bleeding": 32,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Scaled armor was at its peak during the latest war with Nistra, from where it was borrowed by Aldorian knights to begin with.",
+  "descriptionZh": "鳞甲的最盛时期是奥尔多与尼斯特拉上一次开战之时，这种盔甲最初也是奥尔多骑士从尼斯特拉带来的舶来品。"
+}

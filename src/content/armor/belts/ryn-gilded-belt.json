@@ -1,0 +1,26 @@
+{
+  "id": "ryn-gilded-belt",
+  "name": "Ryn Gilded Belt",
+  "nameZh": "鎏金腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/armor/belts/ryn-gilded-belt.webp",
+  "durability": 25,
+  "price": 300,
+  "properties": {
+    "critChance": 1,
+    "critAvoid": 1,
+    "evasion": 3,
+    "resistances": {
+      "pain": 5
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "A belt made of durable, high-quality leather in accordance with the latest Brynn fashion trends. Its buckle proudly displays some nobleman's monogram.",
+  "descriptionZh": "这腰带用的是上好的皮革，是布林近来最时兴的样式。腰带扣上大大地雕了一幅花押字，代表的不知道是哪个贵族。"
+}

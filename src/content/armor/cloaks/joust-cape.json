@@ -1,0 +1,28 @@
+{
+  "id": "joust-cape",
+  "name": "Joust Cape",
+  "nameZh": "长枪比武斗篷",
+  "slot": "back",
+  "class": "light",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/joust-cape.webp",
+  "durability": 40,
+  "price": 350,
+  "properties": {
+    "damageReceived": -5,
+    "resistances": {
+      "bleeding": 8,
+      "pain": 5,
+      "physical": 5,
+      "nature": 5,
+      "magic": 5
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "It's embroidered with heraldic crests of a long dead noble house.",
+  "descriptionZh": "斗篷上面绣了某个早已断绝的贵族的家徽。"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "visoreal-barbute",
+  "name": "Visoreal Barbute",
+  "nameZh": "面甲巴布特盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/visoreal-barbute.webp",
+  "durability": 265,
+  "price": 3225,
+  "properties": {
+    "accuracy": -4,
+    "maxMana": -18,
+    "manaRestoration": -4,
+    "defense": 20,
+    "critAvoid": 11,
+    "fortitude": 10,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 37,
+      "stun": 40,
+      "physical": 30
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Visored barbutes are in no way inferior to sallets and bascinets. Choosing one over another is a matter of preference.",
+  "descriptionZh": "面甲巴布特盔丝毫不比轻盔和中头盔逊色，具体选择哪种头盔主要取决于个人喜好。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-visoreal-barbute",
+    "name": "Open Visoreal Barbute",
+    "nameZh": "面甲巴布特盔",
+    "image": "/images/armor/helmets/open-visoreal-barbute.webp",
+    "durability": 240,
+    "properties": {
+      "maxMana": -18,
+      "manaRestoration": -2,
+      "defense": 12,
+      "critAvoid": 6,
+      "fortitude": 6,
+      "resistances": {
+        "bleeding": 22,
+        "stun": 40,
+        "physical": 18
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "leo-doublet",
+  "name": "Leo Doublet",
+  "nameZh": "琉斯典纳斯的马甲",
+  "slot": "chest",
+  "class": "light",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/chests/leo-doublet.webp",
+  "durability": 40,
+  "price": 600,
+  "properties": {
+    "critAvoid": 2,
+    "magicPower": 3,
+    "defense": 3,
+    "evasion": 3,
+    "weaponDamage": 3,
+    "resistances": {
+      "bleeding": 3,
+      "physical": 3
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "A Nistrian-style doublet, reeking of sweat and blood. The only reminder of its owner's Agemon past is a few gilded clasps bearing the crest of the Great Despot.",
+  "descriptionZh": "这件尼斯特拉式的马甲散发着血和汗的气味，几个镀金搭扣上带着大方主的家徽，只有它们还能让人意识到衣服主人曾经做过阿戈蒙。"
+}

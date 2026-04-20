@@ -1,0 +1,31 @@
+{
+  "id": "ancient-scimitar",
+  "name": "Ancient Scimitar",
+  "nameZh": "古代弯刀",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/ancient-scimitar.webp",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "durability": 85,
+  "price": 6625,
+  "properties": {
+    "critChance": 5,
+    "critEfficiency": 10,
+    "armorPenetration": 5,
+    "bodypartDamage": 31,
+    "damageReduction": 8,
+    "bleedingChance": 36,
+    "skillsEnergyCost": 15
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Despite being at least half a millennia old, it somehow continues to perfectly hold the edge.",
+  "descriptionZh": "这把弯刀至少已有五百年的历史了，然而直至今日依旧锋利。"
+}

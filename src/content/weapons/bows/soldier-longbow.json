@@ -1,0 +1,30 @@
+{
+  "id": "soldier-longbow",
+  "name": "Soldier Longbow",
+  "nameZh": "士兵长弓",
+  "slot": "bow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/soldier-longbow.webp",
+  "damage": {
+    "value": 23,
+    "type": "piercing"
+  },
+  "durability": 80,
+  "price": 1300,
+  "properties": {
+    "accuracy": -60,
+    "fumbleChance": 10,
+    "armorPenetration": 15,
+    "knockbackChance": 25,
+    "immobilizationChance": 20,
+    "skillsEnergyCost": 40
+  },
+  "range": 9,
+  "tags": [
+    "aldor"
+  ],
+  "description": "As the boastful proverb goes, as long as Aldor has at least a dozen longbows, it'll remain unconquered.",
+  "descriptionZh": "奥尔多只要不缺长弓，任谁也攻不下来。"
+}

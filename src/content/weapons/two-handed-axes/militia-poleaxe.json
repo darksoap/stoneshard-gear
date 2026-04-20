@@ -1,0 +1,30 @@
+{
+  "id": "militia-poleaxe",
+  "name": "Militia Poleaxe",
+  "nameZh": "民兵长柄斧",
+  "slot": "2haxe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/militia-poleaxe.webp",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "durability": 110,
+  "price": 575,
+  "properties": {
+    "armorPenetration": 15,
+    "damageReduction": 6,
+    "blockPower": 7,
+    "bleedingChance": 20,
+    "knockbackChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A home-made axe on a long pole - this weapon sees frequent use in the hands of the Gray Army.",
+  "descriptionZh": "自制的兵器——木棍头上绑了一把斧子，灰色军团经常用这种东西。"
+}

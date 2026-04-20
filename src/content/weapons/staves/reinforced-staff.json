@@ -1,0 +1,31 @@
+{
+  "id": "reinforced-staff",
+  "name": "Reinforced Staff",
+  "nameZh": "铁头长杖",
+  "slot": "2hstaff",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/reinforced-staff.webp",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "durability": 125,
+  "price": 1075,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 10,
+    "dazeChance": 10,
+    "knockbackChance": 14,
+    "staggerChance": 17,
+    "skillsEnergyCost": -4,
+    "spellsEnergyCost": -4
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "With enough dexterity, this staff's heavy knob is all you need to beat the living daylights out of a slow-witted brigand.",
+  "descriptionZh": "只要会用长杖了，应该就能用这个沉甸甸的杖头把笨手笨脚的土匪打得落花流水。"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "hounskull-bascinet",
+  "name": "Hounskull Bascinet",
+  "nameZh": "犬面头盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/hounskull-bascinet.webp",
+  "durability": 360,
+  "price": 3675,
+  "properties": {
+    "accuracy": -4,
+    "maxMana": -18,
+    "manaRestoration": -5,
+    "defense": 21,
+    "critAvoid": 16,
+    "fortitude": 16,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 36,
+      "stun": 40,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A hounskull visor may look peculiar, but it actually excels at deflecting blows to the face while also providing more breathing room.",
+  "descriptionZh": "犬面头盔的面甲造型可能比较奇特，不过这种头盔可以避免很多伤害，而且呼吸相对畅通。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-hounskull-bascinet",
+    "name": "Open Hounskull Bascinet",
+    "nameZh": "犬面头盔",
+    "image": "/images/armor/helmets/open-hounskull-bascinet.webp",
+    "durability": 360,
+    "properties": {
+      "maxMana": -18,
+      "manaRestoration": -3,
+      "defense": 13,
+      "critAvoid": 11,
+      "fortitude": 11,
+      "resistances": {
+        "bleeding": 25,
+        "stun": 40,
+        "physical": 24
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "knightly-polemace",
+  "name": "Knightly Polemace",
+  "nameZh": "骑士长柄凸缘锤",
+  "slot": "2hmace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/knightly-polemace.webp",
+  "damage": {
+    "value": 32,
+    "type": "blunt"
+  },
+  "durability": 195,
+  "price": 7150,
+  "properties": {
+    "critChance": 6,
+    "fumbleChance": 10,
+    "armorPenetration": 40,
+    "armorDamage": 50,
+    "dazeChance": 35,
+    "staggerChance": 30,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Well-suited for fighters who want their every strike to leave the opponent in the dirt.",
+  "descriptionZh": "如果希望每一下都能把对手砸倒在地，用这个最合适。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "boarding-hatchet",
+  "name": "Boarding Hatchet",
+  "nameZh": "劫船手斧",
+  "slot": "axe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/boarding-hatchet.webp",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 2175,
+  "properties": {
+    "critAvoid": 6,
+    "armorPenetration": 15,
+    "bodypartDamage": 17,
+    "damageReduction": 8,
+    "bleedingChance": 17,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A weapon of choice among the corsairs of the Bronze archipelago, utterly indispensable during boardings.",
+  "descriptionZh": "青铜群岛的雇佣海盗喜欢用这种兵器，劫船的时候必不可少。"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "antique-wristbands",
+  "name": "Antique Wristbands",
+  "nameZh": "古代护腕",
+  "slot": "arms",
+  "class": "light",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/gloves/antique-wristbands.webp",
+  "durability": 55,
+  "price": 7775,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 5,
+    "magicPower": 11,
+    "miracleChance": 5,
+    "miraclePower": 5,
+    "bonusRange": 5,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 5,
+      "physical": 2,
+      "nature": 4,
+      "magic": 4
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Fashioned in either the Ald or Firn tradition - the splendor of the adornments suggests they were once worn by a prominent chieftain or high priest.",
+  "descriptionZh": "不是奥尔德的工艺就是弗恩的工艺，修饰丰富，说明之前的主人要么是声名显赫的酋长，不然就是大祭司。"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skadian-helmet",
+  "name": "Skadian Helmet",
+  "nameZh": "斯卡迪亚盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/skadian-helmet.webp",
+  "durability": 105,
+  "price": 375,
+  "properties": {
+    "maxMana": -1,
+    "defense": 7,
+    "resistances": {
+      "bleeding": 15,
+      "stun": 10,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "Generations of conflicts with Fjall dwarves and Jarimad nomads left an indelible mark of their culture on Skadian armor and weaponry.",
+  "descriptionZh": "斯卡迪亚人与弗约矮人和亚里迈德的游牧民世代为敌，战端频发，他们盔甲和兵器的形制也因而打上了不可磨灭的烙印。",
+  "class": "medium"
+}

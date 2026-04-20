@@ -1,0 +1,29 @@
+{
+  "id": "jagged-falchion",
+  "name": "Jagged Falchion",
+  "nameZh": "齿刃斩剑",
+  "slot": "sword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/jagged-falchion.webp",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "durability": 85,
+  "price": 1200,
+  "properties": {
+    "critChance": 5,
+    "fumbleChance": 6,
+    "armorPenetration": 7,
+    "bleedingChance": 16,
+    "skillsEnergyCost": 15
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A peculiar imitation of eastern blades, this sword is a product of the recent fascination with all things elven.",
+  "descriptionZh": "这类斩剑的式样效仿东方刀剑，外观奇特。近几年来，精灵族的各类东西在奥尔多都很流行，才出现了这么一种兵器。"
+}

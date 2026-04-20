@@ -1,0 +1,33 @@
+{
+  "id": "pyromancer-mantle",
+  "name": "Pyromancer Mantle",
+  "nameZh": "炎术法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/pyromancer-mantle.webp",
+  "durability": 60,
+  "price": 4125,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 2,
+    "miracleChance": 2,
+    "miraclePower": 4,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 7,
+      "fire": 20
+    },
+    "magicPowers": {
+      "pyromantic": 9
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "It bears a special enchantment: the fabric is not exactly flameproof, but it's definitely slow to catch fire.",
+  "descriptionZh": "这件法袍有一个特殊的附魔——-其实防不了火，但是很难点燃。"
+}

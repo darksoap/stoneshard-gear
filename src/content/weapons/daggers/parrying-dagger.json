@@ -1,0 +1,29 @@
+{
+  "id": "parrying-dagger",
+  "name": "Parrying Dagger",
+  "nameZh": "格挡匕首",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/parrying-dagger.webp",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "durability": 110,
+  "price": 3050,
+  "properties": {
+    "critAvoid": 12,
+    "armorPenetration": 15,
+    "damageReduction": 13,
+    "blockPower": 11,
+    "bleedingChance": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "On the Bronze Isles, every dispute is resolved in a duel. These daggers are a product of the times.",
+  "descriptionZh": "青铜群岛上，纠纷全靠对决解决。这种匕首是时代的产物。"
+}

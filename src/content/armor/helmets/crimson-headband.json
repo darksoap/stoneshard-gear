@@ -1,0 +1,26 @@
+{
+  "id": "crimson-headband",
+  "name": "Crimson Headband",
+  "nameZh": "绯红头带",
+  "slot": "head",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/crimson-headband.webp",
+  "durability": 15,
+  "price": 20,
+  "properties": {
+    "critChance": 2,
+    "miracleChance": 2,
+    "evasion": 2,
+    "resistances": {
+      "pain": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A tribute to the principle that offense is the finest form of defense.",
+  "descriptionZh": "完美阐释了“出色的进攻就是最好的防御”。",
+  "class": "light"
+}

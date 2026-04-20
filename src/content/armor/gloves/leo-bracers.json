@@ -1,0 +1,30 @@
+{
+  "id": "leo-bracers",
+  "name": "Leo Bracers",
+  "nameZh": "琉斯典纳斯的护臂",
+  "slot": "arms",
+  "class": "light",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/armor/gloves/leo-bracers.webp",
+  "durability": 55,
+  "price": 350,
+  "properties": {
+    "accuracy": 1,
+    "fumbleChance": -1,
+    "abilitiesEnergyCost": -4,
+    "miscastChance": -1,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 8,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "One of the many rules of the Gymnasium forbade removing these heavy and uncomfortable bracers anywhere but the baths - Leosthenes has grown so accustomed to their presence that he now sees them as just another part of his body.",
+  "descriptionZh": "这种护臂沉且妨碍行动，但体育馆规矩繁多，其中一条便是“除洗浴之外，严禁摘除护臂”。不过琉斯典纳斯现在戴惯了，这副护臂俨然已经成了他身体的一部分。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "vanguard-twohander",
+  "name": "Vanguard Twohander",
+  "nameZh": "前锋双手剑",
+  "slot": "2hsword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/vanguard-twohander.webp",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "durability": 120,
+  "price": 1725,
+  "properties": {
+    "critAvoid": 6,
+    "armorPenetration": 15,
+    "damageReduction": 10,
+    "blockPower": 9,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The backbone of the Magistrate's army, the Vanguard, is formed by mercenaries. A decent pay, plentiful drinks, and honorary swords make for a surefire way to earn the loyalty of the dogs of war.",
+  "descriptionZh": "城市联盟的军队主力都是雇佣兵。只要钱给到位，酒管够，剑有面子，这些挣卖命钱的家伙就肯定忠心耿耿。"
+}

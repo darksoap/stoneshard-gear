@@ -1,0 +1,34 @@
+{
+  "id": "court-wizard-staff",
+  "name": "Court Wizard Staff",
+  "nameZh": "家内法师长杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/court-wizard-staff.webp",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "durability": 55,
+  "price": 8150,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 25,
+    "spellsEnergyCost": -4,
+    "magicPower": 10,
+    "miracleChance": 1,
+    "miraclePower": 15,
+    "damages": {
+      "blunt": 15,
+      "arcane": 3
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "This enchanted staff's headpiece was designed for conducting all types of magic.",
+  "descriptionZh": "这根法杖顶部附了法力，可以传导各类魔法。"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "wanderer-cloak",
+  "name": "Wanderer Cloak",
+  "nameZh": "行者斗篷",
+  "slot": "back",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/wanderer-cloak.webp",
+  "durability": 30,
+  "price": 275,
+  "properties": {
+    "manaRestoration": 3,
+    "healthRestoration": 3,
+    "skillsEnergyCost": -3,
+    "fatigueGain": 12,
+    "evasion": 3,
+    "resistances": {
+      "nature": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Thickly woven and fitted with a quilted mantelet - the only source of comfort a wandering mage can truly rely on.",
+  "descriptionZh": "织法厚密，还有一条夹棉的披肩，这件斗篷常常是行者法师唯一的真朋友。"
+}

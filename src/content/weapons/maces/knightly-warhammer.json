@@ -1,0 +1,31 @@
+{
+  "id": "knightly-warhammer",
+  "name": "Knightly Warhammer",
+  "nameZh": "骑士战锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/knightly-warhammer.webp",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "durability": 155,
+  "price": 5100,
+  "properties": {
+    "accuracy": 7,
+    "critChance": 3,
+    "armorPenetration": 35,
+    "armorDamage": 50,
+    "dazeChance": 26,
+    "staggerChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "In the Aldorian tradition, a sword is the only \"knightly\" weapon there is. Lately, however, the nobility has been demonstrating a growing appreciation for warhammers and maces.",
+  "descriptionZh": "奥尔多的贵族从前认为只有刀剑才配得上骑士使用，然而许多贵族近年来渐渐看到了战锤和钉头锤的魅力。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "leather-targe",
+  "name": "Leather Targe",
+  "nameZh": "皮塔吉盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/shields/leather-targe.webp",
+  "durability": 60,
+  "price": 125,
+  "properties": {
+    "critAvoid": 4,
+    "damageReduction": 7,
+    "blockPower": 6,
+    "blockRecovery": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The Firns' descendants strictly adhere to tradition: these shields are almost exactly the same as the ones used a thousand years ago.",
+  "descriptionZh": "弗恩人的后代严格遵守传统，这种盾牌和一千年的原型几无二致。"
+}

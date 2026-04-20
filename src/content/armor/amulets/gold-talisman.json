@@ -1,0 +1,22 @@
+{
+  "id": "gold-talisman",
+  "name": "Gold Talisman",
+  "nameZh": "金牌护符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/amulets/gold-talisman.webp",
+  "durability": 30,
+  "price": 520,
+  "properties": {
+    "maxMana": 5,
+    "miracleChance": 2
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A plain medallion without much flair - its value comes exclusively from the material.",
+  "descriptionZh": "普普通通的一块金牌，没有多少花里胡哨，价值完全来自材质本身。"
+}

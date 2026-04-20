@@ -1,0 +1,27 @@
+{
+  "id": "wooden-sword",
+  "name": "Wooden Sword",
+  "nameZh": "木剑",
+  "slot": "sword",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/swords/wooden-sword.webp",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "durability": 25,
+  "price": 5,
+  "properties": {
+    "armorPenetration": -50,
+    "armorDamage": -50,
+    "dazeChance": 5
+  },
+  "range": 1,
+  "tags": [
+    "special"
+  ],
+  "description": "Hefty enough to roughen up a training dummy.",
+  "descriptionZh": "勉强可以劈烂训练用的假人。"
+}

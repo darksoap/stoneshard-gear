@@ -1,0 +1,27 @@
+{
+  "id": "ruby-pendant",
+  "name": "Ruby Pendant",
+  "nameZh": "红宝石吊坠",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/amulets/ruby-pendant.webp",
+  "durability": 110,
+  "price": 1960,
+  "properties": {
+    "accuracy": 4,
+    "manaRestoration": 4,
+    "skillsEnergyCost": -5,
+    "cooldownReduction": -5,
+    "resistances": {
+      "bleeding": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The ruby shines the prettiest under the direct sunlight.",
+  "descriptionZh": "这颗红宝石在阳光直射下的光泽最好看。"
+}

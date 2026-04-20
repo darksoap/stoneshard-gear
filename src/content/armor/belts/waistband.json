@@ -1,0 +1,21 @@
+{
+  "id": "waistband",
+  "name": "Waistband",
+  "nameZh": "绳编腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/waistband.webp",
+  "durability": 10,
+  "price": 25,
+  "properties": {
+    "miscastChance": -1
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Has a remarkable tendency to tie itself in impossible knots.",
+  "descriptionZh": "这根腰带经常缠出令人匪夷所思的死结。"
+}

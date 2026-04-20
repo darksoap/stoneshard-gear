@@ -1,0 +1,24 @@
+{
+  "id": "aristocrat-belt",
+  "name": "Aristocrat Belt",
+  "nameZh": "贵族腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/aristocrat-belt.webp",
+  "durability": 40,
+  "price": 1225,
+  "properties": {
+    "critAvoid": 3,
+    "blockRecovery": 5,
+    "cooldownReduction": -3,
+    "evasion": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The design was clearly inspired by the styles of the Bronze Isles - Arno di Berro himself wears a similar-looking belt.",
+  "descriptionZh": "这一条的款式明显借鉴了青铜群岛的设计，阿诺·迪·贝罗有一条差不多的腰带。"
+}

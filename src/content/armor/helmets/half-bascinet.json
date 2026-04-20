@@ -1,0 +1,28 @@
+{
+  "id": "half-bascinet",
+  "name": "Half Bascinet",
+  "nameZh": "守卫头盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/half-bascinet.webp",
+  "durability": 120,
+  "price": 475,
+  "properties": {
+    "maxMana": -2,
+    "manaRestoration": -1,
+    "defense": 9,
+    "resistances": {
+      "bleeding": 18,
+      "stun": 15,
+      "physical": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "When King Etbert ascended the throne, Aldor was drowning in crime and infighting. His swift success in regaining control over the brigand-infested roads can mostly be attributed to the creation of guard units that answered directly to him rather than local lords.",
+  "descriptionZh": "埃特伯特国王登基之初，奥尔多派系林立，不法之徒猖獗。他当初之所以能够迅速铲除官道的匪患，还是因为创建了不从领主而唯王命是从的卫兵队伍。",
+  "class": "medium"
+}

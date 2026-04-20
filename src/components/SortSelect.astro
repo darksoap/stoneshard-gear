@@ -1,0 +1,44 @@
+---
+interface Props {
+  options?: { value: string; label: string }[];
+  defaultSort?: string;
+}
+
+const { 
+  options = [
+    { value: 'name-asc', label: '名称 A-Z' },
+    { value: 'name-desc', label: '名称 Z-A' },
+    { value: 'tier-asc', label: '品质 低-高' },
+    { value: 'tier-desc', label: '品质 高-低' },
+    { value: 'price-asc', label: '价格 低-高' },
+    { value: 'price-desc', label: '价格 高-低' },
+    { value: 'durability-desc', label: '耐久 高-低' },
+  ],
+  defaultSort = 'name-asc'
+} = Astro.props;
+---
+
+<div class="sort-control flex items-center gap-2">
+  <label class="text-text-muted text-xs">排序</label>
+  <select
+    id="sort-select"
+    class="sort-select bg-bg-elevated border border-border-dark rounded px-2.5 py-1 text-xs text-text-secondary focus:outline-none focus:border-accent transition-colors cursor-pointer"
+  >
+    {options.map((opt) => (
+      <option value={opt.value} selected={opt.value === defaultSort}>
+        {opt.label}
+      </option>
+    ))}
+  </select>
+</div>
+
+<style>
+  .sort-select {
+    appearance: none;
+    padding-right: 1.5rem;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%239694999' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 4px center;
+    background-size: 14px;
+  }
+</style>

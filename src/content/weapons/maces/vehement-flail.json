@@ -1,0 +1,38 @@
+{
+  "id": "vehement-flail",
+  "name": "Vehement Flail",
+  "nameZh": "奋武连枷",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/vehement-flail.webp",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "durability": 75,
+  "price": 1250,
+  "properties": {
+    "accuracy": -6,
+    "critChance": 5,
+    "critEfficiency": 5,
+    "fumbleChance": 10,
+    "armorPenetration": 10,
+    "bodypartDamage": 10,
+    "dazeChance": 14,
+    "staggerChance": 20,
+    "skillsEnergyCost": 15,
+    "spellsEnergyCost": -5,
+    "damages": {
+      "blunt": 22,
+      "sacred": 1
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The ease of maintenance and lethal power of flails make them a staple choice among the Vehement, particularly in battles against the undead.",
+  "descriptionZh": "连枷保养便利，杀伤力强，奋武因而人手一把，对付僵尸的时候尤其经常使用。"
+}

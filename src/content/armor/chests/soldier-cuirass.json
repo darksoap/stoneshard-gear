@@ -1,0 +1,30 @@
+{
+  "id": "soldier-cuirass",
+  "name": "Soldier Cuirass",
+  "nameZh": "士兵胸甲",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/soldier-cuirass.webp",
+  "durability": 130,
+  "price": 1450,
+  "properties": {
+    "maxMana": -4,
+    "manaRestoration": -1,
+    "defense": 12,
+    "evasion": -2,
+    "critAvoid": 8,
+    "resistances": {
+      "bleeding": 22,
+      "physical": 19,
+      "piercing": 11
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Rapid advancements in steel forging are slowly but steadily driving down the cost of plate armor - enough that wealthier foot soldiers can now afford individual pieces.",
+  "descriptionZh": "锻钢工艺快速进步，让这类防具的价格慢慢稳定地降了下来。现在，即便是手头比较宽裕的步兵也买得起板甲散件了。"
+}

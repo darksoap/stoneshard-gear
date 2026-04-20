@@ -1,0 +1,31 @@
+{
+  "id": "skirmisher-sling",
+  "name": "Skirmisher Sling",
+  "nameZh": "散兵投石索",
+  "slot": "sling",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/skirmisher-sling.webp",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "durability": 110,
+  "price": 1450,
+  "properties": {
+    "accuracy": -55,
+    "critChance": 8,
+    "critEfficiency": 15,
+    "armorPenetration": 5,
+    "staggerChance": 45,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -8
+  },
+  "range": 7,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Attrition through small engagements is certainly one way to tip the decisive battle in your favor.",
+  "descriptionZh": "不断以零星的小规模交锋消耗敌人，确实也有可能改变决定性战役的局面。"
+}

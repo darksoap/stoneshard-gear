@@ -1,0 +1,30 @@
+{
+  "id": "sergeant-twohander",
+  "name": "Sergeant Twohander",
+  "nameZh": "军士双手剑",
+  "slot": "2hsword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/sergeant-twohander.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 145,
+  "price": 3875,
+  "properties": {
+    "critAvoid": 6,
+    "armorPenetration": 20,
+    "damageReduction": 10,
+    "blockPower": 11,
+    "bleedingChance": 7,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A weapon often used by sergeants of the Magistrate. Such blades aren't cheap but definitely worth it.",
+  "descriptionZh": "这种剑一般是城市联盟的军官佩戴，造价不菲，但是物有所值。"
+}

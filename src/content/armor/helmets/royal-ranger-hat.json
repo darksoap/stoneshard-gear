@@ -1,0 +1,33 @@
+{
+  "id": "royal-ranger-hat",
+  "name": "Royal Ranger Hat",
+  "nameZh": "王苑守卫鸟喙尖帽",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/helmets/royal-ranger-hat.webp",
+  "durability": 65,
+  "price": 3900,
+  "properties": {
+    "accuracy": 5,
+    "critChance": 5,
+    "bonusRange": 5,
+    "fatigueGain": 8,
+    "defense": 6,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 12,
+      "physical": 8,
+      "nature": 15,
+      "rending": 13
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "The right to hunt in His Majesty's preserves was among the chief privileges of the Royal Rangers. Some even adorned their hats with writs bearing the highest permission.",
+  "descriptionZh": "王苑守卫能在陛下的猎场打猎，这是他们的一大特权。有的守卫甚至会把国王的特许文书缝在自己的帽子上。",
+  "class": "light"
+}

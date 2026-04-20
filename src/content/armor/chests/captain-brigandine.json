@@ -1,0 +1,29 @@
+{
+  "id": "captain-brigandine",
+  "name": "Captain Brigandine",
+  "nameZh": "长官板甲衣",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/captain-brigandine.webp",
+  "durability": 210,
+  "price": 6225,
+  "properties": {
+    "maxMana": -4,
+    "defense": 16,
+    "fortitude": 8,
+    "resistances": {
+      "bleeding": 32,
+      "physical": 24,
+      "piercing": 10,
+      "blunt": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Fashioned to keep the wearer in one piece, letting them live through scrapes they have no business surviving.",
+  "descriptionZh": "这种防具的形制主要是为了安全，即便是九死一生的险境也能捡回一条性命。"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "exquisite-tabar",
+  "name": "Exquisite Tabar",
+  "nameZh": "精致塔巴斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/axes/exquisite-tabar.webp",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "durability": 145,
+  "price": 5600,
+  "properties": {
+    "critEfficiency": 20,
+    "armorPenetration": 20,
+    "armorDamage": 15,
+    "bodypartDamage": 33,
+    "bleedingChance": 15,
+    "staggerChance": 24,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "A tabar is a symbol of maafs, the warrior estate which holds the most power in the Ahjat Empire. Even the nobility require a special permission to arm themselves with one.",
+  "descriptionZh": "艾哈雅特帝国的大权掌握在武士阶级玛弗手中，而塔巴正是玛弗的象征。即便是上流贵族，未经许可，也不得携带塔巴。"
+}

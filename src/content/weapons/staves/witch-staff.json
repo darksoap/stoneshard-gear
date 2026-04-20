@@ -1,0 +1,35 @@
+{
+  "id": "witch-staff",
+  "name": "Witch Staff",
+  "nameZh": "女巫长杖",
+  "slot": "2hstaff",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/staves/witch-staff.webp",
+  "damage": {
+    "value": 6,
+    "type": "blunt"
+  },
+  "durability": 30,
+  "price": 650,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 10,
+    "spellsEnergyCost": -3,
+    "magicPower": 5,
+    "miracleChance": 3,
+    "miraclePower": 5,
+    "damages": {
+      "blunt": 6,
+      "unholy": 3,
+      "psionic": 3
+    }
+  },
+  "range": 1,
+  "tags": [
+    "special"
+  ],
+  "description": "In a witch's hands, it lays terrible hexes - and sustains her life by doing so.",
+  "descriptionZh": "这种长杖，到了女巫手上，就能降下毒辣的诅咒，从而延续女巫自己的生命。"
+}

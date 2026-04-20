@@ -1,0 +1,32 @@
+{
+  "id": "gilded-dagger",
+  "name": "Gilded Dagger",
+  "nameZh": "镀金匕首",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/daggers/gilded-dagger.webp",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "durability": 80,
+  "price": 1450,
+  "properties": {
+    "accuracy": 5,
+    "critAvoid": 8,
+    "armorPenetration": 10,
+    "damageReduction": 8,
+    "blockPower": 6,
+    "bleedingChance": 16,
+    "manasteal": 5,
+    "miscastChance": -2
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "No need to spend countless crowns to convince the onlookers of your great wealth: an elegant gilded dagger on your hip will speak for itself.",
+  "descriptionZh": "如果想让旁人知道你富得流油，不需要挥金如土，只要腰上插一把漂亮的镀金匕首，就不言自明了。"
+}

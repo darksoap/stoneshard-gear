@@ -1,0 +1,30 @@
+{
+  "id": "makeshift-axe",
+  "name": "Makeshift Axe",
+  "nameZh": "自造斧",
+  "slot": "axe",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/makeshift-axe.webp",
+  "damage": {
+    "value": 16,
+    "type": "slashing"
+  },
+  "durability": 45,
+  "price": 50,
+  "properties": {
+    "critEfficiency": 10,
+    "fumbleChance": 2,
+    "armorPenetration": 10,
+    "bodypartDamage": 21,
+    "staggerChance": 10,
+    "skillsEnergyCost": 15
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "It seems like someone tried to improvise a battle axe of sorts. Not the worst result, all things considered.",
+  "descriptionZh": "看样子有人是想自己造一把战斧。各种因素都考虑进来，做成这样也还算不赖。"
+}

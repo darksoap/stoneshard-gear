@@ -1,0 +1,23 @@
+{
+  "id": "rusted-shackles",
+  "name": "Rusted Shackles",
+  "nameZh": "锈蚀的镣铐",
+  "slot": "legs",
+  "class": "heavy",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/boots/rusted-shackles.webp",
+  "durability": 10,
+  "price": 0,
+  "properties": {
+    "resistances": {
+      "knockback": -100
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Shackles so rusty that you shouldn't have any trouble removing them with your bare hands.",
+  "descriptionZh": "已经锈透了，摘下来应该不难。"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "berserk-bear-cowl",
+  "name": "Berserk Bear Cowl",
+  "nameZh": "狂战熊头盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/helmets/berserk-bear-cowl.webp",
+  "durability": 90,
+  "price": 3900,
+  "properties": {
+    "critChance": 3,
+    "cooldownReduction": -3,
+    "defense": 7,
+    "evasion": 4,
+    "weaponDamage": 3,
+    "resistances": {
+      "bleeding": 22,
+      "stun": 11,
+      "pain": 10,
+      "physical": 10,
+      "nature": 10,
+      "rending": 20
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "Fjall berserkers draw strength not only from the Ancestors' protection but also from the spirit of their guardian beast.",
+  "descriptionZh": "弗约狂战士的力量不仅来自先祖的庇护，也来自他们守护兽的魂灵。",
+  "class": "light"
+}

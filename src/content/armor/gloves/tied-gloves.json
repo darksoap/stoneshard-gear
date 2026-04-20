@@ -1,0 +1,30 @@
+{
+  "id": "tied-gloves",
+  "name": "Tied Gloves",
+  "nameZh": "缚腕手套",
+  "slot": "arms",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/tied-gloves.webp",
+  "durability": 90,
+  "price": 1500,
+  "properties": {
+    "critChance": 1,
+    "critEfficiency": 12,
+    "fumbleChance": -4,
+    "skillsEnergyCost": -6,
+    "defense": 5,
+    "critAvoid": 4,
+    "resistances": {
+      "bleeding": 13,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The trick is not to tighten the bindings too much. Numb hands are of little use in a fight.",
+  "descriptionZh": "关键在于绑得松紧适中。动手的时候，要是手勒木了，就不好了。"
+}

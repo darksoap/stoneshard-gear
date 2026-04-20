@@ -1,0 +1,29 @@
+{
+  "id": "claymore",
+  "name": "Claymore",
+  "nameZh": "大剑",
+  "slot": "2hsword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/claymore.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 4125,
+  "properties": {
+    "critChance": 5,
+    "fumbleChance": 8,
+    "armorPenetration": 20,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Initially these swords were used only by the nobility of the Firn foothills, but now they can be found all over Aldor.",
+  "descriptionZh": "这些剑最早只有弗恩山麓的贵族用，现在已经传遍了整个奥尔多。"
+}

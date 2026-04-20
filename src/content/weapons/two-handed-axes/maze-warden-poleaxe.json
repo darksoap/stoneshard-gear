@@ -1,0 +1,39 @@
+{
+  "id": "maze-warden-poleaxe",
+  "name": "Maze Warden Poleaxe",
+  "nameZh": "迷境守卫长柄斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/maze-warden-poleaxe.webp",
+  "damage": {
+    "value": 27,
+    "type": "slashing"
+  },
+  "durability": 205,
+  "price": 7150,
+  "properties": {
+    "armorPenetration": 33,
+    "damageReduction": 11,
+    "blockPower": 17,
+    "bleedingChance": 33,
+    "knockbackChance": 28,
+    "immobilizationChance": 18,
+    "manaRestoration": 3,
+    "skillsEnergyCost": 29,
+    "spellsEnergyCost": -9,
+    "magicPower": 9,
+    "damages": {
+      "slashing": 27,
+      "arcane": 3,
+      "sacred": 3
+    }
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "It is said that in the very heart of the desert between Hazzun and Al-Qaza lies the Labyrinth, guarded by silent warriors. Whatever is kept within remains secret, for no one who entered it has ever returned alive and sane.",
+  "descriptionZh": "迷宫据说位于沙海中央，介于哈尊和阿卡扎之间，有无声的战士镇守。隐匿其中的秘密至今无人知晓，因为进去的人要么根本没能回来，就算回来了，也神智失常，无一例外。"
+}

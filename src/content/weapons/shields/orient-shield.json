@@ -1,0 +1,26 @@
+{
+  "id": "orient-shield",
+  "name": "Orient Shield",
+  "nameZh": "东方盾牌",
+  "slot": "shield",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/shields/orient-shield.webp",
+  "durability": 140,
+  "price": 3275,
+  "properties": {
+    "damageReduction": 20,
+    "blockPower": 20,
+    "blockRecovery": 15,
+    "resistances": {
+      "knockback": 8
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Elven shields are reliable and don't weigh the arm down. The alloy they are made of is exotic to Aldor.",
+  "descriptionZh": "精灵盾牌结实耐用，而且佩戴轻松。这些盾牌用的据说是奥尔多采不到的某种合金。"
+}

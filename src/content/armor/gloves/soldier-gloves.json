@@ -1,0 +1,27 @@
+{
+  "id": "soldier-gloves",
+  "name": "Soldier Gloves",
+  "nameZh": "士兵手套",
+  "slot": "arms",
+  "class": "medium",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/soldier-gloves.webp",
+  "durability": 150,
+  "price": 1000,
+  "properties": {
+    "maxMana": -5,
+    "manaRestoration": -1,
+    "defense": 13,
+    "resistances": {
+      "bleeding": 22,
+      "physical": 16
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some taverns insist such gloves are to be left at the door - the generous metal plating is deemed reason enough.",
+  "descriptionZh": "有些酒馆不许客人戴这种手套进门，必须放在门口，毕竟里边往往衬了不少金属板。"
+}

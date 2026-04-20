@@ -1,0 +1,34 @@
+{
+  "id": "ornate-polehammer",
+  "name": "Ornate Polehammer",
+  "nameZh": "嘉奖长柄锤",
+  "slot": "2hmace",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/ornate-polehammer.webp",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "durability": 215,
+  "price": 6875,
+  "properties": {
+    "accuracy": 8,
+    "fumbleChance": -4,
+    "armorPenetration": 55,
+    "armorDamage": 70,
+    "damageReduction": 14,
+    "blockPower": 14,
+    "bleedingChance": 10,
+    "dazeChance": 40,
+    "staggerChance": 10,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "It looks like one of the polehammers awarded by Duke Arno di Berro to captains of the Falcon Plume company for their display of heroism during the defense of the Northern Gates.",
+  "descriptionZh": "鹰翎团英勇无畏，固守北门有功，迪·贝罗公爵赏了团中队长几把长柄锤，这一把看样子就是其中之一。"
+}

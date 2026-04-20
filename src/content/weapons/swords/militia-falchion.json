@@ -1,0 +1,29 @@
+{
+  "id": "militia-falchion",
+  "name": "Militia Falchion",
+  "nameZh": "民兵斩剑",
+  "slot": "sword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/militia-falchion.webp",
+  "damage": {
+    "value": 19,
+    "type": "slashing"
+  },
+  "durability": 70,
+  "price": 450,
+  "properties": {
+    "critChance": 4,
+    "fumbleChance": 5,
+    "armorPenetration": 3,
+    "bleedingChance": 13,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Will slice through a brigand's gambeson or a beast's hide - and for the militia, it's all that's needed.",
+  "descriptionZh": "能划开土匪的夹棉软甲，也能划开野物的皮，对民兵来说，这样就足够了。"
+}

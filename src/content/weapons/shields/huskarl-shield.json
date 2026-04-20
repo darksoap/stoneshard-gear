@@ -1,0 +1,29 @@
+{
+  "id": "huskarl-shield",
+  "name": "Huskarl Shield",
+  "nameZh": "近卫盾",
+  "slot": "shield",
+  "class": "medium",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/huskarl-shield.webp",
+  "durability": 210,
+  "price": 1875,
+  "properties": {
+    "critAvoid": 4,
+    "damageReduction": 23,
+    "blockPower": 22,
+    "maxMana": -8,
+    "manaRestoration": -2,
+    "evasion": -5,
+    "resistances": {
+      "knockback": 10
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "Dwarven huscarls sleep in their clothes, keeping weapons and shields within arm's reach. Life in Fjall is unpredictable, and you never know when your master may require protection.",
+  "descriptionZh": "矮人近卫平时和衣而睡，兵器和盾牌也要放在身旁。毕竟弗约的形势变幻莫测，他们需要保护主人，时时刻刻都要警惕。"
+}

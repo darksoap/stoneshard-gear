@@ -1,0 +1,30 @@
+{
+  "id": "keep-guard-heavy-crossbow",
+  "name": "Keep Guard Heavy Crossbow",
+  "nameZh": "内城护卫弩",
+  "slot": "crossbow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/keep-guard-heavy-crossbow.webp",
+  "damage": {
+    "value": 35,
+    "type": "piercing"
+  },
+  "durability": 65,
+  "price": 8150,
+  "properties": {
+    "accuracy": -40,
+    "critEfficiency": 10,
+    "armorPenetration": 30,
+    "bodypartDamage": 35,
+    "immobilizationChance": 55,
+    "skillsEnergyCost": 50
+  },
+  "range": 9,
+  "tags": [
+    "aldor"
+  ],
+  "description": "With crossbows like these, a citadel garrison can tie down an entire army for months on end.",
+  "descriptionZh": "内城的护卫配了这种弩，一个兵营就能牵制一支大军几个月。"
+}

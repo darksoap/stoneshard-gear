@@ -1,0 +1,31 @@
+{
+  "id": "blademaster-bonnet",
+  "name": "Blademaster Bonnet",
+  "nameZh": "剑客毡帽",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/blademaster-bonnet.webp",
+  "durability": 60,
+  "price": 3400,
+  "properties": {
+    "critChance": 5,
+    "critEfficiency": 10,
+    "critAvoid": 3,
+    "damageReduction": 3,
+    "defense": 6,
+    "evasion": 7,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 12,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "What need is there for a helmet, when in an honest duel no blade could hope to reach your head?",
+  "descriptionZh": "光明正大的决斗没有刀剑会砍到头上，还需要戴什么头盔？",
+  "class": "light"
+}

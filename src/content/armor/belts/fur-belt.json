@@ -1,0 +1,26 @@
+{
+  "id": "fur-belt",
+  "name": "Fur Belt",
+  "nameZh": "毛皮腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/fur-belt.webp",
+  "durability": 45,
+  "price": 250,
+  "properties": {
+    "critEfficiency": 9,
+    "fumbleChance": -3,
+    "resistances": {
+      "rending": 5,
+      "frost": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It's trimmed with luscious fur of some unknown Fjall beast.",
+  "descriptionZh": "边缘缝了厚实的毛皮，不知道是弗约的什么动物。"
+}

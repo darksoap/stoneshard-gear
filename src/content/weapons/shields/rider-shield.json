@@ -1,0 +1,26 @@
+{
+  "id": "rider-shield",
+  "name": "Rider Shield",
+  "nameZh": "马盾",
+  "slot": "shield",
+  "class": "medium",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/rider-shield.webp",
+  "durability": 150,
+  "price": 850,
+  "properties": {
+    "damageReduction": 19,
+    "blockPower": 17,
+    "blockRecovery": 5,
+    "maxMana": -4,
+    "manaRestoration": -1,
+    "evasion": -2
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A cavalryman's shield of choice - it helps with deflecting spears while on horseback and increases your chances of survival when the situation requires you to dismount.",
+  "descriptionZh": "骑兵都喜欢带这种盾，骑马戴这种盾可以挡开长矛，徒步作战的时候，也能获得额外的防护。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "wanderer-cowl",
+  "name": "Wanderer Cowl",
+  "nameZh": "行者兜帽",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/wanderer-cowl.webp",
+  "durability": 50,
+  "price": 1275,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 2,
+    "magicPower": 6,
+    "miscastChance": -3,
+    "defense": 3,
+    "resistances": {
+      "bleeding": 5,
+      "physical": 3
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "These cowls are usually pulled over one's eyes: many commoners believe that a mage's gaze brings woes and misfortune, so why not ease their fears?",
+  "descriptionZh": "很多平民百姓认为法师的目光会带来灾祸和厄运，法师通常会戴这种兜帽遮掩双眼，免得惹人恐慌。",
+  "class": "light"
+}

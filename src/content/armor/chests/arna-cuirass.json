@@ -1,0 +1,32 @@
+{
+  "id": "arna-cuirass",
+  "name": "Arna Cuirass",
+  "nameZh": "德·维尔恩传家胸甲",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/chests/arna-cuirass.webp",
+  "durability": 84,
+  "price": 550,
+  "properties": {
+    "maxMana": -2,
+    "manaRestoration": -1,
+    "fatigueGain": 5,
+    "defense": 7,
+    "evasion": -1,
+    "critAvoid": 6,
+    "resistances": {
+      "bleeding": 11,
+      "physical": 11,
+      "piercing": 4
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "This cuirass holds sentimental value to Arna - it used to be the most treasured heirloom of the House der Vyrne, passed down through generations. Time wasn't kind to it.",
+  "descriptionZh": "这件胸甲对于阿娜而言，有着特殊的意义。它原本是德·维尔恩家族最为贵重的祖传家珍，一代代传下来之后，已经失去了曾经的光辉。"
+}

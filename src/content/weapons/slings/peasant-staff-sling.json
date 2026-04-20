@@ -1,0 +1,31 @@
+{
+  "id": "peasant-staff-sling",
+  "name": "Peasant Staff Sling",
+  "nameZh": "农家投石杆",
+  "slot": "sling",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/peasant-staff-sling.webp",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "durability": 75,
+  "price": 50,
+  "properties": {
+    "accuracy": -75,
+    "armorPenetration": 10,
+    "bodypartDamage": 10,
+    "stunChance": 10,
+    "staggerChance": 20,
+    "skillsEnergyCost": 10,
+    "cooldownReduction": -2
+  },
+  "range": 7,
+  "tags": [
+    "aldor"
+  ],
+  "description": "If the old tales are to be trusted, Saint Dekar once struck down a forest troll with a sling much like this.",
+  "descriptionZh": "圣徒德卡尔传说用类似的投石杖杀过一头森林巨魔，不知道是真是假。"
+}

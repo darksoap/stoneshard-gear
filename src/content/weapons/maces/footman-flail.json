@@ -1,0 +1,37 @@
+{
+  "id": "footman-flail",
+  "name": "Footman Flail",
+  "nameZh": "步兵连枷",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/footman-flail.webp",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "durability": 90,
+  "price": 1125,
+  "properties": {
+    "accuracy": -8,
+    "critChance": 4,
+    "fumbleChance": 8,
+    "armorPenetration": 10,
+    "bodypartDamage": 15,
+    "bleedingChance": 6,
+    "dazeChance": 10,
+    "staggerChance": 23,
+    "skillsEnergyCost": 20,
+    "damages": {
+      "piercing": 2,
+      "blunt": 21
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Has the potential for many surprises - whether they harm or help the opponent is up to the wielder's skill.",
+  "descriptionZh": "可以打出很多出人意料的效果，助敌还是灭敌主要取决于你用连枷的水平。"
+}

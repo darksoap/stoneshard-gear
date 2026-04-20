@@ -1,0 +1,30 @@
+{
+  "id": "mail-cervellier",
+  "name": "Mail Cervellier",
+  "nameZh": "链甲内盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/mail-cervellier.webp",
+  "durability": 155,
+  "price": 1175,
+  "properties": {
+    "maxMana": -3,
+    "manaRestoration": -1,
+    "defense": 11,
+    "resistances": {
+      "bleeding": 19,
+      "stun": 15,
+      "physical": 16,
+      "slashing": 15,
+      "rending": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Additional neck protection is never redundant. Still, it pays not to get overly confident while wearing something as light as a cervellier.",
+  "descriptionZh": "颈部添加一些防护总不会多余，不过这么轻便的内盔也不能过分指望能有多么可靠的保护。",
+  "class": "medium"
+}

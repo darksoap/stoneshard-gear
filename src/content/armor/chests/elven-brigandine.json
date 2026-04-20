@@ -1,0 +1,33 @@
+{
+  "id": "elven-brigandine",
+  "name": "Elven Brigandine",
+  "nameZh": "精灵布面重甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/elven-brigandine.webp",
+  "durability": 310,
+  "price": 9600,
+  "properties": {
+    "maxMana": -16,
+    "manaRestoration": -4,
+    "defense": 24,
+    "evasion": -14,
+    "critAvoid": 16,
+    "fortitude": 9,
+    "resistances": {
+      "bleeding": 39,
+      "knockback": 5,
+      "physical": 30,
+      "piercing": 10,
+      "blunt": 10
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Sipahi are the heavy cavalry that forms the core of the Ahjat Empire's army, a cornerstone of its many victories. Unsurprisingly, their gear is crafted only by the best armorsmiths on the personal orders of Ahjat emirs.",
+  "descriptionZh": "西帕希重骑兵是艾哈雅特帝国陆军的核心，为多次战役的胜利奠定了坚实的基础。他们的铠甲均由艾哈雅特手艺上乘的盔匠锻造，由埃米尔亲自督造，这也自然也在情理之中了。"
+}

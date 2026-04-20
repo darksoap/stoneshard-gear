@@ -1,0 +1,29 @@
+{
+  "id": "wanderer-mantle",
+  "name": "Wanderer Mantle",
+  "nameZh": "行者法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/wanderer-mantle.webp",
+  "durability": 50,
+  "price": 1825,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 5,
+    "magicPower": 8,
+    "fatigueGain": 8,
+    "defense": 3,
+    "resistances": {
+      "bleeding": 3,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "There are mages who make a living by wandering the world, offering their services to anyone willing to pay. Most of them suffer a miserable fate: some die after taking on a contract they can't handle, some join brigand gangs, while others fall victim to the mob, which is quick to act upon its prejudice.",
+  "descriptionZh": "有些法师云游四方，谁愿意出钱请他们帮忙，他们就替谁办事，以此谋生。这种行者法师最终的境地多数都不是很好——有的接自己搞不定的契据，死了；有的成了土匪；有的则因为偏见，死在了暴民手中。"
+}

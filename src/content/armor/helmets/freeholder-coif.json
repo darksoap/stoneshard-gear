@@ -1,0 +1,30 @@
+{
+  "id": "freeholder-coif",
+  "name": "Freeholder Coif",
+  "nameZh": "自由农民头套",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/freeholder-coif.webp",
+  "durability": 110,
+  "price": 1375,
+  "properties": {
+    "accuracy": 3,
+    "manaRestoration": 3,
+    "defense": 6,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 8,
+      "physical": 12,
+      "blunt": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Prosperous landholding peasants make up the backbone of the Aldorian militia, arriving at their lord's summons equipped with their own arms and armor.",
+  "descriptionZh": "家境殷实的独立农户是奥尔多民兵的中坚力量，只要领主有令，他们就会带着自己的兵甲上阵。",
+  "class": "light"
+}

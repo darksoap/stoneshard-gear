@@ -1,0 +1,30 @@
+{
+  "id": "cudgel",
+  "name": "Cudgel",
+  "nameZh": "木棍",
+  "slot": "mace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/maces/cudgel.webp",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "durability": 45,
+  "price": 25,
+  "properties": {
+    "critAvoid": 3,
+    "armorPenetration": 10,
+    "dazeChance": 8,
+    "stunChance": 4,
+    "knockbackChance": 5,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A crude club for a crude peasant.",
+  "descriptionZh": "农民斗殴最爱用这个东西。"
+}

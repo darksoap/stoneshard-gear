@@ -1,0 +1,28 @@
+{
+  "id": "falconeer-gloves",
+  "name": "Falconeer Gloves",
+  "nameZh": "隼猎手套",
+  "slot": "arms",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/falconeer-gloves.webp",
+  "durability": 75,
+  "price": 750,
+  "properties": {
+    "critEfficiency": 10,
+    "fumbleChance": -3,
+    "skillsEnergyCost": -5,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 12,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "There was a time in Aldor when hunting birds became an item of prestige. A lord without a personal falconeer would feel inadequate even in front of his own court.",
+  "descriptionZh": "奥尔多的名门望族有一段时间非常流行隼猎，领主如果手下没有驯隼的师傅，连站在自己的仆从面前都会少几分底气。"
+}

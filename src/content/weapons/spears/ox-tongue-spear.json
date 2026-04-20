@@ -1,0 +1,30 @@
+{
+  "id": "ox-tongue-spear",
+  "name": "Ox Tongue Spear",
+  "nameZh": "牛舌矛",
+  "slot": "spear",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/ox-tongue-spear.webp",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "durability": 130,
+  "price": 1400,
+  "properties": {
+    "accuracy": 8,
+    "fumbleChance": -6,
+    "armorPenetration": 20,
+    "bleedingChance": 20,
+    "immobilizationChance": 16,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "When properly sharpened, the broad edges of the \"ox tongue\" spearhead bite into flesh, leaving gruesome, slow-to-heal wounds.",
+  "descriptionZh": "这种兵器矛头宽扁，形似牛舌，磨砺之后，可以轻松刺入皮下，造成骇人的创口，需要很长时间才能愈合。"
+}

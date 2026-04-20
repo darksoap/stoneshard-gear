@@ -1,0 +1,27 @@
+{
+  "id": "apprentice-cowl",
+  "name": "Apprentice Cowl",
+  "nameZh": "流浪汉兜帽",
+  "slot": "head",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/apprentice-cowl.webp",
+  "durability": 20,
+  "price": 75,
+  "properties": {
+    "manaRestoration": 1,
+    "miscastChance": -1,
+    "defense": 1,
+    "resistances": {
+      "bleeding": 3,
+      "physical": 1
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Doesn't make you look any more trustworthy, to put it bluntly.",
+  "descriptionZh": "坦白说，套上这个的话，应该不会有多少人会觉得你可靠。",
+  "class": "light"
+}

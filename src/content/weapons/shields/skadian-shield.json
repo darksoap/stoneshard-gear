@@ -1,0 +1,25 @@
+{
+  "id": "skadian-shield",
+  "name": "Skadian Shield",
+  "nameZh": "斯卡迪亚盾",
+  "slot": "shield",
+  "class": "medium",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/skadian-shield.webp",
+  "durability": 175,
+  "price": 850,
+  "properties": {
+    "damageReduction": 22,
+    "blockPower": 21,
+    "maxMana": -6,
+    "manaRestoration": -2,
+    "evasion": -4,
+    "resistances": {
+      "knockback": 8
+    }
+  },
+  "description": "A shield bearing the crest of the Elder Prince, likely brought to Aldor by a mercenary who once served in the Prince's retinue.",
+  "descriptionZh": "这块盾牌饰有老大公的盾徽。可能是某个雇佣兵带过来的，而且这个雇佣兵以前应该是大公的随从。"
+}

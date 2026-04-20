@@ -1,0 +1,36 @@
+{
+  "id": "pilgrim-staff",
+  "name": "Pilgrim Staff",
+  "nameZh": "朝圣长杖",
+  "slot": "2hstaff",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/pilgrim-staff.webp",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "durability": 90,
+  "price": 400,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 8,
+    "knockbackChance": 8,
+    "staggerChance": 13,
+    "maxMana": 4,
+    "skillsEnergyCost": -3,
+    "spellsEnergyCost": -3,
+    "fatigueGain": 5,
+    "damages": {
+      "blunt": 13,
+      "sacred": 1
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A trusty companion for long journeys between holy sites.",
+  "descriptionZh": "信徒长途跋涉朝拜圣地途中，最需要这样一根长杖。"
+}

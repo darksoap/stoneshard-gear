@@ -1,0 +1,34 @@
+{
+  "id": "maen-flail",
+  "name": "Maen Flail",
+  "nameZh": "曼恩连枷",
+  "slot": "2hmace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/maen-flail.webp",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "durability": 110,
+  "price": 1900,
+  "properties": {
+    "accuracy": -8,
+    "critChance": 2,
+    "critEfficiency": 5,
+    "fumbleChance": 10,
+    "armorPenetration": 15,
+    "bodypartDamage": 30,
+    "dazeChance": 22,
+    "stunChance": 20,
+    "staggerChance": 25,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The majority of the Cowls, the fanatical followers of Neer, are former peasants, so it comes as no surprise that their favorite weapon is a heavy flail.",
+  "descriptionZh": "风帽——也就是尼尔狂热的信众——多数都是农民出身，用的兵器绝大多数都是沉甸甸的连枷，也是情理之中的事情。"
+}

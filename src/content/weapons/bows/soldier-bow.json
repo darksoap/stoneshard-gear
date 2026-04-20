@@ -1,0 +1,30 @@
+{
+  "id": "soldier-bow",
+  "name": "Soldier Bow",
+  "nameZh": "士兵弓",
+  "slot": "bow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/soldier-bow.webp",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "durability": 70,
+  "price": 1075,
+  "properties": {
+    "accuracy": -55,
+    "fumbleChance": -7,
+    "armorPenetration": 10,
+    "knockbackChance": 20,
+    "staggerChance": 20,
+    "skillsEnergyCost": 25
+  },
+  "range": 8,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The sooner you start, the better your chances of mastering the bow - which is why in Aldorian villages training begins in early childhood.",
+  "descriptionZh": "这样的弓，用得越早，越有可能驾驭，所以奥尔多乡下练弓都是从娃娃抓起。"
+}

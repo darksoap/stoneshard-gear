@@ -1,0 +1,187 @@
+---
+import '../styles/global.css';
+import SearchDialog from '../components/SearchDialog.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = '紫色晶石装备图鉴', image = '/images/og-image.png' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://darksoap.github.io');
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Stoneshard, 紫色晶石, 装备图鉴" />
+    <meta name="author" content="紫色晶石装备图鉴" />
+    
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={image} />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/png" href={`${base}/favicon.png`} />
+    <title>{title} | 紫色晶石装备图鉴</title>
+  </head>
+  <body class="bg-bg-primary text-text-primary min-h-screen flex flex-col">
+    <header class="bg-bg-secondary border-b border-border sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <a href={`${base}/`} class="flex items-center gap-3 group">
+            <div class="w-10 h-10 rounded flex items-center justify-center drop-shadow-lg group-hover:drop-shadow-[0_0_8px_rgba(90,147,221,0.5)] transition-all overflow-hidden">
+              <img
+                src={`${base}/favicon.png`}
+                alt="Stoneshard"
+                class="w-full h-full object-contain"
+              />
+            </div>
+            <div class="hidden sm:block">
+              <h1 class="text-xl font-bold text-white group-hover:text-accent transition-colors">Stoneshard</h1>
+              <p class="text-xs text-text-muted -mt-1">装备图鉴</p>
+            </div>
+          </a>
+          
+          <nav class="hidden md:flex items-center gap-1">
+            <a href={`${base}/weapons`} class="px-4 py-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary transition-all">
+              武器
+            </a>
+            <a href={`${base}/armor`} class="px-4 py-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary transition-all">
+              护甲
+            </a>
+          </nav>
+          
+          <div class="flex items-center gap-2">
+            <button data-search-trigger class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-bg-tertiary border border-border hover:border-accent hover:bg-bg-hover transition-all text-text-muted text-sm">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+              <span class="hidden sm:inline">搜索</span>
+              <kbd class="hidden sm:inline text-xs px-1.5 py-0.5 bg-bg-elevated border border-border rounded text-text-muted">⌘K</kbd>
+            </button>
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary transition-all">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div id="mobile-menu" class="hidden md:hidden border-t border-border bg-bg-secondary">
+        <div class="px-4 py-3 space-y-1">
+          <button data-search-trigger class="w-full text-left px-3 py-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            搜索装备
+          </button>
+          <a href={`${base}/weapons`} class="block px-3 py-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary">武器</a>
+          <a href={`${base}/armor`} class="block px-3 py-2 rounded-lg text-text-secondary hover:text-accent-hover hover:bg-bg-tertiary">护甲</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-grow">
+      <slot />
+    </main>
+
+    <footer class="bg-bg-secondary border-t border-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-white font-bold mb-3 flex items-center gap-2">
+              <div class="w-6 h-6 rounded flex items-center justify-center overflow-hidden">
+                <img
+                  src={`${base}/favicon.png`}
+                  alt="Stoneshard"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              紫色晶石装备图鉴
+            </h3>
+            <p class="text-text-muted text-sm leading-relaxed">
+              为紫色晶石玩家提供完整的游戏数据查询服务。
+            </p>
+          </div>
+          
+          <div>
+            <h4 class="text-white font-semibold mb-3">快速链接</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href={`${base}/weapons`} class="text-text-secondary hover:text-accent transition-colors">武器</a></li>
+              <li><a href={`${base}/armor`} class="text-text-secondary hover:text-accent transition-colors">护甲</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-white font-semibold mb-3">相关链接</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="https://stoneshard.com/wiki" target="_blank" rel="noopener" class="text-text-secondary hover:text-accent transition-colors flex items-center gap-1">
+                  官方 Wiki
+                  <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://store.steampowered.com/app/625960/Stoneshard/" target="_blank" rel="noopener" class="text-text-secondary hover:text-accent transition-colors flex items-center gap-1">
+                  Steam 商店
+                  <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://nstratos.github.io/stoneshard-talent-calculator/" target="_blank" rel="noopener" class="text-text-secondary hover:text-accent transition-colors flex items-center gap-1">
+                  加点模拟器
+                  <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="border-t border-border mt-8 pt-6 text-center">
+          <p class="text-text-muted text-sm">
+            本站为粉丝制作，仅供学习交流
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <script>
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+
+      document.addEventListener('error', (e) => {
+        const img = e.target as HTMLImageElement;
+        if (img && img.tagName === 'IMG' && img.closest('.item-img-wrap')) {
+          img.classList.add('error');
+        }
+      }, true);
+    </script>
+    <SearchDialog />
+  </body>
+</html>

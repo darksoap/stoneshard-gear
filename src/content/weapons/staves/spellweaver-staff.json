@@ -1,0 +1,32 @@
+{
+  "id": "spellweaver-staff",
+  "name": "Spellweaver Staff",
+  "nameZh": "织咒长杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/spellweaver-staff.webp",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "durability": 105,
+  "price": 5100,
+  "properties": {
+    "armorPenetration": 10,
+    "manaRestoration": 6,
+    "skillsEnergyCost": 25,
+    "spellsEnergyCost": -8,
+    "cooldownReduction": -6,
+    "magicPower": 5,
+    "miscastChance": -7,
+    "fatigueGain": 12
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "The ranks of Spellweavers only accept the best of the best - even prominent Academy mentors often find themself snubbed and rebuked.",
+  "descriptionZh": "织咒法师都是法师之中的佼佼者，即便是学院杰出的老师也不见得人人都能加入这个组织。"
+}

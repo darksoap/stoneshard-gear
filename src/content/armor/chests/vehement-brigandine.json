@@ -1,0 +1,36 @@
+{
+  "id": "vehement-brigandine",
+  "name": "Vehement Brigandine",
+  "nameZh": "奋武布面重甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/vehement-brigandine.webp",
+  "durability": 160,
+  "price": 2200,
+  "properties": {
+    "maxMana": -12,
+    "manaRestoration": -3,
+    "abilitiesEnergyCost": -5,
+    "defense": 14,
+    "evasion": -8,
+    "critAvoid": 10,
+    "fortitude": 7,
+    "resistances": {
+      "bleeding": 27,
+      "physical": 23,
+      "nature": 10,
+      "magic": 15,
+      "piercing": 4,
+      "blunt": 4,
+      "unholy": 10
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "When it comes to the Vehement, their members hail from all walks of life - there are peasants, fanatical pilgrims, knights errant, and even battlemages.",
+  "descriptionZh": "圣门奋武出身各异，三教九流均有，有的是农民，有的是狂热的朝圣信徒，有的是流浪骑士，甚至还有战地法师。"
+}

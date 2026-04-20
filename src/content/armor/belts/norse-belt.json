@@ -1,0 +1,22 @@
+{
+  "id": "norse-belt",
+  "name": "Norse Belt",
+  "nameZh": "诺斯腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/norse-belt.webp",
+  "durability": 35,
+  "price": 100,
+  "properties": {
+    "critChance": 1,
+    "fumbleChance": -2
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "In the North, there still persists a barbaric tradition of decorating belts with various so-called \"trophies\".",
+  "descriptionZh": "北方现在还有一种野蛮的传统，要给腰带挂上各种呃……“战利品”。"
+}

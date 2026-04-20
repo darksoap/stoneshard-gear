@@ -1,0 +1,24 @@
+{
+  "id": "silver-emerald-amulet",
+  "name": "Silver Emerald Amulet",
+  "nameZh": "祖母绿镶银护身符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/amulets/silver-emerald-amulet.webp",
+  "durability": 85,
+  "price": 1460,
+  "properties": {
+    "maxHealth": 10,
+    "healingReceived": 10,
+    "critAvoid": 7,
+    "fortitude": 8
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "The Emir of Jibey buys the loyalty of Ohirian warlords with gold, silk, and amulets not unlike this one - doing so is much cheaper than sending in the army to reestablish his rule over the region.",
+  "descriptionZh": "吉贝的埃米尔收买奥息尔军阀，靠的就是金子、绸缎和这样的吊坠，这种做法代价远远小于出军征伐。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dwarven-shield-b",
+  "name": "Dwarven Shield B",
+  "nameZh": "矮人盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/dwarven-shield-b.webp",
+  "durability": 100,
+  "price": 625,
+  "properties": {
+    "critAvoid": 3,
+    "damageReduction": 12,
+    "blockPower": 11,
+    "blockRecovery": 10
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "Dwarves have a preference for round shields - they are suitable for tight formations as well as one-on-one combat.",
+  "descriptionZh": "这种圆盾矮人经常用，既适合密集人群作战，也适合单打独斗。"
+}

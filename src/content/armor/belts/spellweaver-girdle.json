@@ -1,0 +1,23 @@
+{
+  "id": "spellweaver-girdle",
+  "name": "Spellweaver Girdle",
+  "nameZh": "织咒裤带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/spellweaver-girdle.webp",
+  "durability": 30,
+  "price": 1900,
+  "properties": {
+    "spellsEnergyCost": -4,
+    "cooldownReduction": -5,
+    "miscastChance": -6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Intended to be worn with pride as a visible badge of a Spellweaver's high standing and exceptional mastery of magic.",
+  "descriptionZh": "这条裤带织咒法师都愿意大大方方系在腰上，因为可以彰显自己的地位和非凡的魔法造诣。"
+}

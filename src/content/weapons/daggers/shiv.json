@@ -1,0 +1,27 @@
+{
+  "id": "shiv",
+  "name": "Shiv",
+  "nameZh": "小刀",
+  "slot": "dagger",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/shiv.webp",
+  "damage": {
+    "value": 13,
+    "type": "piercing"
+  },
+  "durability": 25,
+  "price": 25,
+  "properties": {
+    "accuracy": 2,
+    "armorPenetration": 5,
+    "bleedingChance": 5
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A makeshift blade wrapped in a piece of cloth. A common weapon of urchins and vagabonds.",
+  "descriptionZh": "简易的刀具，裹了几层布，很多街头流浪的人都有。"
+}

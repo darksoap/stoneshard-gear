@@ -1,0 +1,30 @@
+{
+  "id": "spellweaver-mantle",
+  "name": "Spellweaver Mantle",
+  "nameZh": "织咒法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/spellweaver-mantle.webp",
+  "durability": 50,
+  "price": 8725,
+  "properties": {
+    "maxMana": 10,
+    "manaRestoration": 5,
+    "spellsEnergyCost": -5,
+    "cooldownReduction": -6,
+    "magicPower": 10,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 5,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Most mages have to contend with merely reciting the few surviving spells, possessing little to no understanding of the force powering them. But not everyone is satisfied with this state of things: the half-secretive Circle of Spellweavers aims to resurrect the lost art of creating new spells - their efforts are yet to bear fruit.",
+  "descriptionZh": "大多数法师只需要学会唱诵为数不多流传下来的法咒，几乎全然不了解是什么力量令法咒产生效果。不过，并非所有人都止步于此——秘密组织织咒法会希望复兴“创作法咒”这一遗失的技艺，只是他们目前为止还没有取得任何成绩。"
+}

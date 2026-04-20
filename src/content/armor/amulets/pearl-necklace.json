@@ -1,0 +1,25 @@
+{
+  "id": "pearl-necklace",
+  "name": "Pearl Necklace",
+  "nameZh": "珍珠项链",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/amulets/pearl-necklace.webp",
+  "durability": 80,
+  "price": 420,
+  "properties": {
+    "accuracy": 1,
+    "cooldownReduction": -3,
+    "resistances": {
+      "nature": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This necklace is not made of the best pearls, but it wouldn't be fair to call it cheap-looking.",
+  "descriptionZh": "这根项链用的不是最好的珍珠，不过式样一点也不俗气。"
+}

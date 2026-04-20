@@ -1,0 +1,31 @@
+{
+  "id": "militia-club",
+  "name": "Militia Club",
+  "nameZh": "民兵棒",
+  "slot": "mace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/militia-club.webp",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "durability": 95,
+  "price": 375,
+  "properties": {
+    "critAvoid": 5,
+    "fumbleChance": -2,
+    "armorPenetration": 20,
+    "dazeChance": 12,
+    "stunChance": 7,
+    "knockbackChance": 11,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Peasants call these clubs \"snails\" - the curled head adds weight to every blow.",
+  "descriptionZh": "农民管这种棍子叫“蜗牛棍”，因为棍头卷了进去，打人更有分量。"
+}

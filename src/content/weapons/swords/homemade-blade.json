@@ -1,0 +1,29 @@
+{
+  "id": "homemade-blade",
+  "name": "Homemade Blade",
+  "nameZh": "土刀",
+  "slot": "sword",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/homemade-blade.webp",
+  "damage": {
+    "value": 16,
+    "type": "slashing"
+  },
+  "durability": 50,
+  "price": 100,
+  "properties": {
+    "accuracy": 3,
+    "armorPenetration": 5,
+    "damageReduction": 2,
+    "bleedingChance": 8,
+    "skillsEnergyCost": 5
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Apparently, it was forged by a commoner with a dream of heroic feats.",
+  "descriptionZh": "这把刀应该出自普通人之手，而且这人有一个英雄梦。"
+}

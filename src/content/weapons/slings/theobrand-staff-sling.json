@@ -1,0 +1,37 @@
+{
+  "id": "theobrand-staff-sling",
+  "name": "Theobrand Staff Sling",
+  "nameZh": "提欧布兰德的投石杆",
+  "slot": "sling",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/slings/theobrand-staff-sling.webp",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "durability": 175,
+  "price": 3825,
+  "properties": {
+    "accuracy": -55,
+    "critEfficiency": 20,
+    "armorPenetration": 20,
+    "armorDamage": 20,
+    "bodypartDamage": 30,
+    "stunChance": 35,
+    "staggerChance": 40,
+    "skillsEnergyCost": 33,
+    "cooldownReduction": -6,
+    "damages": {
+      "blunt": 13,
+      "sacred": 4
+    }
+  },
+  "range": 8,
+  "tags": [
+    "unique"
+  ],
+  "description": "The legendary templar Theobrand was born and raised in a poor shepherd's family. A master of the sling since childhood, he kept up the practice even after joining the Order.",
+  "descriptionZh": "传奇的圣堂武士提欧布兰德出身贫寒的牧民家庭，自幼擅长使用投石兵器，进入教团之后也没有荒废这项技能。"
+}

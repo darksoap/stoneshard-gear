@@ -1,0 +1,29 @@
+{
+  "id": "blacksmith-mittens",
+  "name": "Blacksmith Mittens",
+  "nameZh": "打铁手套",
+  "slot": "arms",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/blacksmith-mittens.webp",
+  "durability": 60,
+  "price": 75,
+  "properties": {
+    "fumbleChance": 1,
+    "damageReduction": 1,
+    "skillsEnergyCost": -3,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 20,
+      "physical": 9,
+      "fire": 25
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Whether they're making armor, blades, or horseshoes, no smith would consider reaching for tongs or hammer before putting on a good pair of mittens.",
+  "descriptionZh": "但凡是铁匠，不论是锻打盔甲、刀剑还是马掌，拿钳子锤子之前都会先戴上结实耐用的手套。"
+}

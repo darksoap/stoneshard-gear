@@ -1,0 +1,34 @@
+{
+  "id": "veteran-mace",
+  "name": "Veteran Mace",
+  "nameZh": "老兵晨星锤",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/veteran-mace.webp",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "durability": 120,
+  "price": 2175,
+  "properties": {
+    "armorPenetration": 20,
+    "bodypartDamage": 16,
+    "bleedingChance": 16,
+    "dazeChance": 12,
+    "staggerChance": 25,
+    "skillsEnergyCost": 20,
+    "damages": {
+      "piercing": 2,
+      "blunt": 22
+    }
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A reliable weapon which doesn't require much skill or maintenance, an easy choice for many common soldiers.",
+  "descriptionZh": "简单可靠，不需要太多技巧，也不用专意保养，非常适合普通的士兵使用。"
+}

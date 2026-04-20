@@ -1,0 +1,33 @@
+{
+  "id": "magehunter-boots",
+  "name": "Magehunter Boots",
+  "nameZh": "法师猎手靴",
+  "slot": "legs",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/magehunter-boots.webp",
+  "durability": 125,
+  "price": 3525,
+  "properties": {
+    "critAvoid": 4,
+    "fumbleChance": -2,
+    "abilitiesEnergyCost": -4,
+    "miscastChance": -2,
+    "defense": 9,
+    "evasion": 9,
+    "resistances": {
+      "bleeding": 16,
+      "knockback": 14,
+      "physical": 14,
+      "nature": 20,
+      "magic": 20
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "The leather was specially treated to protect against fire, electricity, and other harmful elements that may be summoned by a resisting sorcerer.",
+  "descriptionZh": "皮革经过了特殊处理，耐热、耐电，还可以抵御法师可能动用的其他元素。"
+}

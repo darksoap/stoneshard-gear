@@ -1,0 +1,32 @@
+{
+  "id": "red-silk-mantle",
+  "name": "Red Silk Mantle",
+  "nameZh": "红绸法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/red-silk-mantle.webp",
+  "durability": 70,
+  "price": 8725,
+  "properties": {
+    "maxMana": 15,
+    "manaRestoration": 8,
+    "magicPower": 10,
+    "miscastChance": -8,
+    "defense": 5,
+    "evasion": 8,
+    "resistances": {
+      "bleeding": 5,
+      "physical": 8,
+      "nature": 7,
+      "magic": 7
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Red silk is brought to Brynn by elven caravans, from where it eventually finds its way to Maen craftsmen - only they know how to work this fascinating material to unlock its full potential.",
+  "descriptionZh": "红绸先是由精灵商队带到了布林，最后一路传到了曼恩的手艺人手上，只有他们知道这种上乘好料怎样加工才能充分发挥作用。"
+}

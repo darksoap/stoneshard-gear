@@ -1,0 +1,23 @@
+{
+  "id": "round-shield",
+  "name": "Round Shield",
+  "nameZh": "圆盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/round-shield.webp",
+  "durability": 100,
+  "price": 625,
+  "properties": {
+    "damageReduction": 14,
+    "blockPower": 12,
+    "blockRecovery": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A wooden shield reinforced with a few strips of metal. A common armament of the Aldorian infantry.",
+  "descriptionZh": "这种盾牌多了加固的金属部件，在奥尔多步兵队伍十分常见。"
+}

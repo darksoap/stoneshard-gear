@@ -1,0 +1,30 @@
+{
+  "id": "soldier-heavy-broadaxe",
+  "name": "Soldier Heavy Broadaxe",
+  "nameZh": "士兵阔刃重斧",
+  "slot": "2haxe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/soldier-heavy-broadaxe.webp",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 1625,
+  "properties": {
+    "critChance": 6,
+    "critEfficiency": 9,
+    "fumbleChance": 8,
+    "armorPenetration": 20,
+    "armorDamage": 35,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "It takes a truly impressive amount of strength and stamina to handle this axe efficiently.",
+  "descriptionZh": "只有极其强大的勇士才能把这种阔斧用得得心应手。"
+}

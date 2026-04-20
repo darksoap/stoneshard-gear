@@ -1,0 +1,23 @@
+{
+  "id": "nomad-sash",
+  "name": "Nomad Sash",
+  "nameZh": "游牧裤带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/nomad-sash.webp",
+  "durability": 35,
+  "price": 275,
+  "properties": {
+    "critAvoid": 1,
+    "fatigueGain": 7,
+    "evasion": 4
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Tying coins to a belt is an Ohirian custom, each of them commemorating an important event in the wearer's life: surviving a battle, becoming a parent, losing a loved one...",
+  "descriptionZh": "奥息尔人有腰带上挂钱币的习俗，生活遇到一件重要的事情，就挂一枚作为纪念，比如战场大难不死、长子或者长女降生、痛失亲人……"
+}

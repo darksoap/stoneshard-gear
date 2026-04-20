@@ -1,0 +1,28 @@
+{
+  "id": "apprentice-mage-robe",
+  "name": "Apprentice Mage Robe",
+  "nameZh": "初级法师法袍",
+  "slot": "chest",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/apprentice-mage-robe.webp",
+  "durability": 40,
+  "price": 675,
+  "properties": {
+    "maxMana": 4,
+    "manaRestoration": 2,
+    "magicPower": 6,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 2,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A magically gifted person can try their luck as an apprentice to an experienced sorcerer. They rarely turn anyone down - not for the love of teaching, but largely because there's always a use for a personal servant.",
+  "descriptionZh": "有魔法天赋的人可以找年老的法师拜师学艺，这些法师一般都愿意收个徒弟，倒不是因为热衷教学，主要是需要一个佣人。"
+}

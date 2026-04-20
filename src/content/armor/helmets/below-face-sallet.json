@@ -1,0 +1,54 @@
+{
+  "id": "below-face-sallet",
+  "name": "Below Face Sallet",
+  "nameZh": "风箱面甲夏雷尔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/below-face-sallet.webp",
+  "durability": 205,
+  "price": 3225,
+  "properties": {
+    "accuracy": -2,
+    "maxMana": -11,
+    "manaRestoration": -3,
+    "defense": 19,
+    "critAvoid": 6,
+    "fortitude": 7,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 27,
+      "stun": 30,
+      "physical": 26
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Named after forge bellows, this helmet's visor has numerous perforations, allowing for less restricted breathing and improved air flow.",
+  "descriptionZh": "这种头盔的面甲因为形似风箱而得名。面甲镂有孔洞，所以头盔内部呼吸和通风都更方便。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-below-face-sallet",
+    "name": "Open Below Face Sallet",
+    "nameZh": "风箱面甲夏雷尔",
+    "image": "/images/armor/helmets/open-below-face-sallet.webp",
+    "durability": 240,
+    "properties": {
+      "maxMana": -11,
+      "manaRestoration": -2,
+      "defense": 11,
+      "critAvoid": 4,
+      "fortitude": 4,
+      "resistances": {
+        "bleeding": 16,
+        "stun": 30,
+        "physical": 15
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

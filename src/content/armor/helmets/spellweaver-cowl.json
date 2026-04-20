@@ -1,0 +1,32 @@
+{
+  "id": "spellweaver-cowl",
+  "name": "Spellweaver Cowl",
+  "nameZh": "织咒兜帽",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/spellweaver-cowl.webp",
+  "durability": 70,
+  "price": 6075,
+  "properties": {
+    "maxMana": 9,
+    "manaRestoration": 3,
+    "spellsEnergyCost": -6,
+    "cooldownReduction": -4,
+    "magicPower": 8,
+    "miscastChance": -5,
+    "defense": 5,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 7,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Spellweavers perceive the world very differently from other people, their minds finely tuned to sense magical disturbances in their surroundings.",
+  "descriptionZh": "织咒法师眼中的世界与其他人截然不同，因为他们的意识经过训练，能够察觉魔能流的扰动和变化。",
+  "class": "light"
+}

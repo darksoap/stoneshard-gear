@@ -1,0 +1,29 @@
+{
+  "id": "bascinet-with-grate",
+  "name": "Bascinet With Grate",
+  "nameZh": "狼肋头盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/bascinet-with-grate.webp",
+  "durability": 180,
+  "price": 2525,
+  "properties": {
+    "maxMana": -6,
+    "manaRestoration": -1,
+    "defense": 15,
+    "fortitude": 5,
+    "resistances": {
+      "bleeding": 26,
+      "stun": 25,
+      "physical": 25
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A bascinet with a grated visor and a nose guard. Protects the face better than an open variant.",
+  "descriptionZh": "这种头盔有栅状面甲和护鼻，面部的防护效果优于敞面头盔。",
+  "class": "medium"
+}

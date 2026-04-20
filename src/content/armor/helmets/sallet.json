@@ -1,0 +1,27 @@
+{
+  "id": "sallet",
+  "name": "Sallet",
+  "nameZh": "夏雷尔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/sallet.webp",
+  "durability": 165,
+  "price": 2300,
+  "properties": {
+    "maxMana": -3,
+    "defense": 13,
+    "resistances": {
+      "bleeding": 23,
+      "stun": 20,
+      "physical": 20
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Sallets aren't uncommon among Aldorian soldiers. An open version is comfortable to wear, compromising neither your vision nor the ability to take deep breaths.",
+  "descriptionZh": "奥尔多的士兵喜欢轻盔，敞面轻盔戴着舒服，既不影响视线，也不妨碍大口喘气。",
+  "class": "medium"
+}

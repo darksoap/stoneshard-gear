@@ -1,0 +1,30 @@
+{
+  "id": "knightly-axe",
+  "name": "Knightly Axe",
+  "nameZh": "骑士斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/knightly-axe.webp",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "durability": 180,
+  "price": 5100,
+  "properties": {
+    "accuracy": 7,
+    "critEfficiency": 15,
+    "armorPenetration": 30,
+    "armorDamage": 40,
+    "bodypartDamage": 30,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Such axes are well-suited for mounted combat. Aldorian knights often choose them over the rest of their arsenal when they ride into battle.",
+  "descriptionZh": "这种斧子非常适合马上使用，奥尔多的骑士上战场常常随身带上一把。"
+}

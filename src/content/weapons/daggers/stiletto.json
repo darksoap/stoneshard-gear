@@ -1,0 +1,28 @@
+{
+  "id": "stiletto",
+  "name": "Stiletto",
+  "nameZh": "斯提雷托",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/stiletto.webp",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "durability": 85,
+  "price": 3575,
+  "properties": {
+    "accuracy": 7,
+    "critChance": 6,
+    "armorPenetration": 15,
+    "bleedingChance": 25
+  },
+  "range": 1,
+  "tags": [
+    "elven"
+  ],
+  "description": "Slender and elegant - like a sonnet spoken over the grave of an old foe.",
+  "descriptionZh": "轻便、雅致，仿佛可以在宿敌坟前吟诵的十四行诗。"
+}

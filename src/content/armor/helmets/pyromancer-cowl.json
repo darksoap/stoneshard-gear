@@ -1,0 +1,35 @@
+{
+  "id": "pyromancer-cowl",
+  "name": "Pyromancer Cowl",
+  "nameZh": "炎术兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/pyromancer-cowl.webp",
+  "durability": 60,
+  "price": 2875,
+  "properties": {
+    "maxMana": 6,
+    "manaRestoration": 2,
+    "miscastChance": -4,
+    "miracleChance": 2,
+    "miraclePower": 5,
+    "defense": 4,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 4,
+      "fire": 20
+    },
+    "magicPowers": {
+      "pyromantic": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Fire magic can be hazardous even to pyromancers themselves. This cowl is capable of extinguishing the flames that creep dangerously close to its wearer's face.",
+  "descriptionZh": "炎术魔法十分危险，就算炎术法师也不敢掉以轻心。如果火焰窜到了脖子以上的部位，这个兜帽可以将它立即扑灭。",
+  "class": "light"
+}

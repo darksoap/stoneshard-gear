@@ -1,0 +1,28 @@
+{
+  "id": "jibean-cape",
+  "name": "Jibean Cape",
+  "nameZh": "吉贝披风",
+  "slot": "back",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/jibean-cape.webp",
+  "durability": 35,
+  "price": 725,
+  "properties": {
+    "critChance": 2,
+    "critAvoid": 3,
+    "skillsEnergyCost": -5,
+    "resistances": {
+      "bleeding": 7,
+      "physical": 7,
+      "nature": 7
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "A cape made of the thinnest of silks. The material is incredibly durable: tearing even a single strip from it would require a significant effort.",
+  "descriptionZh": "这件披风用的是世上最薄的绸缎，却又结实得令人不可思议。想撕烂这件衣服，一般人怕是很难做到。"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hawk-beak",
+  "name": "Hawk Beak",
+  "nameZh": "鹰喙",
+  "slot": "2hmace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/hawk-beak.webp",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "durability": 175,
+  "price": 3275,
+  "properties": {
+    "accuracy": 6,
+    "critEfficiency": 10,
+    "armorPenetration": 40,
+    "armorDamage": 40,
+    "damageReduction": 12,
+    "blockPower": 12,
+    "bleedingChance": 10,
+    "dazeChance": 35,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "There aren't that many helmets or cuirasses which can survive a strike from a three-pronged hammerhead.",
+  "descriptionZh": "没有多少胸甲和头盔扛得住这根三叉长柄锤。"
+}

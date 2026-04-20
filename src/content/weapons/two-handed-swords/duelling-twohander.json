@@ -1,0 +1,29 @@
+{
+  "id": "duelling-twohander",
+  "name": "Duelling Twohander",
+  "nameZh": "对决双手剑",
+  "slot": "2hsword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/duelling-twohander.webp",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "durability": 130,
+  "price": 3875,
+  "properties": {
+    "critAvoid": 8,
+    "armorPenetration": 20,
+    "damageReduction": 12,
+    "blockPower": 11,
+    "skillsEnergyCost": 30
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Single combat with two-handed swords is a form of art, where your reflexes and precision matter just as much as brute strength.",
+  "descriptionZh": "双手剑的单人对战堪称艺术，不仅需要单纯的膂力，也考验你的反应和精准。"
+}

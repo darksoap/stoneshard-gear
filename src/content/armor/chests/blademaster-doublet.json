@@ -1,0 +1,32 @@
+{
+  "id": "blademaster-doublet",
+  "name": "Blademaster Doublet",
+  "nameZh": "剑客马甲",
+  "slot": "chest",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/blademaster-doublet.webp",
+  "durability": 90,
+  "price": 4975,
+  "properties": {
+    "accuracy": 2,
+    "critChance": 2,
+    "critAvoid": 4,
+    "damageReduction": 2,
+    "defense": 8,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 15,
+      "physical": 12,
+      "slashing": 5,
+      "piercing": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Lightweight, resilient, and cut for mobility - despite the many metal plates sewn into the lining.",
+  "descriptionZh": "轻便，结实，而且虽然内里缝了不少铁板，但剪裁丝毫不影响活动。"
+}

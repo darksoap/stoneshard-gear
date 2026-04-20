@@ -1,0 +1,27 @@
+{
+  "id": "barbute",
+  "name": "Barbute",
+  "nameZh": "巴布特盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/barbute.webp",
+  "durability": 180,
+  "price": 4850,
+  "properties": {
+    "maxMana": -4,
+    "defense": 16,
+    "resistances": {
+      "bleeding": 27,
+      "stun": 25,
+      "physical": 24
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Barbutes offer a great balance between protection and unobtrusiveness, which makes them well-suited for archers and light infantry.",
+  "descriptionZh": "巴布特盔在防护和自如行动中间达到了绝佳的平衡，非常适合弓箭手和轻步兵配戴。",
+  "class": "medium"
+}

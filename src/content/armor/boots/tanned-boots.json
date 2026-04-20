@@ -1,0 +1,28 @@
+{
+  "id": "tanned-boots",
+  "name": "Tanned Boots",
+  "nameZh": "熟皮靴",
+  "slot": "legs",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/tanned-boots.webp",
+  "durability": 100,
+  "price": 750,
+  "properties": {
+    "critAvoid": 3,
+    "defense": 6,
+    "evasion": 6,
+    "resistances": {
+      "bleeding": 12,
+      "knockback": 10,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Tanned bull hide guarantees longevity for any footwear it's used in.",
+  "descriptionZh": "牛皮经过鞣制之后，做出来的鞋子和靴子更加耐穿。"
+}

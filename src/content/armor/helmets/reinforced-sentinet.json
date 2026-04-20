@@ -1,0 +1,29 @@
+{
+  "id": "reinforced-sentinet",
+  "name": "Reinforced Sentinet",
+  "nameZh": "加固森提亚盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/reinforced-sentinet.webp",
+  "durability": 135,
+  "price": 1000,
+  "properties": {
+    "maxMana": -2,
+    "manaRestoration": -1,
+    "defense": 11,
+    "fortitude": 5,
+    "resistances": {
+      "bleeding": 22,
+      "stun": 23,
+      "physical": 19
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A pair of cheek plates instantly transforms this light helmet into a noticeably more protective piece.",
+  "descriptionZh": "这顶轻盔添了两块护颊，防护性能就增强了不少。",
+  "class": "medium"
+}

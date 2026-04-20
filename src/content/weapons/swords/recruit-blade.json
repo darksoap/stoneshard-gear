@@ -1,0 +1,29 @@
+{
+  "id": "recruit-blade",
+  "name": "Recruit Blade",
+  "nameZh": "新兵剑",
+  "slot": "sword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/recruit-blade.webp",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "durability": 65,
+  "price": 500,
+  "properties": {
+    "accuracy": 4,
+    "armorPenetration": 5,
+    "damageReduction": 4,
+    "bleedingChance": 11,
+    "skillsEnergyCost": 5
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Forging a similar sword is a graduation exam of sorts for apprentice blacksmiths.",
+  "descriptionZh": "铁匠学徒要是能锻出类似这样的剑，基本也就可以出师了。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "peasant-bow",
+  "name": "Peasant Bow",
+  "nameZh": "农家土弓",
+  "slot": "bow",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/peasant-bow.webp",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "durability": 40,
+  "price": 75,
+  "properties": {
+    "accuracy": -65,
+    "fumbleChance": -3,
+    "armorPenetration": 10,
+    "knockbackChance": 10,
+    "staggerChance": 10,
+    "skillsEnergyCost": 15
+  },
+  "range": 8,
+  "tags": [
+    "aldor"
+  ],
+  "description": "These bows can often be found in possession of some particularly bold peasants, who secretly hunt on their lord's land.",
+  "descriptionZh": "有些农民胆子特别大，会带着这样的弓偷偷跑进领主的林苑打猎。"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "templar-warstaff",
+  "name": "Templar Warstaff",
+  "nameZh": "圣堂武士战杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/templar-warstaff.webp",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "durability": 155,
+  "price": 5100,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 10,
+    "knockbackChance": 15,
+    "staggerChance": 20,
+    "maxMana": 5,
+    "manasteal": 5,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5,
+    "miracleChance": 3,
+    "miraclePower": 8,
+    "damages": {
+      "blunt": 20,
+      "sacred": 2
+    }
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Templars of the Order united chivalric discipline and magic mastery with the relentless study of the Host - all in the hopes of earning the gift of thaumaturgy.",
+  "descriptionZh": "三手会的圣堂武士研习圣主，既遵守骑士纪律，又修炼魔法，都只是为了最终获得超凡神通。"
+}

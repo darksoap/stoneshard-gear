@@ -1,0 +1,31 @@
+{
+  "id": "duelist-brigandine",
+  "name": "Duelist Brigandine",
+  "nameZh": "对决板甲衣",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/duelist-brigandine.webp",
+  "durability": 135,
+  "price": 2950,
+  "properties": {
+    "critChance": 1,
+    "critAvoid": 2,
+    "maxMana": -3,
+    "defense": 11,
+    "fortitude": 6,
+    "resistances": {
+      "bleeding": 33,
+      "physical": 12,
+      "piercing": 20,
+      "blunt": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An effective safeguard against treacherous thrusts and jabs at vital areas.",
+  "descriptionZh": "可以有效保护要害部位，抵挡刁钻的阴招。"
+}

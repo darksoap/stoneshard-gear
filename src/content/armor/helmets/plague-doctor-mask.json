@@ -1,0 +1,30 @@
+{
+  "id": "plague-doctor-mask",
+  "name": "Plague Doctor Mask",
+  "nameZh": "瘟疫医生面具",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/armor/helmets/plague-doctor-mask.webp",
+  "durability": 80,
+  "price": 225,
+  "properties": {
+    "healthRestoration": 5,
+    "healingReceived": 15,
+    "defense": 4,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 10,
+      "stun": 7,
+      "physical": 5,
+      "poison": 65
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "The tip of this unsettling mask's beak is packed with a mix of medicinal herbs, their smell repelling plague-bearing miasmas. That's how most healers explain it anyway.",
+  "descriptionZh": "这个面具形象阴森，喙部填了药草的混合物，散发的气味能够驱散传播疫病的瘴气。反正治疗师基本上都是这么说。",
+  "class": "light"
+}

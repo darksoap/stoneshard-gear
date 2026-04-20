@@ -1,0 +1,25 @@
+{
+  "id": "silver-insert-gold-ring",
+  "name": "Silver Insert Gold Ring",
+  "nameZh": "金镶银戒指",
+  "slot": "ring",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/rings/silver-insert-gold-ring.webp",
+  "durability": 25,
+  "price": 80,
+  "properties": {
+    "maxHealth": 2,
+    "magicPower": 2,
+    "resistances": {
+      "bleeding": 2
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Jewelry connoisseurs might wrinkle their noses at mixing gold and silver, but hardly anyone else shares the objection.",
+  "descriptionZh": "首饰鉴赏家或许会嫌弃金配银，不过其他人大多数没有这种顾虑。"
+}

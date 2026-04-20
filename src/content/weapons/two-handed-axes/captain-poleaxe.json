@@ -1,0 +1,31 @@
+{
+  "id": "captain-poleaxe",
+  "name": "Captain Poleaxe",
+  "nameZh": "长官长柄斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/captain-poleaxe.webp",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "durability": 195,
+  "price": 7150,
+  "properties": {
+    "critAvoid": 4,
+    "armorPenetration": 30,
+    "damageReduction": 10,
+    "blockPower": 13,
+    "bleedingChance": 35,
+    "knockbackChance": 40,
+    "skillsEnergyCost": 35
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A captain's poleaxe stands out even at a distance - a rallying point, and a reassuring sign that the company is still in the fight.",
+  "descriptionZh": "长官的长柄斧即便离得远了，也分外醒目，这是大家的集结点，也是振奋人心的标志，说明兵团还在奋战。"
+}

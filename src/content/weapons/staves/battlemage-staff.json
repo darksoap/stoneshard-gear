@@ -1,0 +1,32 @@
+{
+  "id": "battlemage-staff",
+  "name": "Battlemage Staff",
+  "nameZh": "前锋长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/battlemage-staff.webp",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "durability": 100,
+  "price": 2425,
+  "properties": {
+    "armorPenetration": 12,
+    "maxMana": 3,
+    "manaRestoration": 5,
+    "skillsEnergyCost": 10,
+    "spellsEnergyCost": -7,
+    "cooldownReduction": -4,
+    "miscastChance": -6,
+    "fatigueGain": 10
+  },
+  "range": 1,
+  "tags": [
+    "magic"
+  ],
+  "description": "Seemingly cumbersome, this steel staff is actually quite light. It's also an excellent conduit for magic.",
+  "descriptionZh": "这个长杖看起来很沉，其实非常轻巧，而且传导魔能的效果很好。"
+}

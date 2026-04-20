@@ -1,0 +1,30 @@
+{
+  "id": "veteran-bow",
+  "name": "Veteran Bow",
+  "nameZh": "老兵弓",
+  "slot": "bow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/veteran-bow.webp",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "durability": 85,
+  "price": 2425,
+  "properties": {
+    "accuracy": -50,
+    "fumbleChance": -7,
+    "armorPenetration": 15,
+    "knockbackChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": 30
+  },
+  "range": 9,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Armed with such a bow, an experienced archer can single-handedly stall the advance of a full squad of light infantry.",
+  "descriptionZh": "有经验的弓箭手配上这样的弓，一个人就能轻松拦住一小队轻装步兵。"
+}

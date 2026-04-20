@@ -1,0 +1,29 @@
+{
+  "id": "old-fashioned-armor",
+  "name": "Old Fashioned Armor",
+  "nameZh": "旧式盔甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/old-fashioned-armor.webp",
+  "durability": 300,
+  "price": 2100,
+  "properties": {
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "defense": 17,
+    "evasion": -12,
+    "critAvoid": 16,
+    "resistances": {
+      "bleeding": 31,
+      "physical": 30
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A relatively affordable piece of plate armor, worn by landless knights, mercenaries, and everyone else who isn't rolling in gold at the moment.",
+  "descriptionZh": "这种板甲盔价格相对低廉，没有封地的骑士、雇佣兵之类手头不宽裕的人，都可以选择穿它。"
+}

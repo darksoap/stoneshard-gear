@@ -1,0 +1,27 @@
+{
+  "id": "carpenter-hammer",
+  "name": "Carpenter Hammer",
+  "nameZh": "木工锤",
+  "slot": "mace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/carpenter-hammer.webp",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "durability": 40,
+  "price": 25,
+  "properties": {
+    "fumbleChance": 2,
+    "armorPenetration": 3,
+    "staggerChance": 3
+  },
+  "range": 1,
+  "tags": [
+    "special"
+  ],
+  "description": "An ordinary hammer that can also be used to pull out bent or errant nails.",
+  "descriptionZh": "普普通通的锤子，也能拔钉歪钉偏的钉子。"
+}

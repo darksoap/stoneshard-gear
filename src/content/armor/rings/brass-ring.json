@@ -1,0 +1,24 @@
+{
+  "id": "brass-ring",
+  "name": "Brass Ring",
+  "nameZh": "黄铜戒指",
+  "slot": "ring",
+  "class": "light",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/rings/brass-ring.webp",
+  "durability": 50,
+  "price": 20,
+  "properties": {
+    "fumbleChance": -1,
+    "resistances": {
+      "rending": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Brass has been around for centuries - the technique used to make this ring is rooted in the Firn metal-working tradition.",
+  "descriptionZh": "弗恩几百年前就开始接触黄铜，这枚戒指的制作工艺就源自弗恩的冶金传统。"
+}

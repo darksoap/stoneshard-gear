@@ -1,0 +1,31 @@
+{
+  "id": "noble-beret",
+  "name": "Noble Beret",
+  "nameZh": "贵族贝雷帽",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/noble-beret.webp",
+  "durability": 55,
+  "price": 3400,
+  "properties": {
+    "critChance": 5,
+    "fumbleChance": -3,
+    "skillsEnergyCost": -4,
+    "cooldownReduction": -4,
+    "defense": 5,
+    "evasion": 10,
+    "resistances": {
+      "bleeding": 15,
+      "stun": 12,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A fashionable Aldwynn style, marked by unmistakable Nistrian motifs, likely adopted from passing merchants.",
+  "descriptionZh": "奥尔德文现在时兴这种款式，上面的纹样明显受了尼斯特拉的影响，有可能是借鉴了境内过往外邦商人的穿着。",
+  "class": "light"
+}

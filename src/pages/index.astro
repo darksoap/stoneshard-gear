@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { slotLabels, weaponSlotSlugs, armorSlotLabels, armorSlotSlugs } from '../i18n/zh';
+
+const weapons = await getCollection('weapons');
+const armor = await getCollection('armor');
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const weaponSlotCounts = weapons.reduce((acc, w) => {
+  acc[w.data.slot] = (acc[w.data.slot] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const armorSlotCounts = armor.reduce((acc, a) => {
+  acc[a.data.slot] = (acc[a.data.slot] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const weaponCategories = Object.entries(weaponSlotCounts)
+  .map(([slot, count]) => ({
+    slot,
+    slug: weaponSlotSlugs[slot],
+    label: slotLabels[slot] || slot,
+    count,
+    href: `${base}/weapons/${weaponSlotSlugs[slot]}`,
+  }))
+  .sort((a, b) => b.count - a.count);
+
+const armorCategories = Object.entries(armorSlotCounts)
+  .map(([slot, count]) => ({
+    slot,
+    slug: armorSlotSlugs[slot],
+    label: armorSlotLabels[slot] || slot,
+    count,
+    href: `${base}/armor/${armorSlotSlugs[slot]}`,
+  }))
+  .sort((a, b) => b.count - a.count);
+
+const totalCount = weapons.length + armor.length;
+---
+
+<BaseLayout title="紫色晶石装备图鉴">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-14">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-3 text-white tracking-wide">
+        紫色晶石<span class="text-accent">装备图鉴</span>
+      </h1>
+      <div class="section-divider max-w-xs mx-auto mb-4"></div>
+      <p class="text-text-secondary text-lg">
+        共收录 <span class="text-accent-warm font-bold">{totalCount}</span> 件装备
+      </p>
+    </div>
+
+    <div class="mb-12">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-xl font-bold text-white tracking-wider">武器</h2>
+        <a href={`${base}/weapons`} class="text-sm text-accent hover:text-accent-hover transition-colors">
+          查看全部 →
+        </a>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        {weaponCategories.map((cat) => (
+          <a
+            href={cat.href}
+            class="block p-4 bg-bg-secondary border border-border-dark rounded hover:border-accent hover:bg-bg-hover transition-all group"
+          >
+            <div class="text-white font-medium group-hover:text-accent transition-colors">{cat.label}</div>
+            <div class="text-text-muted text-sm mt-1">{cat.count} 件</div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div>
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-xl font-bold text-white tracking-wider">护甲与首饰</h2>
+        <a href={`${base}/armor`} class="text-sm text-accent hover:text-accent-hover transition-colors">
+          查看全部 →
+        </a>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        {armorCategories.map((cat) => (
+          <a
+            href={cat.href}
+            class="block p-4 bg-bg-secondary border border-border-dark rounded hover:border-accent hover:bg-bg-hover transition-all group"
+          >
+            <div class="text-white font-medium group-hover:text-accent transition-colors">{cat.label}</div>
+            <div class="text-text-muted text-sm mt-1">{cat.count} 件</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

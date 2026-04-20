@@ -1,0 +1,30 @@
+{
+  "id": "royal-ranger-gambeson",
+  "name": "Royal Ranger Gambeson",
+  "nameZh": "王苑守卫夹棉软铠",
+  "slot": "chest",
+  "class": "light",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/chests/royal-ranger-gambeson.webp",
+  "durability": 145,
+  "price": 4675,
+  "properties": {
+    "accuracy": 5,
+    "fumbleChance": -5,
+    "defense": 10,
+    "evasion": 6,
+    "resistances": {
+      "bleeding": 24,
+      "physical": 20,
+      "nature": 20,
+      "rending": 20
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The main task of the Royal Rangers was to patrol the hunting grounds of His Majesty. Their gambesons were sewn by the best craftsmen the realm had to offer.",
+  "descriptionZh": "王苑守卫当年主要负责巡查陛下的林苑，他们的软铠均出自奥尔多手艺最好的匠人之手。"
+}

@@ -1,0 +1,482 @@
+---
+import PropertyTable from './PropertyTable.astro';
+import {
+  rarityLabels,
+  materialLabels,
+  damageTypeLabels,
+  damageTypeColors,
+  tagLabels,
+  slotLabels,
+  armorSlotLabels,
+  resistanceLabels,
+  magicPowerLabels,
+  bodyPartLabels,
+} from '../i18n/zh';
+
+interface VariantData {
+  id: string;
+  name: string;
+  nameZh: string;
+  image?: string;
+  durability?: number;
+  properties: Record<string, any>;
+  tags?: string[];
+}
+
+interface ItemData {
+  id: string;
+  name: string;
+  nameZh: string;
+  slot: string;
+  tier: number;
+  rarity: string;
+  material: string;
+  version?: string;
+  image?: string;
+  durability: number;
+  price: number;
+  properties: Record<string, any>;
+  damage?: { value: number; type: string };
+  range?: number;
+  class?: string;
+  tags?: string[];
+  fireproof?: boolean;
+  description?: string;
+  descriptionZh?: string;
+  variant?: VariantData;
+}
+
+interface Props {
+  data: ItemData;
+}
+
+const { data } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const imgSrc = data.image && data.image.startsWith('/') ? `${base}${data.image}` : data.image;
+
+const rarityClass = `rarity-${data.rarity}`;
+const rarityLabel = rarityLabels[data.rarity] || data.rarity;
+const materialLabel = materialLabels[data.material] || data.material;
+
+const isWeaponSlot = data.slot in slotLabels && data.slot !== 'shield';
+const isShield = data.slot === 'shield';
+const isJewelry = data.slot === 'ring' || data.slot === 'amulet';
+const isRanged = ['bow', 'crossbow', 'sling'].includes(data.slot);
+
+const slotLabel = isWeaponSlot
+  ? slotLabels[data.slot] || data.slot
+  : armorSlotLabels[data.slot] || slotLabels[data.slot] || data.slot;
+
+const damageTypeLabel = data.damage ? damageTypeLabels[data.damage.type] || data.damage.type : null;
+const tagLabelsList = (data.tags || [])
+  .filter(t => !(t === 'unique' && data.rarity === 'unique'))
+  .map(t => tagLabels[t] || t)
+  .filter(Boolean);
+
+const showDamage = data.damage && data.damage.value > 0;
+
+const resistances = data.properties.resistances as Record<string, number> | undefined;
+const magicPowers = data.properties.magicPowers as Record<string, number> | undefined;
+const bodyPartProtection = data.properties.bodyPartProtection as Record<string, number> | undefined;
+const damages = data.properties.damages as Record<string, number> | undefined;
+const defenseValue = typeof data.properties.defense === 'number' ? data.properties.defense : null;
+const blockPowerValue = typeof data.properties.blockPower === 'number' ? data.properties.blockPower : null;
+
+const showDefenseLine = !isJewelry && (defenseValue !== null || blockPowerValue !== null);
+
+const filteredProperties: Record<string, number> = {};
+for (const [key, value] of Object.entries(data.properties)) {
+  if (key === 'resistances' || key === 'magicPowers' || key === 'bodyPartProtection' || key === 'damages' || key === 'defense' || key === 'blockPower') continue;
+  if (typeof value === 'number') {
+    filteredProperties[key] = value;
+  }
+}
+
+const hasVariant = !!data.variant;
+const variant = data.variant;
+
+const variantResistances = variant?.properties?.resistances as Record<string, number> | undefined;
+const variantMagicPowers = variant?.properties?.magicPowers as Record<string, number> | undefined;
+const variantBodyPartProtection = variant?.properties?.bodyPartProtection as Record<string, number> | undefined;
+const variantDefenseValue = typeof variant?.properties?.defense === 'number' ? variant.properties.defense : null;
+const variantBlockPowerValue = typeof variant?.properties?.blockPower === 'number' ? variant.properties.blockPower : null;
+
+const variantFilteredProperties: Record<string, number> = {};
+if (variant) {
+  for (const [key, value] of Object.entries(variant.properties)) {
+    if (key === 'resistances' || key === 'magicPowers' || key === 'bodyPartProtection' || key === 'damages' || key === 'defense' || key === 'blockPower') continue;
+    if (typeof value === 'number') {
+      variantFilteredProperties[key] = value;
+    }
+  }
+}
+
+const variantTagLabelsList = (variant?.tags || [])
+  .filter(t => !(t === 'unique' && data.rarity === 'unique'))
+  .map(t => tagLabels[t] || t)
+  .filter(Boolean);
+
+const backLabel = isWeaponSlot ? '武器' : isShield ? '武器' : '护甲';
+---
+
+<div class="max-w-2xl mx-auto px-4 py-8">
+  <div class="bg-bg-secondary rounded overflow-hidden shadow-2xl stoneshard-border">
+    <div class="p-5 sm:p-6 bg-bg-tertiary">
+      <div class="flex items-center gap-4">
+        <div class="item-img-wrap w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0 rounded flex items-center justify-center border border-border-dark">
+          {data.image ? (
+            <img
+              src={imgSrc}
+              alt={data.nameZh}
+              class="w-full h-full object-contain p-2"
+              data-base="image"
+              loading="lazy"
+              onerror="this.classList.add('error')"
+            />
+          ) : (
+            <span class="text-3xl text-text-muted">?</span>
+          )}
+        </div>
+
+        <div class="flex-1 min-w-0">
+          <div class="text-accent-warm text-xs font-bold tracking-wider mb-1">TIER {data.tier}</div>
+          <h1 class={`text-xl sm:text-2xl font-bold mb-1 truncate ${rarityClass}`}>{data.nameZh}</h1>
+          <div class="text-text-muted text-xs sm:text-sm" data-base="name">{data.name}</div>
+          <div class="flex flex-wrap items-center gap-2 mt-2">
+            <span class="text-xs px-2 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border-dark">{rarityLabel}</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border-dark">{slotLabel}</span>
+            {tagLabelsList.length > 0 && (
+              <span class="text-text-muted text-xs" data-base="tags">{tagLabelsList.join(' · ')}</span>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {hasVariant && (
+      <div class="flex border-b border-border-dark">
+        <button
+          class="variant-tab flex-1 py-2.5 text-sm font-bold tracking-wider text-accent border-b-2 border-accent bg-bg-tertiary transition-colors cursor-pointer"
+          data-tab="base"
+        >
+          闭面
+        </button>
+        <button
+          class="variant-tab flex-1 py-2.5 text-sm font-bold tracking-wider text-text-muted border-b-2 border-transparent bg-bg-secondary hover:text-text-secondary transition-colors cursor-pointer"
+          data-tab="variant"
+        >
+          开面
+        </button>
+      </div>
+    )}
+
+    <div data-panel="base">
+      {(showDamage || (damages && Object.keys(damages).length > 0)) && (
+        <div class="py-4 text-center border-b border-border-dark bg-bg-secondary">
+          <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+            {showDamage && (
+              <span class="text-xl sm:text-2xl text-white font-bold">
+                {data.damage!.value} <span class="text-text-secondary font-medium text-base sm:text-lg">{damageTypeLabel}伤害</span>
+              </span>
+            )}
+            {damages && Object.entries(damages).map(([type, value]) => {
+              if (showDamage && type === data.damage!.type) return null;
+              const color = damageTypeColors[type] || '#e8e8e8';
+              const label = damageTypeLabels[type] || type;
+              return (
+                <span class="text-xl sm:text-2xl font-bold" style={`color: ${color}`}>
+                  +{value} <span class="font-medium text-base sm:text-lg">{label}伤害</span>
+                </span>
+              );
+            })}
+          </div>
+          {isRanged && data.range && data.range > 0 && (
+            <div class="text-text-muted text-sm mt-2">射程 {data.range}</div>
+          )}
+        </div>
+      )}
+
+      {showDefenseLine && !showDamage && (
+        <div class="py-4 text-center border-b border-border-dark bg-bg-secondary">
+          <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+            {defenseValue !== null && (
+              <span class="text-xl sm:text-2xl text-white font-bold">
+                {defenseValue} <span class="text-text-secondary font-medium text-base sm:text-lg">防护</span>
+              </span>
+            )}
+            {blockPowerValue !== null && (
+              <span class="text-xl sm:text-2xl text-white font-bold">
+                {blockPowerValue} <span class="text-text-secondary font-medium text-base sm:text-lg">格挡力量</span>
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+
+      {Object.keys(filteredProperties).length > 0 && (
+        <div class="p-4 sm:p-5">
+          <PropertyTable properties={filteredProperties} />
+        </div>
+      )}
+
+      {resistances && Object.keys(resistances).length > 0 && (
+        <div class="px-4 sm:px-5 pb-4">
+          <div class="group-header">抗性</div>
+          <div class="space-y-0.5">
+            {Object.entries(resistances).map(([key, value]) => (
+              <div class="stat-row px-1">
+                <span class="text-text-secondary text-sm">{resistanceLabels[key] || key}</span>
+                <span class={`text-sm font-medium ${value > 0 ? 'text-positive' : 'text-negative'}`}>
+                  {value > 0 ? `+${value}` : value}%
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {magicPowers && Object.keys(magicPowers).length > 0 && (
+        <div class="px-4 sm:px-5 pb-4">
+          <div class="group-header">魔法力量</div>
+          <div class="space-y-0.5">
+            {Object.entries(magicPowers).map(([key, value]) => (
+              <div class="stat-row px-1">
+                <span class="text-text-secondary text-sm">{magicPowerLabels[key] || key}</span>
+                <span class={`text-sm font-medium ${value > 0 ? 'text-positive' : 'text-negative'}`}>
+                  {value > 0 ? `+${value}` : value}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {bodyPartProtection && Object.keys(bodyPartProtection).length > 0 && (
+        <div class="px-4 sm:px-5 pb-4">
+          <div class="group-header">部位防护</div>
+          <div class="space-y-0.5">
+            {Object.entries(bodyPartProtection).map(([key, value]) => (
+              <div class="stat-row px-1">
+                <span class="text-text-secondary text-sm">{bodyPartLabels[key] || key}</span>
+                <span class="text-sm font-medium text-positive">+{value}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div class="section-divider"></div>
+
+      <div class="px-4 sm:px-6 py-3">
+        <div class="flex justify-between items-center">
+          <span class="text-text-muted text-sm">耐久</span>
+          <span class="text-white text-sm font-medium">{data.durability}</span>
+        </div>
+        <div class="flex justify-between items-center mt-1">
+          <span class="text-text-muted text-sm">材质</span>
+          <span class="text-white text-sm font-medium">{materialLabel}</span>
+        </div>
+        {data.fireproof && (
+          <div class="flex justify-between items-center mt-1">
+            <span class="text-text-muted text-sm">防火</span>
+            <span class="text-positive text-sm font-medium">✓</span>
+          </div>
+        )}
+      </div>
+    </div>
+
+    {hasVariant && (
+      <div data-panel="variant" class="hidden">
+          {showDefenseLine && (
+            <div class="py-4 text-center border-b border-border-dark bg-bg-secondary">
+              <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+                {variantDefenseValue !== null && (
+                  <span class="text-xl sm:text-2xl text-white font-bold">
+                    {variantDefenseValue} <span class="text-text-secondary font-medium text-base sm:text-lg">防护</span>
+                  </span>
+                )}
+                {variantBlockPowerValue !== null && (
+                  <span class="text-xl sm:text-2xl text-white font-bold">
+                    {variantBlockPowerValue} <span class="text-text-secondary font-medium text-base sm:text-lg">格挡力量</span>
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+
+          {Object.keys(variantFilteredProperties).length > 0 && (
+            <div class="p-4 sm:p-5">
+              <PropertyTable properties={variantFilteredProperties} />
+            </div>
+          )}
+
+          {variantResistances && Object.keys(variantResistances).length > 0 && (
+            <div class="px-4 sm:px-5 pb-4">
+              <div class="group-header">抗性</div>
+              <div class="space-y-0.5">
+                {Object.entries(variantResistances).map(([key, value]) => (
+                  <div class="stat-row px-1">
+                    <span class="text-text-secondary text-sm">{resistanceLabels[key] || key}</span>
+                    <span class={`text-sm font-medium ${value > 0 ? 'text-positive' : 'text-negative'}`}>
+                      {value > 0 ? `+${value}` : value}%
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {variantMagicPowers && Object.keys(variantMagicPowers).length > 0 && (
+            <div class="px-4 sm:px-5 pb-4">
+              <div class="group-header">魔法力量</div>
+              <div class="space-y-0.5">
+                {Object.entries(variantMagicPowers).map(([key, value]) => (
+                  <div class="stat-row px-1">
+                    <span class="text-text-secondary text-sm">{magicPowerLabels[key] || key}</span>
+                    <span class={`text-sm font-medium ${value > 0 ? 'text-positive' : 'text-negative'}`}>
+                      {value > 0 ? `+${value}` : value}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {variantBodyPartProtection && Object.keys(variantBodyPartProtection).length > 0 && (
+            <div class="px-4 sm:px-5 pb-4">
+              <div class="group-header">部位防护</div>
+              <div class="space-y-0.5">
+                {Object.entries(variantBodyPartProtection).map(([key, value]) => (
+                  <div class="stat-row px-1">
+                    <span class="text-text-secondary text-sm">{bodyPartLabels[key] || key}</span>
+                    <span class="text-sm font-medium text-positive">+{value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div class="section-divider"></div>
+
+          <div class="px-4 sm:px-6 py-3">
+            <div class="flex justify-between items-center">
+              <span class="text-text-muted text-sm">耐久</span>
+              <span class="text-white text-sm font-medium">{variant?.durability ?? data.durability}</span>
+            </div>
+            <div class="flex justify-between items-center mt-1">
+              <span class="text-text-muted text-sm">材质</span>
+              <span class="text-white text-sm font-medium">{materialLabel}</span>
+            </div>
+            {data.fireproof && (
+              <div class="flex justify-between items-center mt-1">
+                <span class="text-text-muted text-sm">防火</span>
+                <span class="text-positive text-sm font-medium">✓</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {data.descriptionZh && (
+        <div class="px-4 sm:px-6 py-4 text-text-secondary text-sm leading-relaxed italic border-t border-border-dark">
+          "{data.descriptionZh}"
+          {data.description && (
+            <div class="text-text-muted text-xs mt-2 not-italic">{data.description}</div>
+          )}
+        </div>
+      )}
+      {!data.descriptionZh && data.description && (
+        <div class="px-4 sm:px-6 py-4 text-text-secondary text-sm leading-relaxed italic border-t border-border-dark">
+          "{data.description}"
+        </div>
+      )}
+
+      <div class="price-bar px-4 sm:px-6 py-3 border-t border-border-dark">
+        <div class="flex items-center justify-center gap-2 text-accent-warm">
+          <img
+            src={`${base}/images/Crowns.webp`}
+            alt="金币"
+            class="w-5 h-5 object-contain"
+          />
+          <span class="font-bold text-lg">{data.price}</span>
+        </div>
+      </div>
+
+      {data.version && (
+        <div class="px-4 sm:px-6 py-2 border-t border-border-dark text-center bg-bg-primary">
+          <span class="text-text-muted text-xs">v{data.version}</span>
+        </div>
+      )}
+  </div>
+
+  <div class="mt-6 text-center">
+    <button id="back-btn" class="text-text-muted hover:text-accent text-sm cursor-pointer transition-colors">
+      ← 返回{backLabel}列表
+    </button>
+  </div>
+</div>
+
+{hasVariant && (
+  <div
+    id="variant-data"
+    data-variant-name={variant!.name}
+    data-variant-tags={variantTagLabelsList.join(' · ')}
+    data-variant-image={variant!.image ? (variant!.image.startsWith('/') ? `${base}${variant!.image}` : variant!.image) : ''}
+    class="hidden"
+  ></div>
+)}
+
+<script define:vars={{ isWeaponSlot, isShield, base: import.meta.env.BASE_URL.replace(/\/$/, '') }}>
+  const backBtn = document.getElementById('back-btn');
+  backBtn?.addEventListener('click', () => {
+    const basePath = base + '/' + (isWeaponSlot || isShield ? 'weapons' : 'armor');
+    if (document.referrer.includes(basePath)) {
+      history.back();
+    } else {
+      window.location.href = basePath;
+    }
+  });
+
+  const tabs = document.querySelectorAll('.variant-tab');
+  const basePanel = document.querySelector('[data-panel="base"]');
+  const variantPanel = document.querySelector('[data-panel="variant"]');
+  const nameEl = document.querySelector('[data-base="name"]');
+  const tagsEl = document.querySelector('[data-base="tags"]');
+  const imgEl = document.querySelector('[data-base="image"]');
+  const variantDataEl = document.getElementById('variant-data');
+
+  if (tabs.length === 2 && basePanel && variantPanel) {
+    const baseName = nameEl?.textContent || '';
+    const baseTags = tagsEl?.textContent || '';
+    const baseImage = imgEl?.getAttribute('src') || '';
+    const variantName = variantDataEl?.dataset.variantName || '';
+    const variantTags = variantDataEl?.dataset.variantTags || '';
+    const variantImage = variantDataEl?.dataset.variantImage || '';
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const isVariant = tab.dataset.tab === 'variant';
+
+        tabs.forEach(t => {
+          t.classList.toggle('text-accent', t.dataset.tab === tab.dataset.tab);
+          t.classList.toggle('border-accent', t.dataset.tab === tab.dataset.tab);
+          t.classList.toggle('bg-bg-tertiary', t.dataset.tab === tab.dataset.tab);
+          t.classList.toggle('text-text-muted', t.dataset.tab !== tab.dataset.tab);
+          t.classList.toggle('border-transparent', t.dataset.tab !== tab.dataset.tab);
+          t.classList.toggle('bg-bg-secondary', t.dataset.tab !== tab.dataset.tab);
+        });
+
+        basePanel.classList.toggle('hidden', isVariant);
+        variantPanel.classList.toggle('hidden', !isVariant);
+
+        if (nameEl) nameEl.textContent = isVariant ? variantName : baseName;
+        if (tagsEl) tagsEl.textContent = isVariant ? variantTags : baseTags;
+        if (imgEl && (isVariant ? variantImage : baseImage)) {
+          imgEl.setAttribute('src', isVariant ? variantImage : baseImage);
+          imgEl.classList.remove('error');
+        }
+      });
+    });
+  }
+</script>

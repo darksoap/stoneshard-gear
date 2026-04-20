@@ -1,0 +1,27 @@
+{
+  "id": "cervellier",
+  "name": "Cervellier",
+  "nameZh": "内盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/cervellier.webp",
+  "durability": 105,
+  "price": 375,
+  "properties": {
+    "maxMana": -1,
+    "defense": 7,
+    "resistances": {
+      "bleeding": 15,
+      "stun": 12,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Small, light, and, quite importantly, cheap - a helmet worn by many guards and militia.",
+  "descriptionZh": "这种头盔整体较小，轻便，而且造价低廉——这一点非常重要，是卫兵和民兵的不二之选。",
+  "class": "medium"
+}

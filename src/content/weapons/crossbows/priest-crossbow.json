@@ -1,0 +1,36 @@
+{
+  "id": "priest-crossbow",
+  "name": "Priest Crossbow",
+  "nameZh": "加持弩",
+  "slot": "crossbow",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/priest-crossbow.webp",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "durability": 55,
+  "price": 1625,
+  "properties": {
+    "accuracy": -31,
+    "fumbleChance": -9,
+    "armorPenetration": 20,
+    "bodypartDamage": 5,
+    "staggerChance": 30,
+    "skillsEnergyCost": 10,
+    "damageReceived": -3,
+    "fatigueGain": 10,
+    "damages": {
+      "piercing": 16,
+      "sacred": 5
+    }
+  },
+  "range": 7,
+  "tags": [
+    "special"
+  ],
+  "description": "An old-fashioned crossbow, restored with care, if somewhat hastily. The opening words of a common Hieronite prayer are carved into its stock.",
+  "descriptionZh": "这把老式的弩年头久远，虽然打理得仓促，也能看出其中的爱惜。弩身刻了圣会某段祷文开头的几个字词。"
+}

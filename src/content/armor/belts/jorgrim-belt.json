@@ -1,0 +1,26 @@
+{
+  "id": "jorgrim-belt",
+  "name": "Jorgrim Belt",
+  "nameZh": "约戈里姆的腰带",
+  "slot": "waist",
+  "class": "light",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/armor/belts/jorgrim-belt.webp",
+  "durability": 40,
+  "price": 125,
+  "properties": {
+    "critEfficiency": 5,
+    "fumbleChance": -2,
+    "resistances": {
+      "bleeding": 5
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "Used to be generously festooned with scalps and severed fingers, making things rather awkward with the Aldorian folk, forcing Jorgrim to hastily get rid of it all.",
+  "descriptionZh": "这根腰带之前挂了很多头皮和手指，就因为这个，约戈里姆和奥尔多的人闹了很多不愉快，所以他只能赶紧把那些东西拆掉了。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dirk",
+  "name": "Dirk",
+  "nameZh": "短刀",
+  "slot": "dagger",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/dirk.webp",
+  "damage": {
+    "value": 15,
+    "type": "piercing"
+  },
+  "durability": 50,
+  "price": 275,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 3,
+    "fumbleChance": 1,
+    "armorPenetration": 5,
+    "bleedingChance": 14
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "The very name of this dagger sounds like someone is choking on their own blood.",
+  "descriptionZh": "“短兵相接”说的不就是这种“短兵”吗？"
+}

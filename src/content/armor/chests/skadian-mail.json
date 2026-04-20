@@ -1,0 +1,26 @@
+{
+  "id": "skadian-mail",
+  "name": "Skadian Mail",
+  "nameZh": "斯卡迪亚板链甲",
+  "slot": "chest",
+  "class": "medium",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/skadian-mail.webp",
+  "durability": 215,
+  "price": 3400,
+  "properties": {
+    "maxMana": -3,
+    "defense": 13,
+    "fortitude": 6,
+    "resistances": {
+      "bleeding": 25,
+      "physical": 17,
+      "slashing": 21,
+      "piercing": 6
+    }
+  },
+  "description": "Skadians borrowed the practice of reinforcing mail armor with iron plates from Jarimad warriors. Such chestpieces are more than capable of protecting the cavalry from stray arrows and spear thrusts.",
+  "descriptionZh": "斯卡迪亚人从亚里迈德的战士那里学会了用铁板加固链甲的工艺。骑兵穿上这样的盔甲，完全足以抵御流箭和长杆刃器的攻击。"
+}

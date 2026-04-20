@@ -1,0 +1,30 @@
+{
+  "id": "bounty-hunter-war-hat",
+  "name": "Bounty Hunter War Hat",
+  "nameZh": "赏金猎人圆顶盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/bounty-hunter-war-hat.webp",
+  "durability": 145,
+  "price": 2075,
+  "properties": {
+    "maxMana": -3,
+    "defense": 12,
+    "critAvoid": 10,
+    "vision": -1,
+    "resistances": {
+      "bleeding": 26,
+      "stun": 20,
+      "physical": 20,
+      "slashing": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Criminals and cutthroats with a handsome price on their heads are dangerous quarry, so hunting them calls for every precaution and defense one can muster.",
+  "descriptionZh": "有些犯人和亡命之徒头上顶着大笔的赏金，个个都是要命的人物。想去抓他们，必须格外小心，做好万全准备。",
+  "class": "medium"
+}

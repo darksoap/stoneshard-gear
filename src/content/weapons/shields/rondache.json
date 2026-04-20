@@ -1,0 +1,24 @@
+{
+  "id": "rondache",
+  "name": "Rondache",
+  "nameZh": "轻圆盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/shields/rondache.webp",
+  "durability": 90,
+  "price": 750,
+  "properties": {
+    "critAvoid": 6,
+    "damageReduction": 11,
+    "blockPower": 10,
+    "blockRecovery": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Rondaches were brought to Aldor from the Bronze Isles. As with all things new and alien, the locals regard them with a certain amount of prejudice.",
+  "descriptionZh": "奥尔多的轻圆盾源自青铜群岛的某地。陌生的新鲜事物来到这里之后，本地人一开始都不会坦然接受，所以轻圆盾也受到了质疑。"
+}

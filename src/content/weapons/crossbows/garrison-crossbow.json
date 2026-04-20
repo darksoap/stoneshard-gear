@@ -1,0 +1,30 @@
+{
+  "id": "garrison-crossbow",
+  "name": "Garrison Crossbow",
+  "nameZh": "驻军弩",
+  "slot": "crossbow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/garrison-crossbow.webp",
+  "damage": {
+    "value": 32,
+    "type": "piercing"
+  },
+  "durability": 85,
+  "price": 7400,
+  "properties": {
+    "accuracy": -30,
+    "armorPenetration": 25,
+    "bleedingChance": 35,
+    "knockbackChance": 35,
+    "staggerChance": 35,
+    "skillsEnergyCost": 25
+  },
+  "range": 8,
+  "tags": [
+    "aldor"
+  ],
+  "description": "These crossbows are excellent at taking out siege engineers even when shooting over large distances",
+  "descriptionZh": "这种弩就算远程狙击攻城的工兵，杀伤力也相当可观。"
+}

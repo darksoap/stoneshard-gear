@@ -1,0 +1,31 @@
+{
+  "id": "scorpion-halberd",
+  "name": "Scorpion Halberd",
+  "nameZh": "蝎螯钩镰",
+  "slot": "spear",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/scorpion-halberd.webp",
+  "damage": {
+    "value": 31,
+    "type": "piercing"
+  },
+  "durability": 195,
+  "price": 7650,
+  "properties": {
+    "critEfficiency": 25,
+    "fumbleChance": 10,
+    "armorPenetration": 35,
+    "armorDamage": 20,
+    "bodypartDamage": 20,
+    "immobilizationChance": 20,
+    "skillsEnergyCost": 40
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "This halberd's name comes from its vague resemblance to a scorpion's tail and the ability to deliver equally painful \"stings\".",
+  "descriptionZh": "这杆钩镰名副其实——枪头与蝎螯有几分相似，而且能造成的伤痛丝毫不亚于蝎螯。"
+}

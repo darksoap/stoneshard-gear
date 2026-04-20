@@ -1,0 +1,30 @@
+{
+  "id": "yew-shortbow",
+  "name": "Yew Shortbow",
+  "nameZh": "紫杉木短弓",
+  "slot": "bow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/yew-shortbow.webp",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "durability": 60,
+  "price": 975,
+  "properties": {
+    "accuracy": -50,
+    "fumbleChance": -4,
+    "armorPenetration": 10,
+    "bleedingChance": 25,
+    "immobilizationChance": 15,
+    "skillsEnergyCost": 25
+  },
+  "range": 7,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Yew is generally used to make longbows, but sometimes craftsmen settle for something more modest.",
+  "descriptionZh": "紫杉木一般用于制作长弓，不过有些工匠也会制作短一点的弓。"
+}

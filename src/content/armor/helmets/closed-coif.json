@@ -1,0 +1,29 @@
+{
+  "id": "closed-coif",
+  "name": "Closed Coif",
+  "nameZh": "闭面头套",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/closed-coif.webp",
+  "durability": 120,
+  "price": 1375,
+  "properties": {
+    "manaRestoration": -1,
+    "defense": 8,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 14,
+      "stun": 15,
+      "physical": 12,
+      "blunt": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The high collar and layered padding should be more than enough to keep the wearer from spitting their teeth after taking a club to the face.",
+  "descriptionZh": "高领口，加层的衬垫，戴上之后，脸上就算挨了一棍，牙应该也不至于敲断了。",
+  "class": "light"
+}

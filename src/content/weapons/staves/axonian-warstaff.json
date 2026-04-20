@@ -1,0 +1,36 @@
+{
+  "id": "axonian-warstaff",
+  "name": "Axonian Warstaff",
+  "nameZh": "亚克逊战杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/staves/axonian-warstaff.webp",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "durability": 145,
+  "price": 5100,
+  "properties": {
+    "critChance": 4,
+    "armorPenetration": 5,
+    "damageReduction": 15,
+    "knockbackChance": 20,
+    "staggerChance": 25,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5,
+    "miracleChance": 4,
+    "damages": {
+      "blunt": 16,
+      "arcane": 7
+    }
+  },
+  "range": 1,
+  "tags": [
+    "unique"
+  ],
+  "description": "Hundreds of years ago, this boar-shaped piece was carried at the head of countless battle-hardened phalanxes.",
+  "descriptionZh": "这种锤杖顶部形似野猪，古代通常会有士兵手持这种兵器走在久经沙场的军队方阵头部。"
+}

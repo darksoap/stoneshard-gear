@@ -1,0 +1,31 @@
+{
+  "id": "court-wizard-boots",
+  "name": "Court Wizard Boots",
+  "nameZh": "家内法师靴",
+  "slot": "legs",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/court-wizard-boots.webp",
+  "durability": 105,
+  "price": 3400,
+  "properties": {
+    "manaRestoration": 5,
+    "spellsEnergyCost": -3,
+    "miscastChance": -1,
+    "miraclePower": 3,
+    "fatigueGain": 20,
+    "defense": 6,
+    "resistances": {
+      "bleeding": 12,
+      "knockback": 12,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Stylish, light, durable, and unbelievably comfortable, a dream come true for most mages.",
+  "descriptionZh": "轻便，耐穿，款式入时，而且舒服得令人难以置信，法师的梦之靴。"
+}

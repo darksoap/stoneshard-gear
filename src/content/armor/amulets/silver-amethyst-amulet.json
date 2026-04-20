@@ -1,0 +1,23 @@
+{
+  "id": "silver-amethyst-amulet",
+  "name": "Silver Amethyst Amulet",
+  "nameZh": "紫水晶护身符",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 4,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/amulets/silver-amethyst-amulet.webp",
+  "durability": 70,
+  "price": 700,
+  "properties": {
+    "maxHealth": 5,
+    "critAvoid": 5,
+    "fortitude": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Amethyst is also known as the savant's stone - pendants and necklaces encrusted with this gem are often worn by people who have a keen interest in various sciences.",
+  "descriptionZh": "紫水晶也被人称作“智者之石”，热衷各类学科的人士经常佩戴嵌有紫水晶的吊坠和项链。"
+}

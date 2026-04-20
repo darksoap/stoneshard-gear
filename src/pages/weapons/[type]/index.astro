@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ItemCard from '../../../components/ItemCard.astro';
+import FilterPanel from '../../../components/FilterPanel.astro';
+import SortSelect from '../../../components/SortSelect.astro';
+import { getCollection } from 'astro:content';
+import { slotLabels, weaponSlugToSlot, weaponSlotSlugs } from '../../../i18n/zh';
+
+export async function getStaticPaths() {
+  const weapons = await getCollection('weapons');
+  const slots = [...new Set(weapons.map(w => w.data.slot))];
+  
+  return slots.map(slot => {
+    const slug = weaponSlotSlugs[slot];
+    return {
+      params: { type: slug },
+      props: { slot },
+    };
+  });
+}
+
+interface Props {
+  slot: string;
+}
+
+const { slot } = Astro.props;
+const weapons = await getCollection('weapons');
+const filteredWeapons = weapons.filter(w => w.data.slot === slot);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const slotLabel = slotLabels[slot] || slot;
+
+const availableFilters = {
+  rarities: [...new Set(filteredWeapons.map(w => w.data.rarity))],
+  tiers: [...new Set(filteredWeapons.map(w => w.data.tier))].sort((a, b) => a - b),
+  materials: [...new Set(filteredWeapons.map(w => w.data.material))],
+};
+
+const itemsData = filteredWeapons.map(w => ({
+  id: w.id,
+  data: w.data,
+}));
+---
+
+<BaseLayout title={`${slotLabel} - 武器`} description={`${slotLabel}列表，共${filteredWeapons.length}件`}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <nav class="mb-4 text-xs text-text-muted">
+      <a href={`${base}/weapons`} class="hover:text-accent transition-colors">武器</a>
+      <span class="mx-1.5 text-border">/</span>
+      <span class="text-text-secondary">{slotLabel}</span>
+    </nav>
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-white mb-2 tracking-wide">{slotLabel}</h1>
+      <div class="section-divider max-w-xs mb-3"></div>
+      <p class="text-text-secondary text-sm">共 <span id="total-count" class="text-accent-warm font-bold">{filteredWeapons.length}</span> 件</p>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-6">
+      <aside class="lg:w-56 flex-shrink-0">
+        <FilterPanel itemType="weapons" availableFilters={availableFilters} />
+      </aside>
+
+      <main class="flex-1 min-w-0">
+        <div class="flex items-center justify-between mb-4 px-3 py-2 bg-bg-secondary border border-border-dark rounded-lg">
+          <div class="text-text-muted text-xs">
+            显示 <span id="filtered-count" class="text-accent font-bold text-sm">{filteredWeapons.length}</span> 件
+          </div>
+          <SortSelect />
+        </div>
+
+        <div id="results-grid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+          {itemsData.map((item) => (
+            <div 
+              class="item-card"
+              data-slot={item.data.slot}
+              data-rarity={item.data.rarity}
+              data-tier={item.data.tier}
+              data-material={item.data.material}
+              data-name={item.data.nameZh}
+              data-price={item.data.price}
+              data-durability={item.data.durability}
+            >
+              <ItemCard
+                id={item.data.id}
+                name={item.data.name}
+                nameZh={item.data.nameZh}
+                rarity={item.data.rarity}
+                tier={item.data.tier}
+                image={item.data.image}
+                href={`${base}/weapons/${item.id}`}
+              />
+            </div>
+          ))}
+        </div>
+
+        <div id="no-results" class="hidden text-center py-12 text-text-muted">
+          没有找到符合条件的物品
+        </div>
+      </main>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import { initListFilter } from '../../../scripts/list-filter';
+
+  initListFilter({
+    filterTypes: ['rarity', 'tier', 'material'],
+    urlParamMap: { rarity: 'rarity', tier: 'tier', material: 'material' },
+  });
+</script>

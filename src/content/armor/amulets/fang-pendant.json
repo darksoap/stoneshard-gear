@@ -1,0 +1,21 @@
+{
+  "id": "fang-pendant",
+  "name": "Fang Pendant",
+  "nameZh": "兽牙吊坠",
+  "slot": "amulet",
+  "class": "light",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/amulets/fang-pendant.webp",
+  "durability": 50,
+  "price": 40,
+  "properties": {
+    "critChance": 1
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A time-honored charm meant to bring luck during a hunt.",
+  "descriptionZh": "自古以来，人们都相信戴上这种护符打猎，一定可以满载而归。"
+}

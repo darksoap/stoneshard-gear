@@ -1,0 +1,30 @@
+{
+  "id": "soldier-poleaxe",
+  "name": "Soldier Poleaxe",
+  "nameZh": "士兵长柄斧",
+  "slot": "2haxe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/soldier-poleaxe.webp",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "durability": 140,
+  "price": 1500,
+  "properties": {
+    "armorPenetration": 20,
+    "damageReduction": 8,
+    "blockPower": 9,
+    "bleedingChance": 25,
+    "knockbackChance": 25,
+    "skillsEnergyCost": 25
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Such poleaxes are forged by the Council weaponsmiths with less metal than usual, allowing for cheaper production.",
+  "descriptionZh": "这种兵器产自王廷的铁匠，用的材料比较少，造价也就比较便宜。"
+}

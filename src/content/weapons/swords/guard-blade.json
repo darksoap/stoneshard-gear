@@ -1,0 +1,30 @@
+{
+  "id": "guard-blade",
+  "name": "Guard Blade",
+  "nameZh": "卫兵配剑",
+  "slot": "sword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/guard-blade.webp",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "durability": 65,
+  "price": 500,
+  "properties": {
+    "accuracy": 4,
+    "critAvoid": 2,
+    "armorPenetration": 5,
+    "damageReduction": 4,
+    "bleedingChance": 4,
+    "skillsEnergyCost": 5
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Commonly issued to guards of higher rank.",
+  "descriptionZh": "一般是发给军衔比较高的卫兵。"
+}

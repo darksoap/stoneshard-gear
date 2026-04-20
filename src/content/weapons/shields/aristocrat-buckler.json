@@ -1,0 +1,24 @@
+{
+  "id": "aristocrat-buckler",
+  "name": "Aristocrat Buckler",
+  "nameZh": "贵族盾",
+  "slot": "shield",
+  "class": "light",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/shields/aristocrat-buckler.webp",
+  "durability": 90,
+  "price": 1575,
+  "properties": {
+    "critAvoid": 7,
+    "damageReduction": 13,
+    "blockPower": 12,
+    "blockRecovery": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "There are letters painted along the rim - words of prayer, perhaps, or a noble family's motto.",
+  "descriptionZh": "盾沿写了一圈字，可能是祷词，也可能是某个贵族的格言。"
+}

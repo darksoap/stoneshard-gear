@@ -1,0 +1,32 @@
+{
+  "id": "big-club",
+  "name": "Big Club",
+  "nameZh": "大棒",
+  "slot": "2hmace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/two-handed-maces/big-club.webp",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "durability": 40,
+  "price": 50,
+  "properties": {
+    "accuracy": -2,
+    "fumbleChance": 2,
+    "armorPenetration": 20,
+    "bodypartDamage": 5,
+    "stunChance": 5,
+    "knockbackChance": 20,
+    "staggerChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A weapon tested by millennia of hunting and gathering.",
+  "descriptionZh": "这个兵器经过了数千年狩猎和采集的考验。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "guardian-gloves",
+  "name": "Guardian Gloves",
+  "nameZh": "护卫手甲",
+  "slot": "arms",
+  "class": "medium",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/gloves/guardian-gloves.webp",
+  "durability": 230,
+  "price": 5425,
+  "properties": {
+    "damageReduction": 3,
+    "maxMana": -5,
+    "manaRestoration": -1,
+    "damageReceived": -3,
+    "defense": 16,
+    "resistances": {
+      "bleeding": 35,
+      "physical": 18,
+      "slashing": 15
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The cuffs are embossed with King Etbert's crest, leaving no question about the original owner's allegiance.",
+  "descriptionZh": "腕部压了埃特伯特国王的纹章，全然彰显了手套原主人效忠的是哪一方。"
+}

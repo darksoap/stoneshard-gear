@@ -1,0 +1,35 @@
+{
+  "id": "dwarven-armor",
+  "name": "Dwarven Armor",
+  "nameZh": "弗约板条甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/dwarven-armor.webp",
+  "durability": 250,
+  "price": 3775,
+  "properties": {
+    "fumbleChance": -2,
+    "maxMana": -13,
+    "manaRestoration": -4,
+    "damageReceived": -3,
+    "defense": 15,
+    "evasion": -11,
+    "critAvoid": 11,
+    "resistances": {
+      "bleeding": 25,
+      "pain": 7,
+      "physical": 26,
+      "nature": 10,
+      "piercing": 5,
+      "rending": 15
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "Fjall iron is hardly of the best quality, yet dwarves have an incredible knack for forging relatively decent armor from it.",
+  "descriptionZh": "弗约的铁品相虽然算不上多好，但矮人就是有能耐用这样的材料打出比较不错的防具。"
+}

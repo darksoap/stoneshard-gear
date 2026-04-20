@@ -1,0 +1,29 @@
+{
+  "id": "crude-longsword",
+  "name": "Crude Longsword",
+  "nameZh": "粗锻长剑",
+  "slot": "2hsword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/crude-longsword.webp",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "durability": 90,
+  "price": 675,
+  "properties": {
+    "accuracy": 4,
+    "armorPenetration": 10,
+    "damageReduction": 6,
+    "staggerChance": 15,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A commendable, even if not particularly successful, attempt at forging a real longsword.",
+  "descriptionZh": "这把长剑虽然打得不是特别成功，但也差强人意。"
+}

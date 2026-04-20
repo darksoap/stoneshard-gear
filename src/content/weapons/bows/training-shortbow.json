@@ -1,0 +1,30 @@
+{
+  "id": "training-shortbow",
+  "name": "Training Shortbow",
+  "nameZh": "练习短弓",
+  "slot": "bow",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/training-shortbow.webp",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "durability": 35,
+  "price": 75,
+  "properties": {
+    "accuracy": -60,
+    "fumbleChance": -1,
+    "armorPenetration": 10,
+    "bleedingChance": 15,
+    "immobilizationChance": 5,
+    "skillsEnergyCost": 15
+  },
+  "range": 7,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A simple wooden bow that is remarkably tricky to land a shot with.",
+  "descriptionZh": "简易木弓，准头很难练。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "reinforced-club",
+  "name": "Reinforced Club",
+  "nameZh": "带钉木棒",
+  "slot": "mace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/maces/reinforced-club.webp",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "durability": 70,
+  "price": 75,
+  "properties": {
+    "critAvoid": 3,
+    "armorPenetration": 20,
+    "dazeChance": 10,
+    "stunChance": 4,
+    "knockbackChance": 5,
+    "skillsEnergyCost": 10
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Clubs like this one are often employed by city guards - don't need anything more substantial to intimidate a pickpocket.",
+  "descriptionZh": "这种棍子一般是给城里的护卫用，有了这个东西，基本就能吓走扒人口袋的小偷了。"
+}

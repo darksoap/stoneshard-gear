@@ -1,0 +1,30 @@
+{
+  "id": "lever-crossbow",
+  "name": "Lever Crossbow",
+  "nameZh": "拉杆弩",
+  "slot": "crossbow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/lever-crossbow.webp",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "durability": 50,
+  "price": 1725,
+  "properties": {
+    "accuracy": -50,
+    "armorPenetration": 30,
+    "bodypartDamage": 25,
+    "knockbackChance": 30,
+    "immobilizationChance": 25,
+    "skillsEnergyCost": 35
+  },
+  "range": 9,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Reloading a crossbow with a lever offers much greater convenience without sacrificing the weapon's draw weight.",
+  "descriptionZh": "拉杆弩相较其他弩，装填弩箭非常方便，而且不会牺牲弩的拉力。"
+}

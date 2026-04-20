@@ -1,0 +1,30 @@
+{
+  "id": "recruit-heavy-broadaxe",
+  "name": "Recruit Heavy Broadaxe",
+  "nameZh": "新兵阔刃重斧",
+  "slot": "2haxe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/recruit-heavy-broadaxe.webp",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "durability": 105,
+  "price": 625,
+  "properties": {
+    "critChance": 5,
+    "critEfficiency": 7,
+    "fumbleChance": 6,
+    "armorPenetration": 15,
+    "armorDamage": 30,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Upon closer inspection, it becomes apparent that this poleaxe was inspired by Skadian bardiches.",
+  "descriptionZh": "仔细观察一下，就会发现这把长柄斧借鉴了斯卡迪亚月牙斧的理念。"
+}

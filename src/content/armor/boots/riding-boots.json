@@ -1,0 +1,29 @@
+{
+  "id": "riding-boots",
+  "name": "Riding Boots",
+  "nameZh": "马靴",
+  "slot": "legs",
+  "class": "light",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/riding-boots.webp",
+  "durability": 85,
+  "price": 725,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 2,
+    "fatigueGain": 9,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 7,
+      "knockback": 7,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Comfortable for long horse rides. Not so comfortable for long walks.",
+  "descriptionZh": "这种鞋适合长途骑马，不适合长途步行。"
+}

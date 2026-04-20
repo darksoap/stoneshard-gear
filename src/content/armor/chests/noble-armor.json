@@ -1,0 +1,31 @@
+{
+  "id": "noble-armor",
+  "name": "Noble Armor",
+  "nameZh": "贵族盔甲",
+  "slot": "chest",
+  "class": "heavy",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/noble-armor.webp",
+  "durability": 440,
+  "price": 10975,
+  "properties": {
+    "maxMana": -20,
+    "manaRestoration": -5,
+    "fatigueGain": 5,
+    "defense": 27,
+    "evasion": -18,
+    "critAvoid": 28,
+    "resistances": {
+      "bleeding": 40,
+      "knockback": 5,
+      "physical": 40
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some nobles wouldn't mind bartering away one of their smaller, less prosperous fiefs in exchange for a similar chestpiece.",
+  "descriptionZh": "有些贵族要是能弄到类似这样的盔甲，哪怕拿出一小块不太兴旺的封地来换都没有问题。"
+}

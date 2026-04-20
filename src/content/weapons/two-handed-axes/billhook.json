@@ -1,0 +1,32 @@
+{
+  "id": "billhook",
+  "name": "Billhook",
+  "nameZh": "民兵长柄柴刀",
+  "slot": "2haxe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/billhook.webp",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "durability": 110,
+  "price": 625,
+  "properties": {
+    "accuracy": 4,
+    "critAvoid": 3,
+    "armorPenetration": 10,
+    "armorDamage": 5,
+    "bodypartDamage": 25,
+    "bleedingChance": 19,
+    "knockbackChance": 5,
+    "skillsEnergyCost": 15
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Every now and then, the clergy and nobility consider outlawing this weapon - with a billhook in hand even a greenhorn can stand his ground against the heavy cavalry.",
+  "descriptionZh": "教会和贵族有时候会呼吁全面禁用这种兵器——就算是什么都不会的新兵蛋子，有了长柄柴刀，也应付得了重装骑兵。"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "aldwynn-crossbow",
+  "name": "Aldwynn Crossbow",
+  "nameZh": "奥尔德文弩",
+  "slot": "crossbow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/aldwynn-crossbow.webp",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "durability": 90,
+  "price": 3150,
+  "properties": {
+    "accuracy": -24,
+    "fumbleChance": -12,
+    "armorPenetration": 25,
+    "armorDamage": 10,
+    "immobilizationChance": 15,
+    "staggerChance": 24,
+    "skillsEnergyCost": 10
+  },
+  "range": 7,
+  "tags": [
+    "aldor"
+  ],
+  "description": "A while ago, His Lordship Brodwyn der Razen made it his personal mission to fit his soldiers with crossbows of this design. His success inspired some other prominent Council commanders to eventually do the same.",
+  "descriptionZh": "当初，布劳德温·德·拉赞大人为了让手下的兵用上这种原理的弩，费了很大的心力。而后，王廷不少杰出将领纷纷效仿。"
+}

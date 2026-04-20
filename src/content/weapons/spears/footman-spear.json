@@ -1,0 +1,31 @@
+{
+  "id": "footman-spear",
+  "name": "Footman Spear",
+  "nameZh": "步兵枪",
+  "slot": "spear",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/footman-spear.webp",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "durability": 160,
+  "price": 1300,
+  "properties": {
+    "accuracy": 6,
+    "critAvoid": 8,
+    "armorPenetration": 20,
+    "damageReduction": 10,
+    "blockPower": 9,
+    "knockbackChance": 25,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "Its main purpose is to halt the enemy cavalry in its tracks, and it does so with flying colors.",
+  "descriptionZh": "这种兵器存在的主要意义是挡住敌方的骑兵，而且确实也非常出色地发挥了这个作用。"
+}

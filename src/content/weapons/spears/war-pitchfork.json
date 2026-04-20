@@ -1,0 +1,30 @@
+{
+  "id": "war-pitchfork",
+  "name": "War Pitchfork",
+  "nameZh": "战叉",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/war-pitchfork.webp",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "durability": 105,
+  "price": 525,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 2,
+    "armorPenetration": 10,
+    "damageReduction": 4,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "range": 1,
+  "tags": [
+    "aldor"
+  ],
+  "description": "There isn't a single agricultural tool which hasn't been repurposed for military use.",
+  "descriptionZh": "只要是个农具，就都能改出军用版本。"
+}
