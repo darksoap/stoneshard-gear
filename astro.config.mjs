@@ -29,7 +29,7 @@ function excludePngPlugin() {
 
 export default defineConfig({
   site: 'https://darksoap.github.io',
-  base: process.env.NODE_ENV === 'production' ? '/stoneshard-compendium' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/stoneshard-gear' : '/',
   vite: {
     plugins: [tailwindcss(), excludePngPlugin()],
   },
