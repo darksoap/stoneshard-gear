@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/ordermarshal-flail.webp",
-  "damage": {
-    "value": 33,
-    "type": "blunt"
-  },
   "durability": 140,
   "price": 8150,
   "properties": {
@@ -29,10 +25,14 @@
       "sacred": 4
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Back in the day, these flails were a symbol of the exceptional strength and impeccable training demonstrated by the marshals of the Triune Hand Order.",
-  "descriptionZh": "这种连枷当年象征了三手会元帅惊人的气力以及无与伦比的武艺。"
+  "descriptionZh": "这种连枷当年象征了三手会元帅惊人的气力以及无与伦比的武艺。",
+  "damage": {
+    "value": 33,
+    "type": "blunt"
+  },
+  "range": 1
 }

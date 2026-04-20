@@ -3,7 +3,6 @@
   "name": "Sapphire Mage Bracers",
   "nameZh": "蓝宝石法师护臂",
   "slot": "arms",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "leather",
@@ -27,5 +26,6 @@
     "magic"
   ],
   "description": "Mage bracers are usually made of silver or gold and are encrusted with all kinds of gems - the resonance created by putting precious metals and stones together is capable of empowering magic spells.",
-  "descriptionZh": "法师护臂用的金属一般不是金就是银，然后镶嵌各种宝石——贵重的金属与宝石放在一起会产生共振，从而增强咒法的效力。"
+  "descriptionZh": "法师护臂用的金属一般不是金就是银，然后镶嵌各种宝石——贵重的金属与宝石放在一起会产生共振，从而增强咒法的效力。",
+  "class": "light"
 }

@@ -3,7 +3,6 @@
   "name": "Jonna Gloves",
   "nameZh": "约娜的施法护臂",
   "slot": "arms",
-  "class": "light",
   "tier": 2,
   "rarity": "unique",
   "material": "leather",
@@ -27,5 +26,6 @@
     "magic"
   ],
   "description": "A reminder of strenuous, yet rewarding days spent studying at the Academy, when the future looked bright and full of promise. So much has changed since then...",
-  "descriptionZh": "学院的学习生活辛苦而又充实，那时的未来充满了光明和希望。可是后来，很多事情都变了一副模样……"
+  "descriptionZh": "学院的学习生活辛苦而又充实，那时的未来充满了光明和希望。可是后来，很多事情都变了一副模样……",
+  "class": "light"
 }

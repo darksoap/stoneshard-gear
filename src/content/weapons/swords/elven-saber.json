@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/elven-saber.webp",
-  "damage": {
-    "value": 25,
-    "type": "slashing"
-  },
   "durability": 90,
   "price": 3150,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 24,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "Some of the local aristocrats favor eastern sabers over traditional Aldorian swords - despite any weird looks they get from their subjects.",
-  "descriptionZh": "本地有的贵族不喜欢奥尔多的刀剑，反倒偏爱这种马刀，尽管常常因此而遭到子民侧目，他们依然我行我素。"
+  "descriptionZh": "本地有的贵族不喜欢奥尔多的刀剑，反倒偏爱这种马刀，尽管常常因此而遭到子民侧目，他们依然我行我素。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
 }

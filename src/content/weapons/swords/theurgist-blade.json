@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/theurgist-blade.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
-  "durability": 100,
+  "durability": 115,
   "price": 6125,
   "properties": {
     "accuracy": 7,
@@ -27,10 +23,14 @@
       "sacred": 4
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Forged by great weaponsmiths in times immemorial, this blade still carries the blessing of the Host.",
-  "descriptionZh": "这把剑由古时的传奇兵匠铸成，至今依然拥有圣主的加持。"
+  "descriptionZh": "这把剑由古时的传奇兵匠铸成，至今依然拥有圣主的加持。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

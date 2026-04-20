@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/espadon.webp",
-  "damage": {
-    "value": 32,
-    "type": "slashing"
-  },
-  "durability": 160,
+  "durability": 185,
   "price": 8150,
   "properties": {
     "accuracy": 3,
@@ -22,10 +18,14 @@
     "blockPower": 13,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Despite the strict isolation, some goods still get smuggled from the Bronze Isles to Aldor. A lot of the time the contraband includes various swords: if anything, the islanders have had a lot of practice crafting weaponry.",
-  "descriptionZh": "青铜群岛虽与外界隔绝，有一些商货依然走私到了奥尔多，通常都会有各种刀剑。不得不说，青铜群岛的人锻造兵器确实很有一手。"
+  "descriptionZh": "青铜群岛虽与外界隔绝，有一些商货依然走私到了奥尔多，通常都会有各种刀剑。不得不说，青铜群岛的人锻造兵器确实很有一手。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
 }

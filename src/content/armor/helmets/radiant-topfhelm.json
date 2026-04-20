@@ -19,8 +19,8 @@
     "fortitude": 8,
     "vision": -2,
     "resistances": {
-      "bleeding": 39,
-      "stun": 38,
+      "bleeding": 35,
+      "stun": 45,
       "physical": 30,
       "unholy": 33
     }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/bows/skirmisher-shortbow.webp",
-  "damage": {
-    "value": 24,
-    "type": "piercing"
-  },
   "durability": 70,
   "price": 2175,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 20,
     "skillsEnergyCost": 30
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "Whittling the enemy down with agile maneuvering and constant arrow barrages from a safe distance is the preferred tactic of the Nistrian light infantry.",
-  "descriptionZh": "尼斯特拉轻步兵喜好机动作战，同时与敌人保持安全的距离，凭借连绵不绝的箭雨攻势不断削减敌方的兵力。"
+  "descriptionZh": "尼斯特拉轻步兵喜好机动作战，同时与敌人保持安全的距离，凭借连绵不绝的箭雨攻势不断削减敌方的兵力。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 8
 }

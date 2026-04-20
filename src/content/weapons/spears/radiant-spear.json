@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/spears/radiant-spear.webp",
-  "damage": {
-    "value": 26,
-    "type": "piercing"
-  },
   "durability": 165,
   "price": 7150,
   "properties": {
@@ -28,10 +24,14 @@
       "sacred": 3
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The Radiant Wars offered plenty of opportunities to make a show of one's piety: the nobility spared no expense in adorning their weapons and armor with symbols of the Host.",
-  "descriptionZh": "光辉战争期间，展现诚心的机会俯拾皆是，贵族便不惜重金给兵甲加缀圣主的图纹，以此昭示自己的信仰。"
+  "descriptionZh": "光辉战争期间，展现诚心的机会俯拾皆是，贵族便不惜重金给兵甲加缀圣主的图纹，以此昭示自己的信仰。",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/peasant-heavy-flail.webp",
-  "damage": {
-    "value": 21,
-    "type": "blunt"
-  },
   "durability": 65,
   "price": 125,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "An old farm tool, hastily repurposed for war - neither sturdy nor comfortable to wield.",
-  "descriptionZh": "用了多少年的农具，为了应付打仗，仓促改造了一番，既不趁手，也不耐用。"
+  "descriptionZh": "用了多少年的农具，为了应付打仗，仓促改造了一番，既不趁手，也不耐用。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
 }

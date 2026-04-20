@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/glaive.webp",
-  "damage": {
-    "value": 28,
-    "type": "slashing"
-  },
   "durability": 160,
   "price": 3625,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 35,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Even though it bears a resemblance to a spear, thrusting with a glaive is not very effective - it's basically a broad sword attached to a shaft.",
-  "descriptionZh": "长柄刀虽然与长枪颇为相似，但是突刺的效果并不怎么样，毕竟这种兵器本质上就是长杆头部接了一个宽刀片。"
+  "descriptionZh": "长柄刀虽然与长枪颇为相似，但是突刺的效果并不怎么样，毕竟这种兵器本质上就是长杆头部接了一个宽刀片。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
 }

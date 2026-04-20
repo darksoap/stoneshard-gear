@@ -3,7 +3,6 @@
   "name": "Fancy Boots",
   "nameZh": "华靴",
   "slot": "legs",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "defense": 5,
     "resistances": {
       "bleeding": 9,
-      "knockback": 10,
+      "knockback": 8,
       "physical": 7
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A pair of expertly-crafted boots that will add a spring to your step while promenading the streets.",
-  "descriptionZh": "穿着这双工艺精湛的靴子，大摇大摆走在街上，你会感觉自己的脚步更加轻盈。"
+  "descriptionZh": "穿着这双工艺精湛的靴子，大摇大摆走在街上，你会感觉自己的脚步更加轻盈。",
+  "class": "light"
 }

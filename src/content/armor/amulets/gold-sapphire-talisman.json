@@ -3,7 +3,6 @@
   "name": "Gold Sapphire Talisman",
   "nameZh": "金镶海蓝宝石护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "gold",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "Niran of Maen spent many years of his life collecting and restoring the scattered knowledge about the magical properties displayed by various gems. His efforts were instrumental to making sapphire what it is today, a stone strongly associated with the practitioners of magic.",
-  "descriptionZh": "曼恩的尼兰费尽多年心血，为了寻找有关各类宝石魔法性质的记载，四处奔波。海蓝宝石能有今天的地位，他功不可没，否则魔法人士也不会如此青睐这种石头。"
+  "descriptionZh": "曼恩的尼兰费尽多年心血，为了寻找有关各类宝石魔法性质的记载，四处奔波。海蓝宝石能有今天的地位，他功不可没，否则魔法人士也不会如此青睐这种石头。",
+  "class": "light"
 }

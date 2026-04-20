@@ -3,7 +3,6 @@
   "name": "Aristocrat Doublet",
   "nameZh": "贵族马甲",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "From the stitching to the buckles, every single part is crafted from the finest materials and with flawless workmanship.",
-  "descriptionZh": "不论是线迹还是搭扣，每一个地方都是最好的料子和天衣无缝的做工。"
+  "descriptionZh": "不论是线迹还是搭扣，每一个地方都是最好的料子和天衣无缝的做工。",
+  "class": "light"
 }

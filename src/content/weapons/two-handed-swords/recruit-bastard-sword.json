@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/recruit-bastard-sword.webp",
-  "damage": {
-    "value": 21,
-    "type": "slashing"
-  },
   "durability": 90,
   "price": 700,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 10,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "This wide blade is best wielded with both hands.",
-  "descriptionZh": "剑刃宽，最好双手操持。"
+  "descriptionZh": "剑刃宽，最好双手操持。",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
 }

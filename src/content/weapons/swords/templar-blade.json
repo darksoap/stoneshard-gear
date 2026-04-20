@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/templar-blade.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
-  "durability": 110,
+  "durability": 125,
   "price": 6125,
   "properties": {
     "accuracy": 7,
@@ -25,10 +21,14 @@
       "sacred": 2
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "There is an etching on the blade's surface, pledging loyalty to the Host and the court... the usual kind of court.",
-  "descriptionZh": "剑身可以看到一行铭文，大意为宣誓效忠圣主与王廷。"
+  "descriptionZh": "剑身可以看到一行铭文，大意为宣誓效忠圣主与王廷。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

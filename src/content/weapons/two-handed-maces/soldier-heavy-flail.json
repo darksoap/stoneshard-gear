@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/soldier-heavy-flail.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 125,
   "price": 1650,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 29,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Even plate armor can only do so much when it catches a solid hit from a full-cast flailhead.",
-  "descriptionZh": "即便是重甲骑士，挨上这个实心铸铁的棍头一下，也是非死即伤。"
+  "descriptionZh": "即便是重甲骑士，挨上这个实心铸铁的棍头一下，也是非死即伤。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

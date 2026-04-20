@@ -3,7 +3,6 @@
   "name": "Blademaster Gloves",
   "nameZh": "剑客手套",
   "slot": "arms",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "leather",
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "Expert fencers can afford to skimp on heavy hand protection, trusting in their ability to parry every blow.",
-  "descriptionZh": "剑术精湛的人可以依靠自身能力招架对手的每一次击打，不需要专门选择厚重的护具保护双手。"
+  "descriptionZh": "剑术精湛的人可以依靠自身能力招架对手的每一次击打，不需要专门选择厚重的护具保护双手。",
+  "class": "light"
 }

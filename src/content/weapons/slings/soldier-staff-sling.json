@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/slings/soldier-staff-sling.webp",
-  "damage": {
-    "value": 15,
-    "type": "blunt"
-  },
   "durability": 125,
   "price": 1050,
   "properties": {
@@ -24,10 +20,14 @@
     "skillsEnergyCost": 15,
     "cooldownReduction": -4
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "The siege caught Brynn unprepared, and the defenders soon realized their supply of arrows would not last. To combat this, they quickly crafted and distributed a great number of slings.",
-  "descriptionZh": "王廷围城，打了布林个措手不及，守军很快就发现后方留存的箭撑不了多久，便迅速制造了大量投石杖，在军中广泛配发。"
+  "descriptionZh": "王廷围城，打了布林个措手不及，守军很快就发现后方留存的箭撑不了多久，便迅速制造了大量投石杖，在军中广泛配发。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 7
 }

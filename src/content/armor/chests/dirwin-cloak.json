@@ -3,7 +3,6 @@
   "name": "Dirwin Cloak",
   "nameZh": "德温的大衣",
   "slot": "chest",
-  "class": "light",
   "tier": 2,
   "rarity": "unique",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "exc"
   ],
   "description": "Dirwin has been wearing this vest for so long, it's a miracle it hasn't yet fused with him.",
-  "descriptionZh": "德温天天穿着这件大衣，不知道已经穿了多久。还能脱得下来，也是一个奇迹。"
+  "descriptionZh": "德温天天穿着这件大衣，不知道已经穿了多久。还能脱得下来，也是一个奇迹。",
+  "class": "light"
 }

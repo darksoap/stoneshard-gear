@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/staves/axonian-warstaff.webp",
-  "damage": {
-    "value": 16,
-    "type": "blunt"
-  },
   "durability": 145,
   "price": 5100,
   "properties": {
@@ -27,10 +23,14 @@
       "arcane": 7
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Hundreds of years ago, this boar-shaped piece was carried at the head of countless battle-hardened phalanxes.",
-  "descriptionZh": "这种锤杖顶部形似野猪，古代通常会有士兵手持这种兵器走在久经沙场的军队方阵头部。"
+  "descriptionZh": "这种锤杖顶部形似野猪，古代通常会有士兵手持这种兵器走在久经沙场的军队方阵头部。",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
 }

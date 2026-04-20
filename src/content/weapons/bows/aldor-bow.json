@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/bows/aldor-bow.webp",
-  "damage": {
-    "value": 28,
-    "type": "piercing"
-  },
   "durability": 100,
   "price": 5100,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 35
   },
-  "range": 9,
   "tags": [
     "aldor"
   ],
   "description": "Has enough power to knock a charging knight from his saddle.",
-  "descriptionZh": "足以射翻全力冲刺的披甲骑士。"
+  "descriptionZh": "足以射翻全力冲刺的披甲骑士。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 9
 }

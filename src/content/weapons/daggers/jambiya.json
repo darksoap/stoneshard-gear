@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/jambiya.webp",
-  "damage": {
-    "value": 19,
-    "type": "piercing"
-  },
-  "durability": 70,
+  "durability": 80,
   "price": 1950,
   "properties": {
     "accuracy": 2,
@@ -20,10 +16,14 @@
     "bodypartDamage": 10,
     "bleedingChance": 26
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "In southern regions of Ahjat, it would be considered a traditional coming-of-age gift to a young free man.",
-  "descriptionZh": "在艾哈雅特南部，自由民成年礼经常获得这种传统礼物。"
+  "descriptionZh": "在艾哈雅特南部，自由民成年礼经常获得这种传统礼物。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
 }

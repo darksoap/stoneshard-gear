@@ -3,7 +3,6 @@
   "name": "Red Velvet Cape",
   "nameZh": "丝绒斗篷",
   "slot": "back",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -23,5 +22,6 @@
     "magic"
   ],
   "description": "For a long while, there existed an unspoken rule in Aldor that only those born into nobility can wear red velvet. However, during the last few decades, Brynn merchants have been showing increasingly less respect towards this custom.",
-  "descriptionZh": "长久以来，奥尔多都有一条不成文的规定——只有出身贵族，才能穿戴红丝绒，只是布林的生意人最近几十年好像已经不怎么讲究这个了。"
+  "descriptionZh": "长久以来，奥尔多都有一条不成文的规定——只有出身贵族，才能穿戴红丝绒，只是布林的生意人最近几十年好像已经不怎么讲究这个了。",
+  "class": "light"
 }

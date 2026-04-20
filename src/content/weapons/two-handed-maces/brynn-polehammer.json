@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/brynn-polehammer.webp",
-  "damage": {
-    "value": 31,
-    "type": "blunt"
-  },
   "durability": 225,
   "price": 6875,
   "properties": {
@@ -24,10 +20,14 @@
     "dazeChance": 36,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A line of soldiers bristling with such polehammers is a force that can threaten even the heavy cavalry. Especially the heavy cavalry.",
-  "descriptionZh": "如果有士兵握着这种长柄锤站成一列，就算是重型骑兵见了也不能轻视，不仅不能轻视，还应该打起一万分精神谨慎应对。"
+  "descriptionZh": "如果有士兵握着这种长柄锤站成一列，就算是重型骑兵见了也不能轻视，不仅不能轻视，还应该打起一万分精神谨慎应对。",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "range": 1
 }

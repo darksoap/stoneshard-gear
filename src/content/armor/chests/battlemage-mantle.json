@@ -3,7 +3,6 @@
   "name": "Battlemage Mantle",
   "nameZh": "战地法师法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "magic"
   ],
   "description": "Battle-proven mages are always in demand and, consequently, are wealthy enough to afford custom-tailored, hard-wearing mantles.",
-  "descriptionZh": "久经沙场的法师从来不用担心无事可做，所以收入也是相当丰厚，有余钱订做经磨耐穿的袍子。"
+  "descriptionZh": "久经沙场的法师从来不用担心无事可做，所以收入也是相当丰厚，有余钱订做经磨耐穿的袍子。",
+  "class": "light"
 }

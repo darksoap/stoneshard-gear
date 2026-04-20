@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/peasant-spear.webp",
-  "damage": {
-    "value": 17,
-    "type": "piercing"
-  },
   "durability": 80,
   "price": 100,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 8,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A plain homemade spear, handy for driving off wolves that follow your cart a little too closely.",
-  "descriptionZh": "自家扎的长矛，平平无奇。大车后边要是跟了狼，用这个倒是能赶跑。"
+  "descriptionZh": "自家扎的长矛，平平无奇。大车后边要是跟了狼，用这个倒是能赶跑。",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "range": 1
 }

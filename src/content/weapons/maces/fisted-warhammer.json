@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/fisted-warhammer.webp",
-  "damage": {
-    "value": 23,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 2425,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 24,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Initially crafted in jest, this hammer shape quickly caught on and is no longer treated as an outlandish curiosity.",
-  "descriptionZh": "这柄战锤原本只是造着玩的，但形制很快就流行开了，现在已经没人觉得稀奇古怪了。"
+  "descriptionZh": "这柄战锤原本只是造着玩的，但形制很快就流行开了，现在已经没人觉得稀奇古怪了。",
+  "damage": {
+    "value": 23,
+    "type": "blunt"
+  },
+  "range": 1
 }

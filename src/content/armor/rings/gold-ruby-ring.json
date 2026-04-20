@@ -3,7 +3,6 @@
   "name": "Gold Ruby Ring",
   "nameZh": "红宝石金戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "gold",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "Signet rings like this one are beloved by bigwigs of the Grand Magistrate.",
-  "descriptionZh": "戴印章戒指的一般都是城市联盟的重要人物。"
+  "descriptionZh": "戴印章戒指的一般都是城市联盟的重要人物。",
+  "class": "light"
 }

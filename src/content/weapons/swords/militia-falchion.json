@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/militia-falchion.webp",
-  "damage": {
-    "value": 19,
-    "type": "slashing"
-  },
   "durability": 70,
   "price": 450,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 13,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Will slice through a brigand's gambeson or a beast's hide - and for the militia, it's all that's needed.",
-  "descriptionZh": "能划开土匪的夹棉软甲，也能划开野物的皮，对民兵来说，这样就足够了。"
+  "descriptionZh": "能划开土匪的夹棉软甲，也能划开野物的皮，对民兵来说，这样就足够了。",
+  "damage": {
+    "value": 19,
+    "type": "slashing"
+  },
+  "range": 1
 }

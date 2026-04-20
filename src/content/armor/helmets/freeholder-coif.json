@@ -10,8 +10,8 @@
   "durability": 110,
   "price": 1375,
   "properties": {
-    "accuracy": 3,
-    "manaRestoration": 3,
+    "accuracy": 4,
+    "manaRestoration": 4,
     "defense": 6,
     "evasion": 4,
     "resistances": {

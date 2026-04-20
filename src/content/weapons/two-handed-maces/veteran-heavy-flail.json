@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/veteran-heavy-flail.webp",
-  "damage": {
-    "value": 32,
-    "type": "blunt"
-  },
   "durability": 130,
   "price": 3875,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 40
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The two-handed flail is hardly the most widespread weapon. The reason is simple: few soldiers possess the strength, skill, and finesse to master it.",
-  "descriptionZh": "双手连枷向来不甚受人青睐，毕竟没有多少人具备驾驭它的力气、经验和技巧。"
+  "descriptionZh": "双手连枷向来不甚受人青睐，毕竟没有多少人具备驾驭它的力气、经验和技巧。",
+  "damage": {
+    "value": 32,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/shishpar.webp",
-  "damage": {
-    "value": 19,
-    "type": "blunt"
-  },
   "durability": 140,
   "price": 1125,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 14,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "A shishpar is a flanged mace used by soldiers of Jibey and the Maaf Empire. It particularly excels at punching through scaled armor, which is quite popular in those lands.",
-  "descriptionZh": "吉贝和玛弗帝国的士兵多穿鳞甲，为了对付这种防具，便诞生了悉什帕这种页锤。"
+  "descriptionZh": "吉贝和玛弗帝国的士兵多穿鳞甲，为了对付这种防具，便诞生了悉什帕这种页锤。",
+  "damage": {
+    "value": 19,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/axes/gilded-axe.webp",
-  "damage": {
-    "value": 31,
-    "type": "slashing"
-  },
   "durability": 130,
   "price": 5600,
   "properties": {
@@ -22,10 +18,14 @@
     "maxMana": 5,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "A successful attempt at making an axe look luxurious without sacrificing its battle performance.",
-  "descriptionZh": "这把手斧形制十分豪华，但战斗能力也丝毫没有牺牲。"
+  "descriptionZh": "这把手斧形制十分豪华，但战斗能力也丝毫没有牺牲。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
 }

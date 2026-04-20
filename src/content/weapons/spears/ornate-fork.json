@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/spears/ornate-fork.webp",
-  "damage": {
-    "value": 28,
-    "type": "piercing"
-  },
   "durability": 165,
   "price": 6625,
   "properties": {
@@ -24,10 +20,14 @@
     "skillsEnergyCost": 30,
     "cooldownReduction": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "At some point, it likely belonged to a Sentian patrician with a keen interest in the weapon traditions of the Bronze Isles.",
-  "descriptionZh": "这件兵器当年有可能属于森提亚的某个贵族，此人显然对青铜群岛的武器工艺颇有钻研。"
+  "descriptionZh": "这件兵器当年有可能属于森提亚的某个贵族，此人显然对青铜群岛的武器工艺颇有钻研。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 1
 }

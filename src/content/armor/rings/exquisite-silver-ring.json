@@ -3,7 +3,6 @@
   "name": "Exquisite Silver Ring",
   "nameZh": "精制银戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "silver",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "Somewhat reminiscent of the bands exchanged between newly-weds in Maen - or at least that had been the custom when people there were still getting married.",
-  "descriptionZh": "有点像曼恩以前新婚夫妇交换的戒指，反正那边人以前愿意结婚的时候，有这样的习俗。"
+  "descriptionZh": "有点像曼恩以前新婚夫妇交换的戒指，反正那边人以前愿意结婚的时候，有这样的习俗。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/captain-warhammer.webp",
-  "damage": {
-    "value": 27,
-    "type": "blunt"
-  },
   "durability": 145,
   "price": 5100,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "In the hands of mercenary captains, warhammers are mainly treated as a symbol of command. Nevertheless, this doesn't prevent them from being highly effective tools of war.",
-  "descriptionZh": "战锤到了雇佣兵团的长官手上，主要作为发号施令的象征，不过这个用途丝毫不影响克敌的效果。"
+  "descriptionZh": "战锤到了雇佣兵团的长官手上，主要作为发号施令的象征，不过这个用途丝毫不影响克敌的效果。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
 }

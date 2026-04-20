@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/flamberg.webp",
-  "damage": {
-    "value": 34,
-    "type": "slashing"
-  },
   "durability": 140,
   "price": 8675,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 30,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A flamberge's wavy blade deals such dreadful wounds, that the voices for prohibiting it outright grow louder with each passing day.",
-  "descriptionZh": "这把焰形剑的刃形似波浪，故而能够造成骇人的创口，禁造此剑的呼声与日俱增。"
+  "descriptionZh": "这把焰形剑的刃形似波浪，故而能够造成骇人的创口，禁造此剑的呼声与日俱增。",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Tower Shield A",
   "nameZh": "雇佣兵巨盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -19,7 +18,7 @@
     "evasion": -20,
     "critAvoid": 11,
     "resistances": {
-      "knockback": 24,
+      "knockback": 25,
       "stun": 12
     }
   },
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "About a third of someone' contract reward went toward the paints and hiring an artist. Well, we only live once.",
-  "descriptionZh": "某个人领契据攒下来的赏金，估计三分之一都花在了漆料和请漆匠上。嗐，谁叫人只能活一回呢？"
+  "descriptionZh": "某个人领契据攒下来的赏金，估计三分之一都花在了漆料和请漆匠上。嗐，谁叫人只能活一回呢？",
+  "class": "heavy"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/siege-engineer-hatchet.webp",
-  "damage": {
-    "value": 26,
-    "type": "slashing"
-  },
   "durability": 160,
   "price": 2175,
   "properties": {
@@ -22,10 +18,14 @@
     "bleedingChance": 9,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A squad of competent engineers can determine the outcome of an entire siege. Therefore, it pays to keep them well-protected and properly armed: tunnel skirmishes beneath the walls are a common occurrence.",
-  "descriptionZh": "一队得力的攻城兵可以决定整场围城战的结果，因此有必要确保他们防护完备，武装得当，毕竟城墙下的地道战对他们而言是家常便饭。"
+  "descriptionZh": "一队得力的攻城兵可以决定整场围城战的结果，因此有必要确保他们防护完备，武装得当，毕竟城墙下的地道战对他们而言是家常便饭。",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "range": 1
 }

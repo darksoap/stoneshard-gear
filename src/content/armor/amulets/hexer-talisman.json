@@ -3,7 +3,6 @@
   "name": "Hexer Talisman",
   "nameZh": "咒师护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "metal",
@@ -26,5 +25,6 @@
     "special"
   ],
   "description": "The forces from beyond the veil are fickle and vindictive. It's frighteningly easy to fall victim to them if you don't exercise the necessary caution.",
-  "descriptionZh": "“帷幕”后面的力量无法捉摸、睚眦必报。哪怕只是一时大意，都会为其所害。"
+  "descriptionZh": "“帷幕”后面的力量无法捉摸、睚眦必报。哪怕只是一时大意，都会为其所害。",
+  "class": "light"
 }

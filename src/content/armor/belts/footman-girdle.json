@@ -3,7 +3,6 @@
   "name": "Footman Girdle",
   "nameZh": "步兵腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "A military-style belt - these are often crafted on the request of soldiers and mercenaries.",
-  "descriptionZh": "军队配发，一般有士兵或者雇佣兵申请才会制作。"
+  "descriptionZh": "军队配发，一般有士兵或者雇佣兵申请才会制作。",
+  "class": "light"
 }

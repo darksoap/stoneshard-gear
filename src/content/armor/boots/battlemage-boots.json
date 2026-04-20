@@ -3,7 +3,6 @@
   "name": "Battlemage Boots",
   "nameZh": "战地法师靴",
   "slot": "legs",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -19,7 +18,7 @@
     "evasion": 8,
     "resistances": {
       "bleeding": 14,
-      "knockback": 11,
+      "knockback": 10,
       "physical": 12,
       "nature": 12,
       "magic": 12
@@ -29,5 +28,6 @@
     "magic"
   ],
   "description": "A stable stance during spellcasting matters just as much as the precision of gestures - and quality boots provide welcome support.",
-  "descriptionZh": "施展法咒的时候，脚下稳不稳和手上动作准不准一样重要，所以质量上乘的靴子能帮上不少忙。"
+  "descriptionZh": "施展法咒的时候，脚下稳不稳和手上动作准不准一样重要，所以质量上乘的靴子能帮上不少忙。",
+  "class": "light"
 }

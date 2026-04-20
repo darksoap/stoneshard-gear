@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/druzhyna-bludgeon.webp",
-  "damage": {
-    "value": 24,
-    "type": "blunt"
-  },
   "durability": 145,
   "price": 2625,
   "properties": {
@@ -21,7 +17,11 @@
     "staggerChance": 16,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "description": "The Elder Prince's druzhyna doesn't give ground even in the face of insurmountable odds. It's most distinguished members may receive a great privilege - a gift of an honorary weapon granted personally by the Prince.",
-  "descriptionZh": "王公的德鲁日纳战场上即便无力回天，也绝对不会丢盔弃甲。战绩卓越的德鲁日纳可以获得特殊的荣耀，即有幸由大公亲自授予锤棍一根。"
+  "descriptionZh": "王公的德鲁日纳战场上即便无力回天，也绝对不会丢盔弃甲。战绩卓越的德鲁日纳可以获得特殊的荣耀，即有幸由大公亲自授予锤棍一根。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
 }

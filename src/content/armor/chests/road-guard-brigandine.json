@@ -3,7 +3,6 @@
   "name": "Road Guard Brigandine",
   "nameZh": "巡路铁卫甲",
   "slot": "chest",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "metal",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "Under the rule of King Etbert, the Road Guard's upkeep was often an afterthought - the soldiers had to make do with worn-down chainmail and battered brigandines.",
-  "descriptionZh": "埃特伯特国王在位期间，王国时常忽视巡路铁卫的吃穿用度，这些当兵的便只能用破烂的链甲衣和板甲衣凑合。"
+  "descriptionZh": "埃特伯特国王在位期间，王国时常忽视巡路铁卫的吃穿用度，这些当兵的便只能用破烂的链甲衣和板甲衣凑合。",
+  "class": "medium"
 }

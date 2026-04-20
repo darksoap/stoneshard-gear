@@ -3,7 +3,6 @@
   "name": "Vehement Mail",
   "nameZh": "奋武链甲",
   "slot": "chest",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -28,5 +27,6 @@
     "aldor"
   ],
   "description": "The initiation into the Vehement is incomplete without a sacred vow: to stand always with the Hieron and the common folk, doing all in one's power to purge the evils of this world",
-  "descriptionZh": "成为奋武之前，必须郑重起誓：“我时刻效忠圣会与百姓，尽自己全力荡涤世间的邪恶。”"
+  "descriptionZh": "成为奋武之前，必须郑重起誓：“我时刻效忠圣会与百姓，尽自己全力荡涤世间的邪恶。”",
+  "class": "medium"
 }

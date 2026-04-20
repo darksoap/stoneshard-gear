@@ -3,7 +3,6 @@
   "name": "Skirmisher Shield",
   "nameZh": "散兵盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "A favorite shield of the Nistrian light cavalry - its curved form protects a good portion of the rider's back from arrows.",
-  "descriptionZh": "尼斯特拉的轻装骑兵最喜欢带这种盾牌——-盾面呈弧形，可以比较好地保护腰背，防止后方射来的箭矢。"
+  "descriptionZh": "尼斯特拉的轻装骑兵最喜欢带这种盾牌——-盾面呈弧形，可以比较好地保护腰背，防止后方射来的箭矢。",
+  "class": "medium"
 }

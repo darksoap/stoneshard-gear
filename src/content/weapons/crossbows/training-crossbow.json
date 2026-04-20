@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/training-crossbow.webp",
-  "damage": {
-    "value": 17,
-    "type": "piercing"
-  },
   "durability": 40,
   "price": 100,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 5,
     "skillsEnergyCost": 5
   },
-  "range": 6,
   "tags": [
     "aldor"
   ],
   "description": "It's significantly easier to learn how to use a crossbow than a bow, but there's no avoiding practice either way.",
-  "descriptionZh": "弩学起来比弓容易多了，不过一样需要勤加练习。"
+  "descriptionZh": "弩学起来比弓容易多了，不过一样需要勤加练习。",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "range": 6
 }

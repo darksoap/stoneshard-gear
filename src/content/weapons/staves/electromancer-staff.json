@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/electromancer-staff.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 3875,
   "properties": {
@@ -28,10 +24,14 @@
       "electromantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "The Pyromancy Circle used to spread malicious rumors that the death of Frid Konnoken, the founder of the Electromancy Circle, was caused by him foolishly allowing a similar staff to come in contact with a street puddle.",
-  "descriptionZh": "炎术法会过去曾有居心不良之人散布谣言，谎称电术法会的建会会长弗利得·孔诺肯死因实系其误令同类长杖接触了路面的水洼。"
+  "descriptionZh": "炎术法会过去曾有居心不良之人散布谣言，谎称电术法会的建会会长弗利得·孔诺肯死因实系其误令同类长杖接触了路面的水洼。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -19,7 +19,7 @@
     "vision": -2,
     "resistances": {
       "bleeding": 31,
-      "stun": 35,
+      "stun": 33,
       "physical": 30
     }
   },
@@ -43,7 +43,7 @@
       "fortitude": 8,
       "resistances": {
         "bleeding": 22,
-        "stun": 35,
+        "stun": 33,
         "physical": 21
       }
     },

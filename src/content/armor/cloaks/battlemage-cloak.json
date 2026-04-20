@@ -3,7 +3,6 @@
   "name": "Battlemage Cloak",
   "nameZh": "战地法师斗篷",
   "slot": "back",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "magic"
   ],
   "description": "Everything about it speaks of practicality and ease of wear: thick fabric, muted colors, simple - albeit golden - fastenings...",
-  "descriptionZh": "这个斗篷各处做工都透着实用：布料厚实，颜色克制，搭扣样式朴素——虽然是金的……"
+  "descriptionZh": "这个斗篷各处做工都透着实用：布料厚实，颜色克制，搭扣样式朴素——虽然是金的……",
+  "class": "light"
 }

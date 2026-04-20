@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/battlemage-staff.webp",
-  "damage": {
-    "value": 16,
-    "type": "blunt"
-  },
   "durability": 100,
   "price": 2425,
   "properties": {
@@ -23,10 +19,14 @@
     "miscastChance": -6,
     "fatigueGain": 10
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "Seemingly cumbersome, this steel staff is actually quite light. It's also an excellent conduit for magic.",
-  "descriptionZh": "这个长杖看起来很沉，其实非常轻巧，而且传导魔能的效果很好。"
+  "descriptionZh": "这个长杖看起来很沉，其实非常轻巧，而且传导魔能的效果很好。",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
 }

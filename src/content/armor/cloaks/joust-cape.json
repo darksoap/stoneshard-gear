@@ -3,7 +3,6 @@
   "name": "Joust Cape",
   "nameZh": "长枪比武斗篷",
   "slot": "back",
-  "class": "light",
   "tier": 3,
   "rarity": "unique",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "special"
   ],
   "description": "It's embroidered with heraldic crests of a long dead noble house.",
-  "descriptionZh": "斗篷上面绣了某个早已断绝的贵族的家徽。"
+  "descriptionZh": "斗篷上面绣了某个早已断绝的贵族的家徽。",
+  "class": "light"
 }

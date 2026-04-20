@@ -16,7 +16,7 @@
     "vision": -1,
     "resistances": {
       "bleeding": 26,
-      "stun": 20,
+      "stun": 19,
       "physical": 20,
       "slashing": 5
     }

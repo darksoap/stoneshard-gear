@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/staves/witch-staff.webp",
-  "damage": {
-    "value": 6,
-    "type": "blunt"
-  },
   "durability": 30,
   "price": 650,
   "properties": {
@@ -26,10 +22,14 @@
       "psionic": 3
     }
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "In a witch's hands, it lays terrible hexes - and sustains her life by doing so.",
-  "descriptionZh": "这种长杖，到了女巫手上，就能降下毒辣的诅咒，从而延续女巫自己的生命。"
+  "descriptionZh": "这种长杖，到了女巫手上，就能降下毒辣的诅咒，从而延续女巫自己的生命。",
+  "damage": {
+    "value": 6,
+    "type": "blunt"
+  },
+  "range": 1
 }

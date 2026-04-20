@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/dirk.webp",
-  "damage": {
-    "value": 15,
-    "type": "piercing"
-  },
   "durability": 50,
   "price": 275,
   "properties": {
@@ -20,10 +16,14 @@
     "armorPenetration": 5,
     "bleedingChance": 14
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The very name of this dagger sounds like someone is choking on their own blood.",
-  "descriptionZh": "“短兵相接”说的不就是这种“短兵”吗？"
+  "descriptionZh": "“短兵相接”说的不就是这种“短兵”吗？",
+  "damage": {
+    "value": 15,
+    "type": "piercing"
+  },
+  "range": 1
 }

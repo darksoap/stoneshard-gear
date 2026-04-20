@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/windlass-crossbow.webp",
-  "damage": {
-    "value": 30,
-    "type": "piercing"
-  },
   "durability": 60,
   "price": 3875,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 30,
     "skillsEnergyCost": 35
   },
-  "range": 9,
   "tags": [
     "aldor"
   ],
   "description": "Spend a few months actively using this crossbow, and even village fair strongmen will envy your muscles.",
-  "descriptionZh": "这种弩要是连着用上几个月，你身上的块头肯定连村里的大力士都会羡慕。"
+  "descriptionZh": "这种弩要是连着用上几个月，你身上的块头肯定连村里的大力士都会羡慕。",
+  "damage": {
+    "value": 30,
+    "type": "piercing"
+  },
+  "range": 9
 }

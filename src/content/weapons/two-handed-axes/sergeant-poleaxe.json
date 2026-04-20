@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/sergeant-poleaxe.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 170,
   "price": 3400,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 39,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Poleaxes started to gain popularity in Aldor not long before the war, as the need to combat the increasing use of heavy armor had been becoming more and more apparent.",
-  "descriptionZh": "奥尔多开始流行这种兵器也不过是战前没多久的事情，因为当时穿重甲的人越来越多，对付这种防具需要枪斧。"
+  "descriptionZh": "奥尔多开始流行这种兵器也不过是战前没多久的事情，因为当时穿重甲的人越来越多，对付这种防具需要枪斧。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

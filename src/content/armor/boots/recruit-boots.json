@@ -3,7 +3,6 @@
   "name": "Recruit Boots",
   "nameZh": "新兵靴",
   "slot": "legs",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "metal",
@@ -15,7 +14,7 @@
     "evasion": -3,
     "resistances": {
       "bleeding": 16,
-      "knockback": 14,
+      "knockback": 17,
       "physical": 15,
       "blunt": 5
     }
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Maimed by war, common soldiers become a heavy burden for their families, so each of them tries their best to return home with a full set of limbs.",
-  "descriptionZh": "普通的士兵若是在战场上断了胳膊或是腿，就会变成家人的大包袱，所以士兵都会竭尽全力保护自己，争取退役的时候手脚齐全。"
+  "descriptionZh": "普通的士兵若是在战场上断了胳膊或是腿，就会变成家人的大包袱，所以士兵都会竭尽全力保护自己，争取退役的时候手脚齐全。",
+  "class": "medium"
 }

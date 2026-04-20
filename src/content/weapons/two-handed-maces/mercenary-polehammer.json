@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/mercenary-polehammer.webp",
-  "damage": {
-    "value": 27,
-    "type": "blunt"
-  },
   "durability": 190,
   "price": 3600,
   "properties": {
@@ -22,10 +18,14 @@
     "dazeChance": 35,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Among the Magistrate mercenaries, polehammers are almost as widespread as halberds.",
-  "descriptionZh": "城联雇佣兵对于长柄锤的青睐，基本不亚于他们对戟的热爱。"
+  "descriptionZh": "城联雇佣兵对于长柄锤的青睐，基本不亚于他们对戟的热爱。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
 }

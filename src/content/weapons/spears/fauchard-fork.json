@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/fauchard-fork.webp",
-  "damage": {
-    "value": 24,
-    "type": "piercing"
-  },
   "durability": 155,
   "price": 3150,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 30,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "When it comes to inventing weapons for killing their own kind, the creativity of people never fails to achieve new heights.",
-  "descriptionZh": "同类相残这件事情上，人类的创意和才智真是令人不得不赞叹。"
+  "descriptionZh": "同类相残这件事情上，人类的创意和才智真是令人不得不赞叹。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 1
 }

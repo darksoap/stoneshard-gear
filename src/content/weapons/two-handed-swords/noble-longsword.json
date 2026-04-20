@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/noble-longsword.webp",
-  "damage": {
-    "value": 32,
-    "type": "slashing"
-  },
-  "durability": 160,
+  "durability": 170,
   "price": 8425,
   "properties": {
     "accuracy": 10,
@@ -20,10 +16,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It could have easily belonged to either a small-time baron or a duke - basically the kind of person who doesn't skimp on expanding their arsenal.",
-  "descriptionZh": "这把剑本来的主人很有可能是个小地方的男爵，不然就是个公爵，因为这种人扩充军库最舍得花钱。"
+  "descriptionZh": "这把剑本来的主人很有可能是个小地方的男爵，不然就是个公爵，因为这种人扩充军库最舍得花钱。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
 }

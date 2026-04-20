@@ -3,7 +3,6 @@
   "name": "Ryn Gilded Belt",
   "nameZh": "鎏金腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 3,
   "rarity": "unique",
   "material": "leather",
@@ -22,5 +21,6 @@
     "special"
   ],
   "description": "A belt made of durable, high-quality leather in accordance with the latest Brynn fashion trends. Its buckle proudly displays some nobleman's monogram.",
-  "descriptionZh": "这腰带用的是上好的皮革，是布林近来最时兴的样式。腰带扣上大大地雕了一幅花押字，代表的不知道是哪个贵族。"
+  "descriptionZh": "这腰带用的是上好的皮革，是布林近来最时兴的样式。腰带扣上大大地雕了一幅花押字，代表的不知道是哪个贵族。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/healer-staff.webp",
-  "damage": {
-    "value": 12,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 400,
   "properties": {
@@ -23,10 +19,14 @@
     "miscastChance": -4,
     "fatigueGain": 6
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Some Aldorian healers place special enchantments on their staves, much to the displeasure of village priests.",
-  "descriptionZh": "奥尔多有些治疗师会给长杖附加特殊的魔法，乡下祭司很不喜欢这样。"
+  "descriptionZh": "奥尔多有些治疗师会给长杖附加特殊的魔法，乡下祭司很不喜欢这样。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 1
 }

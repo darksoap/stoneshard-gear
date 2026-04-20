@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/peasant-pitchfork.webp",
-  "damage": {
-    "value": 16,
-    "type": "piercing"
-  },
   "durability": 80,
   "price": 100,
   "properties": {
@@ -19,10 +15,14 @@
     "bleedingChance": 10,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Makes short work of haystacks and distracted opponents.",
-  "descriptionZh": "这个兵器适合对付草垛和分神的敌人。"
+  "descriptionZh": "这个兵器适合对付草垛和分神的敌人。",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "range": 1
 }

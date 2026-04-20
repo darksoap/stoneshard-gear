@@ -3,7 +3,6 @@
   "name": "Squire Shield",
   "nameZh": "扈从盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -22,5 +21,6 @@
     "aldor"
   ],
   "description": "It's customary for a squire to have his shield painted in his master's colors to limit the confusion that may arise in the midst of a raging battle.",
-  "descriptionZh": "按照惯例，扈从的盾牌必须刷主人家的颜色，方便混战之中辨别敌我。"
+  "descriptionZh": "按照惯例，扈从的盾牌必须刷主人家的颜色，方便混战之中辨别敌我。",
+  "class": "medium"
 }

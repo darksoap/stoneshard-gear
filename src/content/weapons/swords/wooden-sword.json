@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/swords/wooden-sword.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 25,
   "price": 5,
   "properties": {
@@ -18,10 +14,14 @@
     "armorDamage": -50,
     "dazeChance": 5
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "Hefty enough to roughen up a training dummy.",
-  "descriptionZh": "勉强可以劈烂训练用的假人。"
+  "descriptionZh": "勉强可以劈烂训练用的假人。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 1
 }

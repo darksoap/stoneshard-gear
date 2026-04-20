@@ -3,7 +3,6 @@
   "name": "Plate Gloves",
   "nameZh": "板甲手甲",
   "slot": "arms",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "Crafting plate gloves is a form of art which demands consummate skill and impeccable knowledge of the trade.",
-  "descriptionZh": "打造板甲手套是一门艺术，匠人需要通晓造甲的各种门道。"
+  "descriptionZh": "打造板甲手套是一门艺术，匠人需要通晓造甲的各种门道。",
+  "class": "heavy"
 }

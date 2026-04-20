@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/maces/baron-morning-star.webp",
-  "damage": {
-    "value": 25,
-    "type": "blunt"
-  },
   "durability": 135,
   "price": 4600,
   "properties": {
@@ -27,10 +23,14 @@
       "blunt": 25
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The Council's nobles expected a swift and decisive victory - and miscalculated. As a result, baronial weaponry is now being passed down from one new owner to the next.",
-  "descriptionZh": "王廷的贵族当初以为可以旗开得胜、马到成功，结果失算了。于是，男爵的兵器便开始了频频辗转易主的生活。"
+  "descriptionZh": "王廷的贵族当初以为可以旗开得胜、马到成功，结果失算了。于是，男爵的兵器便开始了频频辗转易主的生活。",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "range": 1
 }

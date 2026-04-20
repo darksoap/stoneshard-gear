@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/elven-flail.webp",
-  "damage": {
-    "value": 29,
-    "type": "blunt"
-  },
-  "durability": 130,
+  "durability": 135,
   "price": 5900,
   "properties": {
     "accuracy": -10,
@@ -24,10 +20,14 @@
     "staggerChance": 27,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "Elven flails serve mostly a ceremonial purpose, carried only by the most skillful of warriors to flaunt their status. No money is spared to make these weapons look the part.",
-  "descriptionZh": "精灵连枷一般用作礼兵器，只有武艺高强的战士才能持有，以此彰显他们的身份地位，因此主人时常会斥重金装点这种连枷。"
+  "descriptionZh": "精灵连枷一般用作礼兵器，只有武艺高强的战士才能持有，以此彰显他们的身份地位，因此主人时常会斥重金装点这种连枷。",
+  "damage": {
+    "value": 29,
+    "type": "blunt"
+  },
+  "range": 1
 }

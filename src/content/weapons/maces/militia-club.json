@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/militia-club.webp",
-  "damage": {
-    "value": 17,
-    "type": "blunt"
-  },
   "durability": 95,
   "price": 375,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 11,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Peasants call these clubs \"snails\" - the curled head adds weight to every blow.",
-  "descriptionZh": "农民管这种棍子叫“蜗牛棍”，因为棍头卷了进去，打人更有分量。"
+  "descriptionZh": "农民管这种棍子叫“蜗牛棍”，因为棍头卷了进去，打人更有分量。",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "range": 1
 }

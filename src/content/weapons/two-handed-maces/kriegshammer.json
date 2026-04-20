@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/kriegshammer.webp",
-  "damage": {
-    "value": 23,
-    "type": "blunt"
-  },
   "durability": 160,
   "price": 1450,
   "properties": {
@@ -23,10 +19,14 @@
     "dazeChance": 30,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Can break one's jaw just by trying to spell its name.",
-  "descriptionZh": "光是念这件兵器的名字，你的嘴巴就有点吃不消了。"
+  "descriptionZh": "光是念这件兵器的名字，你的嘴巴就有点吃不消了。",
+  "damage": {
+    "value": 23,
+    "type": "blunt"
+  },
+  "range": 1
 }

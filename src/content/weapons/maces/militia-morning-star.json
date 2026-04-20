@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/maces/militia-morning-star.webp",
-  "damage": {
-    "value": 16,
-    "type": "blunt"
-  },
   "durability": 80,
   "price": 375,
   "properties": {
@@ -25,10 +21,14 @@
       "blunt": 16
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Add a bunch of cheaply-made spikes, and suddenly a simple mace becomes far more deadly and menacing.",
-  "descriptionZh": "普普通通的钉头锤，加了几个廉价的尖，立马就比原来看着吓人多了，杀伤力也大了很多。"
+  "descriptionZh": "普普通通的钉头锤，加了几个廉价的尖，立马就比原来看着吓人多了，杀伤力也大了很多。",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
 }

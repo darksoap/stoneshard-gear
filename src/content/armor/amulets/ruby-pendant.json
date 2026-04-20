@@ -3,7 +3,6 @@
   "name": "Ruby Pendant",
   "nameZh": "红宝石吊坠",
   "slot": "amulet",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "silver",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "The ruby shines the prettiest under the direct sunlight.",
-  "descriptionZh": "这颗红宝石在阳光直射下的光泽最好看。"
+  "descriptionZh": "这颗红宝石在阳光直射下的光泽最好看。",
+  "class": "light"
 }

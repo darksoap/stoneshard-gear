@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/nistrian-polemace.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 185,
   "price": 3725,
   "properties": {
@@ -25,10 +21,14 @@
     "staggerChance": 21,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "nistra"
   ],
   "description": "Constant wars with Aldor left a deep mark on Nistrian warfare. Naturally, they've become quite successful at combating heavily armored troops.",
-  "descriptionZh": "尼斯特拉与奥尔多战争不断，他们的作战理念因此也深深受到了奥尔多军队的影响。经过长期的演变与调整，他们已经成功找到了应对方法，可以对付敌军士兵广泛穿戴的板甲。"
+  "descriptionZh": "尼斯特拉与奥尔多战争不断，他们的作战理念因此也深深受到了奥尔多军队的影响。经过长期的演变与调整，他们已经成功找到了应对方法，可以对付敌军士兵广泛穿戴的板甲。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

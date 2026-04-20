@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/ancient-scimitar.webp",
-  "damage": {
-    "value": 26,
-    "type": "slashing"
-  },
   "durability": 85,
   "price": 6625,
   "properties": {
@@ -22,10 +18,14 @@
     "bleedingChance": 36,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Despite being at least half a millennia old, it somehow continues to perfectly hold the edge.",
-  "descriptionZh": "这把弯刀至少已有五百年的历史了，然而直至今日依旧锋利。"
+  "descriptionZh": "这把弯刀至少已有五百年的历史了，然而直至今日依旧锋利。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
 }

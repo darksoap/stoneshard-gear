@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/dwarven-axe.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
   "durability": 95,
   "price": 1075,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 17,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "If there's anything that dwarves appreciate more than booze and looting, it's a good axe.",
-  "descriptionZh": "矮人第一爱喝酒，第二爱趁火打劫，第三爱的就是上好的斧子。"
+  "descriptionZh": "矮人第一爱喝酒，第二爱趁火打劫，第三爱的就是上好的斧子。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

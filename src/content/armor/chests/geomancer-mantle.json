@@ -3,7 +3,6 @@
   "name": "Geomancer Mantle",
   "nameZh": "地术法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -29,5 +28,6 @@
     "magic"
   ],
   "description": "The runic embroidery strengthens the connection between a geomancer and the boulders they summon.",
-  "descriptionZh": "这件法袍绣了符文，可以增强地术法师与符文巨石之间的感应。"
+  "descriptionZh": "这件法袍绣了符文，可以增强地术法师与符文巨石之间的感应。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/knightly-morning-star.webp",
-  "damage": {
-    "value": 25,
-    "type": "blunt"
-  },
   "durability": 140,
   "price": 4600,
   "properties": {
@@ -25,10 +21,14 @@
       "blunt": 25
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Perfectly suited for knocking the life out of your opponent with a single well-placed strike, once you've gotten them off-balance.",
-  "descriptionZh": "只要对手脚下没站稳，瞄准了一锤甩过去，就能让他小命不保。"
+  "descriptionZh": "只要对手脚下没站稳，瞄准了一锤甩过去，就能让他小命不保。",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "range": 1
 }

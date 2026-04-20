@@ -3,7 +3,6 @@
   "name": "Sorcerer Bracers",
   "nameZh": "法师护臂",
   "slot": "arms",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -27,5 +26,6 @@
     "magic"
   ],
   "description": "The magic sigils carved into the leather are useful for swiftly redirecting the flow of magical energies in the chaos of combat.",
-  "descriptionZh": "皮面雕了魔法符印，可在混战之中迅速改变魔能流动的方向。"
+  "descriptionZh": "皮面雕了魔法符印，可在混战之中迅速改变魔能流动的方向。",
+  "class": "light"
 }

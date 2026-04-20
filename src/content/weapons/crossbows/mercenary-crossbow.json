@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/mercenary-crossbow.webp",
-  "damage": {
-    "value": 28,
-    "type": "piercing"
-  },
   "durability": 70,
   "price": 3500,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 20
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "A crossbow fitted with a more sophisticated cranequin than usual, allowing for a noticeably smoother reloading process.",
-  "descriptionZh": "这种弩的齿轮机构远比常规的复杂，装填相较其他手弩方便了很多。"
+  "descriptionZh": "这种弩的齿轮机构远比常规的复杂，装填相较其他手弩方便了很多。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 8
 }

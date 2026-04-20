@@ -3,7 +3,6 @@
   "name": "Rusted Shackles",
   "nameZh": "锈蚀的镣铐",
   "slot": "legs",
-  "class": "heavy",
   "tier": 1,
   "rarity": "common",
   "material": "metal",
@@ -19,5 +18,6 @@
     "special"
   ],
   "description": "Shackles so rusty that you shouldn't have any trouble removing them with your bare hands.",
-  "descriptionZh": "已经锈透了，摘下来应该不难。"
+  "descriptionZh": "已经锈透了，摘下来应该不难。",
+  "class": "heavy"
 }

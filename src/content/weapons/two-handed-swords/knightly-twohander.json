@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/knightly-twohander.webp",
-  "damage": {
-    "value": 32,
-    "type": "slashing"
-  },
-  "durability": 170,
+  "durability": 195,
   "price": 8150,
   "properties": {
     "critAvoid": 10,
@@ -21,10 +17,14 @@
     "blockPower": 13,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "This two-handed sword was created with pure functionality in mind: its strength lies in perfect simplicity and great balance.",
-  "descriptionZh": "这种双手剑锻造的时候完全没有考虑外观，心思全都花在了功用上，所以简洁简约和良好的平衡性才是这种兵器的长处。"
+  "descriptionZh": "这种双手剑锻造的时候完全没有考虑外观，心思全都花在了功用上，所以简洁简约和良好的平衡性才是这种兵器的长处。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
 }

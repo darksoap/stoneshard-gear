@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/knightly-flanged-mace.webp",
-  "damage": {
-    "value": 25,
-    "type": "blunt"
-  },
   "durability": 170,
   "price": 4600,
   "properties": {
@@ -21,10 +17,14 @@
     "knockbackChance": 20,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Knights are demanding customers, expecting both excellent combat performance and elegant appearance from their weapon - hence the elaborate shaping of the head and handle.",
-  "descriptionZh": "骑士要求多，兵器既要用起来趁手，又要形制雅观，所以这把锤才有了这样的锤头和锤柄。"
+  "descriptionZh": "骑士要求多，兵器既要用起来趁手，又要形制雅观，所以这把锤才有了这样的锤头和锤柄。",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "range": 1
 }

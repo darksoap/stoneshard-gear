@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/hierophant-staff.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 2425,
   "properties": {
@@ -28,10 +24,14 @@
       "sacred": 4
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "These staves, still bearing the mark of the Host, are the main proof of the clerical estate's divine patronage.",
-  "descriptionZh": "这种长杖依然带有圣主的印迹，证明了教牧存在世间的神圣意义。"
+  "descriptionZh": "这种长杖依然带有圣主的印迹，证明了教牧存在世间的神圣意义。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
 }

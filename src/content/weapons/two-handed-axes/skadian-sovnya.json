@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/skadian-sovnya.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
   "durability": 150,
   "price": 1775,
   "properties": {
@@ -22,7 +18,11 @@
     "bleedingChance": 30,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "description": "This weapon can often be seen in the hands of Skadian horsemen. They weren't the ones who first started using it though: Skadians borrowed the design from the Poleds, a tribe inhabiting the shores of the Icy Sea.",
-  "descriptionZh": "斯卡迪亚的骑兵手里经常能看到索夫尼亚，可是这种兵器并非斯卡迪亚人发明，而是他们从毗邻冰海的波列部落引入的。"
+  "descriptionZh": "斯卡迪亚的骑兵手里经常能看到索夫尼亚，可是这种兵器并非斯卡迪亚人发明，而是他们从毗邻冰海的波列部落引入的。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Scale Armor",
   "nameZh": "鳞甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "Scaled armor was at its peak during the latest war with Nistra, from where it was borrowed by Aldorian knights to begin with.",
-  "descriptionZh": "鳞甲的最盛时期是奥尔多与尼斯特拉上一次开战之时，这种盔甲最初也是奥尔多骑士从尼斯特拉带来的舶来品。"
+  "descriptionZh": "鳞甲的最盛时期是奥尔多与尼斯特拉上一次开战之时，这种盔甲最初也是奥尔多骑士从尼斯特拉带来的舶来品。",
+  "class": "heavy"
 }

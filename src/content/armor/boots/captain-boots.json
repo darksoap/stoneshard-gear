@@ -3,7 +3,6 @@
   "name": "Captain Boots",
   "nameZh": "长官靴",
   "slot": "legs",
-  "class": "medium",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -17,7 +16,7 @@
     "evasion": -6,
     "resistances": {
       "bleeding": 30,
-      "knockback": 25,
+      "knockback": 26,
       "physical": 27
     }
   },
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "A dozing sentry will snap to attention at the sound of their heavy tread.",
-  "descriptionZh": "打瞌睡的哨兵听到这种靴子的脚步声，会“噌”得一下醒过来。"
+  "descriptionZh": "打瞌睡的哨兵听到这种靴子的脚步声，会“噌”得一下醒过来。",
+  "class": "medium"
 }

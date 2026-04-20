@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/slings/veteran-staff-sling.webp",
-  "damage": {
-    "value": 16,
-    "type": "blunt"
-  },
   "durability": 150,
   "price": 1825,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 20,
     "cooldownReduction": -5
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "A soldier adept with the sling can be every bit as lethal as a seasoned archer or crossbowman.",
-  "descriptionZh": "士兵如果能熟练运用投石杖，那么杀敌的能力完全可以媲美久经沙场的弓弩射手。"
+  "descriptionZh": "士兵如果能熟练运用投石杖，那么杀敌的能力完全可以媲美久经沙场的弓弩射手。",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 8
 }

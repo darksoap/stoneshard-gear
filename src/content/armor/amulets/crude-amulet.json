@@ -3,7 +3,6 @@
   "name": "Crude Amulet",
   "nameZh": "简易护身符",
   "slot": "amulet",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "wood",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "These plain-looking trinkets are popular among the peasantry - supposedly, the hole in the middle can ward off the evil eye.",
-  "descriptionZh": "乡下人都喜欢戴这种平平无奇的玩意儿，他们觉得这种护身符中间的窟窿能驱退邪眼。"
+  "descriptionZh": "乡下人都喜欢戴这种平平无奇的玩意儿，他们觉得这种护身符中间的窟窿能驱退邪眼。",
+  "class": "light"
 }

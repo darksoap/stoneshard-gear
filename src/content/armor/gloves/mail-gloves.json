@@ -3,7 +3,6 @@
   "name": "Mail Gloves",
   "nameZh": "链甲手套",
   "slot": "arms",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Sensible handwear for anyone who values their fingers.",
-  "descriptionZh": "如果爱惜自己的手指，建议戴这个。"
+  "descriptionZh": "如果爱惜自己的手指，建议戴这个。",
+  "class": "medium"
 }

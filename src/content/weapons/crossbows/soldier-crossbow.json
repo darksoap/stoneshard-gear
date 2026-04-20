@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/soldier-crossbow.webp",
-  "damage": {
-    "value": 22,
-    "type": "piercing"
-  },
   "durability": 70,
   "price": 1400,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 10
   },
-  "range": 7,
   "tags": [
     "aldor"
   ],
   "description": "A crossbow used by both sides of the conflict - it's equally popular with the soldiers of the Council and the mercenaries of the Magistrate.",
-  "descriptionZh": "这种弩随处可见，不论是王廷的士兵，还是城联的雇佣兵，都喜欢用。"
+  "descriptionZh": "这种弩随处可见，不论是王廷的士兵，还是城联的雇佣兵，都喜欢用。",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "range": 7
 }

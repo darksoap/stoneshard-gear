@@ -3,7 +3,6 @@
   "name": "Riding Boots",
   "nameZh": "马靴",
   "slot": "legs",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -17,7 +16,7 @@
     "defense": 4,
     "resistances": {
       "bleeding": 7,
-      "knockback": 7,
+      "knockback": 6,
       "physical": 6
     }
   },
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "Comfortable for long horse rides. Not so comfortable for long walks.",
-  "descriptionZh": "这种鞋适合长途骑马，不适合长途步行。"
+  "descriptionZh": "这种鞋适合长途骑马，不适合长途步行。",
+  "class": "light"
 }

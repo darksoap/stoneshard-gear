@@ -3,7 +3,6 @@
   "name": "Tattered Rags",
   "nameZh": "破布",
   "slot": "chest",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "cloth",
@@ -18,5 +17,6 @@
     "special"
   ],
   "description": "It's completely soaked in blood and sweat.",
-  "descriptionZh": "血迹和汗渍浸透了这块布。"
+  "descriptionZh": "血迹和汗渍浸透了这块布。",
+  "class": "light"
 }

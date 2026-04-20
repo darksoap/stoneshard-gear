@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/footman-flail.webp",
-  "damage": {
-    "value": 21,
-    "type": "blunt"
-  },
-  "durability": 90,
+  "durability": 95,
   "price": 1125,
   "properties": {
     "accuracy": -8,
@@ -28,10 +24,14 @@
       "blunt": 21
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Has the potential for many surprises - whether they harm or help the opponent is up to the wielder's skill.",
-  "descriptionZh": "可以打出很多出人意料的效果，助敌还是灭敌主要取决于你用连枷的水平。"
+  "descriptionZh": "可以打出很多出人意料的效果，助敌还是灭敌主要取决于你用连枷的水平。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
 }

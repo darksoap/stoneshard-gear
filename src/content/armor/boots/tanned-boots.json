@@ -3,7 +3,6 @@
   "name": "Tanned Boots",
   "nameZh": "熟皮靴",
   "slot": "legs",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "evasion": 6,
     "resistances": {
       "bleeding": 12,
-      "knockback": 10,
+      "knockback": 9,
       "physical": 10
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Tanned bull hide guarantees longevity for any footwear it's used in.",
-  "descriptionZh": "牛皮经过鞣制之后，做出来的鞋子和靴子更加耐穿。"
+  "descriptionZh": "牛皮经过鞣制之后，做出来的鞋子和靴子更加耐穿。",
+  "class": "light"
 }

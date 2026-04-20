@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/ancestral-hatchet.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 200,
   "price": 4600,
   "properties": {
@@ -23,10 +19,14 @@
     "bleedingChance": 20,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "A legacy of an age when the skill and artistry of the dwarven smiths were the envy of the entire Continent.",
-  "descriptionZh": "古时留下的兵器，矮人兵匠彼时的工艺冠绝整个大陆。"
+  "descriptionZh": "古时留下的兵器，矮人兵匠彼时的工艺冠绝整个大陆。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

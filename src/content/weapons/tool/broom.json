@@ -7,19 +7,19 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/tool/broom.webp",
-  "damage": {
-    "value": 6,
-    "type": "blunt"
-  },
   "durability": 10,
   "price": 10,
   "properties": {
     "dazeChance": 3
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "Your main ally in the never-ending struggle for tidiness and order.",
-  "descriptionZh": "打扫、整理是无休止的斗争，这个是你的重要战友。"
+  "descriptionZh": "打扫、整理是无休止的斗争，这个是你的重要战友。",
+  "damage": {
+    "value": 6,
+    "type": "blunt"
+  },
+  "range": 1
 }

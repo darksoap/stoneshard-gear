@@ -3,7 +3,6 @@
   "name": "Aristocrat Buckler",
   "nameZh": "贵族盾",
   "slot": "shield",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "There are letters painted along the rim - words of prayer, perhaps, or a noble family's motto.",
-  "descriptionZh": "盾沿写了一圈字，可能是祷词，也可能是某个贵族的格言。"
+  "descriptionZh": "盾沿写了一圈字，可能是祷词，也可能是某个贵族的格言。",
+  "class": "light"
 }

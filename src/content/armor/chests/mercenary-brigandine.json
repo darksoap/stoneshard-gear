@@ -3,7 +3,6 @@
   "name": "Mercenary Brigandine",
   "nameZh": "佣兵布面重甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -28,5 +27,6 @@
     "aldor"
   ],
   "description": "The longer mercenaries stay alive, the better they're paid - and the better they're paid, the longer they stay alive...",
-  "descriptionZh": "雇佣兵活的时间越长，能拿到的赏钱就越多。能拿到的赏钱越多，那他们活的时间就越长……"
+  "descriptionZh": "雇佣兵活的时间越长，能拿到的赏钱就越多。能拿到的赏钱越多，那他们活的时间就越长……",
+  "class": "heavy"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/veteran-polehammer.webp",
-  "damage": {
-    "value": 27,
-    "type": "blunt"
-  },
   "durability": 210,
   "price": 3275,
   "properties": {
@@ -22,10 +18,14 @@
     "dazeChance": 41,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The convenience and versatility of these polehammers garner them praise from the veteran soldiers of both the Council and the Magistrate.",
-  "descriptionZh": "这种长柄锤操持方便，用法多样，因而备受王廷军与城联军的老兵推崇。"
+  "descriptionZh": "这种长柄锤操持方便，用法多样，因而备受王廷军与城联军的老兵推崇。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
 }

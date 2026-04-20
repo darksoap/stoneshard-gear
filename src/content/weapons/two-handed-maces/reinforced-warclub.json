@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/reinforced-warclub.webp",
-  "damage": {
-    "value": 22,
-    "type": "blunt"
-  },
   "durability": 110,
   "price": 525,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 25,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A few rows of spiked iron bands is certainly one way to add to your weapon's heftiness.",
-  "descriptionZh": "这根军棍加了两个钉头铁箍，分量肯定重了不少。"
+  "descriptionZh": "这根军棍加了两个钉头铁箍，分量肯定重了不少。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
 }

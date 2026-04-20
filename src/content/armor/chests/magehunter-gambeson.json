@@ -3,7 +3,6 @@
   "name": "Magehunter Gambeson",
   "nameZh": "法师猎手夹棉软铠",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "aldor"
   ],
   "description": "The life of a magehunter is full of uncertainty. However, with a gambeson like this, managing that uncertainty becomes so much easier.",
-  "descriptionZh": "法师猎手的生活充满了变数。不过，有了这样的软铠之后，再应付那些变数就容易多了。"
+  "descriptionZh": "法师猎手的生活充满了变数。不过，有了这样的软铠之后，再应付那些变数就容易多了。",
+  "class": "light"
 }

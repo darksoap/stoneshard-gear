@@ -3,7 +3,6 @@
   "name": "Mystic Belt",
   "nameZh": "神秘腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -22,5 +21,6 @@
     "magic"
   ],
   "description": "Staring for too long into the mirror-polished buckle summons a creeping sensation of falling into the abyss.",
-  "descriptionZh": "这根腰带的扣头磨得像镜子一样，你要是一直盯着它看，会产生坠入深渊的感觉。"
+  "descriptionZh": "这根腰带的扣头磨得像镜子一样，你要是一直盯着它看，会产生坠入深渊的感觉。",
+  "class": "light"
 }

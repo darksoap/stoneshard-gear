@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/spetum.webp",
-  "damage": {
-    "value": 28,
-    "type": "piercing"
-  },
   "durability": 180,
   "price": 6625,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 45,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Unlike a common pitchfork, a spetum has its prongs pointed at different directions, which makes them much more suitable for catching enemy blades.",
-  "descriptionZh": "三刃枪与普通的草叉不同——三个叉尖方向各不相同，更加适合招架敌人的打击。"
+  "descriptionZh": "三刃枪与普通的草叉不同——三个叉尖方向各不相同，更加适合招架敌人的打击。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 1
 }

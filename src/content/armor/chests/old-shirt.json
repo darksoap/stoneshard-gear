@@ -3,7 +3,6 @@
   "name": "Old Shirt",
   "nameZh": "旧衬衫",
   "slot": "chest",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A ragged shirt littered with stitches, patches, and oily spots.",
-  "descriptionZh": "破破烂烂，到处都是补丁、油污和缝补的线脚。"
+  "descriptionZh": "破破烂烂，到处都是补丁、油污和缝补的线脚。",
+  "class": "light"
 }

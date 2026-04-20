@@ -3,7 +3,6 @@
   "name": "Leather Gloves",
   "nameZh": "皮手套",
   "slot": "arms",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "These gloves were crafted from finely tanned leather.",
-  "descriptionZh": "上等的熟皮，做工扎实。"
+  "descriptionZh": "上等的熟皮，做工扎实。",
+  "class": "light"
 }

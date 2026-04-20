@@ -3,7 +3,6 @@
   "name": "Soldier Mantle",
   "nameZh": "士兵法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "magic"
   ],
   "description": "One of King Etbert's decrees demanded all mages to join the army in the event of war, which handily provided him with lots of additional troops during his Radiant campaigns. These army-issued mantles aren't much to look at, but the craftsmanship is perfectly serviceable.",
-  "descriptionZh": "埃特伯特国王生前有令，要求战时所有法师必须入伍，他光辉战争期间因而额外募集了大量士兵。部队配发的这些法袍虽然看着不怎么样，但是做工绝对够用。"
+  "descriptionZh": "埃特伯特国王生前有令，要求战时所有法师必须入伍，他光辉战争期间因而额外募集了大量士兵。部队配发的这些法袍虽然看着不怎么样，但是做工绝对够用。",
+  "class": "light"
 }

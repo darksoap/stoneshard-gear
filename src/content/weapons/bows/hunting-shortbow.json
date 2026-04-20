@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/bows/hunting-shortbow.webp",
-  "damage": {
-    "value": 18,
-    "type": "piercing"
-  },
   "durability": 50,
   "price": 375,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 10,
     "skillsEnergyCost": 20
   },
-  "range": 7,
   "tags": [
     "aldor"
   ],
   "description": "It will send an arrow from one end of the glade to the other, but whether it hits the squirrel in the branches - that depends on your aim.",
-  "descriptionZh": "拿着这种弓，站在树林里草地的一头，能把箭射到另外一头，至于能不能射中树上的松鼠，那就要看你的准头了。"
+  "descriptionZh": "拿着这种弓，站在树林里草地的一头，能把箭射到另外一头，至于能不能射中树上的松鼠，那就要看你的准头了。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 7
 }

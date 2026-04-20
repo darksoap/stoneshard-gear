@@ -3,7 +3,6 @@
   "name": "Heater Shield E",
   "nameZh": "熨斗盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -24,5 +23,6 @@
     "special"
   ],
   "description": "A solid choice when fighting on foot. This particular shield bears King Etbert's crest.",
-  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了埃特伯特国王的盾徽。"
+  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了埃特伯特国王的盾徽。",
+  "class": "medium"
 }

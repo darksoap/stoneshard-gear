@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/veteran-spear.webp",
-  "damage": {
-    "value": 26,
-    "type": "piercing"
-  },
   "durability": 190,
   "price": 3025,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 30,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "As one prominent Aldorian commander used to say, wars are waged by knights but are won with spears. Spears like this one.",
-  "descriptionZh": "正如奥尔多的某位杰出将领所言，打仗开场要靠骑士，不过制胜就要靠这样的长矛了。"
+  "descriptionZh": "正如奥尔多的某位杰出将领所言，打仗开场要靠骑士，不过制胜就要靠这样的长矛了。",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "range": 1
 }

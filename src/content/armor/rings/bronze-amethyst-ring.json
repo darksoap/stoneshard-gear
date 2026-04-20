@@ -3,7 +3,6 @@
   "name": "Bronze Amethyst Ring",
   "nameZh": "紫水晶青铜戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -17,5 +16,6 @@
     "aldor"
   ],
   "description": "For a noblewoman, it's a boring ring with a cheap gem. For a poor commoner's daughter - an incredible luxury and her greatest treasure.",
-  "descriptionZh": "只有一颗廉价宝石，贵族女辈肯定看不上这种戒指，但对穷苦家庭的女人而言，没有什么东西比它还要金贵。"
+  "descriptionZh": "只有一颗廉价宝石，贵族女辈肯定看不上这种戒指，但对穷苦家庭的女人而言，没有什么东西比它还要金贵。",
+  "class": "light"
 }

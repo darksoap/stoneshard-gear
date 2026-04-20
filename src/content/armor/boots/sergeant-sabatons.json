@@ -3,7 +3,6 @@
   "name": "Sergeant Sabatons",
   "nameZh": "军士脚甲",
   "slot": "legs",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -14,11 +13,11 @@
     "maxMana": -16,
     "manaRestoration": -4,
     "defense": 20,
-    "evasion": -8,
+    "evasion": -7,
     "critAvoid": 9,
     "resistances": {
       "bleeding": 34,
-      "knockback": 35,
+      "knockback": 39,
       "physical": 32
     }
   },
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "Not the most light or comfortable footwear, but, as the saying goes, victory trumps everything.",
-  "descriptionZh": "不怎么轻便，穿着也不怎么舒服，不过有句话说得好，“胜利胜过一切”。"
+  "descriptionZh": "不怎么轻便，穿着也不怎么舒服，不过有句话说得好，“胜利胜过一切”。",
+  "class": "heavy"
 }

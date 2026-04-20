@@ -3,7 +3,6 @@
   "name": "Electromancer Mantle",
   "nameZh": "电术法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "magic"
   ],
   "description": "Barely touching the material sends a sharp, tingling sensation up one's arm. That is unless you're an electromancer.",
-  "descriptionZh": "随便碰一下袍子的面料，手臂就会电得发麻。不过，如果你是电术法师，就完全不会有异常的感觉了。"
+  "descriptionZh": "随便碰一下袍子的面料，手臂就会电得发麻。不过，如果你是电术法师，就完全不会有异常的感觉了。",
+  "class": "light"
 }

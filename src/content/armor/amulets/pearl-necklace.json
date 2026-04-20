@@ -3,7 +3,6 @@
   "name": "Pearl Necklace",
   "nameZh": "珍珠项链",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "gem",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "This necklace is not made of the best pearls, but it wouldn't be fair to call it cheap-looking.",
-  "descriptionZh": "这根项链用的不是最好的珍珠，不过式样一点也不俗气。"
+  "descriptionZh": "这根项链用的不是最好的珍珠，不过式样一点也不俗气。",
+  "class": "light"
 }

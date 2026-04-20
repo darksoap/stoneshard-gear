@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/staves/stargazer-warstaff.webp",
-  "damage": {
-    "value": 16,
-    "type": "blunt"
-  },
   "durability": 140,
   "price": 5100,
   "properties": {
@@ -30,10 +26,14 @@
       "sacred": 2
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "\"Sky-readers\" was the name given by King Etbert's soldiers to the elven oracles who fought on the Jacinth's side during the Radiant Wars. Many attribute the Aldorian army's defeat to their involvement, for how can one defeat an enemy who sees the outcome of every battle in advance?",
-  "descriptionZh": "光辉战争期间，埃特伯特国王麾下的士兵称呼红锆军内的精灵卜兵为“星监”。现在很多人认为奥尔多军最终战败，原因就在这些卜兵身上，毕竟敌人若是每次都不战而先知战果，那么怎么可能打得赢？"
+  "descriptionZh": "光辉战争期间，埃特伯特国王麾下的士兵称呼红锆军内的精灵卜兵为“星监”。现在很多人认为奥尔多军最终战败，原因就在这些卜兵身上，毕竟敌人若是每次都不战而先知战果，那么怎么可能打得赢？",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Silver Aquamarine Ring",
   "nameZh": "海蓝宝石银戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "silver",
@@ -22,5 +21,6 @@
     "aldor"
   ],
   "description": "It's believed that every aquamarine carries a heavenly blessing, so they are often used for rings and necklaces.",
-  "descriptionZh": "很多人都觉得海蓝宝石获得了上天保佑，经常用它们装饰戒指和项链。"
+  "descriptionZh": "很多人都觉得海蓝宝石获得了上天保佑，经常用它们装饰戒指和项链。",
+  "class": "light"
 }

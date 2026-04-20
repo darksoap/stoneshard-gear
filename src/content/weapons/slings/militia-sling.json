@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/militia-sling.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 250,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 5,
     "cooldownReduction": -6
   },
-  "range": 7,
   "tags": [
     "aldor"
   ],
   "description": "When defending one's home, no weapon is too humble.",
-  "descriptionZh": "保卫家园的时候，再简单的兵器也派得上用场。"
+  "descriptionZh": "保卫家园的时候，再简单的兵器也派得上用场。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 6
 }

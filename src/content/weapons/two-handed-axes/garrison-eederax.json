@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/garrison-eederax.webp",
-  "damage": {
-    "value": 34,
-    "type": "slashing"
-  },
   "durability": 180,
   "price": 7650,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 12,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A heavier version of an eederax: the traditional hook became a part of the axeblade itself.",
-  "descriptionZh": "这是伊德斯斧的加重版，将传统的钩镰与斧身融为了一体。"
+  "descriptionZh": "这是伊德斯斧的加重版，将传统的钩镰与斧身融为了一体。",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "range": 1
 }

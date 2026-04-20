@@ -3,7 +3,6 @@
   "name": "Academy Cloak",
   "nameZh": "学院斗篷",
   "slot": "back",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "cloth",
@@ -23,5 +22,6 @@
     "magic"
   ],
   "description": "A graduate's cloak speaks far louder of their years at the Academy than any written testimony ever could.",
-  "descriptionZh": "这件毕业斗篷远比一纸文凭更能证明人在学院熬了多少年。"
+  "descriptionZh": "这件毕业斗篷远比一纸文凭更能证明人在学院熬了多少年。",
+  "class": "light"
 }

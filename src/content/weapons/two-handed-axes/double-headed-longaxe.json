@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/double-headed-longaxe.webp",
-  "damage": {
-    "value": 38,
-    "type": "slashing"
-  },
   "durability": 160,
   "price": 7650,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 35,
     "skillsEnergyCost": 40
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Despite its formidable appearance, this axe is rather unwieldy in a real fight.",
-  "descriptionZh": "这种斧子虽然让人望而生畏，但实战的时候并不好用。"
+  "descriptionZh": "这种斧子虽然让人望而生畏，但实战的时候并不好用。",
+  "damage": {
+    "value": 38,
+    "type": "slashing"
+  },
+  "range": 1
 }

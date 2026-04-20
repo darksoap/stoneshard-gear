@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/soldier-polemace.webp",
-  "damage": {
-    "value": 24,
-    "type": "blunt"
-  },
   "durability": 140,
   "price": 1500,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 20,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "If blunt force alone isn't enough to get through your opponent's armor, this polemace also has a spike for precise jabs to the neck.",
-  "descriptionZh": "就算敌人的防具顶得住钝击，这根长柄钉头锤的尖端也能精准刺入其颈部。"
+  "descriptionZh": "就算敌人的防具顶得住钝击，这根长柄钉头锤的尖端也能精准刺入其颈部。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
 }

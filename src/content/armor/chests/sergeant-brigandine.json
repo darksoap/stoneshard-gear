@@ -3,7 +3,6 @@
   "name": "Sergeant Brigandine",
   "nameZh": "军士重板甲衣",
   "slot": "chest",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -28,5 +27,6 @@
     "aldor"
   ],
   "description": "Sergeants and veteran mercenaries sport this type of armor while they're saving up for something more substantial.",
-  "descriptionZh": "有些军官和久经沙场的雇佣兵为了攒钱置办一身好盔甲，就会先用这样的盔甲将就着。"
+  "descriptionZh": "有些军官和久经沙场的雇佣兵为了攒钱置办一身好盔甲，就会先用这样的盔甲将就着。",
+  "class": "heavy"
 }

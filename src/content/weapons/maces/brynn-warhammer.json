@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/brynn-warhammer.webp",
-  "damage": {
-    "value": 20,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 1075,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 16,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The design has unmistakably Brynnian roots, blending a multi-pronged hammerhead with a sharp spike, typical of the South.",
-  "descriptionZh": "这个战锤的形制显然继承了布林的样式，锤头分三叉，顶部锥形，是南方典型的设计。"
+  "descriptionZh": "这个战锤的形制显然继承了布林的样式，锤头分三叉，顶部锥形，是南方典型的设计。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
 }

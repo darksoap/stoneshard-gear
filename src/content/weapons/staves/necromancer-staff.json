@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/staves/necromancer-staff.webp",
-  "damage": {
-    "value": 9,
-    "type": "blunt"
-  },
   "durability": 33,
   "price": 1725,
   "properties": {
@@ -28,10 +24,14 @@
       "unholy": 6
     }
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "Necromancers aren't bereft of a sense of humor, albeit theirs comes with a morbid twist: most of them find joy in desecrating graves of the clergy, using harvested skulls as a decoration for their staves.",
-  "descriptionZh": "死灵法师也懂幽默，只是与常人有所不同——据说他们许多人热衷亵渎祭司的坟墓，还会用死者的头骨装点自己的法杖。"
+  "descriptionZh": "死灵法师也懂幽默，只是与常人有所不同——据说他们许多人热衷亵渎祭司的坟墓，还会用死者的头骨装点自己的法杖。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Veteran Gloves",
   "nameZh": "老兵手甲",
   "slot": "arms",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Noticeably sturdier than standard soldier gloves - proof that their owner has lasted long enough to amass some decent coin.",
-  "descriptionZh": "比普通的军用手套明显结实了不少，说明手套主人命够长，攒了不少金币。"
+  "descriptionZh": "比普通的军用手套明显结实了不少，说明手套主人命够长，攒了不少金币。",
+  "class": "medium"
 }

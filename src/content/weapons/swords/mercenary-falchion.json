@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/mercenary-falchion.webp",
-  "damage": {
-    "value": 26,
-    "type": "slashing"
-  },
   "durability": 100,
   "price": 2650,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 20,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Light, durable, sits well in hand, and can most certainly put an arrogant knight in his place.",
-  "descriptionZh": "轻便、耐用、趁手，可以把傲慢的骑士打得心服口服。"
+  "descriptionZh": "轻便、耐用、趁手，可以把傲慢的骑士打得心服口服。",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "range": 1
 }

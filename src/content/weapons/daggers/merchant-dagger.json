@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/merchant-dagger.webp",
-  "damage": {
-    "value": 16,
-    "type": "piercing"
-  },
-  "durability": 75,
+  "durability": 85,
   "price": 650,
   "properties": {
     "critAvoid": 6,
@@ -21,10 +17,14 @@
     "blockPower": 1,
     "bleedingChance": 12
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Every self-respecting merchant has a similar dagger. It can add more weight to your words when dealing with disgruntled clients - unless they come in numbers.",
-  "descriptionZh": "但凡是个正经的生意人，身上都会带这么一把匕首。客人难缠的时候，这个特别好用。如果对方人多势众，那就另当别论了……"
+  "descriptionZh": "但凡是个正经的生意人，身上都会带这么一把匕首。客人难缠的时候，这个特别好用。如果对方人多势众，那就另当别论了……",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "range": 1
 }

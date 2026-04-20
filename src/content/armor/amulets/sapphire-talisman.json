@@ -3,7 +3,6 @@
   "name": "Sapphire Talisman",
   "nameZh": "蓝宝石护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "gem",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "Whenever there's a source of magic close by, this pendant begins to give off a faint, thrumming sound.",
-  "descriptionZh": "附近有魔力源的时候，这个东西就会发出轻轻的鸣响。"
+  "descriptionZh": "附近有魔力源的时候，这个东西就会发出轻轻的鸣响。",
+  "class": "light"
 }

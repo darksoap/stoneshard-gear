@@ -3,7 +3,6 @@
   "name": "Footman Brigandine",
   "nameZh": "步兵板甲衣",
   "slot": "chest",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "A favorite chestpiece of the Aldorian light infantry - it protects much better than a simple gambeson while being less cumbersome than plate armor.",
-  "descriptionZh": "奥尔多的轻步兵最喜欢这种装备，防护效果远远优于普通的夹棉软铠，但又不像真正的铠甲那么沉。"
+  "descriptionZh": "奥尔多的轻步兵最喜欢这种装备，防护效果远远优于普通的夹棉软铠，但又不像真正的铠甲那么沉。",
+  "class": "medium"
 }

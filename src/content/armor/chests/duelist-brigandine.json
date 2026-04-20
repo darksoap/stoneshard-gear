@@ -3,7 +3,6 @@
   "name": "Duelist Brigandine",
   "nameZh": "对决板甲衣",
   "slot": "chest",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "An effective safeguard against treacherous thrusts and jabs at vital areas.",
-  "descriptionZh": "可以有效保护要害部位，抵挡刁钻的阴招。"
+  "descriptionZh": "可以有效保护要害部位，抵挡刁钻的阴招。",
+  "class": "medium"
 }

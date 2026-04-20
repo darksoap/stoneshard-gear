@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/knightly-war-maul.webp",
-  "damage": {
-    "value": 34,
-    "type": "blunt"
-  },
   "durability": 195,
   "price": 7150,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 40,
     "skillsEnergyCost": 40
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "This weapon is a world apart from the tool which originally inspired it - a humble pickaxe.",
-  "descriptionZh": "这种兵器最早借鉴了普通的鹤嘴镐，现在与鹤嘴镐已是判若两然。"
+  "descriptionZh": "这种兵器最早借鉴了普通的鹤嘴镐，现在与鹤嘴镐已是判若两然。",
+  "damage": {
+    "value": 34,
+    "type": "blunt"
+  },
+  "range": 1
 }

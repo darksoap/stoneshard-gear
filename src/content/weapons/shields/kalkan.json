@@ -3,7 +3,6 @@
   "name": "Kalkan",
   "nameZh": "穹顶圆盾",
   "slot": "shield",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -19,5 +18,6 @@
     "elven"
   ],
   "description": "To make a kalkan, nomads weave reed stalks into a desired shape, then fasten it with a metal ring. The resulting shield is both lightweight and durable.",
-  "descriptionZh": "游牧民族先用植物纤维将芦苇杆扎成致密结构，再用金属环固定苇杆，一块轻便又耐用的盾牌就做成了。"
+  "descriptionZh": "游牧民族先用植物纤维将芦苇杆扎成致密结构，再用金属环固定苇杆，一块轻便又耐用的盾牌就做成了。",
+  "class": "light"
 }

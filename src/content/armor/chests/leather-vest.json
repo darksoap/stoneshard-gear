@@ -3,7 +3,6 @@
   "name": "Leather Vest",
   "nameZh": "真皮马甲",
   "slot": "chest",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "leather",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "Comfortable and pragmatic, such vests are favored by peasants with spare gold in their pockets.",
-  "descriptionZh": "这种衣服穿着舒服又实用，很受富农青睐。"
+  "descriptionZh": "这种衣服穿着舒服又实用，很受富农青睐。",
+  "class": "light"
 }

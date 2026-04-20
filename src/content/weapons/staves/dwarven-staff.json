@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/dwarven-staff.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 75,
   "price": 1075,
   "properties": {
@@ -27,10 +23,14 @@
       "fire": 3
     }
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "The headpiece in the form of a sea leviathan is carved with such attention to detail that it looks like it could start spewing flames at any moment.",
-  "descriptionZh": "手杖顶端形似海底巨兽，雕刻十分精致，似乎随时都会喷出火焰。"
+  "descriptionZh": "手杖顶端形似海底巨兽，雕刻十分精致，似乎随时都会喷出火焰。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
 }

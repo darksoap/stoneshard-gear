@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/court-wizard-staff.webp",
-  "damage": {
-    "value": 15,
-    "type": "blunt"
-  },
   "durability": 55,
   "price": 8150,
   "properties": {
@@ -25,10 +21,14 @@
       "arcane": 3
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "This enchanted staff's headpiece was designed for conducting all types of magic.",
-  "descriptionZh": "这根法杖顶部附了法力，可以传导各类魔法。"
+  "descriptionZh": "这根法杖顶部附了法力，可以传导各类魔法。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 1
 }

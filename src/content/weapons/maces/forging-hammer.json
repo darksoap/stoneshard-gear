@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/forging-hammer.webp",
-  "damage": {
-    "value": 17,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 50,
   "properties": {
@@ -18,10 +14,14 @@
     "armorPenetration": 5,
     "dazeChance": 3
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "It's almost asking to be put to work.",
-  "descriptionZh": "恨不得能张嘴叫你开工。"
+  "descriptionZh": "恨不得能张嘴叫你开工。",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "range": 1
 }

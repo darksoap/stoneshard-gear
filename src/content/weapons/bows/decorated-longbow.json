@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/bows/decorated-longbow.webp",
-  "damage": {
-    "value": 31,
-    "type": "piercing"
-  },
   "durability": 100,
   "price": 6125,
   "properties": {
@@ -23,10 +19,14 @@
     "immobilizationChance": 39,
     "skillsEnergyCost": 60
   },
-  "range": 9,
   "tags": [
     "unique"
   ],
   "description": "It was most likely crafted for a wealthy Royal Ranger, who had been granted a fief for his loyal service.",
-  "descriptionZh": "很有可能是某位有钱的王苑守卫因功受了封，才打了这么一把好弓。"
+  "descriptionZh": "很有可能是某位有钱的王苑守卫因功受了封，才打了这么一把好弓。",
+  "damage": {
+    "value": 31,
+    "type": "piercing"
+  },
+  "range": 9
 }

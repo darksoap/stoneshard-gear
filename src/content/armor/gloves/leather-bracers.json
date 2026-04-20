@@ -3,7 +3,6 @@
   "name": "Leather Bracers",
   "nameZh": "皮护臂",
   "slot": "arms",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "Decent protection against scrapes and bites - better than nothing for the hunt or a brawl.",
-  "descriptionZh": "能适当抵挡刮擦和撕咬，打猎或者打架的时候，戴上这个总比什么都不戴强。"
+  "descriptionZh": "能适当抵挡刮擦和撕咬，打猎或者打架的时候，戴上这个总比什么都不戴强。",
+  "class": "light"
 }

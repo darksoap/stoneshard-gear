@@ -3,7 +3,6 @@
   "name": "Flagbearer Armor",
   "nameZh": "旗手盔甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "When flagbearers are slain in battle, their comrades are usually quick to follow suit - providing the former with quality armor is plain common sense.",
-  "descriptionZh": "军队的旗手一旦牺牲，那么整支队伍很快也会土崩瓦解，所以给旗手配发上乘的盔甲是所有人都知道的常识。"
+  "descriptionZh": "军队的旗手一旦牺牲，那么整支队伍很快也会土崩瓦解，所以给旗手配发上乘的盔甲是所有人都知道的常识。",
+  "class": "heavy"
 }

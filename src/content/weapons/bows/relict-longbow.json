@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/bows/relict-longbow.webp",
-  "damage": {
-    "value": 26,
-    "type": "piercing"
-  },
   "durability": 125,
   "price": 6125,
   "properties": {
@@ -28,10 +24,14 @@
       "arcane": 4
     }
   },
-  "range": 8,
   "tags": [
     "unique"
   ],
   "description": "This marvelous artifact appears to be at least millennia old. It's a mystery how it hasn't yet rotted away.",
-  "descriptionZh": "这件古物看着少说也有一千年的历史，为什么至今依旧完好如昨？真是奇迹。"
+  "descriptionZh": "这件古物看着少说也有一千年的历史，为什么至今依旧完好如昨？真是奇迹。",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "range": 8
 }

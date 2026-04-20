@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/woodsman-heavy-flail.webp",
-  "damage": {
-    "value": 24,
-    "type": "blunt"
-  },
   "durability": 95,
   "price": 775,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 18,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The Woodwights were a band of Eeders rebels who gave the royal authorities a run for their money about a decade ago. Eventually, every Woodwight was captured and quartered, but the flails they used continue to live on.",
-  "descriptionZh": "十来年之前，伊德斯有一帮反叛分子，自称“林鬼”，当年令王家头疼不已。这些人最终尽数被捕，遭车裂刑，不过他们的连枷却流传了下来。"
+  "descriptionZh": "十来年之前，伊德斯有一帮反叛分子，自称“林鬼”，当年令王家头疼不已。这些人最终尽数被捕，遭车裂刑，不过他们的连枷却流传了下来。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
 }

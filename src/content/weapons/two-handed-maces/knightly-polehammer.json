@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/knightly-polehammer.webp",
-  "damage": {
-    "value": 31,
-    "type": "blunt"
-  },
   "durability": 245,
   "price": 6875,
   "properties": {
@@ -22,10 +18,14 @@
     "dazeChance": 44,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Polehammers have recently begun to rise in popularity as a weapon of choice for knightly jousts.",
-  "descriptionZh": "最近几年，骑士开始时兴带长柄锤参加比武。"
+  "descriptionZh": "最近几年，骑士开始时兴带长柄锤参加比武。",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "range": 1
 }

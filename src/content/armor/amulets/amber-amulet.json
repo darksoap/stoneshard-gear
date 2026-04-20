@@ -3,7 +3,6 @@
   "name": "Amber Amulet",
   "nameZh": "琥珀护身符",
   "slot": "amulet",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "gem",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "It must have arrived here from either Fjall or Skadia, the lands famous for their amber trade.",
-  "descriptionZh": "弗约和斯卡迪亚盛产琥珀，这枚护身符有可能来自这两个地方。"
+  "descriptionZh": "弗约和斯卡迪亚盛产琥珀，这枚护身符有可能来自这两个地方。",
+  "class": "light"
 }

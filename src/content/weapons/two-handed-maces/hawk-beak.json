@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/hawk-beak.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 175,
   "price": 3275,
   "properties": {
@@ -24,10 +20,14 @@
     "dazeChance": 35,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "There aren't that many helmets or cuirasses which can survive a strike from a three-pronged hammerhead.",
-  "descriptionZh": "没有多少胸甲和头盔扛得住这根三叉长柄锤。"
+  "descriptionZh": "没有多少胸甲和头盔扛得住这根三叉长柄锤。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

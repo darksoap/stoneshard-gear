@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/axes/baron-axe.webp",
-  "damage": {
-    "value": 31,
-    "type": "slashing"
-  },
   "durability": 200,
   "price": 5100,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 20,
     "cooldownReduction": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "For the longest time, Aldorian nobles had been rather dismissive towards axes. Their perspective took a turn when the late King Etbert introduced a fashion for richly decorated axes, turning them into a symbol of power.",
-  "descriptionZh": "过去，人们始终认为斧子是农民用的兵器。先王埃特伯特将纹饰丰富的斧子用作权力的象征之后，人们很快便摒弃了这种观念。"
+  "descriptionZh": "过去，人们始终认为斧子是农民用的兵器。先王埃特伯特将纹饰丰富的斧子用作权力的象征之后，人们很快便摒弃了这种观念。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
 }

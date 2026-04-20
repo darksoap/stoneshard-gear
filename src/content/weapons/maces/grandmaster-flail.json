@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/grandmaster-flail.webp",
-  "damage": {
-    "value": 26,
-    "type": "blunt"
-  },
-  "durability": 125,
+  "durability": 130,
   "price": 5350,
   "properties": {
     "accuracy": -10,
@@ -29,10 +25,14 @@
       "sacred": 5
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The Grandmaster was the highest rank in the now-disbanded Order of the Triune Hand, yet their flails of office bore almost no adornments, honoring the vow of austerity.",
-  "descriptionZh": "三手会还在的时候，会长是会内职位最高的人。尽管如此，会长的专用连枷外观几乎没有任何修饰，反映了他们禁断物欲的追求。"
+  "descriptionZh": "三手会还在的时候，会长是会内职位最高的人。尽管如此，会长的专用连枷外观几乎没有任何修饰，反映了他们禁断物欲的追求。",
+  "damage": {
+    "value": 26,
+    "type": "blunt"
+  },
+  "range": 1
 }

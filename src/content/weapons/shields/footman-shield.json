@@ -3,7 +3,6 @@
   "name": "Footman Shield",
   "nameZh": "步兵盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 3,
   "rarity": "common",
   "material": "wood",
@@ -19,12 +18,13 @@
     "evasion": -12,
     "critAvoid": 4,
     "resistances": {
-      "knockback": 14
+      "knockback": 16
     }
   },
   "tags": [
     "aldor"
   ],
   "description": "A long, sturdy shield. Its rims are reinforced with iron bands.",
-  "descriptionZh": "又长又结实，外缘包了几层铁。"
+  "descriptionZh": "又长又结实，外缘包了几层铁。",
+  "class": "heavy"
 }

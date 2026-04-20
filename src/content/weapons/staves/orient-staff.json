@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/staves/orient-staff.webp",
-  "damage": {
-    "value": 13,
-    "type": "blunt"
-  },
   "durability": 75,
   "price": 8150,
   "properties": {
@@ -28,10 +24,14 @@
       "sacred": 3
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "At the end of the day, few things can beat fine elven craftsmanship: it clearly took a lot of skill to create a staff this magnificent.",
-  "descriptionZh": "无论抬杠的人怎么说，精灵族制作精细的东西确实有一手。这根法杖雕饰华美，显然出自大师之手。"
+  "descriptionZh": "无论抬杠的人怎么说，精灵族制作精细的东西确实有一手。这根法杖雕饰华美，显然出自大师之手。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
 }

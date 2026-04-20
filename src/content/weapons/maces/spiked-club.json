@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/maces/spiked-club.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 75,
   "properties": {
@@ -25,10 +21,14 @@
       "blunt": 14
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The spikes alone are menacing enough to make any tavern loudmouth reconsider his words.",
-  "descriptionZh": "喜欢在酒馆咋呼的人，不论是谁，看到这些长钉，嘴巴都会闭得严严实实。"
+  "descriptionZh": "喜欢在酒馆咋呼的人，不论是谁，看到这些长钉，嘴巴都会闭得严严实实。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
 }

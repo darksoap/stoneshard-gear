@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/maen-flail.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 110,
   "price": 1900,
   "properties": {
@@ -25,10 +21,14 @@
     "staggerChance": 25,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The majority of the Cowls, the fanatical followers of Neer, are former peasants, so it comes as no surprise that their favorite weapon is a heavy flail.",
-  "descriptionZh": "风帽——也就是尼尔狂热的信众——多数都是农民出身，用的兵器绝大多数都是沉甸甸的连枷，也是情理之中的事情。"
+  "descriptionZh": "风帽——也就是尼尔狂热的信众——多数都是农民出身，用的兵器绝大多数都是沉甸甸的连枷，也是情理之中的事情。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

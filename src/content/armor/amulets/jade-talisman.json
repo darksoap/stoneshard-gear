@@ -3,7 +3,6 @@
   "name": "Jade Talisman",
   "nameZh": "金镶玉护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "gold",
@@ -20,5 +19,6 @@
     "elven"
   ],
   "description": "Before taking over the rest of the Jacinth Kingdoms, jade first became fashionable in Shenfen, where most of it is currently mined and produced.",
-  "descriptionZh": "玉石大多产自圣峰，最早也是先在当地流行，而后才风靡红锆其他诸国。"
+  "descriptionZh": "玉石大多产自圣峰，最早也是先在当地流行，而后才风靡红锆其他诸国。",
+  "class": "light"
 }

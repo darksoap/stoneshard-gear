@@ -3,7 +3,6 @@
   "name": "Recruit Mail",
   "nameZh": "新兵链甲",
   "slot": "chest",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Mail shirts have stood the test of time: they were already in use when the Ald tribes, the ancestors of the modern Aldorians, took over the Firn foothills.",
-  "descriptionZh": "锁子甲经受住了时间的考验，现在奥尔多人的祖先奥尔德部落，早在拿下弗恩山麓之前，就已经穿起了这种防具。"
+  "descriptionZh": "锁子甲经受住了时间的考验，现在奥尔多人的祖先奥尔德部落，早在拿下弗恩山麓之前，就已经穿起了这种防具。",
+  "class": "medium"
 }

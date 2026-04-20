@@ -3,7 +3,6 @@
   "name": "Knightly Armor",
   "nameZh": "骑士胸甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -17,7 +16,7 @@
     "manaRestoration": -5,
     "defense": 26,
     "evasion": -18,
-    "critAvoid": 24,
+    "critAvoid": 25,
     "resistances": {
       "bleeding": 36,
       "physical": 38
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "Making a single suit of noble plate armor demands multiple craftsmen and months of hard work.",
-  "descriptionZh": "一件贵族板甲往往需要多名工匠好几个月才能造成。"
+  "descriptionZh": "一件贵族板甲往往需要多名工匠好几个月才能造成。",
+  "class": "heavy"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/chekan.webp",
-  "damage": {
-    "value": 20,
-    "type": "blunt"
-  },
   "durability": 125,
   "price": 1200,
   "properties": {
@@ -22,7 +18,11 @@
     "staggerChance": 10,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "description": "Skadian warhammers are forged to last and are sought after even outside of their country of origin.",
-  "descriptionZh": "斯卡迪亚战锤的铸造十分讲求品质，即便是其他地区的人，常常也十分青睐这种兵器。"
+  "descriptionZh": "斯卡迪亚战锤的铸造十分讲求品质，即便是其他地区的人，常常也十分青睐这种兵器。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
 }

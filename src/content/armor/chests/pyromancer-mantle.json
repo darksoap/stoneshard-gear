@@ -3,7 +3,6 @@
   "name": "Pyromancer Mantle",
   "nameZh": "炎术法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -29,5 +28,6 @@
     "magic"
   ],
   "description": "It bears a special enchantment: the fabric is not exactly flameproof, but it's definitely slow to catch fire.",
-  "descriptionZh": "这件法袍有一个特殊的附魔——-其实防不了火，但是很难点燃。"
+  "descriptionZh": "这件法袍有一个特殊的附魔——-其实防不了火，但是很难点燃。",
+  "class": "light"
 }

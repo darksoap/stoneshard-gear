@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/amir-double-flail.webp",
-  "damage": {
-    "value": 31,
-    "type": "blunt"
-  },
-  "durability": 110,
+  "durability": 120,
   "price": 5350,
   "properties": {
     "accuracy": -8,
@@ -25,10 +21,14 @@
     "staggerChance": 38,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The apparent unity of Jibey, Ahjat, and other realms of Jacinth is merely a mirage. In reality, each is a patchwork of diverse tribes, khanates, and emirates, with every local \"monarch\" wielding almost absolute power over their people.",
-  "descriptionZh": "吉贝、艾哈雅特与红锆的其他各国看似统一，实则只是假象。每个国家都是各种部族、汗国、埃米尔国拼凑而成，各自的“君主”掌握绝对的统治权力。"
+  "descriptionZh": "吉贝、艾哈雅特与红锆的其他各国看似统一，实则只是假象。每个国家都是各种部族、汗国、埃米尔国拼凑而成，各自的“君主”掌握绝对的统治权力。",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/travelling-staff.webp",
-  "damage": {
-    "value": 13,
-    "type": "blunt"
-  },
   "durability": 65,
   "price": 75,
   "properties": {
@@ -21,10 +17,14 @@
     "skillsEnergyCost": -3,
     "spellsEnergyCost": -3
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Any journey feels easier with a staff in hand.",
-  "descriptionZh": "出门带着手杖，去哪儿都轻松一些。"
+  "descriptionZh": "出门带着手杖，去哪儿都轻松一些。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
 }

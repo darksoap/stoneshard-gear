@@ -15,11 +15,11 @@
     "manaRestoration": -4,
     "defense": 16,
     "critAvoid": 5,
-    "fortitude": 5,
+    "fortitude": 6,
     "vision": -2,
     "resistances": {
-      "bleeding": 29,
-      "stun": 27,
+      "bleeding": 26,
+      "stun": 31,
       "physical": 28
     }
   },

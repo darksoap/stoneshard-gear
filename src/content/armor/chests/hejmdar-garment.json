@@ -3,7 +3,6 @@
   "name": "Hejmdar Garment",
   "nameZh": "诺尔海姆衣服",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -27,5 +26,6 @@
     "fjall"
   ],
   "description": "The dwarves of the Norrheim clan have to deal with the most dangerous beasts the North can offer on a daily basis, so their warriors' garments are frequently imbued with protective enchantments.",
-  "descriptionZh": "诺尔海姆部落的矮人天天都要和北方最凶猛的野兽打交道，所以这些战士的衣服常常附有防护魔法。"
+  "descriptionZh": "诺尔海姆部落的矮人天天都要和北方最凶猛的野兽打交道，所以这些战士的衣服常常附有防护魔法。",
+  "class": "light"
 }

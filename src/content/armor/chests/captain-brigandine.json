@@ -3,7 +3,6 @@
   "name": "Captain Brigandine",
   "nameZh": "长官板甲衣",
   "slot": "chest",
-  "class": "medium",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "Fashioned to keep the wearer in one piece, letting them live through scrapes they have no business surviving.",
-  "descriptionZh": "这种防具的形制主要是为了安全，即便是九死一生的险境也能捡回一条性命。"
+  "descriptionZh": "这种防具的形制主要是为了安全，即便是九死一生的险境也能捡回一条性命。",
+  "class": "medium"
 }

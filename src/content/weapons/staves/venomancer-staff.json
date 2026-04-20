@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/venomancer-staff.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 3875,
   "properties": {
@@ -29,10 +25,14 @@
       "venomantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "In knowledgeable hands, this staff can turn even the weakest poison into a deadly one.",
-  "descriptionZh": "如果这根长杖到了经验丰富的毒师手里，效力再弱的毒物都能变成夺人性命的毒药。"
+  "descriptionZh": "如果这根长杖到了经验丰富的毒师手里，效力再弱的毒物都能变成夺人性命的毒药。",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
 }

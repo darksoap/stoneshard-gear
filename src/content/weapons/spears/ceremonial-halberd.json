@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/spears/ceremonial-halberd.webp",
-  "damage": {
-    "value": 31,
-    "type": "slashing"
-  },
   "durability": 165,
   "price": 7650,
   "properties": {
@@ -24,10 +20,14 @@
     "staggerChance": 22,
     "skillsEnergyCost": 40
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The famed Brynnian weaponsmith, Etien Morel, crafted many masterpieces in his lifetime, and this elaborate halberd is one of them. Tragically, his life was cut short when he perished during the siege of Brynn, burning alive along with his workshop.",
-  "descriptionZh": "布林的传奇铁匠艾蒂安·莫雷尔一生锻铸杰作无数，这一柄精美的戟斧便是其中之一。可惜他在布林受围之时，困于自己的工坊，被活活烧死。"
+  "descriptionZh": "布林的传奇铁匠艾蒂安·莫雷尔一生锻铸杰作无数，这一柄精美的戟斧便是其中之一。可惜他在布林受围之时，困于自己的工坊，被活活烧死。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
 }

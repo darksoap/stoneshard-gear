@@ -3,7 +3,6 @@
   "name": "Voivod Belt",
   "nameZh": "沃伊沃德腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 5,
   "rarity": "unique",
   "material": "leather",
@@ -24,5 +23,6 @@
     "unique"
   ],
   "description": "Noble Marrs, Zeineshes, and Chervenians take pride in adorning their clothing with traditional folk patterns, seizing every opportunity to assert their culture in blatant defiance of the ruling Ksifit minority.",
-  "descriptionZh": "玛斯族、切涅什族和车尔文族的贵族乐于在衣物纹绣传统的民族图案，抓住一切机会表现本族文化，公然对抗统治阶级的少数民族柯西菲特人。"
+  "descriptionZh": "玛斯族、切涅什族和车尔文族的贵族乐于在衣物纹绣传统的民族图案，抓住一切机会表现本族文化，公然对抗统治阶级的少数民族柯西菲特人。",
+  "class": "light"
 }

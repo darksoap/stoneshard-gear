@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/recruit-billhook.webp",
-  "damage": {
-    "value": 20,
-    "type": "piercing"
-  },
   "durability": 110,
   "price": 625,
   "properties": {
@@ -22,10 +18,14 @@
     "immobilizationChance": 11,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It would be impossible to count how many noble lords had their lives cut short by this outrageously unassuming peasant weapon.",
-  "descriptionZh": "这种兵器一般都是农民才用，别看平平无奇，不知道多少老爷大人都死在了它的刃下。"
+  "descriptionZh": "这种兵器一般都是农民才用，别看平平无奇，不知道多少老爷大人都死在了它的刃下。",
+  "damage": {
+    "value": 20,
+    "type": "piercing"
+  },
+  "range": 1
 }

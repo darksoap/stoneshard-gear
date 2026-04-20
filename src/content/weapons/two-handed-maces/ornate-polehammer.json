@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/ornate-polehammer.webp",
-  "damage": {
-    "value": 31,
-    "type": "blunt"
-  },
   "durability": 215,
   "price": 6875,
   "properties": {
@@ -25,10 +21,14 @@
     "staggerChance": 10,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "It looks like one of the polehammers awarded by Duke Arno di Berro to captains of the Falcon Plume company for their display of heroism during the defense of the Northern Gates.",
-  "descriptionZh": "鹰翎团英勇无畏，固守北门有功，迪·贝罗公爵赏了团中队长几把长柄锤，这一把看样子就是其中之一。"
+  "descriptionZh": "鹰翎团英勇无畏，固守北门有功，迪·贝罗公爵赏了团中队长几把长柄锤，这一把看样子就是其中之一。",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Noble Sabatons",
   "nameZh": "贵族脚甲",
   "slot": "legs",
-  "class": "heavy",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -14,11 +13,11 @@
     "maxMana": -18,
     "manaRestoration": -4,
     "defense": 25,
-    "evasion": -10,
+    "evasion": -9,
     "critAvoid": 12,
     "resistances": {
       "bleeding": 44,
-      "knockback": 44,
+      "knockback": 50,
       "physical": 36
     }
   },
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "The red velvet fittings are here to remind everyone who the lord of the land is.",
-  "descriptionZh": "这双脚甲之所以有红丝绒的修饰，目的是提醒大家谁才是这个地方的领主。"
+  "descriptionZh": "这双脚甲之所以有红丝绒的修饰，目的是提醒大家谁才是这个地方的领主。",
+  "class": "heavy"
 }

@@ -3,7 +3,6 @@
   "name": "Jonna Mantle",
   "nameZh": "约娜的披风",
   "slot": "chest",
-  "class": "light",
   "tier": 2,
   "rarity": "unique",
   "material": "cloth",
@@ -25,5 +24,6 @@
     "magic"
   ],
   "description": "A uniform of the Academy student, fashioned by Jonna from a man's mantle.",
-  "descriptionZh": "这种斗篷学院学生人手一件，这一件是约娜拿了件男式的改出来的。"
+  "descriptionZh": "这种斗篷学院学生人手一件，这一件是约娜拿了件男式的改出来的。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/crossbows/ornate-crossbow.webp",
-  "damage": {
-    "value": 28,
-    "type": "piercing"
-  },
   "durability": 90,
   "price": 7300,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 25,
     "skillsEnergyCost": 15
   },
-  "range": 8,
   "tags": [
     "unique"
   ],
   "description": "Any weapon has a potential to be transformed into an object of art. It's the age of redundancy after all.",
-  "descriptionZh": "任何兵器都可以变成艺术品，毕竟眼下是一个浮华的时代。"
+  "descriptionZh": "任何兵器都可以变成艺术品，毕竟眼下是一个浮华的时代。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 8
 }

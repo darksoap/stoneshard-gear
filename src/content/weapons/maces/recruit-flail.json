@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/recruit-flail.webp",
-  "damage": {
-    "value": 20,
-    "type": "blunt"
-  },
-  "durability": 70,
+  "durability": 75,
   "price": 425,
   "properties": {
     "accuracy": -5,
@@ -24,10 +20,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A flail like this can be quite unpredictable, demanding much more finesse than you might initially assume.",
-  "descriptionZh": "这种连枷看起来平平无奇，但是用起来并不容易，相当吃手上功夫。"
+  "descriptionZh": "这种连枷看起来平平无奇，但是用起来并不容易，相当吃手上功夫。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
 }

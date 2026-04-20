@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/maces/ghazi-flanged-mace.webp",
-  "damage": {
-    "value": 24,
-    "type": "blunt"
-  },
   "durability": 175,
   "price": 4600,
   "properties": {
@@ -27,10 +23,14 @@
       "sacred": 1
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Ghazi are warriors of the Jacinth Kingdoms who voluntarily joined the holy war against King Etbert's invasion. Naturally, their ranks included many highborn elves...",
-  "descriptionZh": "红锆列国当时有一批战士主动投身圣战，对抗埃特伯特国王的侵略，他们叫作“加齐”，其中自然不乏出身高贵的精灵……"
+  "descriptionZh": "红锆列国当时有一批战士主动投身圣战，对抗埃特伯特国王的侵略，他们叫作“加齐”，其中自然不乏出身高贵的精灵……",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
 }

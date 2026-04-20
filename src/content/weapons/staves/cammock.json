@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/cammock.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 30,
   "price": 125,
   "properties": {
@@ -21,10 +17,14 @@
     "miscastChance": -1,
     "miraclePower": 3
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "So withered that it's almost impossible to think of any good use for it.",
-  "descriptionZh": "都干成这样了，实在想不到还能有什么用处？"
+  "descriptionZh": "都干成这样了，实在想不到还能有什么用处？",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Old Fashioned Boots",
   "nameZh": "老式胫甲",
   "slot": "legs",
-  "class": "heavy",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -14,11 +13,11 @@
     "maxMana": -14,
     "manaRestoration": -4,
     "defense": 16,
-    "evasion": -6,
+    "evasion": -5,
     "critAvoid": 6,
     "resistances": {
       "bleeding": 29,
-      "knockback": 30,
+      "knockback": 33,
       "physical": 28
     }
   },
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "Battered, antiquated, and possibly passed down from someone's great-grandfather.",
-  "descriptionZh": "看这个破旧样子，有可能是谁的太爷爷传下来的。"
+  "descriptionZh": "看这个破旧样子，有可能是谁的太爷爷传下来的。",
+  "class": "heavy"
 }

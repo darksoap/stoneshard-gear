@@ -3,7 +3,6 @@
   "name": "Fine Shirt",
   "nameZh": "结实衬衫",
   "slot": "chest",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Rich peasants like to look the part - after all, why not wear better clothes if you have the funds?",
-  "descriptionZh": "有钱的农民穿衣服喜欢讲究些，毕竟既然穿得起好衣裳，又有什么理由不穿呢？"
+  "descriptionZh": "有钱的农民穿衣服喜欢讲究些，毕竟既然穿得起好衣裳，又有什么理由不穿呢？",
+  "class": "light"
 }

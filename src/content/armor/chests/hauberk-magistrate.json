@@ -3,7 +3,6 @@
   "name": "Hauberk Magistrate",
   "nameZh": "城联链甲",
   "slot": "chest",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A mail shirt with a blue and white tabard - a standard chestpiece of the Magistrate's garrisons.",
-  "descriptionZh": "链甲上衣配了蓝白色搭肩外衫，这是城市联盟戍军的标配。"
+  "descriptionZh": "链甲上衣配了蓝白色搭肩外衫，这是城市联盟戍军的标配。",
+  "class": "medium"
 }

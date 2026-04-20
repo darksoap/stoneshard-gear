@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/mercenary-axe.webp",
-  "damage": {
-    "value": 27,
-    "type": "slashing"
-  },
   "durability": 155,
   "price": 2425,
   "properties": {
@@ -21,10 +17,14 @@
     "bodypartDamage": 25,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Over the last few decades, Aldorians have attained incredible mastery in forging heavy plate armor. Axes like this are simply an attempt at evening the odds.",
-  "descriptionZh": "近几十年来，奥尔多人重型板甲的锻造工艺取得了长足的发展，这种斧头的诞生完全是为了应对这种板甲。"
+  "descriptionZh": "近几十年来，奥尔多人重型板甲的锻造工艺取得了长足的发展，这种斧头的诞生完全是为了应对这种板甲。",
+  "damage": {
+    "value": 27,
+    "type": "slashing"
+  },
+  "range": 1
 }

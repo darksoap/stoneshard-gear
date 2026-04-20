@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/maces/cudgel.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 45,
   "price": 25,
   "properties": {
@@ -21,10 +17,14 @@
     "knockbackChance": 5,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A crude club for a crude peasant.",
-  "descriptionZh": "农民斗殴最爱用这个东西。"
+  "descriptionZh": "农民斗殴最爱用这个东西。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
 }

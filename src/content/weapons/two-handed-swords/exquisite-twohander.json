@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/exquisite-twohander.webp",
-  "damage": {
-    "value": 34,
-    "type": "slashing"
-  },
-  "durability": 185,
+  "durability": 215,
   "price": 8150,
   "properties": {
     "critAvoid": 12,
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 30,
     "fatigueGain": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The handle makes this sword's origins crystal clear - Brynn weaponsmiths have a soft spot for elegant and somewhat ostentatious detailing.",
-  "descriptionZh": "这种大剑看到剑柄就知道产地是哪儿了——布林的兵匠非常热衷雅致而又张扬的纹饰。"
+  "descriptionZh": "这种大剑看到剑柄就知道产地是哪儿了——布林的兵匠非常热衷雅致而又张扬的纹饰。",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "range": 1
 }

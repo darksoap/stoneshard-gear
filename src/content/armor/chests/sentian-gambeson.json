@@ -3,7 +3,6 @@
   "name": "Sentian Gambeson",
   "nameZh": "森提亚夹棉软铠",
   "slot": "chest",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "The Sentians have always been known for their ability to add a touch of refinement to even the most simple and mundane items.",
-  "descriptionZh": "再简单无奇的东西，交给森提亚人，都能变得不太一样。他们这种能力远近闻名。"
+  "descriptionZh": "再简单无奇的东西，交给森提亚人，都能变得不太一样。他们这种能力远近闻名。",
+  "class": "light"
 }

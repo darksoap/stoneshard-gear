@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/norse-spear.webp",
-  "damage": {
-    "value": 22,
-    "type": "piercing"
-  },
   "durability": 160,
   "price": 1300,
   "properties": {
@@ -24,10 +20,14 @@
     "knockbackChance": 25,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "The dwarves of Fjall rarely use spears in combat, deeming them a hunting weapon, unworthy of the battlefield.",
-  "descriptionZh": "弗约的矮人认为长杆刃器是猎具，拿不上战场的台面，战斗时很少使用。"
+  "descriptionZh": "弗约的矮人认为长杆刃器是猎具，拿不上战场的台面，战斗时很少使用。",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Heater Shield F",
   "nameZh": "熨斗盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A solid choice when fighting on foot. This particular shield bears an insignia of some noble house.",
-  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了某个贵族的家徽。"
+  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了某个贵族的家徽。",
+  "class": "medium"
 }

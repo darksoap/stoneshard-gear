@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/noble-heavy-flail.webp",
-  "damage": {
-    "value": 35,
-    "type": "blunt"
-  },
   "durability": 160,
   "price": 8150,
   "properties": {
@@ -29,10 +25,14 @@
       "blunt": 35
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Two-handed flails may have originated on tournament grounds, but it's a rare occurrence to see a noble lord using one as he goes to war.",
-  "descriptionZh": "双手连枷最初可能是源自比武大会，只是很少见到贵族领主带着这种兵器作战。"
+  "descriptionZh": "双手连枷最初可能是源自比武大会，只是很少见到贵族领主带着这种兵器作战。",
+  "damage": {
+    "value": 35,
+    "type": "blunt"
+  },
+  "range": 1
 }

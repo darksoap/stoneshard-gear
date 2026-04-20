@@ -3,7 +3,6 @@
   "name": "Blademaster Doublet",
   "nameZh": "剑客马甲",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "aldor"
   ],
   "description": "Lightweight, resilient, and cut for mobility - despite the many metal plates sewn into the lining.",
-  "descriptionZh": "轻便，结实，而且虽然内里缝了不少铁板，但剪裁丝毫不影响活动。"
+  "descriptionZh": "轻便，结实，而且虽然内里缝了不少铁板，但剪裁丝毫不影响活动。",
+  "class": "light"
 }

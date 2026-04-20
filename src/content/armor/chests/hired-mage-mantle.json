@@ -3,7 +3,6 @@
   "name": "Hired Mage Mantle",
   "nameZh": "雇佣法师法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "magic"
   ],
   "description": "A sturdy garment that can take a beating, a reasonable choice for most contracts.",
-  "descriptionZh": "这件衣服结实耐穿，禁得住摔打，大多数契据穿这个都应该不会有大问题。"
+  "descriptionZh": "这件衣服结实耐穿，禁得住摔打，大多数契据穿这个都应该不会有大问题。",
+  "class": "light"
 }

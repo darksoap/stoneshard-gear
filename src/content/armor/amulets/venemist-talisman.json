@@ -3,7 +3,6 @@
   "name": "Venemist Talisman",
   "nameZh": "韦尼米斯特的护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 4,
   "rarity": "unique",
   "material": "silver",
@@ -22,5 +21,6 @@
     "special"
   ],
   "description": "It's set with an incredibly large morion that seems to be shifting its color every now and then... Or is it merely a trick of the light?",
-  "descriptionZh": "镶了一颗奇大无比的烟晶石，好像时不时还会变色……只是光的原因吗？"
+  "descriptionZh": "镶了一颗奇大无比的烟晶石，好像时不时还会变色……只是光的原因吗？",
+  "class": "light"
 }

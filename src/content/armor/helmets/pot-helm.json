@@ -15,7 +15,7 @@
     "defense": 8,
     "resistances": {
       "bleeding": 16,
-      "stun": 15,
+      "stun": 14,
       "physical": 12
     }
   },

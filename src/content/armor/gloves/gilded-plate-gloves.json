@@ -3,7 +3,6 @@
   "name": "Gilded Plate Gloves",
   "nameZh": "镀金手甲",
   "slot": "arms",
-  "class": "heavy",
   "tier": 5,
   "rarity": "unique",
   "material": "metal",
@@ -29,5 +28,6 @@
     "unique"
   ],
   "description": "Trimmed with velvet and tastefully accented with gold - the sort of gauntlets worn while signing declarations of war and accepting surrenders.",
-  "descriptionZh": "天鹅绒滚边，镀金的点缀也很有品味，这种手甲适合戴着签开战宣言和受降书。"
+  "descriptionZh": "天鹅绒滚边，镀金的点缀也很有品味，这种手甲适合戴着签开战宣言和受降书。",
+  "class": "heavy"
 }

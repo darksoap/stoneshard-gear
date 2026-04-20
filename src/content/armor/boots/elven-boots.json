@@ -3,7 +3,6 @@
   "name": "Elven Boots",
   "nameZh": "精灵靴",
   "slot": "legs",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -26,5 +25,6 @@
     "elven"
   ],
   "description": "In Jacinth Kingdoms, felt boots are sported by people from all walks of life, be it Ohirian nomads, maafs of Ahjat, or ghazi of Jibey.",
-  "descriptionZh": "红锆列国无论贵贱贫富，不论是奥息尔游牧民、艾哈雅特的玛弗还是吉贝的加齐，都会穿毡靴。"
+  "descriptionZh": "红锆列国无论贵贱贫富，不论是奥息尔游牧民、艾哈雅特的玛弗还是吉贝的加齐，都会穿毡靴。",
+  "class": "light"
 }

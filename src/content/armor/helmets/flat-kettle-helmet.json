@@ -15,7 +15,7 @@
     "critAvoid": 3,
     "resistances": {
       "bleeding": 15,
-      "stun": 10,
+      "stun": 11,
       "physical": 12
     }
   },

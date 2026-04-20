@@ -3,7 +3,6 @@
   "name": "Royal Ranger Gambeson",
   "nameZh": "王苑守卫夹棉软铠",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "unique",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "unique"
   ],
   "description": "The main task of the Royal Rangers was to patrol the hunting grounds of His Majesty. Their gambesons were sewn by the best craftsmen the realm had to offer.",
-  "descriptionZh": "王苑守卫当年主要负责巡查陛下的林苑，他们的软铠均出自奥尔多手艺最好的匠人之手。"
+  "descriptionZh": "王苑守卫当年主要负责巡查陛下的林苑，他们的软铠均出自奥尔多手艺最好的匠人之手。",
+  "class": "light"
 }

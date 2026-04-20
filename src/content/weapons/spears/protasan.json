@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/protasan.webp",
-  "damage": {
-    "value": 29,
-    "type": "piercing"
-  },
   "durability": 225,
   "price": 6375,
   "properties": {
@@ -22,10 +18,14 @@
     "knockbackChance": 35,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The protrusions on both sides of the spearhead allow for some fancy moves, such as parrying sluggish sword strikes.",
-  "descriptionZh": "枪头两侧各有一个尖端，可以轻松招架动作拖沓的刀劈剑刺。"
+  "descriptionZh": "枪头两侧各有一个尖端，可以轻松招架动作拖沓的刀劈剑刺。",
+  "damage": {
+    "value": 29,
+    "type": "piercing"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/felling-axe.webp",
-  "damage": {
-    "value": 18,
-    "type": "slashing"
-  },
   "durability": 65,
   "price": 75,
   "properties": {
@@ -20,10 +16,14 @@
     "staggerChance": 10,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "More than a few Aldorian folk songs were shaped to the rhythm of this axe.",
-  "descriptionZh": "有不少奥尔多民歌都是诞生自这种斧子伐树“丁丁”的声响之间。"
+  "descriptionZh": "有不少奥尔多民歌都是诞生自这种斧子伐树“丁丁”的声响之间。",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "range": 1
 }

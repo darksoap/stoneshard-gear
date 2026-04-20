@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/noble-hatchet.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 170,
   "price": 4600,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 20,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "As the centuries-old tradition of knightly ransom becomes a thing of the past, aristocratic weapons grow increasingly more deadly, aiming to kill the opponent right on the spot.",
-  "descriptionZh": "俘虏敌方骑士的传统存续了几百年之久，只是如今已不复存在，贵族的兵器也因而日益凶狠，只求当场毙敌。"
+  "descriptionZh": "俘虏敌方骑士的传统存续了几百年之久，只是如今已不复存在，贵族的兵器也因而日益凶狠，只求当场毙敌。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

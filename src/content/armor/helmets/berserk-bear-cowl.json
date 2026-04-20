@@ -17,7 +17,7 @@
     "weaponDamage": 3,
     "resistances": {
       "bleeding": 22,
-      "stun": 11,
+      "stun": 10,
       "pain": 10,
       "physical": 10,
       "nature": 10,

@@ -3,7 +3,6 @@
   "name": "Recruit Buckler",
   "nameZh": "新兵小圆盾",
   "slot": "shield",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Recruits typically need time to adjust to carrying and properly using a shield, which is why they prefer to start out with something lighter.",
-  "descriptionZh": "新兵学会持盾和正常用盾往往需要时间，所以初上战场时，往往偏好轻便的盾牌。"
+  "descriptionZh": "新兵学会持盾和正常用盾往往需要时间，所以初上战场时，往往偏好轻便的盾牌。",
+  "class": "light"
 }

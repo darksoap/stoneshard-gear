@@ -14,12 +14,12 @@
     "maxMana": -16,
     "manaRestoration": -4,
     "defense": 20,
-    "critAvoid": 7,
-    "fortitude": 7,
+    "critAvoid": 8,
+    "fortitude": 8,
     "vision": -2,
     "resistances": {
-      "bleeding": 34,
-      "stun": 30,
+      "bleeding": 31,
+      "stun": 37,
       "physical": 27
     }
   },

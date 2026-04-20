@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/slings/highlander-staff-sling.webp",
-  "damage": {
-    "value": 18,
-    "type": "blunt"
-  },
   "durability": 175,
   "price": 3825,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 25,
     "cooldownReduction": -6
   },
-  "range": 9,
   "tags": [
     "aldor"
   ],
   "description": "To this very day, certain noble Firn lineages still preserve the tradition of instructing male heirs in the art of the sling.",
-  "descriptionZh": "直到今天，山上的某些弗恩贵族家族还有教授男性继承人投石技艺的传统。"
+  "descriptionZh": "直到今天，山上的某些弗恩贵族家族还有教授男性继承人投石技艺的传统。",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "range": 8
 }

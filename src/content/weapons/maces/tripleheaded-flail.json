@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/tripleheaded-flail.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
-  "durability": 100,
+  "durability": 105,
   "price": 5350,
   "properties": {
     "accuracy": -8,
@@ -29,10 +25,14 @@
       "blunt": 28
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A risky weapon for those who are confident in their skill.",
-  "descriptionZh": "这件兵器，即便熟悉，用起来也十分危险。"
+  "descriptionZh": "这件兵器，即便熟悉，用起来也十分危险。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

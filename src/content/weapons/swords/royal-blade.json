@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/royal-blade.webp",
-  "damage": {
-    "value": 28,
-    "type": "slashing"
-  },
-  "durability": 130,
+  "durability": 145,
   "price": 6125,
   "properties": {
     "accuracy": 7,
@@ -21,10 +17,14 @@
     "skillsEnergyCost": -5,
     "damageReceived": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "A sword from King Etbert's personal armory. Clearly not his favorite, otherwise it would have followed the monarch into his tomb.",
-  "descriptionZh": "这把剑原本属于埃特伯特国王，国王征战南北，统一奥尔多的时候，配的很有可能就是它。"
+  "descriptionZh": "这把剑原本属于埃特伯特国王，国王征战南北，统一奥尔多的时候，配的很有可能就是它。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
 }

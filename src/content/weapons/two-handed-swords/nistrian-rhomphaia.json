@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/nistrian-rhomphaia.webp",
-  "damage": {
-    "value": 25,
-    "type": "slashing"
-  },
   "durability": 110,
   "price": 2025,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 8,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "nistra"
   ],
   "description": "Even to this day, Nistrian smiths continue producing certain types of antique weaponry, although they use steel instead of iron now.",
-  "descriptionZh": "直至今日，尼斯特拉的铁匠还会锻造一些形制古老的兵器，不过材料已经从铁改成了钢。"
+  "descriptionZh": "直至今日，尼斯特拉的铁匠还会锻造一些形制古老的兵器，不过材料已经从铁改成了钢。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/skadian-staff.webp",
-  "damage": {
-    "value": 13,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 2425,
   "properties": {
@@ -28,7 +24,11 @@
       "frost": 3
     }
   },
-  "range": 1,
   "description": "Distant Skadia is notable for its powerful spellcasters, known as volkhvs. There must be quite a story to this staff.",
-  "descriptionZh": "斯卡迪亚距离奥尔多很远，那里的法师——也就是“沃赫夫”——十分强大，这根长杖到了这里，肯定费了不少周折……"
+  "descriptionZh": "斯卡迪亚距离奥尔多很远，那里的法师——也就是“沃赫夫”——十分强大，这根长杖到了这里，肯定费了不少周折……",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
 }

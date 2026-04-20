@@ -3,7 +3,6 @@
   "name": "Peasant Shoes",
   "nameZh": "农家鞋",
   "slot": "legs",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "leather",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Such shoes are usually worn until they crumble right off the wearer's feet.",
-  "descriptionZh": "这种鞋子一般不穿到散架，农民都不会扔掉。"
+  "descriptionZh": "这种鞋子一般不穿到散架，农民都不会扔掉。",
+  "class": "light"
 }

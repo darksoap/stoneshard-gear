@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/hunter-hatchet.webp",
-  "damage": {
-    "value": 19,
-    "type": "slashing"
-  },
   "durability": 90,
   "price": 375,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 11,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A handy tool that can be used to carve a path through the thicket, chop some wood, or skin a dead animal.",
-  "descriptionZh": "这件工具用处很多，可以开路，可以砍柴，也可以给动物剥皮。"
+  "descriptionZh": "这件工具用处很多，可以开路，可以砍柴，也可以给动物剥皮。",
+  "damage": {
+    "value": 19,
+    "type": "slashing"
+  },
+  "range": 1
 }

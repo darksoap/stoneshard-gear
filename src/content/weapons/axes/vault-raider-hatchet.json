@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/vault-raider-hatchet.webp",
-  "damage": {
-    "value": 22,
-    "type": "slashing"
-  },
   "durability": 100,
   "price": 1025,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 5,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "Left behind by the Ancestors, the Vaults conceal boundless riches and unspeakable horrors alike. Only the most capable warriors have the courage to explore their forsaken halls.",
-  "descriptionZh": "先祖留下了一座座地墟，里面藏着无尽的财宝，也有言语无法形容的骇人之物，只有最骁勇的战士才敢深入墟里荒废的厅堂。"
+  "descriptionZh": "先祖留下了一座座地墟，里面藏着无尽的财宝，也有言语无法形容的骇人之物，只有最骁勇的战士才敢深入墟里荒废的厅堂。",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "range": 1
 }

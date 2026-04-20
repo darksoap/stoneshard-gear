@@ -3,7 +3,6 @@
   "name": "Warding Hand Amulet",
   "nameZh": "手掌护身符",
   "slot": "amulet",
-  "class": "light",
   "tier": 4,
   "rarity": "unique",
   "material": "gold",
@@ -23,5 +22,6 @@
     "unique"
   ],
   "description": "Hand imagery is considered a powerful ward in Aldor, capable of protecting its user from misfortune, sickness, and curses.",
-  "descriptionZh": "奥多尔的人认为手掌的图案能够辟邪，可以防止佩戴之人遭受厄运、不幸和诅咒或罹患疾病。"
+  "descriptionZh": "奥多尔的人认为手掌的图案能够辟邪，可以防止佩戴之人遭受厄运、不幸和诅咒或罹患疾病。",
+  "class": "light"
 }

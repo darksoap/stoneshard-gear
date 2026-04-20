@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "leather",
   "image": "/images/weapons/slings/ornate-sling.webp",
-  "damage": {
-    "value": 15,
-    "type": "blunt"
-  },
   "durability": 155,
   "price": 3050,
   "properties": {
@@ -25,10 +21,14 @@
     "cooldownReduction": -10,
     "fatigueGain": 10
   },
-  "range": 9,
   "tags": [
     "unique"
   ],
   "description": "To the nobility, the sling is more a plaything than a true weapon, fit only for occasional displays of skill at a tournament.",
-  "descriptionZh": "对于贵族而言，投石索更像玩具，而非真正的兵器，只适合比武大会上炫耀武艺。"
+  "descriptionZh": "对于贵族而言，投石索更像玩具，而非真正的兵器，只适合比武大会上炫耀武艺。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 8
 }

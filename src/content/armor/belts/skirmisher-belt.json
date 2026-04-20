@@ -3,7 +3,6 @@
   "name": "Skirmisher Belt",
   "nameZh": "散兵腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "Skirmishers are expected to carry a considerable amount of arrows and gear, so they give more thought than most to their choice of belts and bandoleers.",
-  "descriptionZh": "散兵需要随身带大量箭枝和工具，所以他们比大多数人更在意自己的腰带和腰包。"
+  "descriptionZh": "散兵需要随身带大量箭枝和工具，所以他们比大多数人更在意自己的腰带和腰包。",
+  "class": "light"
 }

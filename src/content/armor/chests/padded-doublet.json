@@ -3,7 +3,6 @@
   "name": "Padded Doublet",
   "nameZh": "夹棉上衣",
   "slot": "chest",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "It's suitable for a night out, a duel, or both at the same time. You'll look appropriate either way.",
-  "descriptionZh": "晚上出门可以穿，对决的时候可以穿，晚上出门对决的时候也可以穿，怎么穿都不会错。"
+  "descriptionZh": "晚上出门可以穿，对决的时候可以穿，晚上出门对决的时候也可以穿，怎么穿都不会错。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/rusty-sword.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 15,
   "price": 5,
   "properties": {
@@ -24,10 +20,14 @@
       "poison": 2
     }
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "A sword that has seen better days. It looks like it's about to crumble to dust.",
-  "descriptionZh": "这把剑过去可不是这样，现在好像马上就要碎成锈渣一样。"
+  "descriptionZh": "这把剑过去可不是这样，现在好像马上就要碎成锈渣一样。",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
 }

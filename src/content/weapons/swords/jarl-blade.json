@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/jarl-blade.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
-  "durability": 90,
+  "durability": 105,
   "price": 2900,
   "properties": {
     "accuracy": 4,
@@ -23,10 +19,14 @@
     "bleedingChance": 17,
     "skillsEnergyCost": 5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Entire wars have been fought in Fjall to claim such a sword - and the title that comes with it.",
-  "descriptionZh": "弗约矮人之间连年的争斗，都是为了争夺这么一把剑和“亚尔”这个名号。"
+  "descriptionZh": "弗约矮人之间连年的争斗，都是为了争夺这么一把剑和“亚尔”这个名号。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

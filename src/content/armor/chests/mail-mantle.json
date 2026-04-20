@@ -3,7 +3,6 @@
   "name": "Mail Mantle",
   "nameZh": "链甲法袍",
   "slot": "chest",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -29,5 +28,6 @@
     "magic"
   ],
   "description": "Such mantles have been a common garb of Aldorian battlemages ever since the Radiant Wars - the long range of maaf bows would make short work of anyone wearing light clothes.",
-  "descriptionZh": "光辉战争之后，奥尔多的战地法师多数便穿上了这种法袍——玛弗人弓长箭远，轻衫薄衣等于送死。"
+  "descriptionZh": "光辉战争之后，奥尔多的战地法师多数便穿上了这种法袍——玛弗人弓长箭远，轻衫薄衣等于送死。",
+  "class": "medium"
 }

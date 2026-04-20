@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/grossemesser.webp",
-  "damage": {
-    "value": 32,
-    "type": "slashing"
-  },
   "durability": 155,
   "price": 8675,
   "properties": {
@@ -22,10 +18,14 @@
     "bleedingChance": 25,
     "skillsEnergyCost": 40
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Technically not a sword but a very large knife - though who besides weapon collectors would lose sleep over such a distinction?",
-  "descriptionZh": "形制上来说，其实是一把大刀，不过除了兵器收藏家，又有谁会在意这种差异？"
+  "descriptionZh": "形制上来说，其实是一把大刀，不过除了兵器收藏家，又有谁会在意这种差异？",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
 }

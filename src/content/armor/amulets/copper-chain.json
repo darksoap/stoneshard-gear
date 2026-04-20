@@ -3,7 +3,6 @@
   "name": "Copper Chain",
   "nameZh": "铜链",
   "slot": "amulet",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "metal",
@@ -18,5 +17,6 @@
     "aldor"
   ],
   "description": "In Aldor, a copper chain is as much an accessory as it is a protective charm.",
-  "descriptionZh": "在奥尔多，铜链既是首饰，也能辟邪护身。"
+  "descriptionZh": "在奥尔多，铜链既是首饰，也能辟邪护身。",
+  "class": "light"
 }

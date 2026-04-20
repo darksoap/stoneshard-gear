@@ -3,7 +3,6 @@
   "name": "Cryomancer Mantle",
   "nameZh": "冰术法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -30,5 +29,6 @@
     "magic"
   ],
   "description": "Made of deceptively light cloth, this mantle is fortified with cryomantic enchantments that can withstand even the harshest of frosts.",
-  "descriptionZh": "这件法袍用的料子轻到令人难以置信，其中织入了冰术魔法，无论多冷的天气，只要穿上这件法袍，就不会冻伤。"
+  "descriptionZh": "这件法袍用的料子轻到令人难以置信，其中织入了冰术魔法，无论多冷的天气，只要穿上这件法袍，就不会冻伤。",
+  "class": "light"
 }

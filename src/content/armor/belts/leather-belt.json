@@ -3,7 +3,6 @@
   "name": "Leather Belt",
   "nameZh": "皮带",
   "slot": "waist",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "leather",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "A perfectly ordinary leather belt, nothing more.",
-  "descriptionZh": "普普通通的皮带，没什么花哨。"
+  "descriptionZh": "普普通通的皮带，没什么花哨。",
+  "class": "light"
 }

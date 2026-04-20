@@ -3,7 +3,6 @@
   "name": "Maen Mantle",
   "nameZh": "曼恩法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -27,5 +26,6 @@
     "magic"
   ],
   "description": "Most of the time, the weather in Maen is rather chilly, so local mages have a preference for thick, heavy mantles. Why risk catching a cold if you can avoid it?",
-  "descriptionZh": "曼恩的气候除了少数几个月份，常年寒凉，当地法师因此喜穿厚而重的法袍。既然有保暖的办法，又何必去冒感染风寒的风险？"
+  "descriptionZh": "曼恩的气候除了少数几个月份，常年寒凉，当地法师因此喜穿厚而重的法袍。既然有保暖的办法，又何必去冒感染风寒的风险？",
+  "class": "light"
 }

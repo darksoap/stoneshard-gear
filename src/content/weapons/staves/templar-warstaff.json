@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/templar-warstaff.webp",
-  "damage": {
-    "value": 20,
-    "type": "blunt"
-  },
   "durability": 155,
   "price": 5100,
   "properties": {
@@ -29,10 +25,14 @@
       "sacred": 2
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "Templars of the Order united chivalric discipline and magic mastery with the relentless study of the Host - all in the hopes of earning the gift of thaumaturgy.",
-  "descriptionZh": "三手会的圣堂武士研习圣主，既遵守骑士纪律，又修炼魔法，都只是为了最终获得超凡神通。"
+  "descriptionZh": "三手会的圣堂武士研习圣主，既遵守骑士纪律，又修炼魔法，都只是为了最终获得超凡神通。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
 }

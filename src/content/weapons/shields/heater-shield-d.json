@@ -3,7 +3,6 @@
   "name": "Heater Shield D",
   "nameZh": "熨斗盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A solid choice when fighting on foot.",
-  "descriptionZh": "非常适合徒步作战。"
+  "descriptionZh": "非常适合徒步作战。",
+  "class": "medium"
 }

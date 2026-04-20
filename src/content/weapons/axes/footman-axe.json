@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/footman-axe.webp",
-  "damage": {
-    "value": 23,
-    "type": "slashing"
-  },
   "durability": 130,
   "price": 1075,
   "properties": {
@@ -21,10 +17,14 @@
     "bodypartDamage": 20,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Light enough to swing with relative ease while still carrying enough weight to hack through armor and shields.",
-  "descriptionZh": "不重不轻，分量刚好，拿在手上不会觉得太沉，劈在盔甲或者盾牌上，又不会像挠痒痒一样。"
+  "descriptionZh": "不重不轻，分量刚好，拿在手上不会觉得太沉，劈在盔甲或者盾牌上，又不会像挠痒痒一样。",
+  "damage": {
+    "value": 23,
+    "type": "slashing"
+  },
+  "range": 1
 }

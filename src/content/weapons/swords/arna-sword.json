@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/arna-sword.webp",
-  "damage": {
-    "value": 17,
-    "type": "slashing"
-  },
-  "durability": 70,
+  "durability": 80,
   "price": 475,
   "properties": {
     "fumbleChance": -3,
@@ -19,11 +15,15 @@
     "damageReduction": 7,
     "blockPower": 5
   },
-  "range": 1,
   "tags": [
     "special",
     "exc"
   ],
   "description": "The surface of the blade bears an inscription, faded by time. The words are no longer decipherable, but Arna can still recite them from memory.",
-  "descriptionZh": "剑身刻有一些文字，虽然已经无法辨认，但是阿娜早已烂熟于心。"
+  "descriptionZh": "剑身刻有一些文字，虽然已经无法辨认，但是阿娜早已烂熟于心。",
+  "damage": {
+    "value": 17,
+    "type": "slashing"
+  },
+  "range": 1
 }

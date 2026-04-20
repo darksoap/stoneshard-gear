@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/war-scythe.webp",
-  "damage": {
-    "value": 18,
-    "type": "slashing"
-  },
   "durability": 70,
   "price": 125,
   "properties": {
@@ -20,10 +16,14 @@
     "staggerChance": 10,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A weapon of uncertain times - a humble scythe blade, fastened to a wooden handle.",
-  "descriptionZh": "普通的镰刀绑了木柄，适合时局动荡的年代。"
+  "descriptionZh": "普通的镰刀绑了木柄，适合时局动荡的年代。",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "range": 1
 }

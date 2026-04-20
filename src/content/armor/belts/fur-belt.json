@@ -3,7 +3,6 @@
   "name": "Fur Belt",
   "nameZh": "毛皮腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -22,5 +21,6 @@
     "aldor"
   ],
   "description": "It's trimmed with luscious fur of some unknown Fjall beast.",
-  "descriptionZh": "边缘缝了厚实的毛皮，不知道是弗约的什么动物。"
+  "descriptionZh": "边缘缝了厚实的毛皮，不知道是弗约的什么动物。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/pilgrim-staff.webp",
-  "damage": {
-    "value": 13,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 400,
   "properties": {
@@ -27,10 +23,14 @@
       "sacred": 1
     }
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A trusty companion for long journeys between holy sites.",
-  "descriptionZh": "信徒长途跋涉朝拜圣地途中，最需要这样一根长杖。"
+  "descriptionZh": "信徒长途跋涉朝拜圣地途中，最需要这样一根长杖。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
 }

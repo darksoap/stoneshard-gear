@@ -3,7 +3,6 @@
   "name": "Heater Shield A",
   "nameZh": "城联熨斗盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A solid choice when fighting on foot. This particular shield bears the colors of the Grand Magistrate.",
-  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了城市联盟的盾徽。"
+  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了城市联盟的盾徽。",
+  "class": "medium"
 }

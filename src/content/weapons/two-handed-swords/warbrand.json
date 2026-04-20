@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/warbrand.webp",
-  "damage": {
-    "value": 18,
-    "type": "slashing"
-  },
   "durability": 65,
   "price": 125,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 5,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It's sharp to such a degree that a strong enough strike will easily separate your opponent's head from their body.",
-  "descriptionZh": "十分锋利，只要力量够大，一刀就能砍下敌人的首级。"
+  "descriptionZh": "十分锋利，只要力量够大，一刀就能砍下敌人的首级。",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "range": 1
 }

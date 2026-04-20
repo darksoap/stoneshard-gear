@@ -3,7 +3,6 @@
   "name": "Lazurite Pendant",
   "nameZh": "青金吊坠",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "gem",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "There's something ostensibly pagan about it... Who was it that collected all this lazurite, which is almost non-existent in Aldor, and by what means, is anyone's guess.",
-  "descriptionZh": "这个东西有可能跟不信圣主的多神教教徒有关系……奥尔多基本不存在青金石，是谁弄到的这种颜料？又是怎么弄到的呢？匪夷所思。"
+  "descriptionZh": "这个东西有可能跟不信圣主的多神教教徒有关系……奥尔多基本不存在青金石，是谁弄到的这种颜料？又是怎么弄到的呢？匪夷所思。",
+  "class": "light"
 }

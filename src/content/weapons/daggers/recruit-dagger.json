@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/recruit-dagger.webp",
-  "damage": {
-    "value": 14,
-    "type": "piercing"
-  },
-  "durability": 60,
+  "durability": 70,
   "price": 250,
   "properties": {
     "critAvoid": 4,
@@ -20,10 +16,14 @@
     "blockPower": 3,
     "bleedingChance": 8
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A crudely reforged hunting knife suitable for butchering game and slitting throats.",
-  "descriptionZh": "草草重铸的猎刀，能剖动物，也能割脖子。"
+  "descriptionZh": "草草重铸的猎刀，能剖动物，也能割脖子。",
+  "damage": {
+    "value": 14,
+    "type": "piercing"
+  },
+  "range": 1
 }

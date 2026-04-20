@@ -3,7 +3,6 @@
   "name": "Mahir Boots",
   "nameZh": "玛息尔的靴子",
   "slot": "legs",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "cloth",
@@ -18,7 +17,7 @@
     "fortitude": 5,
     "resistances": {
       "bleeding": 5,
-      "knockback": 5,
+      "knockback": 4,
       "physical": 5
     }
   },
@@ -27,5 +26,6 @@
     "exc"
   ],
   "description": "The steps taken in these felt boots surpass even the number of stars in the sky.",
-  "descriptionZh": "这双毡靴迈过的步子，比天上的星星还多。"
+  "descriptionZh": "这双毡靴迈过的步子，比天上的星星还多。",
+  "class": "light"
 }

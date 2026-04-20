@@ -7,7 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/armor/helmets/fjall-helmet.webp",
-  "durability": 115,
+  "durability": 105,
   "price": 1000,
   "properties": {
     "critChance": 1,
@@ -15,15 +15,12 @@
     "maxMana": -4,
     "manaRestoration": -1,
     "defense": 10,
-    "fortitude": 3,
     "resistances": {
-      "bleeding": 18,
-      "stun": 16,
+      "bleeding": 20,
+      "stun": 14,
       "pain": 10,
       "physical": 17,
-      "nature": 9,
-      "magic": 9,
-      "rending": 5
+      "rending": 8
     }
   },
   "tags": [

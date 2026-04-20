@@ -16,7 +16,7 @@
     "fortitude": 5,
     "resistances": {
       "bleeding": 26,
-      "stun": 25,
+      "stun": 22,
       "physical": 25
     }
   },

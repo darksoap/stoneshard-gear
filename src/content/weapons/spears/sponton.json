@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/sponton.webp",
-  "damage": {
-    "value": 29,
-    "type": "piercing"
-  },
   "durability": 180,
   "price": 7150,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 24,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Another great example of the Bronze Isles craftsmanship, where a weapon's aesthetics is prized just as much as its killing potential.",
-  "descriptionZh": "半长枪也是青铜群岛兵器锻造工艺的绝佳例证，造型具有极高的欣赏价值，夺人性命的能力也不可小觑。"
+  "descriptionZh": "半长枪也是青铜群岛兵器锻造工艺的绝佳例证，造型具有极高的欣赏价值，夺人性命的能力也不可小觑。",
+  "damage": {
+    "value": 29,
+    "type": "piercing"
+  },
+  "range": 1
 }

@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/daggers/gilded-dagger.webp",
-  "damage": {
-    "value": 18,
-    "type": "piercing"
-  },
-  "durability": 80,
+  "durability": 90,
   "price": 1450,
   "properties": {
     "accuracy": 5,
@@ -23,10 +19,14 @@
     "manasteal": 5,
     "miscastChance": -2
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "No need to spend countless crowns to convince the onlookers of your great wealth: an elegant gilded dagger on your hip will speak for itself.",
-  "descriptionZh": "如果想让旁人知道你富得流油，不需要挥金如土，只要腰上插一把漂亮的镀金匕首，就不言自明了。"
+  "descriptionZh": "如果想让旁人知道你富得流油，不需要挥金如土，只要腰上插一把漂亮的镀金匕首，就不言自明了。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 1
 }

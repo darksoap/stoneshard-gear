@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/norse-blade.webp",
-  "damage": {
-    "value": 21,
-    "type": "slashing"
-  },
-  "durability": 80,
+  "durability": 90,
   "price": 1300,
   "properties": {
     "accuracy": 3,
@@ -22,10 +18,14 @@
     "bleedingChance": 9,
     "skillsEnergyCost": 5
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "Skirmishing, plundering, murdering - nothing is impossible with this blade!",
-  "descriptionZh": "有了这把剑，打家劫舍，杀人越货，没有干不了的事情。"
+  "descriptionZh": "有了这把剑，打家劫舍，杀人越货，没有干不了的事情。",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
 }

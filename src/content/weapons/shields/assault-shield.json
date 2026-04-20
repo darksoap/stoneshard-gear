@@ -3,7 +3,6 @@
   "name": "Assault Shield",
   "nameZh": "突击盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -19,12 +18,13 @@
     "evasion": -14,
     "critAvoid": 6,
     "resistances": {
-      "knockback": 17
+      "knockback": 20
     }
   },
   "tags": [
     "aldor"
   ],
   "description": "Might come in handy if you ever need to hide from arrows raining down from the walls of a besieged castle.",
-  "descriptionZh": "攻城的时候，如果敌人的弓兵在城墙上一齐放箭，这种盾牌说不定能派上用场。"
+  "descriptionZh": "攻城的时候，如果敌人的弓兵在城墙上一齐放箭，这种盾牌说不定能派上用场。",
+  "class": "heavy"
 }

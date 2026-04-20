@@ -3,7 +3,6 @@
   "name": "Fang Pendant",
   "nameZh": "兽牙吊坠",
   "slot": "amulet",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "metal",
@@ -17,5 +16,6 @@
     "aldor"
   ],
   "description": "A time-honored charm meant to bring luck during a hunt.",
-  "descriptionZh": "自古以来，人们都相信戴上这种护符打猎，一定可以满载而归。"
+  "descriptionZh": "自古以来，人们都相信戴上这种护符打猎，一定可以满载而归。",
+  "class": "light"
 }

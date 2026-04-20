@@ -3,7 +3,6 @@
   "name": "Lamellar Quilted Coat",
   "nameZh": "嵌皮片绗麻上衣",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "A quilted chestpiece reinforced with multiple rows of leather plates to better disperse the force of incoming strikes.",
-  "descriptionZh": "这一件绗麻的上衣嵌了几排皮片，这样一来，缓冲的效果就更好了。"
+  "descriptionZh": "这一件绗麻的上衣嵌了几排皮片，这样一来，缓冲的效果就更好了。",
+  "class": "light"
 }

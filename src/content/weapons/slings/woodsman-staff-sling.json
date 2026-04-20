@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/woodsman-staff-sling.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 100,
   "price": 800,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 15,
     "cooldownReduction": -4
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "While suppressing the Eeders' rebellion a dozen years ago, the nobles received an unexpected and rather unwelcome reminder: staff slings are far deadlier than one might assume.",
-  "descriptionZh": "十几年前，贵族镇压伊德斯的叛乱分子，吃了不少意料之外的亏，也就是那个时候才意识到投石杖的杀伤力远远超出自己的想象。"
+  "descriptionZh": "十几年前，贵族镇压伊德斯的叛乱分子，吃了不少意料之外的亏，也就是那个时候才意识到投石杖的杀伤力远远超出自己的想象。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 7
 }

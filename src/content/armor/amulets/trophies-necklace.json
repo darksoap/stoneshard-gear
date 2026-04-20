@@ -3,7 +3,6 @@
   "name": "Trophies Necklace",
   "nameZh": "战利项链",
   "slot": "amulet",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "cloth",
@@ -19,5 +18,6 @@
     "fjall"
   ],
   "description": "Both the soldiers of the Northern Borderlands and the dwarves they are getting in constant skirmishes with have a morbid penchant for collecting fingers of slain foes and wearing them as necklaces.",
-  "descriptionZh": "北疆的士兵以及他们经常面对的矮人都有一个病态的喜好——杀了敌人之后，剁下对方的手指，穿成项链戴在胸前。"
+  "descriptionZh": "北疆的士兵以及他们经常面对的矮人都有一个病态的喜好——杀了敌人之后，剁下对方的手指，穿成项链戴在胸前。",
+  "class": "light"
 }

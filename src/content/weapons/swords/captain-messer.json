@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/swords/captain-messer.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 120,
   "price": 5600,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 24,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It strikes a perfect balance between aesthetics, battlefield performance, and comfort of use - such swords are often carried by captains of the most renowned mercenary companies.",
-  "descriptionZh": "这种兵器看着好看、用着舒服，杀敌效果也不差，颇受各大佣兵团的长官青睐。"
+  "descriptionZh": "这种兵器看着好看、用着舒服，杀敌效果也不差，颇受各大佣兵团的长官青睐。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

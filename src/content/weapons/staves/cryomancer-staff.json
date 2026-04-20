@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/cryomancer-staff.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 2425,
   "properties": {
@@ -28,10 +24,14 @@
       "cryomantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "Cryomancers love to joke about this staff's bone-chilling properties. The last time anyone laughed at this pun was a century ago.",
-  "descriptionZh": "冰术法师喜欢拿这根长杖的冰冷开玩笑，不过这个冷笑话已经有一百多年没把人逗笑过了。"
+  "descriptionZh": "冰术法师喜欢拿这根长杖的冰冷开玩笑，不过这个冷笑话已经有一百多年没把人逗笑过了。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
 }

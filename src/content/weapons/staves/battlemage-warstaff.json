@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/battlemage-warstaff.webp",
-  "damage": {
-    "value": 18,
-    "type": "blunt"
-  },
   "durability": 145,
   "price": 2425,
   "properties": {
@@ -28,10 +24,14 @@
       "arcane": 2
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "Every so often, there's simply no time for casting spells, and fighting up close becomes the only option.",
-  "descriptionZh": "有些时候根本没有时间施法，近身打斗就成了唯一选择。"
+  "descriptionZh": "有些时候根本没有时间施法，近身打斗就成了唯一选择。",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "range": 1
 }

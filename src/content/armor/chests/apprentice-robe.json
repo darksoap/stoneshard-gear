@@ -3,7 +3,6 @@
   "name": "Apprentice Robe",
   "nameZh": "新人长袍",
   "slot": "chest",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "magic"
   ],
   "description": "The black color of this mantle indicates that a student wearing it hasn't yet decided which Circle they wish to pursue.",
-  "descriptionZh": "哪个学生要是穿了这种黑袍，就表示还没想好加入哪个法会。"
+  "descriptionZh": "哪个学生要是穿了这种黑袍，就表示还没想好加入哪个法会。",
+  "class": "light"
 }

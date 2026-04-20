@@ -3,7 +3,6 @@
   "name": "Elven Garment",
   "nameZh": "精灵上衣",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -25,5 +24,6 @@
     "elven"
   ],
   "description": "There is a faint flowery scent coming from the cloth. It reminds you of places you've never had a chance to travel to.",
-  "descriptionZh": "衣服上有淡淡的花香，好像来自你从未去过的地方。"
+  "descriptionZh": "衣服上有淡淡的花香，好像来自你从未去过的地方。",
+  "class": "light"
 }

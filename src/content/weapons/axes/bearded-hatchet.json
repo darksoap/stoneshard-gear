@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/bearded-hatchet.webp",
-  "damage": {
-    "value": 19,
-    "type": "slashing"
-  },
   "durability": 80,
   "price": 400,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 12,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Lends itself to a higher grip whenever the enemy gets too close for a full swing.",
-  "descriptionZh": "如果敌人近在眼前，不宜大开大合，这种斧头也可以握着靠上的位置使用。"
+  "descriptionZh": "如果敌人近在眼前，不宜大开大合，这种斧头也可以握着靠上的位置使用。",
+  "damage": {
+    "value": 19,
+    "type": "slashing"
+  },
+  "range": 1
 }

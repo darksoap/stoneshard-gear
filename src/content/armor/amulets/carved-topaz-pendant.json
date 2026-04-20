@@ -3,7 +3,6 @@
   "name": "Carved Topaz Pendant",
   "nameZh": "雕纹黄玉吊坠",
   "slot": "amulet",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "gem",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "Such necklaces are an essential attribute of prosperous city aristocrats, who never miss a chance to put their wealth on display.",
-  "descriptionZh": "城里的名门贵族不会放过任何炫耀家产的机会，这种项链他们家家必有。"
+  "descriptionZh": "城里的名门贵族不会放过任何炫耀家产的机会，这种项链他们家家必有。",
+  "class": "light"
 }

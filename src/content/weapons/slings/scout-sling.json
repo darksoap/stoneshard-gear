@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/scout-sling.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 110,
   "price": 650,
   "properties": {
@@ -21,10 +17,14 @@
     "skillsEnergyCost": 5,
     "cooldownReduction": -7
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "Brought out when a scouting mission calls for a probing strike.",
-  "descriptionZh": "侦察行动如果需要试探性进攻，这种兵器就可以拿出来了。"
+  "descriptionZh": "侦察行动如果需要试探性进攻，这种兵器就可以拿出来了。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 8
 }

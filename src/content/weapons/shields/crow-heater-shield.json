@@ -3,7 +3,6 @@
   "name": "Crow Heater Shield",
   "nameZh": "渡鸦熨斗盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 4,
   "rarity": "unique",
   "material": "wood",
@@ -18,12 +17,13 @@
     "evasion": -2,
     "fortitude": 10,
     "resistances": {
-      "knockback": 5
+      "knockback": 6
     }
   },
   "tags": [
     "unique"
   ],
   "description": "The fearsome Raven Gang, which used to be the scourge of the entire realm, suffered their first and final defeat in the battle of the Hangman's Hill. There were almost no survivors: Sir Wolfard's troops immediately hanged those few bandits they had captured, giving the previously nameless hill its moniker.",
-  "descriptionZh": "渡鸦帮骁勇善战，战无不胜，过去曾是奥尔多的一大祸害。然而，吊死人山一役，这个神话就此终结——渡鸦帮成员所剩无几，尽数被沃法尔德爵士命人绞死，吊死人山本来没有名字，这个名字就是这么来的。"
+  "descriptionZh": "渡鸦帮骁勇善战，战无不胜，过去曾是奥尔多的一大祸害。然而，吊死人山一役，这个神话就此终结——渡鸦帮成员所剩无几，尽数被沃法尔德爵士命人绞死，吊死人山本来没有名字，这个名字就是这么来的。",
+  "class": "medium"
 }

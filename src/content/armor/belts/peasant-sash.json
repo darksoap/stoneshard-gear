@@ -3,7 +3,6 @@
   "name": "Peasant Sash",
   "nameZh": "裤带",
   "slot": "waist",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "cloth",
@@ -17,5 +16,6 @@
     "aldor"
   ],
   "description": "A sash with the nastiest timing for getting loose, so it's best to fasten it as tight as possible.",
-  "descriptionZh": "这条裤带经常会在最不该掉的时候掉下来，所以必须能系多紧就系多紧。"
+  "descriptionZh": "这条裤带经常会在最不该掉的时候掉下来，所以必须能系多紧就系多紧。",
+  "class": "light"
 }

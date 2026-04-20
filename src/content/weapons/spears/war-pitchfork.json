@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/war-pitchfork.webp",
-  "damage": {
-    "value": 18,
-    "type": "piercing"
-  },
   "durability": 105,
   "price": 525,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 20,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "There isn't a single agricultural tool which hasn't been repurposed for military use.",
-  "descriptionZh": "只要是个农具，就都能改出军用版本。"
+  "descriptionZh": "只要是个农具，就都能改出军用版本。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 1
 }

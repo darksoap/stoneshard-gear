@@ -3,7 +3,6 @@
   "name": "Silver Emerald Ring",
   "nameZh": "祖母绿银戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "silver",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "In iatrochemistry, emeralds are thought to be the quintessence of life force - which is why they are worn day and night by those obsessed with longevity.",
-  "descriptionZh": "医化学家认为祖母绿是生力精华，痴迷延年益寿的人白天黑夜都会戴着这种宝石。"
+  "descriptionZh": "医化学家认为祖母绿是生力精华，痴迷延年益寿的人白天黑夜都会戴着这种宝石。",
+  "class": "light"
 }

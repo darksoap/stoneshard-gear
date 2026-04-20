@@ -3,7 +3,6 @@
   "name": "Knightly Shield",
   "nameZh": "骑士盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 5,
   "rarity": "common",
   "material": "wood",
@@ -22,5 +21,6 @@
     "aldor"
   ],
   "description": "Sometimes a knight needs to fight on foot. This shield is excellent for such scenarios.",
-  "descriptionZh": "骑士有时需要下马作战，这个时候就非常适合用这种盾牌。"
+  "descriptionZh": "骑士有时需要下马作战，这个时候就非常适合用这种盾牌。",
+  "class": "medium"
 }

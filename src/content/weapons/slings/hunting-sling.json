@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/hunting-sling.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 250,
   "properties": {
@@ -21,10 +17,14 @@
     "skillsEnergyCost": 5,
     "cooldownReduction": -7
   },
-  "range": 7,
   "tags": [
     "aldor"
   ],
   "description": "A long-established peasant weapon for hunting small game, demanding both training and a fair bit of dexterity.",
-  "descriptionZh": "这个早就成了农民猎取小型野物的工具，只是需要日常练习，还需要手上灵活。"
+  "descriptionZh": "这个早就成了农民猎取小型野物的工具，只是需要日常练习，还需要手上灵活。",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 6
 }

@@ -3,7 +3,6 @@
   "name": "Phylactery Talisman",
   "nameZh": "灵魂水晶护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "unique",
   "material": "gem",
@@ -25,5 +24,6 @@
     "special"
   ],
   "description": "A vessel for someone's soul, sealed by a forbidden ritual. It always pays to stay on your toes when dealing with dark magic...",
-  "descriptionZh": "有人通过某种禁忌仪式，将他人的灵魂封进了这颗水晶。接触黑暗魔法的时候，千万要小心……"
+  "descriptionZh": "有人通过某种禁忌仪式，将他人的灵魂封进了这颗水晶。接触黑暗魔法的时候，千万要小心……",
+  "class": "light"
 }

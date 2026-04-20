@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/bows/dirwin-shortbow.webp",
-  "damage": {
-    "value": 18,
-    "type": "piercing"
-  },
   "durability": 60,
   "price": 375,
   "properties": {
@@ -21,11 +17,15 @@
     "immobilizationChance": 10,
     "skillsEnergyCost": 20
   },
-  "range": 8,
   "tags": [
     "special",
     "exc"
   ],
   "description": "The sheer number of notches can be a source of either pride or dread. Depends on who does the tallying.",
-  "descriptionZh": "弓面上一道道箭痕令人敬畏，至于是敬还是畏，取决于你站在弓前还是弓后。"
+  "descriptionZh": "弓面上一道道箭痕令人敬畏，至于是敬还是畏，取决于你站在弓前还是弓后。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 8
 }

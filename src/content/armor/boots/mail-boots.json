@@ -3,7 +3,6 @@
   "name": "Mail Boots",
   "nameZh": "链甲靴",
   "slot": "legs",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -17,7 +16,7 @@
     "evasion": -4,
     "resistances": {
       "bleeding": 22,
-      "knockback": 16,
+      "knockback": 18,
       "physical": 11,
       "slashing": 15
     }
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "Such footwear is cheap to maintain and can withstand a glancing blow to the legs - what else can a warrior wish for?",
-  "descriptionZh": "这样的靴子保养起来不费钱，还能抵挡刮擦。战士要是能有这样的防具，还用奢求什么？"
+  "descriptionZh": "这样的靴子保养起来不费钱，还能抵挡刮擦。战士要是能有这样的防具，还用奢求什么？",
+  "class": "medium"
 }

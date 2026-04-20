@@ -3,7 +3,6 @@
   "name": "Court Wizard Belt",
   "nameZh": "家内法师腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "leather",
@@ -22,5 +21,6 @@
     "magic"
   ],
   "description": "It's hard to imagine a more wasteful and extravagant way to belt one's clothes.",
-  "descriptionZh": "腰带的作用只是束腰，很难想象还能有怎样更加铺张浪费的腰带。"
+  "descriptionZh": "腰带的作用只是束腰，很难想象还能有怎样更加铺张浪费的腰带。",
+  "class": "light"
 }

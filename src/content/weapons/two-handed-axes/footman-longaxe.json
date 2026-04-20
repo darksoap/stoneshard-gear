@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/footman-longaxe.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 125,
   "price": 1625,
   "properties": {
@@ -20,10 +16,14 @@
     "staggerChance": 25,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "fjall"
   ],
   "description": "While many will deny it, Aldorians actually learned a few things from dwarves - how to make such axes, as an example.",
-  "descriptionZh": "虽然很多人都不承认，但奥尔多的人确实从矮人那里学到了几样本事——比如怎么锻造这种斧子。"
+  "descriptionZh": "虽然很多人都不承认，但奥尔多的人确实从矮人那里学到了几样本事——比如怎么锻造这种斧子。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

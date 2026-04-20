@@ -3,7 +3,6 @@
   "name": "Antique Wristbands",
   "nameZh": "古代护腕",
   "slot": "arms",
-  "class": "light",
   "tier": 5,
   "rarity": "unique",
   "material": "metal",
@@ -29,5 +28,6 @@
     "unique"
   ],
   "description": "Fashioned in either the Ald or Firn tradition - the splendor of the adornments suggests they were once worn by a prominent chieftain or high priest.",
-  "descriptionZh": "不是奥尔德的工艺就是弗恩的工艺，修饰丰富，说明之前的主人要么是声名显赫的酋长，不然就是大祭司。"
+  "descriptionZh": "不是奥尔德的工艺就是弗恩的工艺，修饰丰富，说明之前的主人要么是声名显赫的酋长，不然就是大祭司。",
+  "class": "light"
 }

@@ -51,7 +51,7 @@ const baseItemSchema = z.object({
   tier: z.number().int().min(1).max(5),
   material: MaterialEnum,
   rarity: RarityEnum,
-  version: z.string().default('0.9.4.16'),
+  version: z.string().default('0.9.4.18'),
   properties: z.record(z.string(), z.any()),
   durability: z.number().int().nonnegative(),
   price: z.number().int().nonnegative(),

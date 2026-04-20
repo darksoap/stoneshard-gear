@@ -3,7 +3,6 @@
   "name": "Silver Aquamarine Amulet",
   "nameZh": "海蓝宝石镶银护身符",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "silver",
@@ -18,5 +17,6 @@
     "aldor"
   ],
   "description": "When purchasing jewelry, mages prioritize craftsmanship and a correct balance between gems and metals, both of which are vital if one hopes to utilize the materials' mystical properties.",
-  "descriptionZh": "法师挑选首饰，主要在意工艺优劣，还有宝石与金属是否相合。要想充分利用材质的神秘学属性，就必须确保这两个方面万无一失。"
+  "descriptionZh": "法师挑选首饰，主要在意工艺优劣，还有宝石与金属是否相合。要想充分利用材质的神秘学属性，就必须确保这两个方面万无一失。",
+  "class": "light"
 }

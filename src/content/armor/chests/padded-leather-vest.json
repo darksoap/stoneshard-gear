@@ -3,7 +3,6 @@
   "name": "Padded Leather Vest",
   "nameZh": "夹棉真皮马甲",
   "slot": "chest",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "An attire that would be the main source of pride for any show-off from the slums.",
-  "descriptionZh": "对于贫民窟里爱显摆的人来说，这是最拿得出手的一身。"
+  "descriptionZh": "对于贫民窟里爱显摆的人来说，这是最拿得出手的一身。",
+  "class": "light"
 }

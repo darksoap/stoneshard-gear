@@ -3,7 +3,6 @@
   "name": "Engraved Boots",
   "nameZh": "纹金胫甲",
   "slot": "legs",
-  "class": "medium",
   "tier": 5,
   "rarity": "unique",
   "material": "metal",
@@ -20,7 +19,7 @@
     "evasion": -6,
     "resistances": {
       "bleeding": 30,
-      "knockback": 33,
+      "knockback": 34,
       "physical": 27,
       "nature": 8,
       "magic": 8
@@ -30,5 +29,6 @@
     "unique"
   ],
   "description": "It would be a mistake to perceive the gilding as a mere decoration. To a battlemage, gold rims and edges can actually be of great practical use.",
-  "descriptionZh": "如果以为胫甲镀金只是为了装饰，就大错特错了。对于战地法师而言，这些金边其实用处很大。"
+  "descriptionZh": "如果以为胫甲镀金只是为了装饰，就大错特错了。对于战地法师而言，这些金边其实用处很大。",
+  "class": "medium"
 }

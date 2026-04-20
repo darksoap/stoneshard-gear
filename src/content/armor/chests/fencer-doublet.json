@@ -3,7 +3,6 @@
   "name": "Fencer Doublet",
   "nameZh": "剑术马甲",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A garment beloved by the aristocrats who spend all their free time on mastering the sword: it's tough, boasts strong seams, and looks fancy to boot.",
-  "descriptionZh": "有些贵族一辈子的闲暇都花在了练剑上，他们就特别喜欢这种衣服，又耐磨，针脚又结实，而且看着也大方。"
+  "descriptionZh": "有些贵族一辈子的闲暇都花在了练剑上，他们就特别喜欢这种衣服，又耐磨，针脚又结实，而且看着也大方。",
+  "class": "light"
 }

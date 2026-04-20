@@ -3,7 +3,6 @@
   "name": "Elven Girdle",
   "nameZh": "精灵裤带",
   "slot": "waist",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "elven"
   ],
   "description": "Although Eraffa is the dominant faith in the Jacinth Kingdoms, the influence of sun worship remains evident even after many centuries. Various solar motifs frequently appear in elven-made trinkets and adornments - this belt's buckle is as fine an example as any.",
-  "descriptionZh": "虽然叶拉法现在是红锆列国的主流信仰，但太阳崇拜即便已消失了几百年，其影响依然清晰可见。精灵制作的饰品和珠宝时常出现太阳的各种图案，这条腰带的卡扣就是一个很好的例子。"
+  "descriptionZh": "虽然叶拉法现在是红锆列国的主流信仰，但太阳崇拜即便已消失了几百年，其影响依然清晰可见。精灵制作的饰品和珠宝时常出现太阳的各种图案，这条腰带的卡扣就是一个很好的例子。",
+  "class": "light"
 }

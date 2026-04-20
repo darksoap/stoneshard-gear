@@ -3,7 +3,6 @@
   "name": "Captain Cuirass",
   "nameZh": "长官胸甲",
   "slot": "chest",
-  "class": "medium",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "It's not unusual for leaders of the most celebrated mercenary warbands to amass fortunes that eclipse those of many aristocrats. Naturally, much of it is spent on acquiring the best equipment available.",
-  "descriptionZh": "如果雇佣兵团声名显赫，那么团长有时候家产甚至可以超过许多贵族。这种时候，他们自然会把很多财产用来购置最上等的装备。"
+  "descriptionZh": "如果雇佣兵团声名显赫，那么团长有时候家产甚至可以超过许多贵族。这种时候，他们自然会把很多财产用来购置最上等的装备。",
+  "class": "medium"
 }

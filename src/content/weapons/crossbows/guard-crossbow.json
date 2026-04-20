@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/guard-crossbow.webp",
-  "damage": {
-    "value": 23,
-    "type": "piercing"
-  },
   "durability": 40,
   "price": 650,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 20,
     "skillsEnergyCost": 30
   },
-  "range": 8,
   "tags": [
     "aldor"
   ],
   "description": "Village guards are usually recruited from peasantry, where most are already familiar with a bow. As for town guards, it takes much less effort to arm them with crossbows than teach them archery from scratch.",
-  "descriptionZh": "村里的卫兵多数出身农家，入伍之前就已经熟悉弓箭。城里的守卫就不是这么回事了，与其从零教他们习弓练箭，不如直接配弩。"
+  "descriptionZh": "村里的卫兵多数出身农家，入伍之前就已经熟悉弓箭。城里的守卫就不是这么回事了，与其从零教他们习弓练箭，不如直接配弩。",
+  "damage": {
+    "value": 23,
+    "type": "piercing"
+  },
+  "range": 8
 }

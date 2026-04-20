@@ -3,7 +3,6 @@
   "name": "Battlemage Gloves",
   "nameZh": "战地法师手套",
   "slot": "arms",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -27,5 +26,6 @@
     "magic"
   ],
   "description": "Well-trained and experienced mages are a force to be reckoned with, which makes them a prime target on the battlefield. Unsurprisingly, they're always on a lookout for quality armor that doesn't compromise the freedom of movement.",
-  "descriptionZh": "修习有素的法师积累了丰富的经验之后，绝对不可小觑，战场上常常是敌人重点关注的目标。正是因为这个，他们经常寻觅优质防具，希望自身的行动不会受到防具影响。"
+  "descriptionZh": "修习有素的法师积累了丰富的经验之后，绝对不可小觑，战场上常常是敌人重点关注的目标。正是因为这个，他们经常寻觅优质防具，希望自身的行动不会受到防具影响。",
+  "class": "light"
 }

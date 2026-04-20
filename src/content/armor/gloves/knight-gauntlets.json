@@ -3,7 +3,6 @@
   "name": "Knight Gauntlets",
   "nameZh": "骑士手甲",
   "slot": "arms",
-  "class": "heavy",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "The satin-lined cuffs are merely another way to parade one's impeccable taste in armor.",
-  "descriptionZh": "这种沙漏手甲内衬是缎料，这种手甲主要用途是表现自身的地位和挑选武备的好品味。"
+  "descriptionZh": "这种沙漏手甲内衬是缎料，这种手甲主要用途是表现自身的地位和挑选武备的好品味。",
+  "class": "heavy"
 }

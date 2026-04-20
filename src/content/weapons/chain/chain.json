@@ -1,16 +1,12 @@
 {
   "id": "chain",
   "name": "Chain",
-  "nameZh": "锁链",
+  "nameZh": "工具",
   "slot": "chain",
   "tier": 1,
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/chain/chain.webp",
-  "damage": {
-    "value": 10,
-    "type": "blunt"
-  },
   "durability": 100,
   "price": 50,
   "properties": {
@@ -19,10 +15,14 @@
     "stunChance": 10,
     "staggerChance": 10
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "A chain is a weapon of street and tavern fights, hardly suitable for real combat.",
-  "descriptionZh": "酒馆、街头械斗常见的家伙事，不过不适合真正的战斗使用。"
+  "descriptionZh": "酒馆、街头械斗常见的家伙事，不过不适合真正的战斗使用。",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
 }

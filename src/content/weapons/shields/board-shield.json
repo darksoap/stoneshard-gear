@@ -3,7 +3,6 @@
   "name": "Board Shield",
   "nameZh": "板盾",
   "slot": "shield",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "wood",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "This homemade shield is just a few rough planks cobbled together. Still better than nothing.",
-  "descriptionZh": "几块木板凑在一起，就是一块盾牌。虽然简陋，总比什么都没有好。"
+  "descriptionZh": "几块木板凑在一起，就是一块盾牌。虽然简陋，总比什么都没有好。",
+  "class": "light"
 }

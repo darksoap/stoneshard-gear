@@ -3,7 +3,6 @@
   "name": "Vehement Brigandine",
   "nameZh": "奋武布面重甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -32,5 +31,6 @@
     "magic"
   ],
   "description": "When it comes to the Vehement, their members hail from all walks of life - there are peasants, fanatical pilgrims, knights errant, and even battlemages.",
-  "descriptionZh": "圣门奋武出身各异，三教九流均有，有的是农民，有的是狂热的朝圣信徒，有的是流浪骑士，甚至还有战地法师。"
+  "descriptionZh": "圣门奋武出身各异，三教九流均有，有的是农民，有的是狂热的朝圣信徒，有的是流浪骑士，甚至还有战地法师。",
+  "class": "heavy"
 }

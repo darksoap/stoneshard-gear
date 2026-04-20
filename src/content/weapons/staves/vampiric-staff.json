@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/staves/vampiric-staff.webp",
-  "damage": {
-    "value": 13,
-    "type": "blunt"
-  },
   "durability": 130,
   "price": 5100,
   "properties": {
@@ -29,10 +25,14 @@
       "unholy": 9
     }
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "This staff saturates the surrounding air with a heavy stench of stale blood.",
-  "descriptionZh": "这根法杖拿到哪里，哪里的空气就会充斥着血液浓重的腐腥。"
+  "descriptionZh": "这根法杖拿到哪里，哪里的空气就会充斥着血液浓重的腐腥。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
 }

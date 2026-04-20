@@ -3,7 +3,6 @@
   "name": "Orient Tower Shield",
   "nameZh": "东方巨盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 5,
   "rarity": "unique",
   "material": "wood",
@@ -20,7 +19,7 @@
     "evasion": -24,
     "critAvoid": 18,
     "resistances": {
-      "knockback": 34,
+      "knockback": 36,
       "stun": 18
     }
   },
@@ -28,5 +27,6 @@
     "unique"
   ],
   "description": "Forged in the fabled land of Shanguo, this shield had traveled for thousands of miles before finding its way to Aldor - it's nigh impossible to imagine the circumstances of its journey.",
-  "descriptionZh": "这块盾牌产自神秘的单国，万里飘摇流入了奥尔多，几乎无法想象这块盾牌途中经历过怎样的事情。"
+  "descriptionZh": "这块盾牌产自神秘的单国，万里飘摇流入了奥尔多，几乎无法想象这块盾牌途中经历过怎样的事情。",
+  "class": "heavy"
 }

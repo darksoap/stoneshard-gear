@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/peasant-hatchet.webp",
-  "damage": {
-    "value": 17,
-    "type": "slashing"
-  },
   "durability": 60,
   "price": 75,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 8,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The only thing it's decent at is splitting firewood.",
-  "descriptionZh": "这把斧子什么都不行，只能劈柴。"
+  "descriptionZh": "这把斧子什么都不行，只能劈柴。",
+  "damage": {
+    "value": 17,
+    "type": "slashing"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/guardsman-broadsword.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 115,
   "price": 5600,
   "properties": {
@@ -25,10 +21,14 @@
     "skillsEnergyCost": 15,
     "spellsEnergyCost": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "These swords were intended for King Etbert's bodyguards. After the monarch's death, at least several of them ended up stolen from the royal arsenal.",
-  "descriptionZh": "这些兵器很久之前属于埃特伯特国王的护卫，国王驾崩之后，原本存放在王家军械库，后来有几把不翼而飞。"
+  "descriptionZh": "这些兵器很久之前属于埃特伯特国王的护卫，国王驾崩之后，原本存放在王家军械库，后来有几把不翼而飞。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

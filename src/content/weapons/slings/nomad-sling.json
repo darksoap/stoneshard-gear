@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/nomad-sling.webp",
-  "damage": {
-    "value": 12,
-    "type": "blunt"
-  },
   "durability": 125,
   "price": 725,
   "properties": {
@@ -21,10 +17,14 @@
     "skillsEnergyCost": 5,
     "cooldownReduction": -8
   },
-  "range": 7,
   "tags": [
     "elven"
   ],
   "description": "The Ohirian barrens offer nothing but sand and rocks, yet the tribes who dwell there make do with little else.",
-  "descriptionZh": "奥息尔荒原除了砂石一无所有，然而这里的部族也生存了下来。"
+  "descriptionZh": "奥息尔荒原除了砂石一无所有，然而这里的部族也生存了下来。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 7
 }

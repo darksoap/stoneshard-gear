@@ -3,7 +3,6 @@
   "name": "Apprentice Mage Gloves",
   "nameZh": "入门法师手套",
   "slot": "arms",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -26,5 +25,6 @@
     "magic"
   ],
   "description": "In spellcasting, much hinges on dexterity and nimble fingers - which is why light bracers and thin cloth gloves are the preferred handwear of most sorcerers.",
-  "descriptionZh": "施法对手的灵活性要求很高，所以大多数法师偏好轻便的护臂和轻薄的布手套。"
+  "descriptionZh": "施法对手的灵活性要求很高，所以大多数法师偏好轻便的护臂和轻薄的布手套。",
+  "class": "light"
 }

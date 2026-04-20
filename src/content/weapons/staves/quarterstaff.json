@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/quarterstaff.webp",
-  "damage": {
-    "value": 15,
-    "type": "blunt"
-  },
   "durability": 100,
   "price": 400,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": -3,
     "spellsEnergyCost": -3
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Though mainly a practice weapon, it can still cave in the skull of a careless foe.",
-  "descriptionZh": "虽然基本只有操练的时候才会用，但如果对手不小心，一样能敲个头破血流。"
+  "descriptionZh": "虽然基本只有操练的时候才会用，但如果对手不小心，一样能敲个头破血流。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 1
 }

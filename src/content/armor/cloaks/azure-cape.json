@@ -3,7 +3,6 @@
   "name": "Azure Cape",
   "nameZh": "蔚蓝斗篷",
   "slot": "back",
-  "class": "light",
   "tier": 1,
   "rarity": "unique",
   "material": "cloth",
@@ -25,5 +24,6 @@
     "exc"
   ],
   "description": "An intricately embroidered cape cut from strange azure fabric. By the looks of its ornamented gold fibula, it was brought to Aldor from the Jacinth Kingdoms.",
-  "descriptionZh": "斗篷纹绣精细，用的是某种天蓝色的布料。从金质环扣上的图案来看，应该是从红锆列国带到奥尔多的。"
+  "descriptionZh": "斗篷纹绣精细，用的是某种天蓝色的布料。从金质环扣上的图案来看，应该是从红锆列国带到奥尔多的。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/spears/castellier-spear.webp",
-  "damage": {
-    "value": 29,
-    "type": "piercing"
-  },
   "durability": 260,
   "price": 7150,
   "properties": {
@@ -24,10 +20,14 @@
     "skillsEnergyCost": 30,
     "damageReceived": -3
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "The Castelliers were the Bronzian branch of the Order of the Triune Hand, famed for their relentless fight against piracy and the construction of impregnable fortresses, from which they took their name.",
-  "descriptionZh": "卡斯泰列是三手会布朗齐亚的分会，素以抵御海寇、修筑堡垒闻名，因而得此名（意“垒砌城堡的人”）。"
+  "descriptionZh": "卡斯泰列是三手会布朗齐亚的分会，素以抵御海寇、修筑堡垒闻名，因而得此名（意“垒砌城堡的人”）。",
+  "damage": {
+    "value": 29,
+    "type": "piercing"
+  },
+  "range": 1
 }

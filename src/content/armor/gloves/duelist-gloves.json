@@ -3,7 +3,6 @@
   "name": "Duelist Gloves",
   "nameZh": "对决手套",
   "slot": "arms",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -25,5 +24,6 @@
     "aldor"
   ],
   "description": "Career duelists in particular are fond of this style of gloves - they look especially dashing wrapped around a sword hilt.",
-  "descriptionZh": "职业对决手尤其偏爱这种手套，因为戴上握着剑柄的时候，样式尤其好看。"
+  "descriptionZh": "职业对决手尤其偏爱这种手套，因为戴上握着剑柄的时候，样式尤其好看。",
+  "class": "light"
 }

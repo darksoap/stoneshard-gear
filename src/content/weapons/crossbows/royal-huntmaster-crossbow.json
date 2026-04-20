@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/crossbows/royal-huntmaster-crossbow.webp",
-  "damage": {
-    "value": 32,
-    "type": "piercing"
-  },
   "durability": 85,
   "price": 7400,
   "properties": {
@@ -24,10 +20,14 @@
     "skillsEnergyCost": 25,
     "fatigueGain": 10
   },
-  "range": 8,
   "tags": [
     "unique"
   ],
   "description": "A royal huntmaster is defined by three duties: the king should have plenty of game to pursue, he must never return from the hunt empty-handed, and he shall always remain safe and sound while doing so.",
-  "descriptionZh": "出色的王家虞官必须满足三个条件：一、国王每次出猎必须有野物可追；二、国王每次决不能空手而归；三、虞官自己每次都能安然返回。"
+  "descriptionZh": "出色的王家虞官必须满足三个条件：一、国王每次出猎必须有野物可追；二、国王每次决不能空手而归；三、虞官自己每次都能安然返回。",
+  "damage": {
+    "value": 32,
+    "type": "piercing"
+  },
+  "range": 8
 }

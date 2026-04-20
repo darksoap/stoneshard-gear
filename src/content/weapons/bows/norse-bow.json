@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/bows/norse-bow.webp",
-  "damage": {
-    "value": 21,
-    "type": "piercing"
-  },
   "durability": 70,
   "price": 1075,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 20,
     "skillsEnergyCost": 25
   },
-  "range": 8,
   "tags": [
     "fjall"
   ],
   "description": "Dwarves don't hold much respect for bows. They are usually handed out to youngsters who aren't experienced enough to fight on the frontline.",
-  "descriptionZh": "矮人觉得弓箭不是正经兵器，所以打仗的时候，只会发给前线没什么经验的年轻人。"
+  "descriptionZh": "矮人觉得弓箭不是正经兵器，所以打仗的时候，只会发给前线没什么经验的年轻人。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 8
 }

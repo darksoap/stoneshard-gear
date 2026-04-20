@@ -3,7 +3,6 @@
   "name": "Vagabond Knight Armor",
   "nameZh": "流浪骑士盔甲",
   "slot": "chest",
-  "class": "heavy",
   "tier": 5,
   "rarity": "unique",
   "material": "metal",
@@ -18,7 +17,7 @@
     "miracleChance": 6,
     "defense": 24,
     "evasion": -14,
-    "critAvoid": 24,
+    "critAvoid": 25,
     "resistances": {
       "bleeding": 33,
       "physical": 33,
@@ -30,5 +29,6 @@
     "unique"
   ],
   "description": "This mysterious armor looks both surprisingly modern and incredibly ancient...",
-  "descriptionZh": "这副盔甲非常神秘，看起来非常现代，但又似乎是古代的制式……"
+  "descriptionZh": "这副盔甲非常神秘，看起来非常现代，但又似乎是古代的制式……",
+  "class": "heavy"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/skadian-bludgeon.webp",
-  "damage": {
-    "value": 21,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 1125,
   "properties": {
@@ -21,7 +17,11 @@
     "staggerChance": 13,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "description": "A bludgeon is a surprisingly deadly piece of gear. If anyone knows their maces, it's Skadians.",
-  "descriptionZh": "锤棍的攻击效果非常好，谁都没有斯卡迪亚人熟悉这种兵器。"
+  "descriptionZh": "锤棍的攻击效果非常好，谁都没有斯卡迪亚人熟悉这种兵器。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
 }

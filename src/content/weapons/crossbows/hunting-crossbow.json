@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/hunting-crossbow.webp",
-  "damage": {
-    "value": 19,
-    "type": "piercing"
-  },
   "durability": 55,
   "price": 525,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 10,
     "skillsEnergyCost": 10
   },
-  "range": 6,
   "tags": [
     "aldor"
   ],
   "description": "Crossbows are well-suited for hunting - their accuracy and stopping power leave little chance even to large animals.",
-  "descriptionZh": "弩非常适合狩猎——准度可靠，杀伤力强，即便是大型野物，也难能脱身。"
+  "descriptionZh": "弩非常适合狩猎——准度可靠，杀伤力强，即便是大型野物，也难能脱身。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 6
 }

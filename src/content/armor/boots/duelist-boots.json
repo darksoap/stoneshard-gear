@@ -3,7 +3,6 @@
   "name": "Duelist Boots",
   "nameZh": "对决靴",
   "slot": "legs",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "evasion": 8,
     "resistances": {
       "bleeding": 14,
-      "knockback": 13,
+      "knockback": 12,
       "physical": 12
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "In addition to the fighting skill, duelists also continuously sharpen their fashion sense.",
-  "descriptionZh": "对决手不仅要具备一定的格斗能力，也要不断提升自己的衣着水平。"
+  "descriptionZh": "对决手不仅要具备一定的格斗能力，也要不断提升自己的衣着水平。",
+  "class": "light"
 }

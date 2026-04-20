@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/footman-bastard-sword.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
   "durability": 110,
   "price": 1825,
   "properties": {
@@ -20,10 +16,14 @@
     "bleedingChance": 15,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Seasoned soldiers expect to be provided with better weapons, usually purchased with the gold directly from their lord's coffers.",
-  "descriptionZh": "经验丰富的士兵希望能用上更好用的兵器，这种兵器花的钱一般都是领主大人金库里直接拿的。"
+  "descriptionZh": "经验丰富的士兵希望能用上更好用的兵器，这种兵器花的钱一般都是领主大人金库里直接拿的。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

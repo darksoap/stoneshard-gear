@@ -3,7 +3,6 @@
   "name": "Sharp Shoes",
   "nameZh": "尖头鞋",
   "slot": "legs",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "defense": 2,
     "resistances": {
       "bleeding": 3,
-      "knockback": 3,
+      "knockback": 2,
       "physical": 4
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A design that has been the pinnacle of peasant fashion for the last twenty years.",
-  "descriptionZh": "最近二十年来，农村再没出现过这么时髦的鞋子。"
+  "descriptionZh": "最近二十年来，农村再没出现过这么时髦的鞋子。",
+  "class": "light"
 }

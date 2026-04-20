@@ -3,7 +3,6 @@
   "name": "Gold Diamond Talisman",
   "nameZh": "金镶钻护符",
   "slot": "amulet",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "gold",
@@ -20,5 +19,6 @@
     "aldor"
   ],
   "description": "Apart from the Academy Circles' archmages, there aren't that many people who have the crowns for this kind of jewelry.",
-  "descriptionZh": "除了学院法会的大法师之外，没有多少人买得起这种首饰。"
+  "descriptionZh": "除了学院法会的大法师之外，没有多少人买得起这种首饰。",
+  "class": "light"
 }

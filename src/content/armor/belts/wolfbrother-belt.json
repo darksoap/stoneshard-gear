@@ -3,7 +3,6 @@
   "name": "Wolfbrother Belt",
   "nameZh": "灰狼腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "The Wolfbrothers are considered the elite of the Gray Army, even if the words \"elite\" and \"Gray Army\" seem to contradict each other.",
-  "descriptionZh": "“灰狼”算是灰色军团的精英成员，不过提到“灰色军团”，基本没人会想到“精英”这个词。"
+  "descriptionZh": "“灰狼”算是灰色军团的精英成员，不过提到“灰色军团”，基本没人会想到“精英”这个词。",
+  "class": "light"
 }

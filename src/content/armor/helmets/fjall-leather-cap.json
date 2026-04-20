@@ -18,10 +18,10 @@
     "fortitude": 8,
     "resistances": {
       "bleeding": 12,
-      "stun": 10,
-      "physical": 8,
-      "nature": 8,
-      "magic": 8
+      "stun": 9,
+      "physical": 7,
+      "nature": 7,
+      "magic": 7
     }
   },
   "tags": [

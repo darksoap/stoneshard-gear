@@ -3,7 +3,6 @@
   "name": "Court Wizard Gloves",
   "nameZh": "家内法师手套",
   "slot": "arms",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "leather",
@@ -28,5 +27,6 @@
     "magic"
   ],
   "description": "Gems and noble metals are treasured for their ability to resonate with magic. What at first may appear as a display of unrestrained opulence can in fact be a tool of the trade.",
-  "descriptionZh": "宝石与贵重金属能与魔法产生共振，因此而为法师所爱。有些东西看似只为炫耀身家，实际是有真正的用处。"
+  "descriptionZh": "宝石与贵重金属能与魔法产生共振，因此而为法师所爱。有些东西看似只为炫耀身家，实际是有真正的用处。",
+  "class": "light"
 }

@@ -3,7 +3,6 @@
   "name": "Tower Shield B",
   "nameZh": "巨盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 4,
   "rarity": "common",
   "material": "wood",
@@ -19,7 +18,7 @@
     "evasion": -18,
     "critAvoid": 14,
     "resistances": {
-      "knockback": 24,
+      "knockback": 25,
       "stun": 12
     }
   },
@@ -27,5 +26,6 @@
     "aldor"
   ],
   "description": "The growing prevalence of archers and crossbowmen keeps driving shields to become taller, thicker, and heavier.",
-  "descriptionZh": "弓兵弩兵愈发常见，盾牌便不得不做得越来越高，越来越厚，越来越重。"
+  "descriptionZh": "弓兵弩兵愈发常见，盾牌便不得不做得越来越高，越来越厚，越来越重。",
+  "class": "heavy"
 }

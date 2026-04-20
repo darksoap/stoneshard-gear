@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/veteran-flail.webp",
-  "damage": {
-    "value": 27,
-    "type": "blunt"
-  },
-  "durability": 95,
+  "durability": 100,
   "price": 2550,
   "properties": {
     "accuracy": -6,
@@ -25,10 +21,14 @@
     "staggerChance": 29,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Only a seasoned fighter can handle a two-headed flail without embarrassing themselves.",
-  "descriptionZh": "只有经验丰富的战士，用两头的连枷才不会出丑。"
+  "descriptionZh": "只有经验丰富的战士，用两头的连枷才不会出丑。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
 }

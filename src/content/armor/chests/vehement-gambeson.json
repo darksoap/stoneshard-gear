@@ -3,7 +3,6 @@
   "name": "Vehement Gambeson",
   "nameZh": "奋武软铠",
   "slot": "chest",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "cloth",
@@ -29,5 +28,6 @@
     "magic"
   ],
   "description": "The Vehement are militant Hieronites who took up arms to fight against all manner of ghouls, warlocks, and unholy monstrosities.",
-  "descriptionZh": "圣会部分门徒习武好战，统称“奋武”，为了对抗各色食尸鬼、术士与邪恶之物，均已操起了各自的兵器。"
+  "descriptionZh": "圣会部分门徒习武好战，统称“奋武”，为了对抗各色食尸鬼、术士与邪恶之物，均已操起了各自的兵器。",
+  "class": "light"
 }

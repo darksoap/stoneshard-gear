@@ -3,7 +3,6 @@
   "name": "Bow Pendant",
   "nameZh": "弓箭吊坠",
   "slot": "amulet",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "metal",
@@ -18,5 +17,6 @@
     "aldor"
   ],
   "description": "The belief that a weapon-shaped talisman helps mastering its full-sized version has been commonplace since the time of ancient Firns.",
-  "descriptionZh": "早在弗恩古代，民间便已普遍相信佩戴兵器形状的护符能够助人精进相应兵器的技巧与能力。"
+  "descriptionZh": "早在弗恩古代，民间便已普遍相信佩戴兵器形状的护符能够助人精进相应兵器的技巧与能力。",
+  "class": "light"
 }

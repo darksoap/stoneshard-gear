@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/arcanist-staff.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 2425,
   "properties": {
@@ -31,10 +27,14 @@
       "arcanistic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "Don't even try prying the enchanted amethyst out of this staff's headpiece - that is unless you want to spend the rest of your life outside of this plane of existence.",
-  "descriptionZh": "你要是不想下半辈子回不到当前这个位面了，就别总想着撬下杖头附了魔法的紫水晶。"
+  "descriptionZh": "你要是不想下半辈子回不到当前这个位面了，就别总想着撬下杖头附了魔法的紫水晶。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -3,7 +3,6 @@
   "name": "Guardian Shield",
   "nameZh": "护卫大盾",
   "slot": "shield",
-  "class": "heavy",
   "tier": 5,
   "rarity": "unique",
   "material": "wood",
@@ -20,7 +19,7 @@
     "evasion": -16,
     "fortitude": 10,
     "resistances": {
-      "knockback": 20,
+      "knockback": 24,
       "stun": 5
     }
   },
@@ -28,5 +27,6 @@
     "unique"
   ],
   "description": "After the Royal Guard was disbanded, many former guardsmen decided to try their luck as mercenaries. Rather predictably, they took all their equipment with them, these shields included.",
-  "descriptionZh": "王家卫队解散之后，许多守卫改行当了雇佣兵，只是没有抛弃自己从前的装备，依然带在身上，这些盾牌便是其中之一。"
+  "descriptionZh": "王家卫队解散之后，许多守卫改行当了雇佣兵，只是没有抛弃自己从前的装备，依然带在身上，这些盾牌便是其中之一。",
+  "class": "heavy"
 }

@@ -3,7 +3,6 @@
   "name": "Travelling Shoes",
   "nameZh": "旅人鞋",
   "slot": "legs",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "defense": 3,
     "resistances": {
       "bleeding": 5,
-      "knockback": 5,
+      "knockback": 4,
       "physical": 5
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Shoes like these are cheap and wear well, the qualities which attract all kinds of vagabonds. Just make sure to keep them free of holes.",
-  "descriptionZh": "这种鞋子又便宜，又好穿，各种流浪汉都觉得好，只是时不时需要补一补。"
+  "descriptionZh": "这种鞋子又便宜，又好穿，各种流浪汉都觉得好，只是时不时需要补一补。",
+  "class": "light"
 }

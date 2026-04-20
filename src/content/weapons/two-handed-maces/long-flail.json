@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/long-flail.webp",
-  "damage": {
-    "value": 24,
-    "type": "blunt"
-  },
   "durability": 90,
   "price": 600,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 23,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A lucky hit from such a flail can squash a cheap helmet along with the wearer's skull.",
-  "descriptionZh": "如果对方头盔粗制滥造，这种连枷只要击中目标，连头都能砸穿。"
+  "descriptionZh": "如果对方头盔粗制滥造，这种连枷只要击中目标，连头都能砸穿。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
 }

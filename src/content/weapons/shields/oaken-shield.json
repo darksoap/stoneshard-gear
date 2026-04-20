@@ -3,7 +3,6 @@
   "name": "Oaken Shield",
   "nameZh": "橡木盾",
   "slot": "shield",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "wood",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "Not particularly durable, but it serves its purpose well enough.",
-  "descriptionZh": "撑不了太长时间，不过起码可以发挥盾牌的作用。"
+  "descriptionZh": "撑不了太长时间，不过起码可以发挥盾牌的作用。",
+  "class": "light"
 }

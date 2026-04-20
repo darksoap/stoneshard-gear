@@ -3,7 +3,6 @@
   "name": "Guardian Gloves",
   "nameZh": "护卫手甲",
   "slot": "arms",
-  "class": "medium",
   "tier": 5,
   "rarity": "unique",
   "material": "metal",
@@ -26,5 +25,6 @@
     "unique"
   ],
   "description": "The cuffs are embossed with King Etbert's crest, leaving no question about the original owner's allegiance.",
-  "descriptionZh": "腕部压了埃特伯特国王的纹章，全然彰显了手套原主人效忠的是哪一方。"
+  "descriptionZh": "腕部压了埃特伯特国王的纹章，全然彰显了手套原主人效忠的是哪一方。",
+  "class": "medium"
 }

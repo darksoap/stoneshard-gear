@@ -3,7 +3,6 @@
   "name": "Town Shoes",
   "nameZh": "平民鞋子",
   "slot": "legs",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -16,7 +15,7 @@
     "defense": 4,
     "resistances": {
       "bleeding": 7,
-      "knockback": 7,
+      "knockback": 6,
       "physical": 6
     }
   },
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Fancy enough for when you're going out into the world to prove your mettle.",
-  "descriptionZh": "不论出去闯荡还是彰显你的胆量，穿这双鞋都不会丢人。"
+  "descriptionZh": "不论出去闯荡还是彰显你的胆量，穿这双鞋都不会丢人。",
+  "class": "light"
 }

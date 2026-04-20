@@ -7,11 +7,7 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/swords/radiant-sword.webp",
-  "damage": {
-    "value": 25,
-    "type": "slashing"
-  },
-  "durability": 125,
+  "durability": 140,
   "price": 5875,
   "properties": {
     "critAvoid": 8,
@@ -27,10 +23,14 @@
       "sacred": 2
     }
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "In the times of the Radiant Wars, many high-born lords were more than happy to join King Etbert's army. Some did it to earn the Host's favor, others - for more practical reasons, such as glory and new riches.",
-  "descriptionZh": "光辉战争期间，很多出身高贵的领主竞相追随埃特伯特国王的军队。有的是为了获得圣主青睐，有的则是出于更实际的考量，比如荣华富贵。"
+  "descriptionZh": "光辉战争期间，很多出身高贵的领主竞相追随埃特伯特国王的军队。有的是为了获得圣主青睐，有的则是出于更实际的考量，比如荣华富贵。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
 }

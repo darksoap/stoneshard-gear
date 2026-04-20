@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/stiletto.webp",
-  "damage": {
-    "value": 22,
-    "type": "piercing"
-  },
-  "durability": 85,
+  "durability": 90,
   "price": 3575,
   "properties": {
     "accuracy": 7,
@@ -19,10 +15,14 @@
     "armorPenetration": 15,
     "bleedingChance": 25
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "Slender and elegant - like a sonnet spoken over the grave of an old foe.",
-  "descriptionZh": "轻便、雅致，仿佛可以在宿敌坟前吟诵的十四行诗。"
+  "descriptionZh": "轻便、雅致，仿佛可以在宿敌坟前吟诵的十四行诗。",
+  "damage": {
+    "value": 22,
+    "type": "piercing"
+  },
+  "range": 1
 }

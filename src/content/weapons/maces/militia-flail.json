@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/militia-flail.webp",
-  "damage": {
-    "value": 20,
-    "type": "blunt"
-  },
-  "durability": 65,
+  "durability": 70,
   "price": 425,
   "properties": {
     "accuracy": -4,
@@ -23,10 +19,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Village militias are called upon only as a last resort. And when the going gets dire, even a farming tool can become a weapon.",
-  "descriptionZh": "只有到了迫不得已的时候，村庄才会召集民兵。什么东西到了他们手里，都能变成兵器。"
+  "descriptionZh": "只有到了迫不得已的时候，村庄才会召集民兵。什么东西到了他们手里，都能变成兵器。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/militia-longaxe.webp",
-  "damage": {
-    "value": 25,
-    "type": "slashing"
-  },
   "durability": 100,
   "price": 625,
   "properties": {
@@ -20,10 +16,14 @@
     "staggerChance": 20,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Gather a group of peasants, provide them with a handful of longaxes and a clever sergeant, and even a better-equipped opponent might find itself stumped on how to deal with the resulting force.",
-  "descriptionZh": "找几个农民，发几把长斧头，再安排个队长，对手就算装备好，见了也得直挠头。"
+  "descriptionZh": "找几个农民，发几把长斧头，再安排个队长，对手就算装备好，见了也得直挠头。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
 }

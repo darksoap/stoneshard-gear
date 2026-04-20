@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/staves/pyromancer-staff.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 3875,
   "properties": {
@@ -27,10 +23,14 @@
       "pyromantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "The spherical headpiece radiates extreme heat, which, paradoxically, doesn't seem to cause any harm - at least for the time being...",
-  "descriptionZh": "杖头圆球炙热无比，可是好像又不能伤人，起码现在不能……"
+  "descriptionZh": "杖头圆球炙热无比，可是好像又不能伤人，起码现在不能……",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
 }

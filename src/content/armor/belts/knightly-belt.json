@@ -3,7 +3,6 @@
   "name": "Knightly Belt",
   "nameZh": "骑士腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "The art of engraving has reached amazing heights over the last half century: each of the belt's plates is inscribed with scenes of hunts and battles.",
-  "descriptionZh": "近五十年来，纹刻工艺达到了令人称奇的高度——这条腰带每一段都刻了描绘打猎和战斗的图样。"
+  "descriptionZh": "近五十年来，纹刻工艺达到了令人称奇的高度——这条腰带每一段都刻了描绘打猎和战斗的图样。",
+  "class": "light"
 }

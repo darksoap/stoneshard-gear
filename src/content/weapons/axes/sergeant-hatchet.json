@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/sergeant-hatchet.webp",
-  "damage": {
-    "value": 26,
-    "type": "slashing"
-  },
   "durability": 120,
   "price": 2300,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 20,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "This small, easy to carry hatchet comes into play when a sword just doesn't cut it anymore.",
-  "descriptionZh": "这把斧子不是很大，易于挥舞，剑砍不动的时候，它就可以出场了。"
+  "descriptionZh": "这把斧子不是很大，易于挥舞，剑砍不动的时候，它就可以出场了。",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "range": 1
 }

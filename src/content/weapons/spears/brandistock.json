@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/brandistock.webp",
-  "damage": {
-    "value": 21,
-    "type": "piercing"
-  },
   "durability": 130,
   "price": 1350,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 25,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A brandistock is a fairly uncommon weapon which is sometimes issued to sergeants of the Road Guard.",
-  "descriptionZh": "三尖枪非常少见，有些巡路铁卫的军官会配备这种兵器。"
+  "descriptionZh": "三尖枪非常少见，有些巡路铁卫的军官会配备这种兵器。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 1
 }

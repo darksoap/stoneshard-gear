@@ -3,7 +3,6 @@
   "name": "Oracle Star",
   "nameZh": "先知之星",
   "slot": "amulet",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "gold",
@@ -19,5 +18,6 @@
     "elven"
   ],
   "description": "Thanks to these pridefully displayed amulets, one can easily spot an oracle on the streets of Hazzun.",
-  "descriptionZh": "这种护身符形制招摇，在哈尊的街上很容易就能认出他们的先知。"
+  "descriptionZh": "这种护身符形制招摇，在哈尊的街上很容易就能认出他们的先知。",
+  "class": "light"
 }

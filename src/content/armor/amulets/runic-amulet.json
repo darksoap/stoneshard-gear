@@ -3,7 +3,6 @@
   "name": "Runic Amulet",
   "nameZh": "符文护身符",
   "slot": "amulet",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -19,5 +18,6 @@
     "fjall"
   ],
   "description": "People of Fjall hold a belief that a properly crafted runic charm can bring success in any endeavor.",
-  "descriptionZh": "弗约人认为不论做什么事情，只要戴一条做工可以的符文护符，就能顺顺利利。"
+  "descriptionZh": "弗约人认为不论做什么事情，只要戴一条做工可以的符文护符，就能顺顺利利。",
+  "class": "light"
 }

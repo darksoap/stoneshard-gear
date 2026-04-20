@@ -3,7 +3,6 @@
   "name": "Riveted Gloves",
   "nameZh": "锁铆手甲",
   "slot": "arms",
-  "class": "medium",
   "tier": 4,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A direct strike to the hands will still hurt like hell, but at least you won't lose them.",
-  "descriptionZh": "即便戴了这种手套，手上直接挨一下，依然痛彻骨髓，但起码不会残废。"
+  "descriptionZh": "即便戴了这种手套，手上直接挨一下，依然痛彻骨髓，但起码不会残废。",
+  "class": "medium"
 }

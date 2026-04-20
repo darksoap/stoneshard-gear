@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-axes/lumberjack-longaxe.webp",
-  "damage": {
-    "value": 20,
-    "type": "slashing"
-  },
   "durability": 75,
   "price": 125,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "This axe is great for felling trees. It fares only slightly worse when used for chopping heads.",
-  "descriptionZh": "这把斧子砍树没有问题，砍脑袋的话，可能不是特别趁手。"
+  "descriptionZh": "这把斧子砍树没有问题，砍脑袋的话，可能不是特别趁手。",
+  "damage": {
+    "value": 20,
+    "type": "slashing"
+  },
+  "range": 1
 }

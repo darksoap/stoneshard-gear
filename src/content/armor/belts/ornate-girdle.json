@@ -3,7 +3,6 @@
   "name": "Ornate Girdle",
   "nameZh": "饰纹腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "leather",
@@ -19,5 +18,6 @@
     "magic"
   ],
   "description": "Pairs well with any mantle, making it perfect for mages who care about fashion.",
-  "descriptionZh": "可以搭配所有法袍，法师如果热衷时尚，这个绝对是不二之选。"
+  "descriptionZh": "可以搭配所有法袍，法师如果热衷时尚，这个绝对是不二之选。",
+  "class": "light"
 }

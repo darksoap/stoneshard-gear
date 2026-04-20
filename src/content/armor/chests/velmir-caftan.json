@@ -3,7 +3,6 @@
   "name": "Velmir Caftan",
   "nameZh": "韦尔米尔的刺绣卡夫坦",
   "slot": "chest",
-  "class": "light",
   "tier": 2,
   "rarity": "unique",
   "material": "cloth",
@@ -27,5 +26,6 @@
     "exc"
   ],
   "description": "A well-made caftan, now battered and worn out, a distant echo of the life left behind.",
-  "descriptionZh": "这件卡夫坦做工精良，不过已经破旧不堪，只能隐约看出主人从前的优渥。"
+  "descriptionZh": "这件卡夫坦做工精良，不过已经破旧不堪，只能隐约看出主人从前的优渥。",
+  "class": "light"
 }

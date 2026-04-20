@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/maces/reinforced-club.webp",
-  "damage": {
-    "value": 15,
-    "type": "blunt"
-  },
   "durability": 70,
   "price": 75,
   "properties": {
@@ -21,10 +17,14 @@
     "knockbackChance": 5,
     "skillsEnergyCost": 10
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Clubs like this one are often employed by city guards - don't need anything more substantial to intimidate a pickpocket.",
-  "descriptionZh": "这种棍子一般是给城里的护卫用，有了这个东西，基本就能吓走扒人口袋的小偷了。"
+  "descriptionZh": "这种棍子一般是给城里的护卫用，有了这个东西，基本就能吓走扒人口袋的小偷了。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 1
 }

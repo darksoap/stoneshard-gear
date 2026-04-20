@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/knightly-polemace.webp",
-  "damage": {
-    "value": 32,
-    "type": "blunt"
-  },
   "durability": 195,
   "price": 7150,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 30,
     "skillsEnergyCost": 35
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Well-suited for fighters who want their every strike to leave the opponent in the dirt.",
-  "descriptionZh": "如果希望每一下都能把对手砸倒在地，用这个最合适。"
+  "descriptionZh": "如果希望每一下都能把对手砸倒在地，用这个最合适。",
+  "damage": {
+    "value": 32,
+    "type": "blunt"
+  },
+  "range": 1
 }

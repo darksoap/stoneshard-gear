@@ -42,6 +42,7 @@
       "manaRestoration": -3,
       "magicPower": 5,
       "defense": 14,
+      "evasion": 5,
       "critAvoid": 7,
       "fortitude": 9,
       "resistances": {

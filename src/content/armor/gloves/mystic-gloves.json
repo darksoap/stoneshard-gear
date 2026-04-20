@@ -3,7 +3,6 @@
   "name": "Mystic Gloves",
   "nameZh": "神秘手套",
   "slot": "arms",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -30,5 +29,6 @@
     "magic"
   ],
   "description": "They're covered with peculiar symbols in accordance with an ancient, half-forgotten technique.",
-  "descriptionZh": "这幅手套背面饰有繁复的符号，用了某种几乎已被世人遗忘的古老工艺。"
+  "descriptionZh": "这幅手套背面饰有繁复的符号，用了某种几乎已被世人遗忘的古老工艺。",
+  "class": "light"
 }

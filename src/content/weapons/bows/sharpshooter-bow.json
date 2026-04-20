@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/bows/sharpshooter-bow.webp",
-  "damage": {
-    "value": 31,
-    "type": "piercing"
-  },
   "durability": 110,
   "price": 6125,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 30,
     "skillsEnergyCost": 60
   },
-  "range": 10,
   "tags": [
     "aldor"
   ],
   "description": "Countless Nistrian commanders, standard-bearers, and mages were left forever in Aldorian soil during the Nistrian Wars. The archers responsible could expect little mercy in return.",
-  "descriptionZh": "尼斯特拉无数的指挥官、旗手和法师葬身利箭之下，战死沙场，永远留在了奥尔多。因此，奥尔多的弓手一旦被俘，多数都不得善终。"
+  "descriptionZh": "尼斯特拉无数的指挥官、旗手和法师葬身利箭之下，战死沙场，永远留在了奥尔多。因此，奥尔多的弓手一旦被俘，多数都不得善终。",
+  "damage": {
+    "value": 31,
+    "type": "piercing"
+  },
+  "range": 10
 }

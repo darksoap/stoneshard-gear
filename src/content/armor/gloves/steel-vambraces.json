@@ -3,7 +3,6 @@
   "name": "Steel Vambraces",
   "nameZh": "钢护臂",
   "slot": "arms",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "metal",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "A natural pick for a marksman - or any soldier who values dexterity and precision.",
-  "descriptionZh": "射手都会选这种护臂，或者说不论什么兵，只要在乎手上的灵活和精准，就都会选这个。"
+  "descriptionZh": "射手都会选这种护臂，或者说不论什么兵，只要在乎手上的灵活和精准，就都会选这个。",
+  "class": "medium"
 }

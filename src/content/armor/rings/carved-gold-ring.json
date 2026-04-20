@@ -3,7 +3,6 @@
   "name": "Carved Gold Ring",
   "nameZh": "雕纹金戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 3,
   "rarity": "common",
   "material": "gold",
@@ -18,5 +17,6 @@
     "aldor"
   ],
   "description": "It's amazing how much a plain gold ring can transform in the hands of a skilled craftsman.",
-  "descriptionZh": "简简单单的金戒指，到了能工巧匠手里，竟然能变成这样，真是不可思议。"
+  "descriptionZh": "简简单单的金戒指，到了能工巧匠手里，竟然能变成这样，真是不可思议。",
+  "class": "light"
 }

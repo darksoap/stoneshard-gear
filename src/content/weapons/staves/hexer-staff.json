@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/hexer-staff.webp",
-  "damage": {
-    "value": 9,
-    "type": "blunt"
-  },
   "durability": 40,
   "price": 650,
   "properties": {
@@ -24,10 +20,14 @@
       "unholy": 3
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "A tree branch, darkened from age and covered with strange etchings - simply looking at it fills you with a sense of deep-seated anxiety.",
-  "descriptionZh": "一根树枝，颜色因为年代久远而有些深沉，上面刻着奇怪的图纹。你只是看了一眼，内心深处就涌起了一阵焦虑。"
+  "descriptionZh": "一根树枝，颜色因为年代久远而有些深沉，上面刻着奇怪的图纹。你只是看了一眼，内心深处就涌起了一阵焦虑。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 1
 }

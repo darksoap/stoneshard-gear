@@ -3,7 +3,6 @@
   "name": "Mirror Quilted Coat",
   "nameZh": "护心镜夹棉软铠",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "common",
   "material": "cloth",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "The idea of strapping a round metal chestplate to a gambeson has its roots in Nistra, but the benefits it provides quickly became apparent to Aldorian armorsmiths as well.",
-  "descriptionZh": "软铠前面绑一块金属的护心板，最早只有尼斯特拉人这么干，只是奥尔多的甲匠后来很快也意识到了这个办法的好处。"
+  "descriptionZh": "软铠前面绑一块金属的护心板，最早只有尼斯特拉人这么干，只是奥尔多的甲匠后来很快也意识到了这个办法的好处。",
+  "class": "light"
 }

@@ -3,7 +3,6 @@
   "name": "Linen Shirt",
   "nameZh": "麻布衬衫",
   "slot": "chest",
-  "class": "light",
   "tier": 1,
   "rarity": "common",
   "material": "cloth",
@@ -24,5 +23,6 @@
     "aldor"
   ],
   "description": "Some peasants own only a shirt on their back. Naturally, it's worn for every occasion.",
-  "descriptionZh": "有些农民只有这么一件像样的衬衫，过节穿、下地穿、出门见人也是它。"
+  "descriptionZh": "有些农民只有这么一件像样的衬衫，过节穿、下地穿、出门见人也是它。",
+  "class": "light"
 }

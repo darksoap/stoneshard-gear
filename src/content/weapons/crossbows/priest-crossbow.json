@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "wood",
   "image": "/images/weapons/crossbows/priest-crossbow.webp",
-  "damage": {
-    "value": 16,
-    "type": "piercing"
-  },
   "durability": 55,
   "price": 1625,
   "properties": {
@@ -27,10 +23,14 @@
       "sacred": 5
     }
   },
-  "range": 7,
   "tags": [
     "special"
   ],
   "description": "An old-fashioned crossbow, restored with care, if somewhat hastily. The opening words of a common Hieronite prayer are carved into its stock.",
-  "descriptionZh": "这把老式的弩年头久远，虽然打理得仓促，也能看出其中的爱惜。弩身刻了圣会某段祷文开头的几个字词。"
+  "descriptionZh": "这把老式的弩年头久远，虽然打理得仓促，也能看出其中的爱惜。弩身刻了圣会某段祷文开头的几个字词。",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "range": 7
 }

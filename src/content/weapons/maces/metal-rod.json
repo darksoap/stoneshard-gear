@@ -7,20 +7,20 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/metal-rod.webp",
-  "damage": {
-    "value": 14,
-    "type": "blunt"
-  },
   "durability": 50,
   "price": 5,
   "properties": {
     "fumbleChance": 3,
     "damageReduction": 1
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "Passable as a club, though each blow bends it further out of shape.",
-  "descriptionZh": "抡起来也能打人，不过打得多了，就不成样了。"
+  "descriptionZh": "抡起来也能打人，不过打得多了，就不成样了。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
 }

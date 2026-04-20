@@ -7,20 +7,20 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/daggers/kitchen-knife.webp",
-  "damage": {
-    "value": 9,
-    "type": "piercing"
-  },
   "durability": 25,
   "price": 10,
   "properties": {
     "fumbleChance": 15,
     "armorPenetration": -20
   },
-  "range": 1,
   "tags": [
     "special"
   ],
   "description": "Too dull to cut anything but cheese.",
-  "descriptionZh": "不怎么锋利，可是还能切奶酪。"
+  "descriptionZh": "不怎么锋利，可是还能切奶酪。",
+  "damage": {
+    "value": 9,
+    "type": "piercing"
+  },
+  "range": 1
 }

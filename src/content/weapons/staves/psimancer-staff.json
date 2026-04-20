@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/psimancer-staff.webp",
-  "damage": {
-    "value": 11,
-    "type": "blunt"
-  },
   "durability": 60,
   "price": 3875,
   "properties": {
@@ -28,10 +24,14 @@
       "psimantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "The open palm on top has a strange tendency to attract glances... A truly mesmerizing feeling.",
-  "descriptionZh": "长杖顶部张开的手掌总是能够吸引人们的注意，非常诡异……而且一旦注意到，视线就很难再从手掌上移开了。"
+  "descriptionZh": "长杖顶部张开的手掌总是能够吸引人们的注意，非常诡异……而且一旦注意到，视线就很难再从手掌上移开了。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
 }

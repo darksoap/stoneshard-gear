@@ -3,7 +3,6 @@
   "name": "Nomad Adarga",
   "nameZh": "游牧阿达加盾",
   "slot": "shield",
-  "class": "medium",
   "tier": 3,
   "rarity": "common",
   "material": "leather",
@@ -23,5 +22,6 @@
     "elven"
   ],
   "description": "Horsemen of the Ohirian barrens usually prefer adargas over kalkans: a light leather shield is much more convenient when fighting from horseback.",
-  "descriptionZh": "奥息尔荒原马背上的民族不爱穹顶圆盾，青睐阿达加盾。人在马上，轻巧的皮盾在战斗时用起来更加方便。"
+  "descriptionZh": "奥息尔荒原马背上的民族不爱穹顶圆盾，青睐阿达加盾。人在马上，轻巧的皮盾在战斗时用起来更加方便。",
+  "class": "medium"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/hunting-spear.webp",
-  "damage": {
-    "value": 19,
-    "type": "piercing"
-  },
   "durability": 105,
   "price": 525,
   "properties": {
@@ -21,10 +17,14 @@
     "immobilizationChance": 12,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A scourge of deer, wolves, and boars, this weapon was made for large game.",
-  "descriptionZh": "这个东西专门用来捕杀大型动物，是鹿、狼、野猪的噩梦。"
+  "descriptionZh": "这个东西专门用来捕杀大型动物，是鹿、狼、野猪的噩梦。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
 }

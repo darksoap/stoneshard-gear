@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/maces/voivod-mace.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 175,
   "price": 4600,
   "properties": {
@@ -24,10 +20,14 @@
     "skillsEnergyCost": 20,
     "cooldownReduction": -5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Maces are held in great regard in Skadia, where even high-born military commanders don't scoff at using them on the battlefield - although this particular weapon looks somewhat ceremonial in nature.",
-  "descriptionZh": "斯卡迪亚人十分崇尚钉头锤，即便是出身高贵的将领也不会鄙视这类兵器，不过这一根看起来是礼兵器，形制的意义大于实用价值。"
+  "descriptionZh": "斯卡迪亚人十分崇尚钉头锤，即便是出身高贵的将领也不会鄙视这类兵器，不过这一根看起来是礼兵器，形制的意义大于实用价值。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

@@ -190,7 +190,7 @@ def parse_args() -> Config:
 
     version = args.version
     if version is None:
-        version = extract_version_from_game(game_data, args.utmt) or "0.9.4.14"
+        version = extract_version_from_game(game_data, args.utmt) or "0.9.4.18"
 
     return Config(
         game_data=game_data,

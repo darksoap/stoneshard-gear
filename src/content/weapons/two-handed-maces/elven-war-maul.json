@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/elven-war-maul.webp",
-  "damage": {
-    "value": 34,
-    "type": "blunt"
-  },
   "durability": 215,
   "price": 8200,
   "properties": {
@@ -23,10 +19,14 @@
     "staggerChance": 46,
     "skillsEnergyCost": 45
   },
-  "range": 1,
   "tags": [
     "elven"
   ],
   "description": "Elves call this hammer shape a \"bull horn\" for the distinctive spike on its back end.",
-  "descriptionZh": "因为这个锤子尾部形似牛角，所以精灵又称之“牛角锤”。"
+  "descriptionZh": "因为这个锤子尾部形似牛角，所以精灵又称之“牛角锤”。",
+  "damage": {
+    "value": 34,
+    "type": "blunt"
+  },
+  "range": 1
 }

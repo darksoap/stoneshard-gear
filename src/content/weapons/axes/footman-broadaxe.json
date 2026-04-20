@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/footman-broadaxe.webp",
-  "damage": {
-    "value": 23,
-    "type": "slashing"
-  },
   "durability": 110,
   "price": 1200,
   "properties": {
@@ -20,10 +16,14 @@
     "staggerChance": 17,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It's best to keep your distance when someone is swinging this axe around - it chops limbs and heads with equal ease.",
-  "descriptionZh": "如果对方手里拿着这么一把斧子，最好和他保持距离。否则的话，掉脑袋和断手断脚都是一眨眼的事情。"
+  "descriptionZh": "如果对方手里拿着这么一把斧子，最好和他保持距离。否则的话，掉脑袋和断手断脚都是一眨眼的事情。",
+  "damage": {
+    "value": 23,
+    "type": "slashing"
+  },
+  "range": 1
 }

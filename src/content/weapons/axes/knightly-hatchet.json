@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/knightly-hatchet.webp",
-  "damage": {
-    "value": 29,
-    "type": "slashing"
-  },
   "durability": 140,
   "price": 4850,
   "properties": {
@@ -21,10 +17,14 @@
     "bleedingChance": 24,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "Invented by an unknown Aldwynn smith, this design quickly caught the eye of the local knights.",
-  "descriptionZh": "这种斧子由奥尔德文的某位铁匠发明，而后很快便受到了当地骑士的青睐。"
+  "descriptionZh": "这种斧子由奥尔德文的某位铁匠发明，而后很快便受到了当地骑士的青睐。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
 }

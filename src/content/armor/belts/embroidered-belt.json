@@ -3,7 +3,6 @@
   "name": "Embroidered Belt",
   "nameZh": "纹绣裤带",
   "slot": "waist",
-  "class": "light",
   "tier": 2,
   "rarity": "common",
   "material": "cloth",
@@ -18,5 +17,6 @@
     "aldor"
   ],
   "description": "Perfect for displaying one's fashion sense during a drinking night.",
-  "descriptionZh": "晚上的酒场上系上这个，最能展现自己的时尚品味。"
+  "descriptionZh": "晚上的酒场上系上这个，最能展现自己的时尚品味。",
+  "class": "light"
 }

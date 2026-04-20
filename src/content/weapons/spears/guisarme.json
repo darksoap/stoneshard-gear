@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/spears/guisarme.webp",
-  "damage": {
-    "value": 23,
-    "type": "piercing"
-  },
   "durability": 140,
   "price": 1625,
   "properties": {
@@ -22,10 +18,14 @@
     "immobilizationChance": 14,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It's said that Aldorian smiths got the idea of forging such a peculiarly shaped weapon from the inhabitants of the Bronze Isles.",
-  "descriptionZh": "奥尔多的铁匠之所以造出了这种形状的东西，据说是参考了青铜群岛的兵器。"
+  "descriptionZh": "奥尔多的铁匠之所以造出了这种形状的东西，据说是参考了青铜群岛的兵器。",
+  "damage": {
+    "value": 23,
+    "type": "piercing"
+  },
+  "range": 1
 }

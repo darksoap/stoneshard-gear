@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/axes/raider-axe.webp",
-  "damage": {
-    "value": 22,
-    "type": "slashing"
-  },
   "durability": 110,
   "price": 1075,
   "properties": {
@@ -21,10 +17,14 @@
     "bodypartDamage": 27,
     "skillsEnergyCost": 16
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "It sits snugly in the grip, ideal for lightning-fast assaults on straggling enemy caravans.",
-  "descriptionZh": "把柄趁手，非常适合突袭敌方落后的车队。"
+  "descriptionZh": "把柄趁手，非常适合突袭敌方落后的车队。",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "range": 1
 }

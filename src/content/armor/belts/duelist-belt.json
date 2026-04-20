@@ -3,7 +3,6 @@
   "name": "Duelist Belt",
   "nameZh": "对决腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -19,5 +18,6 @@
     "aldor"
   ],
   "description": "A little something to complete the image of a daring fighter and a relentless heartbreaker.",
-  "descriptionZh": "对决手要想塑造无畏斗士的形象，要想俘获一颗又一颗芳心，就不能没有这一条腰带。"
+  "descriptionZh": "对决手要想塑造无畏斗士的形象，要想俘获一颗又一颗芳心，就不能没有这一条腰带。",
+  "class": "light"
 }

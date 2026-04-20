@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/crossbows/belt-crossbow.webp",
-  "damage": {
-    "value": 21,
-    "type": "piercing"
-  },
   "durability": 50,
   "price": 600,
   "properties": {
@@ -21,10 +17,14 @@
     "staggerChance": 20,
     "skillsEnergyCost": 15
   },
-  "range": 7,
   "tags": [
     "aldor"
   ],
   "description": "Rather than relying on your arm strength alone, the belt hook also allows to engage back muscles when drawing the string, which makes reloading this crossbow noticeably less tiring.",
-  "descriptionZh": "这把弩装了腰钩，装填更加方便，引弦的时候可以更好地调用背部肌肉。"
+  "descriptionZh": "这把弩装了腰钩，装填更加方便，引弦的时候可以更好地调用背部肌肉。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 7
 }

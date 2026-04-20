@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "leather",
   "image": "/images/weapons/slings/savage-sling.webp",
-  "damage": {
-    "value": 9,
-    "type": "blunt"
-  },
   "durability": 45,
   "price": 50,
   "properties": {
@@ -22,10 +18,14 @@
     "skillsEnergyCost": 5,
     "cooldownReduction": -5
   },
-  "range": 7,
   "tags": [
     "fjall"
   ],
   "description": "The material leaves much to be desired, but the craftsmanship shows no small measure of ingenuity.",
-  "descriptionZh": "虽然材质不怎么理想，但是制作的工艺相当精妙。"
+  "descriptionZh": "虽然材质不怎么理想，但是制作的工艺相当精妙。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 6
 }

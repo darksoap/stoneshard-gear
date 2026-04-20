@@ -3,7 +3,6 @@
   "name": "Arcanist Mantle",
   "nameZh": "秘术法袍",
   "slot": "chest",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "magic"
   ],
   "description": "A distinct mantle of the Circle of Arcanistics, thoroughly imbued with pure magic essence.",
-  "descriptionZh": "秘术法会专用法袍，已被魔法精华浸透。"
+  "descriptionZh": "秘术法会专用法袍，已被魔法精华浸透。",
+  "class": "light"
 }

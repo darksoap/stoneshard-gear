@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/recruit-polemace.webp",
-  "damage": {
-    "value": 21,
-    "type": "blunt"
-  },
   "durability": 110,
   "price": 575,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 15,
     "skillsEnergyCost": 20
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "A single solid strike from this polemace will make your enemy forget even their own name.",
-  "descriptionZh": "这要是结结实实一锤子砸下去，只要一锤就能砸得敌人连自己姓什么都不知道了。"
+  "descriptionZh": "这要是结结实实一锤子砸下去，只要一锤就能砸得敌人连自己姓什么都不知道了。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
 }

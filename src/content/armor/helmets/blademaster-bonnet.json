@@ -18,7 +18,7 @@
     "evasion": 7,
     "resistances": {
       "bleeding": 12,
-      "stun": 12,
+      "stun": 10,
       "physical": 8
     }
   },

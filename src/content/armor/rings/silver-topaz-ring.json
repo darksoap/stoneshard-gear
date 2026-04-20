@@ -3,7 +3,6 @@
   "name": "Silver Topaz Ring",
   "nameZh": "黄玉银戒指",
   "slot": "ring",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "silver",
@@ -21,5 +20,6 @@
     "aldor"
   ],
   "description": "Topaz and silver form an exquisite combination, priced precisely to appeal to the wives of respectable merchants.",
-  "descriptionZh": "黄玉配银器，精致又雅观，价格定得恰到好处，正好适合财力中等的生意人的老婆。"
+  "descriptionZh": "黄玉配银器，精致又雅观，价格定得恰到好处，正好适合财力中等的生意人的老婆。",
+  "class": "light"
 }

@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "wood",
   "image": "/images/weapons/staves/geomancer-staff.webp",
-  "damage": {
-    "value": 18,
-    "type": "blunt"
-  },
   "durability": 160,
   "price": 2425,
   "properties": {
@@ -30,10 +26,14 @@
       "geomantic": 5
     }
   },
-  "range": 1,
   "tags": [
     "magic"
   ],
   "description": "A staff fashioned from nigh indestructible stone, yet somehow it still weighs lighter than wood.",
-  "descriptionZh": "这根法杖的材质是某种几乎无法摧毁的石头……可是它却比木头还要轻上很多。"
+  "descriptionZh": "这根法杖的材质是某种几乎无法摧毁的石头……可是它却比木头还要轻上很多。",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "range": 1
 }

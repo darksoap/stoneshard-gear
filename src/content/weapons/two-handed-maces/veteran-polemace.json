@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/veteran-polemace.webp",
-  "damage": {
-    "value": 28,
-    "type": "blunt"
-  },
   "durability": 170,
   "price": 3400,
   "properties": {
@@ -22,10 +18,14 @@
     "staggerChance": 25,
     "skillsEnergyCost": 30
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "The mace head is shaped in such a way that it's equally effective against both lightly and heavily armored opponents.",
-  "descriptionZh": "这个钉头锤顶部造型独到，无论是敌人身着重甲还是轻甲，都能对其造成伤害。"
+  "descriptionZh": "这个钉头锤顶部造型独到，无论是敌人身着重甲还是轻甲，都能对其造成伤害。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
 }

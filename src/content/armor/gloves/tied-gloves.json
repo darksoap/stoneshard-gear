@@ -3,7 +3,6 @@
   "name": "Tied Gloves",
   "nameZh": "缚腕手套",
   "slot": "arms",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -26,5 +25,6 @@
     "aldor"
   ],
   "description": "The trick is not to tighten the bindings too much. Numb hands are of little use in a fight.",
-  "descriptionZh": "关键在于绑得松紧适中。动手的时候，要是手勒木了，就不好了。"
+  "descriptionZh": "关键在于绑得松紧适中。动手的时候，要是手勒木了，就不好了。",
+  "class": "light"
 }

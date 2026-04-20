@@ -7,10 +7,6 @@
   "rarity": "unique",
   "material": "metal",
   "image": "/images/weapons/two-handed-maces/exquisite-grandmace.webp",
-  "damage": {
-    "value": 32,
-    "type": "blunt"
-  },
   "durability": 155,
   "price": 7150,
   "properties": {
@@ -25,10 +21,14 @@
     "skillsEnergyCost": 35,
     "magicPower": 5
   },
-  "range": 1,
   "tags": [
     "unique"
   ],
   "description": "Don't let the glint of gold mislead you: despite its elegant ornaments, this polemace shatters skulls and bones just as efficiently as its plain counterparts.",
-  "descriptionZh": "这件钉头锤鎏金修饰丰富，不过切勿因此低估了兵器的实战性能——它断骨碎颅的本事丝毫不比普通的长柄钉头锤差。"
+  "descriptionZh": "这件钉头锤鎏金修饰丰富，不过切勿因此低估了兵器的实战性能——它断骨碎颅的本事丝毫不比普通的长柄钉头锤差。",
+  "damage": {
+    "value": 32,
+    "type": "blunt"
+  },
+  "range": 1
 }

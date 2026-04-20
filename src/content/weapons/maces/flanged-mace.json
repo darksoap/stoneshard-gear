@@ -7,10 +7,6 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/maces/flanged-mace.webp",
-  "damage": {
-    "value": 19,
-    "type": "blunt"
-  },
   "durability": 120,
   "price": 975,
   "properties": {
@@ -21,10 +17,14 @@
     "knockbackChance": 12,
     "skillsEnergyCost": 15
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "What's the main advantage of flanged maces? They don't get stuck when they crush skulls and plate armor.",
-  "descriptionZh": "凸缘钉头锤最好的地方在哪里？在于它砸进头部或者板甲之后，还能轻松地拔出来。"
+  "descriptionZh": "凸缘钉头锤最好的地方在哪里？在于它砸进头部或者板甲之后，还能轻松地拔出来。",
+  "damage": {
+    "value": 19,
+    "type": "blunt"
+  },
+  "range": 1
 }

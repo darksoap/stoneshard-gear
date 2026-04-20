@@ -7,11 +7,7 @@
   "rarity": "common",
   "material": "metal",
   "image": "/images/weapons/two-handed-swords/footman-longsword.webp",
-  "damage": {
-    "value": 24,
-    "type": "slashing"
-  },
-  "durability": 115,
+  "durability": 120,
   "price": 1775,
   "properties": {
     "accuracy": 6,
@@ -20,10 +16,14 @@
     "staggerChance": 20,
     "skillsEnergyCost": 25
   },
-  "range": 1,
   "tags": [
     "aldor"
   ],
   "description": "These swords can improve your chances when fighting a heavily armored opponent, making them a popular choice among common foot soldiers.",
-  "descriptionZh": "面对全身重甲的对手，这种长剑可以增加你的胜算，所以备受普通的步兵欢迎。"
+  "descriptionZh": "面对全身重甲的对手，这种长剑可以增加你的胜算，所以备受普通的步兵欢迎。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
 }

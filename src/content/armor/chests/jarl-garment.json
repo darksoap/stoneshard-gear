@@ -3,7 +3,6 @@
   "name": "Jarl Garment",
   "nameZh": "亚尔盛装",
   "slot": "chest",
-  "class": "light",
   "tier": 5,
   "rarity": "unique",
   "material": "cloth",
@@ -28,5 +27,6 @@
     "unique"
   ],
   "description": "Given sufficient materials, time, and patronage, dwarven craftsmen are still capable of producing true masterpieces.",
-  "descriptionZh": "只要材料充足，时间充足，再有他人资助，矮人的工匠大师依然做得出真正的传世杰作。"
+  "descriptionZh": "只要材料充足，时间充足，再有他人资助，矮人的工匠大师依然做得出真正的传世杰作。",
+  "class": "light"
 }

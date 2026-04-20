@@ -3,7 +3,6 @@
   "name": "Mercenary Girdle",
   "nameZh": "佣兵腰带",
   "slot": "waist",
-  "class": "light",
   "tier": 4,
   "rarity": "common",
   "material": "leather",
@@ -23,5 +22,6 @@
     "aldor"
   ],
   "description": "A thin belt complete with a few metal buckles. It's still more of a fashion accessory than a functional piece of armor though.",
-  "descriptionZh": "一条细带子，加了几个金属圆盘，与其说是防具，不如说是装饰。"
+  "descriptionZh": "一条细带子，加了几个金属圆盘，与其说是防具，不如说是装饰。",
+  "class": "light"
 }
