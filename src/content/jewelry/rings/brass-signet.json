@@ -1,0 +1,24 @@
+{
+  "id": "brass-signet",
+  "name": "Brass Signet",
+  "nameZh": "黄铜印戒",
+  "slot": "ring",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/rings/brass-signet.webp",
+  "durability": 50,
+  "price": 60,
+  "properties": {
+    "fumbleChance": -2,
+    "resistances": {
+      "rending": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A handy tool for sealing personal letters and business papers.",
+  "descriptionZh": "个人信件和商函盖章的时候，用这个非常方便。",
+  "class": "light"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "knightly-coif",
+  "name": "Knightly Coif",
+  "nameZh": "骑士头套",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/knightly-coif.webp",
+  "durability": 150,
+  "price": 2775,
+  "properties": {
+    "maxMana": -1,
+    "defense": 10,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 16,
+      "stun": 18,
+      "physical": 14,
+      "slashing": 6,
+      "blunt": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "In war, anything can go wrong: the mail around the neck and jaw serves to keep the head where it belongs, even after losing the helmet.",
+  "descriptionZh": "战场上什么意外都有可能出现，脖子下巴加一圈链网，就算头盔掉了，脑袋也不至于搬家。",
+  "class": "light"
+}

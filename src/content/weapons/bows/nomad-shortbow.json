@@ -1,0 +1,31 @@
+{
+  "id": "nomad-shortbow",
+  "name": "Nomad Shortbow",
+  "nameZh": "游牧短弓",
+  "slot": "bow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/nomad-shortbow.webp",
+  "durability": 70,
+  "price": 1075,
+  "properties": {
+    "accuracy": -50,
+    "fumbleChance": -5,
+    "armorPenetration": 10,
+    "bleedingChance": 29,
+    "immobilizationChance": 10,
+    "staggerChance": 10,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "For many, the first clash with Jarimad mounted archers is also the last: deadly on foot, they are even deadlier from the saddle.",
+  "descriptionZh": "很多人只有机会跟亚里迈德的弓骑兵交手一次，这些射手马下就是索命的好手，上了马更是箭箭夺命。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 7
+}

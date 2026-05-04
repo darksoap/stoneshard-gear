@@ -1,0 +1,29 @@
+{
+  "id": "norse-axe",
+  "name": "Norse Axe",
+  "nameZh": "诺斯斧",
+  "slot": "axe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/norse-axe.webp",
+  "durability": 90,
+  "price": 450,
+  "properties": {
+    "critEfficiency": 12,
+    "armorPenetration": 15,
+    "bodypartDamage": 24,
+    "staggerChance": 13,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A traditional weapon of Fjall clans, first adopted by the guards protecting the Northern Borderlands and then - by the rest of the kingdom.",
+  "descriptionZh": "这是弗约各个部族常用的传统兵器，先是传到了戍守北疆的卫兵手上，后来传到了王国各地。",
+  "damage": {
+    "value": 20,
+    "type": "slashing"
+  },
+  "range": 1
+}

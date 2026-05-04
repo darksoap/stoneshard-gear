@@ -1,0 +1,22 @@
+{
+  "id": "embroidered-belt",
+  "name": "Embroidered Belt",
+  "nameZh": "纹绣裤带",
+  "slot": "waist",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/embroidered-belt.webp",
+  "durability": 25,
+  "price": 100,
+  "properties": {
+    "accuracy": 1,
+    "evasion": 3
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Perfect for displaying one's fashion sense during a drinking night.",
+  "descriptionZh": "晚上的酒场上系上这个，最能展现自己的时尚品味。",
+  "class": "light"
+}

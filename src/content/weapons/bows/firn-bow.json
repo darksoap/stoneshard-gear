@@ -1,0 +1,31 @@
+{
+  "id": "firn-bow",
+  "name": "Firn Bow",
+  "nameZh": "弗恩弓",
+  "slot": "bow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/firn-bow.webp",
+  "durability": 85,
+  "price": 2425,
+  "properties": {
+    "accuracy": -50,
+    "fumbleChance": -9,
+    "armorPenetration": 15,
+    "bodypartDamage": 5,
+    "knockbackChance": 30,
+    "staggerChance": 20,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The Firns had a reputation not only as excellent marksmen, but also as gifted bowyers: their bow designs still remain in common use.",
+  "descriptionZh": "弗恩人不仅弓法声名在外，也是天生的制弓好手，他们设计的形制至今依旧随处可见。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 9
+}

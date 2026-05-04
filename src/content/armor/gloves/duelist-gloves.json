@@ -1,0 +1,29 @@
+{
+  "id": "duelist-gloves",
+  "name": "Duelist Gloves",
+  "nameZh": "对决手套",
+  "slot": "arms",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/duelist-gloves.webp",
+  "durability": 100,
+  "price": 1750,
+  "properties": {
+    "critEfficiency": 12,
+    "counterChance": 3,
+    "fumbleChance": -4,
+    "skillsEnergyCost": -6,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 15,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Career duelists in particular are fond of this style of gloves - they look especially dashing wrapped around a sword hilt.",
+  "descriptionZh": "职业对决手尤其偏爱这种手套，因为戴上握着剑柄的时候，样式尤其好看。",
+  "class": "light"
+}

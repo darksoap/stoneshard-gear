@@ -1,0 +1,30 @@
+{
+  "id": "chervenian-bulava",
+  "name": "Chervenian Bulava",
+  "nameZh": "车尔文钉头锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/chervenian-bulava.webp",
+  "durability": 160,
+  "price": 4600,
+  "properties": {
+    "critEfficiency": 26,
+    "fumbleChance": -7,
+    "armorPenetration": 25,
+    "dazeChance": 20,
+    "staggerChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "nistra"
+  ],
+  "description": "The Chervenian nobility is small but proud. Centuries of rivalry with the rest of Nistra's aristocracy have driven them to cultivate a unique style in dress and arms, ensuring they always stand out.",
+  "descriptionZh": "车尔文贵族人数稀少，孤芳自赏，与尼斯特拉其他民族的贵族对立了数百年之久，服装与武器因而形成了独特的风格与形制，彰显了这个民族的与众不同。",
+  "damage": {
+    "value": 28,
+    "type": "blunt"
+  },
+  "range": 1
+}

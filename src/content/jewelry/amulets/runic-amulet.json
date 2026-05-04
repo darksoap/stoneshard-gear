@@ -1,0 +1,23 @@
+{
+  "id": "runic-amulet",
+  "name": "Runic Amulet",
+  "nameZh": "符文护身符",
+  "slot": "amulet",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/amulets/runic-amulet.webp",
+  "durability": 60,
+  "price": 220,
+  "properties": {
+    "fumbleChance": -2,
+    "damageReduction": 2,
+    "evasion": 2
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "People of Fjall hold a belief that a properly crafted runic charm can bring success in any endeavor.",
+  "descriptionZh": "弗约人认为不论做什么事情，只要戴一条做工可以的符文护符，就能顺顺利利。",
+  "class": "light"
+}

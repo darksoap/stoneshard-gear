@@ -1,0 +1,33 @@
+{
+  "id": "beast-slayer-shield",
+  "name": "Beast Slayer Shield",
+  "nameZh": "兽屠阿尔布雷希特的盾牌",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/shields/beast-slayer-shield.webp",
+  "durability": 210,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 24,
+    "blockPower": 22,
+    "blockRecovery": 5,
+    "maxMana": -8,
+    "manaRestoration": -1,
+    "evasion": -4,
+    "resistances": {
+      "bleeding": 8,
+      "knockback": 8,
+      "stun": 8,
+      "pain": 8,
+      "rending": 15
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The infamous Beast of Ratten terrorized the countryside for several years, slaughtering at least a hundred livestock and a couple dozen peasants. Fortunately, it was tracked down and slain by Sir Albrecht - may the Host bless his brave soul.",
+  "descriptionZh": "“拉滕狂兽”当年盘踞一方，害死牲口上百头、村民数十人，恶名昭著，所幸死于阿尔布雷希特爵士刀下，愿圣主保佑爵士英魂。",
+  "class": "medium"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bollock",
+  "name": "Bollock",
+  "nameZh": "睾丸匕首",
+  "slot": "dagger",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/bollock.webp",
+  "durability": 50,
+  "price": 275,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 3,
+    "armorPenetration": 5,
+    "bleedingChance": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "As gamblers like to say, always keep an ace up your sleeve and a dagger down your boot.",
+  "descriptionZh": "赌场里的人经常说：“袖子里要藏一张王牌，靴子里得藏一把匕首。”",
+  "damage": {
+    "value": 15,
+    "type": "piercing"
+  },
+  "range": 1
+}

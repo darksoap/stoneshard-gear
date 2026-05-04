@@ -1,0 +1,28 @@
+{
+  "id": "duelist-boots",
+  "name": "Duelist Boots",
+  "nameZh": "对决靴",
+  "slot": "legs",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/duelist-boots.webp",
+  "durability": 120,
+  "price": 1675,
+  "properties": {
+    "counterChance": 6,
+    "defense": 8,
+    "evasion": 8,
+    "resistances": {
+      "bleeding": 14,
+      "knockback": 12,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "In addition to the fighting skill, duelists also continuously sharpen their fashion sense.",
+  "descriptionZh": "对决手不仅要具备一定的格斗能力，也要不断提升自己的衣着水平。",
+  "class": "light"
+}

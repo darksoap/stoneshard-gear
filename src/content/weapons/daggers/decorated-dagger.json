@@ -1,0 +1,29 @@
+{
+  "id": "decorated-dagger",
+  "name": "Decorated Dagger",
+  "nameZh": "雕饰匕首",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/daggers/decorated-dagger.webp",
+  "durability": 70,
+  "price": 1700,
+  "properties": {
+    "accuracy": 8,
+    "critChance": 5,
+    "armorPenetration": 10,
+    "bleedingChance": 20,
+    "abilitiesEnergyCost": -4
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Local noblemen have an ancient tradition of exchanging daggers. As a rule, it's done by plunging them into each other's back.",
+  "descriptionZh": "本地贵族交换匕首有个古老的传统，也就是必须从对方背后插进去。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
+}

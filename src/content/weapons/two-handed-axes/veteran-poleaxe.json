@@ -1,0 +1,30 @@
+{
+  "id": "veteran-poleaxe",
+  "name": "Veteran Poleaxe",
+  "nameZh": "老兵长柄斧",
+  "slot": "2haxe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/veteran-poleaxe.webp",
+  "durability": 185,
+  "price": 3400,
+  "properties": {
+    "armorPenetration": 25,
+    "damageReduction": 10,
+    "blockPower": 11,
+    "bleedingChance": 30,
+    "knockbackChance": 30,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An axe capable of cleaving open both the laminar armor of maaf riders and the breastplates of Nistrian cataphracts.",
+  "descriptionZh": "不论玛弗骑兵的片甲还是尼斯特拉全甲骑兵的前胸甲，这种枪斧都能轻而易举劈成两半。",
+  "damage": {
+    "value": 29,
+    "type": "slashing"
+  },
+  "range": 1
+}

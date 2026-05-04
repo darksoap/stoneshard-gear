@@ -1,0 +1,188 @@
+---
+import { propertyLabels } from "../i18n/zh";
+
+interface Props {
+  properties: Record<string, number>;
+}
+
+const { properties } = Astro.props;
+
+const integerProperties = new Set([
+  "blockPower",
+  "maxHealth",
+  "maxMana",
+  "vision",
+  "defense",
+  "range",
+]);
+
+const negativeIsGood = new Set([
+  "fumbleChance",
+  "backfireChance",
+  "miscastChance",
+  "skillsEnergyCost",
+  "spellsEnergyCost",
+  "abilitiesEnergyCost",
+  "damageReceived",
+  "cooldownReduction",
+]);
+
+const propertyGroups = [
+  {
+    name: "伤害",
+    keys: [
+      "armorPenetration",
+      "armorDamage",
+      "bodypartDamage",
+      "weaponDamage",
+      "damageReturned",
+    ],
+  },
+  {
+    name: "战斗",
+    keys: ["accuracy", "fumbleChance", "critChance", "critEfficiency"],
+  },
+  {
+    name: "效果",
+    keys: [
+      "bleedingChance",
+      "dazeChance",
+      "stunChance",
+      "staggerChance",
+      "knockbackChance",
+      "immobilizationChance",
+    ],
+  },
+  {
+    name: "防御",
+    keys: [
+      "defense",
+      "evasion",
+      "blockChance",
+      "blockPower",
+      "blockRecovery",
+      "counterChance",
+      "dodgeChance",
+      "damageReduction",
+      "critAvoid",
+    ],
+  },
+  {
+    name: "生命精力",
+    keys: [
+      "maxHealth",
+      "healthRestoration",
+      "healingReceived",
+      "maxMana",
+      "manaRestoration",
+      "lifesteal",
+      "manasteal",
+    ],
+  },
+  {
+    name: "法力",
+    keys: ["magicPower", "miracleChance", "miraclePower", "miscastChance"],
+  },
+  {
+    name: "消耗",
+    keys: [
+      "abilitiesEnergyCost",
+      "skillsEnergyCost",
+      "spellsEnergyCost",
+      "cooldownReduction",
+    ],
+  },
+  {
+    name: "其他",
+    keys: [
+      "fortitude",
+      "vision",
+      "bonusRange",
+      "damageReceived",
+      "experienceGain",
+      "fatigueGain",
+    ],
+  },
+];
+
+function getPropertyLabel(key: string): string {
+  return propertyLabels[key] || key;
+}
+
+function formatValue(
+  key: string,
+  value: number,
+): { text: string; class: string } {
+  const isInteger = integerProperties.has(key);
+  const isNegativeGood = negativeIsGood.has(key);
+
+  const suffix = isInteger ? "" : "%";
+  const text = value > 0 ? `+${value}${suffix}` : `${value}${suffix}`;
+
+  let className: string;
+  if (value === 0) {
+    className = "text-text-secondary";
+  } else if (isNegativeGood) {
+    className = value < 0 ? "text-positive" : "text-negative";
+  } else {
+    className = value > 0 ? "text-positive" : "text-negative";
+  }
+
+  return { text, class: className };
+}
+
+const groupedProperties: {
+  group: (typeof propertyGroups)[0];
+  items: [string, number][];
+}[] = [];
+const usedKeys = new Set<string>();
+
+for (const group of propertyGroups) {
+  const items: [string, number][] = [];
+  for (const key of group.keys) {
+    if (key in properties) {
+      items.push([key, properties[key]]);
+      usedKeys.add(key);
+    }
+  }
+  if (items.length > 0) {
+    groupedProperties.push({ group, items });
+  }
+}
+
+const otherItems: [string, number][] = [];
+for (const [key, value] of Object.entries(properties)) {
+  if (!usedKeys.has(key) && typeof value === "number") {
+    otherItems.push([key, value]);
+  }
+}
+if (otherItems.length > 0) {
+  groupedProperties.push({
+    group: { name: "其他", keys: [] },
+    items: otherItems,
+  });
+}
+---
+
+<div class="space-y-3">
+  {
+    groupedProperties.map(({ group, items }) => (
+      <div class="property-group">
+        <div class="group-header">{group.name}</div>
+        <div class="space-y-0.5">
+          {items.map(([key, value]) => {
+            const { text, class: valueClass } = formatValue(key, value);
+            return (
+              <div class="stat-row px-1">
+                <span class="text-text-secondary text-sm">
+                  {getPropertyLabel(key)}
+                </span>
+                <span class={`text-sm font-medium ${valueClass}`}>{text}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    ))
+  }
+</div>

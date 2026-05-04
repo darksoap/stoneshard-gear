@@ -1,0 +1,24 @@
+{
+  "id": "golden-circlet",
+  "name": "Golden Circlet",
+  "nameZh": "镀金头环",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/helmets/golden-circlet.webp",
+  "durability": 20,
+  "price": 1825,
+  "properties": {
+    "magicPower": 11,
+    "miscastChance": -1,
+    "miracleChance": 2,
+    "miraclePower": 5
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Hardly the most elegant piece of jewelry - the craftsman was clearly more interested in the practical applications of gold than its aesthetics.",
+  "descriptionZh": "这件首饰的造型显然算不上十分讲究，相较外观，工匠显然更看重金子的实用。",
+  "class": "light"
+}

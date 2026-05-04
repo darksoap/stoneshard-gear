@@ -1,0 +1,32 @@
+{
+  "id": "mercenary-brigandine",
+  "name": "Mercenary Brigandine",
+  "nameZh": "佣兵布面重甲",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/mercenary-brigandine.webp",
+  "durability": 240,
+  "price": 4125,
+  "properties": {
+    "maxMana": -13,
+    "manaRestoration": -3,
+    "defense": 18,
+    "evasion": -8,
+    "critAvoid": 13,
+    "fortitude": 10,
+    "resistances": {
+      "bleeding": 30,
+      "physical": 22,
+      "piercing": 5,
+      "blunt": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The longer mercenaries stay alive, the better they're paid - and the better they're paid, the longer they stay alive...",
+  "descriptionZh": "雇佣兵活的时间越长，能拿到的赏钱就越多。能拿到的赏钱越多，那他们活的时间就越长……",
+  "class": "heavy"
+}

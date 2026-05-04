@@ -1,0 +1,32 @@
+{
+  "id": "peasant-flail",
+  "name": "Peasant Flail",
+  "nameZh": "打谷连枷",
+  "slot": "mace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/maces/peasant-flail.webp",
+  "durability": 50,
+  "price": 75,
+  "properties": {
+    "accuracy": -3,
+    "critChance": 2,
+    "fumbleChance": 4,
+    "armorPenetration": 5,
+    "bodypartDamage": 5,
+    "dazeChance": 6,
+    "staggerChance": 10,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "During peacetime these flails are used to thresh wheat. During wartime - to chase off marauding deserters.",
+  "descriptionZh": "和平年代，这是打谷的农具。战争年代，这是驱赶为非作歹的逃兵的利器。",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "range": 1
+}

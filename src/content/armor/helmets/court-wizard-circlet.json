@@ -1,0 +1,27 @@
+{
+  "id": "court-wizard-circlet",
+  "name": "Court Wizard Circlet",
+  "nameZh": "家内法师头冠",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/helmets/court-wizard-circlet.webp",
+  "durability": 20,
+  "price": 8375,
+  "properties": {
+    "magicPower": 15,
+    "miracleChance": 4,
+    "miraclePower": 12,
+    "bonusRange": 5,
+    "resistances": {
+      "magic": 10
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Just a few years worth of village taxes is all it costs for a lord to adorn his court mage with one of these diadems.",
+  "descriptionZh": "领主只需要拿出领内乡村二三年的农税，就足够给自己豢养的法师做一件这样的头冠了。",
+  "class": "light"
+}

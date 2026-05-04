@@ -1,0 +1,60 @@
+---
+interface Props {
+    baseLabel?: string;
+    variantLabel?: string;
+}
+
+const { baseLabel = "闭面", variantLabel = "开面" } = Astro.props;
+---
+
+<div class="flex border-b border-border-dark">
+    <button
+        class="variant-tab flex-1 py-2.5 text-sm font-bold tracking-wider text-accent border-b-2 border-accent bg-bg-tertiary transition-colors cursor-pointer"
+        data-tab="base"
+    >
+        {baseLabel}
+    </button>
+    <button
+        class="variant-tab flex-1 py-2.5 text-sm font-bold tracking-wider text-text-muted border-b-2 border-transparent bg-bg-secondary hover:text-text-secondary transition-colors cursor-pointer"
+        data-tab="variant"
+    >
+        {variantLabel}
+    </button>
+</div>
+
+<script>
+    function initVariantTabs() {
+        const tabs = document.querySelectorAll(".variant-tab");
+        const panels = document.querySelectorAll<HTMLElement>("[data-panel]");
+
+        if (tabs.length !== 2 || panels.length === 0) return;
+
+        tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+                const target = tab.getAttribute("data-tab");
+
+                tabs.forEach((t) => {
+                    const isActive = t.getAttribute("data-tab") === target;
+                    t.classList.toggle("text-accent", isActive);
+                    t.classList.toggle("border-accent", isActive);
+                    t.classList.toggle("bg-bg-tertiary", isActive);
+                    t.classList.toggle("text-text-muted", !isActive);
+                    t.classList.toggle("border-transparent", !isActive);
+                    t.classList.toggle("bg-bg-secondary", !isActive);
+                });
+
+                panels.forEach((panel) => {
+                    const isTarget = panel.dataset.panel === target;
+                    panel.classList.toggle("hidden", !isTarget);
+                    if (isTarget) {
+                        panel.classList.remove("animate-fade");
+                        void panel.offsetWidth;
+                        panel.classList.add("animate-fade");
+                    }
+                });
+            });
+        });
+    }
+
+    initVariantTabs();
+</script>

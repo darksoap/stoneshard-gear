@@ -1,0 +1,31 @@
+{
+  "id": "jagged-voulge",
+  "name": "Jagged Voulge",
+  "nameZh": "倒钩弗日",
+  "slot": "2haxe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/jagged-voulge.webp",
+  "durability": 135,
+  "price": 1625,
+  "properties": {
+    "accuracy": 6,
+    "critEfficiency": 5,
+    "counterChance": 4,
+    "armorPenetration": 15,
+    "bodypartDamage": 30,
+    "bleedingChance": 36,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "All these spikes offer plenty of options: can use them to intercept an incoming strike, pull down a rider from their horse, finish off a wounded opponent...",
+  "descriptionZh": "这上面的钩刺用途很多，可以卸下敌人的兵器，可以拖下马上的人，也能结果身受重伤的对手……",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

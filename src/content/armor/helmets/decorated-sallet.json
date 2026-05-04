@@ -1,0 +1,34 @@
+{
+  "id": "decorated-sallet",
+  "name": "Decorated Sallet",
+  "nameZh": "饰纹夏雷尔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/decorated-sallet.webp",
+  "durability": 280,
+  "price": 6800,
+  "properties": {
+    "accuracy": -4,
+    "maxMana": -16,
+    "manaRestoration": -3,
+    "defense": 23,
+    "critAvoid": 24,
+    "fortitude": 30,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 37,
+      "stun": 40,
+      "physical": 34,
+      "magic": 5,
+      "unholy": 10
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A sallet painted in black with a line of prayer meticulously inscribed on its rim - supposedly, it should provide additional protection against stray arrows and sudden strikes.",
+  "descriptionZh": "这顶轻盔通体黑色，盔沿密密麻麻写了一圈祷文——这串文字据说可以保护盔主，不受流箭和意外攻击伤害。",
+  "class": "heavy"
+}

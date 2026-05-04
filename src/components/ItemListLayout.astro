@@ -1,0 +1,218 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ItemCard from "./ItemCard.astro";
+import FilterPanel from "./FilterPanel.astro";
+import SortSelect from "./SortSelect.astro";
+import { base } from "../lib/items";
+import type { CollectionEntry } from "astro:content";
+
+interface Subcategory {
+  slug: string;
+  label: string;
+  count: number;
+  group?: string;
+}
+
+type AnyItem =
+  | CollectionEntry<"weapons">
+  | CollectionEntry<"armor">
+  | CollectionEntry<"jewelry">;
+
+interface Props {
+  title: string;
+  description: string;
+  itemType: "weapons" | "armor" | "jewelry";
+  collectionType: "weapons" | "armor" | "jewelry";
+  items: AnyItem[];
+  subcategories?: Subcategory[];
+  availableFilters: {
+    rarities?: string[];
+    tiers?: number[];
+    materials?: string[];
+    armorClasses?: string[];
+  };
+  breadcrumb?: { label: string; href: string }[];
+  noResultsText?: string;
+}
+
+const {
+  title,
+  description,
+  itemType,
+  collectionType,
+  items,
+  subcategories,
+  availableFilters,
+  breadcrumb,
+  noResultsText = "没有找到符合条件的物品",
+} = Astro.props;
+
+const totalCount = items.length;
+
+function getDataAttrs(item: AnyItem): Record<string, string> {
+  const d = item.data;
+  const attrs: Record<string, string> = {
+    slot: d.slot,
+    rarity: d.rarity,
+    tier: d.tier.toString(),
+    material: d.material,
+    name: d.nameZh,
+    price: d.price.toString(),
+    durability: d.durability.toString(),
+  };
+  const cls = (d as any)["class"];
+  if (cls) {
+    attrs["armor-class"] = cls;
+  }
+  return attrs;
+}
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    {
+      breadcrumb && breadcrumb.length > 0 && (
+        <nav class="mb-4 text-xs text-text-muted">
+          {breadcrumb.map((crumb, i) => (
+            <>
+              {i > 0 && <span class="mx-1.5 text-border">/</span>}
+              {i === breadcrumb.length - 1 ? (
+                <span class="text-text-secondary">{crumb.label}</span>
+              ) : (
+                <a
+                  href={crumb.href}
+                  class="hover:text-accent transition-colors"
+                >
+                  {crumb.label}
+                </a>
+              )}
+            </>
+          ))}
+        </nav>
+      )
+    }
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-white mb-2 tracking-wide">{title}</h1>
+      <div class="section-divider max-w-xs mb-3"></div>
+      <p class="text-text-secondary text-sm">
+        共 <span id="total-count" class="text-accent-warm font-bold"
+          >{totalCount}</span
+        > 件
+      </p>
+    </div>
+
+    {
+      subcategories && subcategories.length > 0 && (
+        <div class="mb-6">
+          {Array.from(
+            new Set(subcategories.filter((s) => s.group).map((s) => s.group)),
+          ).map((group) => (
+            <div class="mb-3">
+              <div class="group-header mb-2">{group}</div>
+              <div class="flex flex-wrap gap-2">
+                {subcategories
+                  .filter((s) => s.group === group)
+                  .map((cat) => (
+                    <a
+                      href={`${base}/${collectionType}/${cat.slug}`}
+                      class="inline-flex items-center gap-2 px-3 py-1.5 bg-bg-secondary border border-border-dark rounded-full text-sm text-text-secondary hover:border-accent hover:text-accent transition-all"
+                    >
+                      <span>{cat.label}</span>
+                      <span class="text-text-muted text-xs">{cat.count}</span>
+                    </a>
+                  ))}
+              </div>
+            </div>
+          ))}
+          {subcategories.filter((s) => !s.group).length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {subcategories
+                .filter((s) => !s.group)
+                .map((cat) => (
+                  <a
+                    href={`${base}/${collectionType}/${cat.slug}`}
+                    class="inline-flex items-center gap-2 px-3 py-1.5 bg-bg-secondary border border-border-dark rounded-full text-sm text-text-secondary hover:border-accent hover:text-accent transition-all"
+                  >
+                    <span>{cat.label}</span>
+                    <span class="text-text-muted text-xs">{cat.count}</span>
+                  </a>
+                ))}
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    <div class="flex flex-col lg:flex-row gap-6">
+      <aside class="lg:w-56 flex-shrink-0">
+        <FilterPanel itemType={itemType} availableFilters={availableFilters} />
+      </aside>
+
+      <main class="flex-1 min-w-0">
+        <div
+          class="flex items-center justify-between mb-4 px-3 py-2 bg-bg-secondary border border-border-dark rounded-lg"
+        >
+          <div class="text-text-muted text-xs">
+            显示 <span id="filtered-count" class="text-accent font-bold text-sm"
+              >{totalCount}</span
+            > 件
+          </div>
+          <SortSelect />
+        </div>
+
+        <div
+          id="results-grid"
+          class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4"
+        >
+          {
+            items.map((item) => {
+              const dataAttrs = getDataAttrs(item);
+              return (
+                <div
+                  class="item-card"
+                  {...Object.entries(dataAttrs).reduce(
+                    (acc, [k, v]) => {
+                      acc[`data-${k}`] = v;
+                      return acc;
+                    },
+                    {} as Record<string, string>,
+                  )}
+                >
+                  <ItemCard
+                    id={item.data.id}
+                    name={item.data.name}
+                    nameZh={item.data.nameZh}
+                    rarity={item.data.rarity}
+                    tier={item.data.tier}
+                    image={item.data.image}
+                    href={`${base}/${collectionType}/${item.id}`}
+                  />
+                </div>
+              );
+            })
+          }
+        </div>
+
+        <div id="load-more-wrap" class="hidden text-center mt-6">
+          <button
+            id="load-more-btn"
+            class="px-6 py-2.5 bg-bg-tertiary border border-border-dark rounded-lg text-text-secondary text-sm hover:border-accent hover:text-accent transition-all cursor-pointer"
+          >
+            加载更多
+          </button>
+        </div>
+
+        <div id="no-results" class="hidden text-center py-12 text-text-muted">
+          {noResultsText}
+        </div>
+      </main>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  import { initListFilter } from "../scripts/list-filter";
+
+  initListFilter();
+</script>

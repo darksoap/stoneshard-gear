@@ -1,0 +1,30 @@
+{
+  "id": "soldier-club",
+  "name": "Soldier Club",
+  "nameZh": "新兵木棒",
+  "slot": "mace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/soldier-club.webp",
+  "durability": 100,
+  "price": 375,
+  "properties": {
+    "counterChance": 4,
+    "armorPenetration": 20,
+    "dazeChance": 14,
+    "stunChance": 8,
+    "knockbackChance": 8,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Despite being more dangerous than a simple makeshift club, it's still no real mace.",
+  "descriptionZh": "这东西虽然比简易的大棒危险，但也还算不上真正的钉头锤。",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "range": 1
+}

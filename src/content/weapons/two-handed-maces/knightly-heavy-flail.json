@@ -1,0 +1,32 @@
+{
+  "id": "knightly-heavy-flail",
+  "name": "Knightly Heavy Flail",
+  "nameZh": "骑士长连枷",
+  "slot": "2hmace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/knightly-heavy-flail.webp",
+  "durability": 155,
+  "price": 8150,
+  "properties": {
+    "accuracy": -12,
+    "fumbleChance": 14,
+    "armorPenetration": 20,
+    "bodypartDamage": 40,
+    "dazeChance": 34,
+    "stunChance": 30,
+    "staggerChance": 35,
+    "skillsEnergyCost": 45
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The shift in attitude towards this decidedly non-chivalrous weapon was driven by the rising number of treatises extolling the benefits and virtues of sparring with flails.",
+  "descriptionZh": "从前，连枷是不合骑士精神的东西，上不了战场。如今，推崇这类兵器战斗价值的专著越来越多，大家的态度也就跟着有了变化。",
+  "damage": {
+    "value": 36,
+    "type": "blunt"
+  },
+  "range": 1
+}

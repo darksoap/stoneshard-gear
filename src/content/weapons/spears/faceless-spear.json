@@ -1,0 +1,34 @@
+{
+  "id": "faceless-spear",
+  "name": "Faceless Spear",
+  "nameZh": "无面矛",
+  "slot": "spear",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/spears/faceless-spear.webp",
+  "durability": 200,
+  "price": 7150,
+  "properties": {
+    "accuracy": 12,
+    "critChance": 3,
+    "critEfficiency": 5,
+    "fumbleChance": -10,
+    "armorPenetration": 30,
+    "bodypartDamage": 15,
+    "bleedingChance": 30,
+    "knockbackChance": 36,
+    "immobilizationChance": 12,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The Faceless are the Palace Guard of the Great Jacinth and are considered the best warriors in all the Elven Kingdoms. Among other feats, they distinguished themselves on the frontlines of the Radiant Wars by repelling the advance of King Etbert's army.",
+  "descriptionZh": "无面作为大红锆的御前卫队，其武力之高，各个精灵王国之内无出其右。无面卫队骁勇善战，功绩赫赫，曾于光辉战争期间坚守前阵，瓦解了埃特伯特国王的进攻。",
+  "damage": {
+    "value": 29,
+    "type": "piercing"
+  },
+  "range": 1
+}

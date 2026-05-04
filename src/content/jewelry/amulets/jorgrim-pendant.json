@@ -1,0 +1,23 @@
+{
+  "id": "jorgrim-pendant",
+  "name": "Jorgrim Pendant",
+  "nameZh": "约戈里姆的吊坠",
+  "slot": "amulet",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/amulets/jorgrim-pendant.webp",
+  "durability": 65,
+  "price": 160,
+  "properties": {
+    "accuracy": 1,
+    "healthRestoration": 3
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "The craftsmanship is undoubtedly dwarven, but the imagery has little to do with Fjall... Makes you wonder how exactly this pendant came into Jorgrim's possession.",
+  "descriptionZh": "这个肯定是矮人的做工，只不过图案和弗约没太大关系……让人不禁好奇，这个东西是怎样到了约戈里姆的手上。",
+  "class": "light"
+}

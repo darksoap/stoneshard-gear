@@ -1,0 +1,29 @@
+{
+  "id": "veteran-brigandine",
+  "name": "Veteran Brigandine",
+  "nameZh": "老兵板甲衣",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/veteran-brigandine.webp",
+  "durability": 180,
+  "price": 2950,
+  "properties": {
+    "maxMana": -3,
+    "defense": 13,
+    "fortitude": 6,
+    "resistances": {
+      "bleeding": 23,
+      "physical": 20,
+      "piercing": 8,
+      "blunt": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Properly outfitting a commoner for war typically requires a collective effort, sometimes involving the entire extended family.",
+  "descriptionZh": "平头百姓要想攒齐一身打仗的装备，常常需要倾尽一家之力，有时候甚至需要整个大家族帮衬。",
+  "class": "medium"
+}

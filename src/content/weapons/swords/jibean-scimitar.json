@@ -1,0 +1,29 @@
+{
+  "id": "jibean-scimitar",
+  "name": "Jibean Scimitar",
+  "nameZh": "吉贝弯刀",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/jibean-scimitar.webp",
+  "durability": 105,
+  "price": 6625,
+  "properties": {
+    "armorPenetration": 5,
+    "bodypartDamage": 25,
+    "damageReduction": 8,
+    "bleedingChance": 28,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Half the stories about distant Jibey one way or another mentions its legendary scimitars. Acquiring one in Aldor costs a fortune.",
+  "descriptionZh": "关于遥远的吉贝，奥尔多流传着各种各样的传说，其中大概有一半都提到了远近闻名的吉贝弯刀，这种兵器在奥尔多价格不菲。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
+}

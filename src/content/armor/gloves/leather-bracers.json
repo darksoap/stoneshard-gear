@@ -1,0 +1,29 @@
+{
+  "id": "leather-bracers",
+  "name": "Leather Bracers",
+  "nameZh": "皮护臂",
+  "slot": "arms",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/leather-bracers.webp",
+  "durability": 50,
+  "price": 275,
+  "properties": {
+    "accuracy": 2,
+    "critEfficiency": 7,
+    "fumbleChance": -2,
+    "skillsEnergyCost": -6,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Decent protection against scrapes and bites - better than nothing for the hunt or a brawl.",
+  "descriptionZh": "能适当抵挡刮擦和撕咬，打猎或者打架的时候，戴上这个总比什么都不戴强。",
+  "class": "light"
+}

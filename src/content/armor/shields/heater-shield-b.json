@@ -1,0 +1,28 @@
+{
+  "id": "heater-shield-b",
+  "name": "Heater Shield B",
+  "nameZh": "王廷熨斗盾",
+  "slot": "shield",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/heater-shield-b.webp",
+  "durability": 140,
+  "price": 325,
+  "properties": {
+    "damageReduction": 18,
+    "blockPower": 18,
+    "maxMana": -4,
+    "manaRestoration": -2,
+    "evasion": -2,
+    "resistances": {
+      "knockback": 6
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "A solid choice when fighting on foot. This particular shield bears the colors of the Royal Council.",
+  "descriptionZh": "非常适合徒步作战。这一块盾牌刷了王廷的盾徽。",
+  "class": "medium"
+}

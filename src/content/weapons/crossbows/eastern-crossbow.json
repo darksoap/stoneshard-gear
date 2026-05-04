@@ -1,0 +1,31 @@
+{
+  "id": "eastern-crossbow",
+  "name": "Eastern Crossbow",
+  "nameZh": "东方弩",
+  "slot": "crossbow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/eastern-crossbow.webp",
+  "durability": 85,
+  "price": 3775,
+  "properties": {
+    "accuracy": -24,
+    "fumbleChance": -14,
+    "armorPenetration": 20,
+    "bleedingChance": 8,
+    "immobilizationChance": 20,
+    "staggerChance": 20,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Exquisite carvings, smooth curves... Everything about this crossbow betrays its elven origins.",
+  "descriptionZh": "雕纹精细，线条平滑……这把弩一眼就能看出来是精灵族的产物。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 8
+}

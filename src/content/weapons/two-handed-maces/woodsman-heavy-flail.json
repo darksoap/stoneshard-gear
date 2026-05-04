@@ -1,0 +1,32 @@
+{
+  "id": "woodsman-heavy-flail",
+  "name": "Woodsman Heavy Flail",
+  "nameZh": "林鬼长连枷",
+  "slot": "2hmace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/woodsman-heavy-flail.webp",
+  "durability": 95,
+  "price": 775,
+  "properties": {
+    "accuracy": -5,
+    "fumbleChance": 11,
+    "armorPenetration": 14,
+    "bodypartDamage": 25,
+    "dazeChance": 17,
+    "stunChance": 17,
+    "staggerChance": 18,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The Woodwights were a band of Eeders rebels who gave the royal authorities a run for their money about a decade ago. Eventually, every Woodwight was captured and quartered, but the flails they used continue to live on.",
+  "descriptionZh": "十来年之前，伊德斯有一帮反叛分子，自称“林鬼”，当年令王家头疼不已。这些人最终尽数被捕，遭车裂刑，不过他们的连枷却流传了下来。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nobleman-quillon",
+  "name": "Nobleman Quillon",
+  "nameZh": "基朗匕首",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/nobleman-quillon.webp",
+  "durability": 120,
+  "price": 3050,
+  "properties": {
+    "counterChance": 10,
+    "armorPenetration": 15,
+    "damageReduction": 10,
+    "blockPower": 8,
+    "bleedingChance": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "In the aftermath of the Council's crushing defeat under the walls of Brynn, many patricians decided to purchase themself a quillon to at least partly resemble Duke di Berro, whose daring deeds allowed the Magistrate to emerge victorious.",
+  "descriptionZh": "王廷军布林城下惨败，公爵驰援守军，战功赫赫。城内很多贵族为了模仿迪·贝罗公爵的派头，纷纷给自己添置了一把基利翁。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 1
+}

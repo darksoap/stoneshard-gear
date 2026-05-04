@@ -1,0 +1,26 @@
+{
+  "id": "mystic-belt",
+  "name": "Mystic Belt",
+  "nameZh": "神秘腰带",
+  "slot": "waist",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/mystic-belt.webp",
+  "durability": 25,
+  "price": 750,
+  "properties": {
+    "maxMana": 5,
+    "spellsEnergyCost": -3,
+    "miscastChance": -4,
+    "resistances": {
+      "unholy": 5
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Staring for too long into the mirror-polished buckle summons a creeping sensation of falling into the abyss.",
+  "descriptionZh": "这根腰带的扣头磨得像镜子一样，你要是一直盯着它看，会产生坠入深渊的感觉。",
+  "class": "light"
+}

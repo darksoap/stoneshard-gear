@@ -1,0 +1,45 @@
+---
+import ItemListLayout from "../../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import { getAvailableFilters, base } from "../../../lib/items";
+import { slotLabels, weaponSlotSlugs } from "../../../i18n/zh";
+
+export async function getStaticPaths() {
+  const weapons = await getCollection("weapons");
+  const slots = [...new Set(weapons.map((w) => w.data.slot))];
+
+  return slots.map((slot) => {
+    const slug = weaponSlotSlugs[slot];
+    return {
+      params: { type: slug },
+      props: { slot },
+    };
+  });
+}
+
+interface Props {
+  slot: string;
+}
+
+const { slot } = Astro.props;
+const weapons = await getCollection("weapons");
+const filteredWeapons = weapons.filter((w) => w.data.slot === slot);
+
+const slotLabel = slotLabels[slot] || slot;
+
+const availableFilters = getAvailableFilters(filteredWeapons);
+---
+
+<ItemListLayout
+  title={`${slotLabel} - 武器`}
+  description={`${slotLabel}列表，共${filteredWeapons.length}件`}
+  itemType="weapons"
+  collectionType="weapons"
+  items={filteredWeapons}
+  availableFilters={availableFilters}
+  breadcrumb={[
+    { label: "武器", href: `${base}/weapons` },
+    { label: slotLabel, href: "" },
+  ]}
+  noResultsText="没有找到符合条件的武器"
+/>

@@ -1,0 +1,34 @@
+{
+  "id": "maen-warstaff",
+  "name": "Maen Warstaff",
+  "nameZh": "曼恩战杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/maen-warstaff.webp",
+  "durability": 130,
+  "price": 2425,
+  "properties": {
+    "accuracy": 4,
+    "armorPenetration": 5,
+    "damageReduction": 12,
+    "knockbackChance": 16,
+    "staggerChance": 21,
+    "skillsEnergyCost": -4,
+    "spellsEnergyCost": -4,
+    "miracleChance": 2,
+    "miraclePower": 5,
+    "fatigueGain": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "For years, the Maen Academy was the crucible that forged battlemages in service of the crown. Predictably, it fell on hard times after the King's death and the rise of the Gray Army.",
+  "descriptionZh": "多年以来，曼恩学院负责为国王培养战地法师。如今国王驾崩，灰军抬头，学院的日子就不好过了，也是意料之中。",
+  "damage": {
+    "value": 19,
+    "type": "blunt"
+  },
+  "range": 1
+}

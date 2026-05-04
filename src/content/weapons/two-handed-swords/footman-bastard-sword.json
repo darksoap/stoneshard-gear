@@ -1,0 +1,29 @@
+{
+  "id": "footman-bastard-sword",
+  "name": "Footman Bastard Sword",
+  "nameZh": "步兵杂种剑",
+  "slot": "2hsword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/footman-bastard-sword.webp",
+  "durability": 110,
+  "price": 1825,
+  "properties": {
+    "critChance": 4,
+    "fumbleChance": 6,
+    "armorPenetration": 15,
+    "bleedingChance": 15,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Seasoned soldiers expect to be provided with better weapons, usually purchased with the gold directly from their lord's coffers.",
+  "descriptionZh": "经验丰富的士兵希望能用上更好用的兵器，这种兵器花的钱一般都是领主大人金库里直接拿的。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

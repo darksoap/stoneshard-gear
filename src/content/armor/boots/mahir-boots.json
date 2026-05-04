@@ -1,0 +1,31 @@
+{
+  "id": "mahir-boots",
+  "name": "Mahir Boots",
+  "nameZh": "玛息尔的靴子",
+  "slot": "legs",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/boots/mahir-boots.webp",
+  "durability": 60,
+  "price": 225,
+  "properties": {
+    "manaRestoration": 2,
+    "fatigueGain": 15,
+    "defense": 2,
+    "evasion": 2,
+    "fortitude": 5,
+    "resistances": {
+      "bleeding": 5,
+      "knockback": 4,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "The steps taken in these felt boots surpass even the number of stars in the sky.",
+  "descriptionZh": "这双毡靴迈过的步子，比天上的星星还多。",
+  "class": "light"
+}

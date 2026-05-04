@@ -1,0 +1,23 @@
+{
+  "id": "exquisite-ruby-ring",
+  "name": "Exquisite Ruby Ring",
+  "nameZh": "精致的红宝石戒指",
+  "slot": "ring",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/rings/exquisite-ruby-ring.webp",
+  "durability": 30,
+  "price": 1220,
+  "properties": {
+    "maxMana": 5,
+    "cooldownReduction": -4,
+    "magicPower": 6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "From a certain distance, the masterfully cut ruby can easily be mistaken for a drop of fresh blood.",
+  "descriptionZh": "红宝石如果切割精妙，离远了看，很容易被人看成一滴鲜血。",
+  "class": "light"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "travelling-staff",
+  "name": "Travelling Staff",
+  "nameZh": "手杖",
+  "slot": "2hstaff",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/travelling-staff.webp",
+  "durability": 65,
+  "price": 75,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 6,
+    "knockbackChance": 10,
+    "staggerChance": 10,
+    "skillsEnergyCost": -3,
+    "spellsEnergyCost": -3
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Any journey feels easier with a staff in hand.",
+  "descriptionZh": "出门带着手杖，去哪儿都轻松一些。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
+}

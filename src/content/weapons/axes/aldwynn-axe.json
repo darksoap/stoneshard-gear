@@ -1,0 +1,32 @@
+{
+  "id": "aldwynn-axe",
+  "name": "Aldwynn Axe",
+  "nameZh": "奥尔德文斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/aldwynn-axe.webp",
+  "durability": 180,
+  "price": 5100,
+  "properties": {
+    "accuracy": 7,
+    "critChance": 3,
+    "critEfficiency": 15,
+    "fumbleChance": 2,
+    "armorPenetration": 30,
+    "armorDamage": 40,
+    "bodypartDamage": 30,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Aldwynn smiths are known for two things: crafting the heaviest and the most durable armor in Aldor and forging arms that can chop through it.",
+  "descriptionZh": "奥尔德文工匠打造的东西不是奥尔多最重、最牢固的防具，就是能破坏这种防护的兵器。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
+}

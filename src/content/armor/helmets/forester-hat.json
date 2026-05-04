@@ -1,0 +1,29 @@
+{
+  "id": "forester-hat",
+  "name": "Forester Hat",
+  "nameZh": "守林护卫鸟喙尖帽",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/forester-hat.webp",
+  "durability": 40,
+  "price": 725,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 3,
+    "defense": 4,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 7,
+      "stun": 6,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "These feathered hats are a distinguishing mark of the gamekeepers at the service of local lords.",
+  "descriptionZh": "戴这种羽毛帽的，一般都是地方领主的守林员。",
+  "class": "light"
+}

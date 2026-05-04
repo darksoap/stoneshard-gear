@@ -1,0 +1,30 @@
+{
+  "id": "knight-gauntlets",
+  "name": "Knight Gauntlets",
+  "nameZh": "骑士手甲",
+  "slot": "arms",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/knight-gauntlets.webp",
+  "durability": 350,
+  "price": 6125,
+  "properties": {
+    "fumbleChance": 4,
+    "damageReduction": 5,
+    "maxMana": -18,
+    "manaRestoration": -4,
+    "defense": 25,
+    "critAvoid": 12,
+    "resistances": {
+      "bleeding": 39,
+      "physical": 36
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The satin-lined cuffs are merely another way to parade one's impeccable taste in armor.",
+  "descriptionZh": "这种沙漏手甲内衬是缎料，这种手甲主要用途是表现自身的地位和挑选武备的好品味。",
+  "class": "heavy"
+}

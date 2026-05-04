@@ -1,0 +1,28 @@
+---
+import ItemListLayout from "../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import {
+  getCategories,
+  getAvailableFilters,
+  base,
+} from "../../lib/items";
+import { armorSlotLabels, armorSlotSlugs } from "../../i18n/zh";
+
+const armor = await getCollection("armor");
+
+const subcategories = getCategories(armor, armorSlotSlugs, armorSlotLabels);
+const availableFilters = getAvailableFilters(armor, {
+  includeArmorClass: true,
+});
+---
+
+<ItemListLayout
+  title="护甲"
+  description={`护甲列表，共${armor.length}件`}
+  itemType="armor"
+  collectionType="armor"
+  items={armor}
+  subcategories={subcategories}
+  availableFilters={availableFilters}
+  noResultsText="没有找到符合条件的装备"
+/>

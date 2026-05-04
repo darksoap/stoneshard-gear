@@ -1,0 +1,30 @@
+{
+  "id": "curved-shortbow",
+  "name": "Curved Shortbow",
+  "nameZh": "曲臂短弓",
+  "slot": "bow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/curved-shortbow.webp",
+  "durability": 85,
+  "price": 4600,
+  "properties": {
+    "accuracy": -40,
+    "fumbleChance": -8,
+    "armorPenetration": 15,
+    "bleedingChance": 35,
+    "immobilizationChance": 25,
+    "skillsEnergyCost": 33
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This bow's curved shape allows it to send arrows further and with more precision than usual, though it has a bit of a kick which takes time to get used to.",
+  "descriptionZh": "这把弓整体呈曲形，所以射程更远，准度更高，但是需要有一些耐心，用上一段时间才能适应。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 8
+}

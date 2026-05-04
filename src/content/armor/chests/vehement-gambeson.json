@@ -1,0 +1,33 @@
+{
+  "id": "vehement-gambeson",
+  "name": "Vehement Gambeson",
+  "nameZh": "奋武软铠",
+  "slot": "chest",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/vehement-gambeson.webp",
+  "durability": 55,
+  "price": 900,
+  "properties": {
+    "damageReduction": 2,
+    "abilitiesEnergyCost": -3,
+    "cooldownReduction": -3,
+    "magicPower": 3,
+    "defense": 4,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 8,
+      "physical": 10,
+      "nature": 10,
+      "magic": 10,
+      "unholy": 10
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "The Vehement are militant Hieronites who took up arms to fight against all manner of ghouls, warlocks, and unholy monstrosities.",
+  "descriptionZh": "圣会部分门徒习武好战，统称“奋武”，为了对抗各色食尸鬼、术士与邪恶之物，均已操起了各自的兵器。",
+  "class": "light"
+}

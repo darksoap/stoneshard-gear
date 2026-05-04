@@ -1,0 +1,26 @@
+{
+  "id": "venemist-talisman",
+  "name": "Venemist Talisman",
+  "nameZh": "韦尼米斯特的护符",
+  "slot": "amulet",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "silver",
+  "image": "/images/armor/amulets/venemist-talisman.webp",
+  "durability": 35,
+  "price": 1160,
+  "properties": {
+    "magicPower": 6,
+    "bonusRange": 6,
+    "vision": 1,
+    "resistances": {
+      "unholy": 13
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "It's set with an incredibly large morion that seems to be shifting its color every now and then... Or is it merely a trick of the light?",
+  "descriptionZh": "镶了一颗奇大无比的烟晶石，好像时不时还会变色……只是光的原因吗？",
+  "class": "light"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ceremonial-armor",
+  "name": "Ceremonial Armor",
+  "nameZh": "盛装盔甲",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/chests/ceremonial-armor.webp",
+  "durability": 420,
+  "price": 12450,
+  "properties": {
+    "maxMana": -20,
+    "manaRestoration": -5,
+    "maxHealth": 7,
+    "healthRestoration": 5,
+    "healingReceived": 25,
+    "defense": 27,
+    "evasion": -18,
+    "critAvoid": 33,
+    "resistances": {
+      "bleeding": 40,
+      "physical": 38
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Judging by the engraving, it once belonged to Sir der Ulne, a famous glutton and a drunkard. A dozen years ago, during one of his feasts, Sir der Ulne met a heroic death in a prolonged battle with a whole roast hog.",
+  "descriptionZh": "从上面的铭文来看，这件胸甲原本属于大名鼎鼎的酒鬼饕客德·伍恩爵士。十几年前，德·伍恩爵士英勇赴宴，与一头烤全猪鏖战几百回合，最后壮烈牺牲。",
+  "class": "heavy"
+}

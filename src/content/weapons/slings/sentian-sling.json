@@ -1,0 +1,31 @@
+{
+  "id": "sentian-sling",
+  "name": "Sentian Sling",
+  "nameZh": "森提亚投石索",
+  "slot": "sling",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/sentian-sling.webp",
+  "durability": 155,
+  "price": 3050,
+  "properties": {
+    "accuracy": -50,
+    "critChance": 10,
+    "armorPenetration": 8,
+    "dazeChance": 42,
+    "staggerChance": 30,
+    "skillsEnergyCost": 8,
+    "cooldownReduction": -9
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "\"As vexing as a Sentian slinger\" - a saying dating back to the wars of Aldor's unification, still in use in the kingdom's western reaches.",
+  "descriptionZh": "“烦人得像森提亚的投石手”，这个说法源自奥尔多统一战争时期，至今仍在王国西部边境流传。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 7
+}

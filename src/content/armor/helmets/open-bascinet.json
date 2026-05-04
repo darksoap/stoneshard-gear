@@ -1,0 +1,29 @@
+{
+  "id": "open-bascinet",
+  "name": "Open Bascinet",
+  "nameZh": "敞面盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/open-bascinet.webp",
+  "durability": 150,
+  "price": 1125,
+  "properties": {
+    "maxMana": -4,
+    "manaRestoration": -1,
+    "defense": 12,
+    "fortitude": 3,
+    "resistances": {
+      "bleeding": 22,
+      "stun": 18,
+      "physical": 21
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Thanks to its domed shape, a bascinet can reliably redirect incoming strikes, preventing them from doing significant harm.",
+  "descriptionZh": "这种头盔没有明显的棱角，往往可以避开正面冲击，从而免受巨大的伤害。",
+  "class": "medium"
+}

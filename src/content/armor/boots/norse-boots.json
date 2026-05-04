@@ -1,0 +1,30 @@
+{
+  "id": "norse-boots",
+  "name": "Norse Boots",
+  "nameZh": "诺斯靴",
+  "slot": "legs",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/norse-boots.webp",
+  "durability": 90,
+  "price": 825,
+  "properties": {
+    "counterChance": 4,
+    "manaRestoration": 1,
+    "defense": 6,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 17,
+      "knockback": 10,
+      "physical": 10,
+      "rending": 15
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "They are waterproof, don't get stuck in mud, and are easy to clean from blood stains.",
+  "descriptionZh": "这种鞋不会湿，不会沾泥，不会沾血。",
+  "class": "light"
+}

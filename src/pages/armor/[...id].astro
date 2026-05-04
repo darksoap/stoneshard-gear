@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ItemDetail from '../../components/ItemDetail.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const armor = await getCollection('armor');
+  return armor.map(a => ({
+    params: { id: a.id },
+    props: { data: a.data },
+  }));
+}
+
+interface Props {
+  data: any;
+}
+
+const { data } = Astro.props;
+---
+
+<BaseLayout title={`${data.nameZh} - 护甲`} description={data.descriptionZh || data.description || `${data.nameZh}的详细信息`}>
+  <ItemDetail data={data} />
+</BaseLayout>

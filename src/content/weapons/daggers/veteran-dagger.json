@@ -1,0 +1,29 @@
+{
+  "id": "veteran-dagger",
+  "name": "Veteran Dagger",
+  "nameZh": "老兵匕首",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/veteran-dagger.webp",
+  "durability": 100,
+  "price": 1450,
+  "properties": {
+    "counterChance": 8,
+    "armorPenetration": 10,
+    "damageReduction": 8,
+    "blockPower": 6,
+    "bleedingChance": 16
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The presence of a dagger on one's belt is what sets apart an experienced warrior from a greenhorn: it gives you an indisputable edge the moment the fight moves to the ground.",
+  "descriptionZh": "想知道一个战士有没有经验，就看他腰带上有没有匕首。两个人地上扭打的时候，腰上别了匕首，就必然会占据上风。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 1
+}

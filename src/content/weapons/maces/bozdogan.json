@@ -1,0 +1,31 @@
+{
+  "id": "bozdogan",
+  "name": "Bozdogan",
+  "nameZh": "锤矛",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/bozdogan.webp",
+  "durability": 145,
+  "price": 2500,
+  "properties": {
+    "counterChance": 4,
+    "armorPenetration": 25,
+    "armorDamage": 15,
+    "dazeChance": 24,
+    "stunChance": 13,
+    "knockbackChance": 16,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "After the Maafs conquered Jarimad, the nomad chieftains presented their bozdogans to the conquerors - who, unexpectedly, took quite a liking to the weapon.",
+  "descriptionZh": "玛弗征服亚里迈德之后，收到了各部酋长献上的波兹多安，没想到游牧民族的这种兵器居然令他们爱不释手。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
+}

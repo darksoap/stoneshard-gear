@@ -1,0 +1,32 @@
+{
+  "id": "noble-flanged-mace",
+  "name": "Noble Flanged Mace",
+  "nameZh": "贵族凸缘钉头锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/noble-flanged-mace.webp",
+  "durability": 195,
+  "price": 4825,
+  "properties": {
+    "counterChance": 4,
+    "fumbleChance": -1,
+    "armorPenetration": 30,
+    "bodypartDamage": 10,
+    "dazeChance": 25,
+    "stunChance": 15,
+    "knockbackChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "With the exception of Aldwynn weaponsmiths, there aren't that many craftsmen in Aldor who can produce a mace of similar quality.",
+  "descriptionZh": "奥尔多能打出这种钉头锤的兵器匠，一般都住在奥尔德文……",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "range": 1
+}

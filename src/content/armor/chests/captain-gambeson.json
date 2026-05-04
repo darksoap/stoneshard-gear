@@ -1,0 +1,29 @@
+{
+  "id": "captain-gambeson",
+  "name": "Captain Gambeson",
+  "nameZh": "长官夹棉软铠",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/captain-gambeson.webp",
+  "durability": 100,
+  "price": 3750,
+  "properties": {
+    "damageReduction": 8,
+    "defense": 10,
+    "evasion": 4,
+    "critAvoid": 3,
+    "fortitude": 5,
+    "resistances": {
+      "bleeding": 16,
+      "physical": 14
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Anyone who lives long enough to earn the rank of captain knows full well how to avoid putting themselves into unnecessary danger - sometimes you just don't need more than a gambeson.",
+  "descriptionZh": "不论是谁，但凡活得够长，混到了长官的位置，都知道怎么能避免不必要的危险。有时候不需要别的，一件夹棉软铠就行。",
+  "class": "light"
+}

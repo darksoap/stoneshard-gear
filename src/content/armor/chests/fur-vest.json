@@ -1,0 +1,30 @@
+{
+  "id": "fur-vest",
+  "name": "Fur Vest",
+  "nameZh": "兽毛大衣",
+  "slot": "chest",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/chests/fur-vest.webp",
+  "durability": 20,
+  "price": 75,
+  "properties": {
+    "critChance": 1,
+    "critEfficiency": 5,
+    "counterChance": 2,
+    "defense": 2,
+    "evasion": 8,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 10,
+      "frost": 20
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "It won't protect you from anything but cold. On the other hand, Fjall dwarves don't usually need more than that.",
+  "descriptionZh": "基本上只能御寒，不过弗约矮人的衣服只要能御寒就够了。",
+  "class": "light"
+}

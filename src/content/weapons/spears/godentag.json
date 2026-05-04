@@ -1,0 +1,30 @@
+{
+  "id": "godentag",
+  "name": "Godentag",
+  "nameZh": "胡登达赫矛",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/godentag.webp",
+  "durability": 115,
+  "price": 525,
+  "properties": {
+    "accuracy": 2,
+    "fumbleChance": 2,
+    "armorPenetration": 15,
+    "bleedingChance": 20,
+    "dazeChance": 10,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "To the knightly estate's great displeasure, this modest peasant weapon is perfectly capable of slipping through gaps in even the heaviest armor.",
+  "descriptionZh": "这种农家兵器虽然简陋，但是完全可以插进板甲的缝隙，颇令骑士阶层深恶痛绝。",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "range": 1
+}

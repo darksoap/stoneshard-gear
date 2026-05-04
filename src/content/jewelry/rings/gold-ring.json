@@ -1,0 +1,22 @@
+{
+  "id": "gold-ring",
+  "name": "Gold Ring",
+  "nameZh": "金戒指",
+  "slot": "ring",
+  "tier": 2,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/rings/gold-ring.webp",
+  "durability": 15,
+  "price": 100,
+  "properties": {
+    "maxMana": 2,
+    "magicPower": 2
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Gold is an excellent magical conduit. Maybe that's where its value comes from?",
+  "descriptionZh": "黄金传导魔能的效果非常好，大家都喜欢金子是不是就因为这个？",
+  "class": "light"
+}

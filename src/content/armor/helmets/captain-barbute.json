@@ -1,0 +1,29 @@
+{
+  "id": "captain-barbute",
+  "name": "Captain Barbute",
+  "nameZh": "长官巴布特盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/captain-barbute.webp",
+  "durability": 210,
+  "price": 5350,
+  "properties": {
+    "maxMana": -8,
+    "manaRestoration": -1,
+    "defense": 18,
+    "fortitude": 7,
+    "resistances": {
+      "bleeding": 30,
+      "stun": 26,
+      "physical": 27
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A reinforced variant of a barbute, preferred by those who don't find scars attractive.",
+  "descriptionZh": "这种巴布特盔经过了加固，不喜欢伤口的人颇为青睐这种头盔。",
+  "class": "medium"
+}

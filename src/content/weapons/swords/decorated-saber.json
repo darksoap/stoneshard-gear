@@ -1,0 +1,32 @@
+{
+  "id": "decorated-saber",
+  "name": "Decorated Saber",
+  "nameZh": "铭纹马刀",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/decorated-saber.webp",
+  "durability": 105,
+  "price": 6625,
+  "properties": {
+    "accuracy": 3,
+    "fumbleChance": -3,
+    "armorPenetration": 10,
+    "bodypartDamage": 25,
+    "damageReduction": 8,
+    "bleedingChance": 28,
+    "skillsEnergyCost": 5,
+    "spellsEnergyCost": -5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The gilded guard is decorated with intricate eastern ornaments - this weapon is a true work of art.",
+  "descriptionZh": "护手盘镀金，还有精致繁复的东方装饰，真是一件艺术品。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
+}

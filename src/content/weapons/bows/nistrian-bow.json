@@ -1,0 +1,31 @@
+{
+  "id": "nistrian-bow",
+  "name": "Nistrian Bow",
+  "nameZh": "尼斯特拉弓",
+  "slot": "bow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/nistrian-bow.webp",
+  "durability": 70,
+  "price": 2400,
+  "properties": {
+    "accuracy": -45,
+    "critEfficiency": 5,
+    "fumbleChance": -6,
+    "armorPenetration": 15,
+    "bleedingChance": 39,
+    "immobilizationChance": 18,
+    "skillsEnergyCost": 24
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The Zeineshes of Nistra are among the most skilled mounted archers on the entire Continent, rivaled only by the nomads of the Ohirian barrens and Jarimad.",
+  "descriptionZh": "整个大陆，论骑射，只有奥息尔荒原和亚里迈德的游牧民能与尼斯特拉的切涅什人相提并论。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 8
+}

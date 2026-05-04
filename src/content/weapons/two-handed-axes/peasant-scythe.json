@@ -1,0 +1,27 @@
+{
+  "id": "peasant-scythe",
+  "name": "Peasant Scythe",
+  "nameZh": "镰刀",
+  "slot": "2haxe",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/peasant-scythe.webp",
+  "durability": 50,
+  "price": 25,
+  "properties": {
+    "fumbleChance": 10,
+    "armorPenetration": -15,
+    "bleedingChance": 10
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "When a peasant war is about to erupt, a scythe is as good a weapon as any.",
+  "descriptionZh": "农民战争都快要打到家门口了，这样的东西勉勉强强也能当兵器用。",
+  "damage": {
+    "value": 11,
+    "type": "slashing"
+  },
+  "range": 1
+}

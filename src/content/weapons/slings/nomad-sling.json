@@ -1,0 +1,30 @@
+{
+  "id": "nomad-sling",
+  "name": "Nomad Sling",
+  "nameZh": "游牧民投石索",
+  "slot": "sling",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/nomad-sling.webp",
+  "durability": 125,
+  "price": 725,
+  "properties": {
+    "accuracy": -60,
+    "critChance": 6,
+    "armorPenetration": 5,
+    "staggerChance": 30,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -8
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "The Ohirian barrens offer nothing but sand and rocks, yet the tribes who dwell there make do with little else.",
+  "descriptionZh": "奥息尔荒原除了砂石一无所有，然而这里的部族也生存了下来。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 7
+}

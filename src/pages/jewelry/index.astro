@@ -1,0 +1,30 @@
+---
+import ItemListLayout from "../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import {
+  getCategories,
+  getAvailableFilters,
+  base,
+} from "../../lib/items";
+import { jewelrySlotLabels, jewelrySlotSlugs } from "../../i18n/zh";
+
+const jewelry = await getCollection("jewelry");
+
+const subcategories = getCategories(
+  jewelry,
+  jewelrySlotSlugs,
+  jewelrySlotLabels,
+);
+const availableFilters = getAvailableFilters(jewelry);
+---
+
+<ItemListLayout
+  title="首饰"
+  description={`首饰列表，共${jewelry.length}件`}
+  itemType="jewelry"
+  collectionType="jewelry"
+  items={jewelry}
+  subcategories={subcategories}
+  availableFilters={availableFilters}
+  noResultsText="没有找到符合条件的首饰"
+/>

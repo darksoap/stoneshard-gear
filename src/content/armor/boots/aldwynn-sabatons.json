@@ -1,0 +1,30 @@
+{
+  "id": "aldwynn-sabatons",
+  "name": "Aldwynn Sabatons",
+  "nameZh": "奥尔德文脚甲",
+  "slot": "legs",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/boots/aldwynn-sabatons.webp",
+  "durability": 385,
+  "price": 7050,
+  "properties": {
+    "maxMana": -21,
+    "manaRestoration": -5,
+    "defense": 26,
+    "evasion": -10,
+    "critAvoid": 13,
+    "resistances": {
+      "bleeding": 39,
+      "knockback": 45,
+      "physical": 40
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "With these on your feet, you feel like you can hold your ground against a small army.",
+  "descriptionZh": "穿上这个，就有可能抵挡小支部队的进攻了。",
+  "class": "heavy"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fauchard-fork",
+  "name": "Fauchard Fork",
+  "nameZh": "弗夏叉",
+  "slot": "spear",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/fauchard-fork.webp",
+  "durability": 155,
+  "price": 3150,
+  "properties": {
+    "accuracy": 8,
+    "critChance": 4,
+    "armorPenetration": 20,
+    "damageReduction": 8,
+    "bleedingChance": 30,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "When it comes to inventing weapons for killing their own kind, the creativity of people never fails to achieve new heights.",
+  "descriptionZh": "同类相残这件事情上，人类的创意和才智真是令人不得不赞叹。",
+  "damage": {
+    "value": 24,
+    "type": "piercing"
+  },
+  "range": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "academy-cloak",
+  "name": "Academy Cloak",
+  "nameZh": "学院斗篷",
+  "slot": "back",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/academy-cloak.webp",
+  "durability": 25,
+  "price": 150,
+  "properties": {
+    "maxMana": 3,
+    "manaRestoration": 1,
+    "miscastChance": -1,
+    "resistances": {
+      "nature": 5,
+      "magic": 5
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A graduate's cloak speaks far louder of their years at the Academy than any written testimony ever could.",
+  "descriptionZh": "这件毕业斗篷远比一纸文凭更能证明人在学院熬了多少年。",
+  "class": "light"
+}

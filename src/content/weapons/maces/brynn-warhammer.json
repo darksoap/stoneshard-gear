@@ -1,0 +1,32 @@
+{
+  "id": "brynn-warhammer",
+  "name": "Brynn Warhammer",
+  "nameZh": "布林战锤",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/brynn-warhammer.webp",
+  "durability": 120,
+  "price": 1075,
+  "properties": {
+    "accuracy": 5,
+    "critChance": 3,
+    "armorPenetration": 30,
+    "armorDamage": 40,
+    "bleedingChance": 5,
+    "dazeChance": 6,
+    "staggerChance": 16,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The design has unmistakably Brynnian roots, blending a multi-pronged hammerhead with a sharp spike, typical of the South.",
+  "descriptionZh": "这个战锤的形制显然继承了布林的样式，锤头分三叉，顶部锥形，是南方典型的设计。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

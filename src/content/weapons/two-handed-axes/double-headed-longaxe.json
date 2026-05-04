@@ -1,0 +1,32 @@
+{
+  "id": "double-headed-longaxe",
+  "name": "Double Headed Longaxe",
+  "nameZh": "双面长斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/double-headed-longaxe.webp",
+  "durability": 160,
+  "price": 7650,
+  "properties": {
+    "accuracy": -14,
+    "critChance": 4,
+    "critEfficiency": 8,
+    "fumbleChance": 8,
+    "armorPenetration": 35,
+    "bodypartDamage": 30,
+    "staggerChance": 35,
+    "skillsEnergyCost": 40
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Despite its formidable appearance, this axe is rather unwieldy in a real fight.",
+  "descriptionZh": "这种斧子虽然让人望而生畏，但实战的时候并不好用。",
+  "damage": {
+    "value": 38,
+    "type": "slashing"
+  },
+  "range": 1
+}

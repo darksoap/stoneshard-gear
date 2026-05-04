@@ -1,0 +1,32 @@
+{
+  "id": "grotesque-warhammer",
+  "name": "Grotesque Warhammer",
+  "nameZh": "鱼首战锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/grotesque-warhammer.webp",
+  "durability": 140,
+  "price": 5100,
+  "properties": {
+    "accuracy": 7,
+    "fumbleChance": -4,
+    "armorPenetration": 35,
+    "armorDamage": 50,
+    "dazeChance": 20,
+    "stunChance": 5,
+    "staggerChance": 25,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A short-lived fad had weaponsmiths in each major Aldorian city competing fiercely to create the most extravagant warhammer. This one was clearly among the winners.",
+  "descriptionZh": "奥尔多一度时兴形制怪异的战锤，几大城市的兵器匠人竞相锻造，这一把显然是众多怪锤之中的佼佼者。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
+}

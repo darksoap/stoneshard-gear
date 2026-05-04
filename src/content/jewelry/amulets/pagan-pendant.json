@@ -1,0 +1,24 @@
+{
+  "id": "pagan-pendant",
+  "name": "Pagan Pendant",
+  "nameZh": "多神教吊坠",
+  "slot": "amulet",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "silver",
+  "image": "/images/armor/amulets/pagan-pendant.webp",
+  "durability": 66,
+  "price": 1313,
+  "properties": {
+    "lifesteal": 9,
+    "manasteal": 9,
+    "damageReceived": 6,
+    "critAvoid": 9
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "This sinister amulet is older than a century or two.",
+  "descriptionZh": "这个吊坠阴森狰狞，至少有一两百年的历史了。",
+  "class": "light"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "brynn-crossbow",
+  "name": "Brynn Crossbow",
+  "nameZh": "布林弩",
+  "slot": "crossbow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/brynn-crossbow.webp",
+  "durability": 100,
+  "price": 6625,
+  "properties": {
+    "accuracy": -20,
+    "fumbleChance": -15,
+    "armorPenetration": 30,
+    "immobilizationChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The Falcon Company is one of the most infamous detachments of the Magistrate's army. Their crossbows were fashioned by master craftsmen of Brynn in the likeness of elven bolt throwers.",
+  "descriptionZh": "猛隼佣兵团是城联军里赫赫有名的队伍。他们的弩由布林技艺精湛的弩匠制作，仿效了精灵族的大弩。",
+  "damage": {
+    "value": 29,
+    "type": "piercing"
+  },
+  "range": 7
+}

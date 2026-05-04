@@ -1,0 +1,27 @@
+{
+  "id": "court-wizard-cape",
+  "name": "Court Wizard Cape",
+  "nameZh": "家内法师斗篷",
+  "slot": "back",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/court-wizard-cape.webp",
+  "durability": 40,
+  "price": 1700,
+  "properties": {
+    "manaRestoration": 4,
+    "spellsEnergyCost": -4,
+    "miraclePower": 6,
+    "resistances": {
+      "nature": 12,
+      "magic": 12
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Court mages have a very particular taste in clothes. Their goal is to dazzle and leave an impression, so they gravitate towards the craziest styles and colors.",
+  "descriptionZh": "家内法师对于衣装的要求非常特别——希望身上的衣服能让人目眩神迷，给人留下深刻的印象，所以他们通常偏好极其夸张、反常的款式和色彩。",
+  "class": "light"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tower-shield-b",
+  "name": "Tower Shield B",
+  "nameZh": "巨盾",
+  "slot": "shield",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/tower-shield-b.webp",
+  "durability": 360,
+  "price": 2625,
+  "properties": {
+    "damageReduction": 35,
+    "blockPower": 36,
+    "blockRecovery": -25,
+    "maxMana": -15,
+    "manaRestoration": -5,
+    "evasion": -18,
+    "critAvoid": 14,
+    "resistances": {
+      "knockback": 25,
+      "stun": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The growing prevalence of archers and crossbowmen keeps driving shields to become taller, thicker, and heavier.",
+  "descriptionZh": "弓兵弩兵愈发常见，盾牌便不得不做得越来越高，越来越厚，越来越重。",
+  "class": "heavy"
+}

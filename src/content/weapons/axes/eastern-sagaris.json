@@ -1,0 +1,30 @@
+{
+  "id": "eastern-sagaris",
+  "name": "Eastern Sagaris",
+  "nameZh": "游牧萨迦利斯",
+  "slot": "axe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/eastern-sagaris.webp",
+  "durability": 120,
+  "price": 1075,
+  "properties": {
+    "counterChance": 3,
+    "armorPenetration": 10,
+    "bodypartDamage": 17,
+    "damageReduction": 6,
+    "bleedingChance": 14,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "A weapon frequently carried by the nomads of the Ohirian barrens - every tribesman is given one after surviving his first battle.",
+  "descriptionZh": "奥息尔荒原的游牧民经常带着这种兵器。第一次上战场的，但凡能活着回来，都会获得这么一份礼物。",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "range": 1
+}

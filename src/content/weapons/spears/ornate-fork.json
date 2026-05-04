@@ -1,0 +1,33 @@
+{
+  "id": "ornate-fork",
+  "name": "Ornate Fork",
+  "nameZh": "华叉",
+  "slot": "spear",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/spears/ornate-fork.webp",
+  "durability": 165,
+  "price": 6625,
+  "properties": {
+    "accuracy": 10,
+    "critChance": 5,
+    "counterChance": 7,
+    "armorPenetration": 30,
+    "damageReduction": 10,
+    "bleedingChance": 45,
+    "immobilizationChance": 20,
+    "skillsEnergyCost": 30,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "At some point, it likely belonged to a Sentian patrician with a keen interest in the weapon traditions of the Bronze Isles.",
+  "descriptionZh": "这件兵器当年有可能属于森提亚的某个贵族，此人显然对青铜群岛的武器工艺颇有钻研。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 1
+}

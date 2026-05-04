@@ -1,0 +1,30 @@
+{
+  "id": "forholt-staff",
+  "name": "Forholt Staff",
+  "nameZh": "佛尔霍特杖",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/forholt-staff.webp",
+  "durability": 190,
+  "price": 7650,
+  "properties": {
+    "accuracy": 10,
+    "counterChance": 6,
+    "armorPenetration": 25,
+    "bodypartDamage": 40,
+    "bleedingChance": 40,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It hails from the area around Forholt, where it was once carried by mounted guards. Contrary to its name, this weapon has more in common with a bardiche than a staff.",
+  "descriptionZh": "这种兵器基本只有佛尔霍特的骑卫才会配持，出了那地方，就很难再会看到。这东西虽然叫“杖”，其实更像月牙斧。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
+}

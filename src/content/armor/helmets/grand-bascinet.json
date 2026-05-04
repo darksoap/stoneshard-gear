@@ -1,0 +1,54 @@
+{
+  "id": "grand-bascinet",
+  "name": "Grand Bascinet",
+  "nameZh": "面甲大盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/grand-bascinet.webp",
+  "durability": 460,
+  "price": 7775,
+  "properties": {
+    "accuracy": -7,
+    "maxMana": -25,
+    "manaRestoration": -6,
+    "defense": 29,
+    "critAvoid": 22,
+    "fortitude": 20,
+    "vision": -3,
+    "resistances": {
+      "bleeding": 42,
+      "stun": 47,
+      "physical": 40
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "One of the heaviest helmets out there, it can protect your head and neck from just about anything - not to mention how formidable it looks.",
+  "descriptionZh": "这种头盔很沉，这种分量的世间少有。头盔外形霸气，几乎可以抵挡任何形式的攻击，充分保护头颈。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-grand-bascinet",
+    "name": "Open Grand Bascinet",
+    "nameZh": "面甲大盔",
+    "image": "/images/armor/helmets/open-grand-bascinet.webp",
+    "durability": 460,
+    "properties": {
+      "maxMana": -25,
+      "manaRestoration": -4,
+      "defense": 20,
+      "critAvoid": 15,
+      "fortitude": 14,
+      "resistances": {
+        "bleeding": 29,
+        "stun": 47,
+        "physical": 28
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

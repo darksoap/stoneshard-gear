@@ -1,0 +1,29 @@
+{
+  "id": "recruit-bastard-sword",
+  "name": "Recruit Bastard Sword",
+  "nameZh": "新兵杂种剑",
+  "slot": "2hsword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/recruit-bastard-sword.webp",
+  "durability": 90,
+  "price": 700,
+  "properties": {
+    "critChance": 3,
+    "fumbleChance": 4,
+    "armorPenetration": 10,
+    "bleedingChance": 10,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This wide blade is best wielded with both hands.",
+  "descriptionZh": "剑刃宽，最好双手操持。",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
+}

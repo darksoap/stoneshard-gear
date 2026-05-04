@@ -1,0 +1,30 @@
+{
+  "id": "voulge",
+  "name": "Voulge",
+  "nameZh": "弗日",
+  "slot": "2haxe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/voulge.webp",
+  "durability": 110,
+  "price": 625,
+  "properties": {
+    "accuracy": 4,
+    "counterChance": 3,
+    "armorPenetration": 10,
+    "bodypartDamage": 25,
+    "bleedingChance": 25,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A predecessor to halberds, a voulge is still occasionally used by guards and some militias.",
+  "descriptionZh": "弗日虽然是戟的前身，但守卫和某些民兵还在使用。",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
+}

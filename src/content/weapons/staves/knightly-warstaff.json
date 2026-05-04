@@ -1,0 +1,33 @@
+{
+  "id": "knightly-warstaff",
+  "name": "Knightly Warstaff",
+  "nameZh": "贵族战杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/knightly-warstaff.webp",
+  "durability": 185,
+  "price": 5100,
+  "properties": {
+    "armorPenetration": 8,
+    "armorDamage": 10,
+    "damageReduction": 15,
+    "blockPower": 5,
+    "blockRecovery": 5,
+    "knockbackChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Staff duels are a staple of fencers' training, with some fighters growing so confident in their prowess that they don't shy away from bringing the weapon into real combat.",
+  "descriptionZh": "长杖对决是剑士训练的常规科目，有些战士非常相信自己的实力，甚至带着这种武器参加实战。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
+}

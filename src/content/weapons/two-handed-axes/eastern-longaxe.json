@@ -1,0 +1,30 @@
+{
+  "id": "eastern-longaxe",
+  "name": "Eastern Longaxe",
+  "nameZh": "东方长斧",
+  "slot": "2haxe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/eastern-longaxe.webp",
+  "durability": 165,
+  "price": 4000,
+  "properties": {
+    "accuracy": -10,
+    "armorPenetration": 33,
+    "armorDamage": 10,
+    "bodypartDamage": 25,
+    "staggerChance": 30,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "Jarimad nomads fight on foot only when there's no other option, but when they do, they rely on these axes - the design proved its usefulness through many battles against the heavy maaf infantry.",
+  "descriptionZh": "亚里迈德的游牧民族认为徒步战斗是下下之策，他们只有被逼无奈之时才会抽出类似的长斧、下马作战。他们曾与玛弗的重装步多次交手，这种兵器发挥了巨大的作用。",
+  "damage": {
+    "value": 33,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "kite-shield",
+  "name": "Kite Shield",
+  "nameZh": "筝形盾",
+  "slot": "shield",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/kite-shield.webp",
+  "durability": 210,
+  "price": 1875,
+  "properties": {
+    "damageReduction": 26,
+    "blockPower": 24,
+    "maxMana": -8,
+    "manaRestoration": -2,
+    "evasion": -6,
+    "resistances": {
+      "knockback": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Although this shield offers reliable cover to the entire body, from feet to shoulders, you won't run far with it weighing you down.",
+  "descriptionZh": "这种盾牌虽然可以充分遮挡肩部到脚的整个身体，但是十分笨重，不便移动。",
+  "class": "medium"
+}

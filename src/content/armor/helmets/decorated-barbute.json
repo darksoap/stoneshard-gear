@@ -1,0 +1,31 @@
+{
+  "id": "decorated-barbute",
+  "name": "Decorated Barbute",
+  "nameZh": "华美巴布特盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/decorated-barbute.webp",
+  "durability": 210,
+  "price": 5350,
+  "properties": {
+    "accuracy": 4,
+    "maxMana": -8,
+    "manaRestoration": -1,
+    "magicPower": 5,
+    "defense": 18,
+    "fortitude": 9,
+    "resistances": {
+      "bleeding": 30,
+      "stun": 26,
+      "physical": 27
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A generously gilded helmet you'd be expected to wear while leading parades in celebration of ceaseless victories.",
+  "descriptionZh": "这顶头盔镀金花了不少本钱，盔主应该是方队领队，每逢军队捷报频传、举行庆功大典的时候配戴。",
+  "class": "medium"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mercenary-hat",
+  "name": "Mercenary Hat",
+  "nameZh": "佣兵帽子",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/mercenary-hat.webp",
+  "durability": 50,
+  "price": 1600,
+  "properties": {
+    "critChance": 4,
+    "critEfficiency": 7,
+    "fumbleChance": -1,
+    "defense": 5,
+    "evasion": 6,
+    "resistances": {
+      "bleeding": 9,
+      "stun": 8,
+      "physical": 7
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The life of a mercenary is too short and violent for dull outfits.",
+  "descriptionZh": "雇佣兵人生短暂而又多舛，如果穿的戴的也朴素一辈子，那就太悲凉了。",
+  "class": "light"
+}

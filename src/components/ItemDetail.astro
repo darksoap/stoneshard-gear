@@ -1,0 +1,256 @@
+---
+import ItemMetaPanel from "./ItemMetaPanel.astro";
+import VariantTabs from "./VariantTabs.astro";
+import WeaponDetail from "./WeaponDetail.astro";
+import ArmorDetail from "./ArmorDetail.astro";
+import { withBase, getDetailImgSize } from "../lib/items";
+import {
+  rarityLabels,
+  tagLabels,
+  slotLabels,
+  weaponSlotSlugs,
+  armorSlotLabels,
+  jewelrySlotLabels,
+} from "../i18n/zh";
+
+interface VariantData {
+  id: string;
+  name: string;
+  nameZh: string;
+  image?: string;
+  durability?: number;
+  properties: Record<string, any>;
+  tags?: string[];
+}
+
+interface ItemData {
+  id: string;
+  name: string;
+  nameZh: string;
+  slot: string;
+  tier: number;
+  rarity: string;
+  material: string;
+  version?: string;
+  image?: string;
+  durability: number;
+  price: number;
+  properties: Record<string, any>;
+  damage?: { value: number; type: string };
+  range?: number;
+  class?: string;
+  tags?: string[];
+  fireproof?: boolean;
+  description?: string;
+  descriptionZh?: string;
+  variant?: VariantData;
+}
+
+interface Props {
+  data: ItemData;
+}
+
+const { data } = Astro.props;
+
+const imgSrc = withBase(data.image || "");
+const imgSize = getDetailImgSize(data.slot);
+
+const rarityClass = `rarity-${data.rarity}`;
+const rarityLabel = rarityLabels[data.rarity] || data.rarity;
+
+const isWeaponSlot = data.slot in weaponSlotSlugs;
+const isJewelry = data.slot === "ring" || data.slot === "amulet";
+
+const slotLabel = isWeaponSlot
+  ? slotLabels[data.slot] || data.slot
+  : isJewelry
+    ? jewelrySlotLabels[data.slot] || data.slot
+    : armorSlotLabels[data.slot] || slotLabels[data.slot] || data.slot;
+
+const tagLabelsList = (data.tags || [])
+  .filter((t) => !(t === "unique" && data.rarity === "unique"))
+  .map((t) => tagLabels[t] || t)
+  .filter(Boolean);
+
+const hasVariant = !!data.variant;
+const variant = data.variant;
+
+const backLabel = isWeaponSlot ? "武器" : isJewelry ? "首饰" : "护甲";
+---
+
+<div class="max-w-2xl mx-auto px-4 py-8">
+  <div
+    class="bg-bg-secondary rounded overflow-hidden shadow-2xl stoneshard-border animate-in"
+  >
+    <div class="p-5 sm:p-6 bg-bg-tertiary">
+      <div class="flex items-center gap-4">
+        <div
+          class={`item-img-wrap ${imgSize.w} ${imgSize.h} flex-shrink-0 rounded flex items-center justify-center border border-border-dark relative`}
+        >
+          {
+            data.image ? (
+              <img
+                src={imgSrc}
+                alt={data.nameZh}
+                class="w-full h-full object-contain"
+                {...(hasVariant && variant?.image
+                  ? { "data-panel": "base" }
+                  : {})}
+                decoding="async"
+                fetchpriority="high"
+                onerror="this.classList.add('error')"
+              />
+            ) : (
+              <span
+                class="text-3xl text-text-muted"
+                {...(hasVariant && variant?.image
+                  ? { "data-panel": "base" }
+                  : {})}
+              >
+                ?
+              </span>
+            )
+          }
+          {
+            hasVariant && variant?.image && (
+              <img
+                src={withBase(variant.image)}
+                alt={variant.nameZh || data.nameZh}
+                class="w-full h-full object-contain hidden absolute inset-0"
+                data-panel="variant"
+                decoding="async"
+                onerror="this.classList.add('error')"
+              />
+            )
+          }
+        </div>
+
+        <div class="flex-1 min-w-0">
+          <div class="text-accent-warm text-xs font-bold tracking-wider mb-1">
+            TIER {data.tier}
+          </div>
+          <h1
+            class={`text-xl sm:text-2xl font-bold mb-1 truncate ${rarityClass}`}
+          >
+            {data.nameZh}
+          </h1>
+          <div class="text-text-muted text-xs sm:text-sm">
+            {data.name}
+          </div>
+          <div class="flex flex-wrap items-center gap-2 mt-2">
+            <span
+              class="text-xs px-2 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border-dark"
+              >{rarityLabel}</span
+            >
+            <span
+              class="text-xs px-2 py-0.5 rounded bg-bg-elevated text-text-secondary border border-border-dark"
+              >{slotLabel}</span
+            >
+            {
+              tagLabelsList.length > 0 && (
+                <span class="text-text-muted text-xs">
+                  {tagLabelsList.join(" · ")}
+                </span>
+              )
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {hasVariant && <VariantTabs />}
+
+    <div data-panel="base">
+      {
+        isWeaponSlot ? (
+          <WeaponDetail data={data} />
+        ) : (
+          <ArmorDetail data={data} />
+        )
+      }
+
+      <div class="section-divider"></div>
+
+      <ItemMetaPanel
+        durability={data.durability}
+        material={data.material}
+        fireproof={data.fireproof}
+        price={data.price}
+        description={data.description}
+        descriptionZh={data.descriptionZh}
+        version={data.version}
+      />
+    </div>
+
+    {
+      hasVariant && (
+        <div data-panel="variant" class="hidden">
+          {isWeaponSlot ? (
+            <WeaponDetail
+              data={{
+                slot: data.slot,
+                damage: data.damage,
+                range: data.range,
+                properties: variant!.properties,
+              }}
+            />
+          ) : (
+            <ArmorDetail
+              data={{
+                slot: data.slot,
+                properties: variant!.properties,
+              }}
+            />
+          )}
+
+          <div class="section-divider" />
+
+          <ItemMetaPanel
+            durability={variant?.durability ?? data.durability}
+            material={data.material}
+            fireproof={data.fireproof}
+            price={data.price}
+            description={data.description}
+            descriptionZh={data.descriptionZh}
+            version={data.version}
+          />
+        </div>
+      )
+    }
+  </div>
+
+  <div class="mt-6 text-center">
+    <button
+      id="back-btn"
+      class="text-text-muted hover:text-accent text-sm cursor-pointer transition-colors"
+    >
+      ← 返回{backLabel}列表
+    </button>
+  </div>
+</div>
+
+<script
+  define:vars={{
+    isWeaponSlot,
+    isJewelry,
+    base: import.meta.env.BASE_URL.replace(/\/$/, ""),
+  }}
+>
+  const backBtn = document.getElementById("back-btn");
+  backBtn?.addEventListener("click", () => {
+    let category;
+    if (isWeaponSlot) {
+      category = "weapons";
+    } else if (isJewelry) {
+      category = "jewelry";
+    } else {
+      category = "armor";
+    }
+    const basePath = base + "/" + category;
+    if (document.referrer.includes(basePath)) {
+      history.back();
+    } else {
+      window.location.href = basePath;
+    }
+  });
+</script>

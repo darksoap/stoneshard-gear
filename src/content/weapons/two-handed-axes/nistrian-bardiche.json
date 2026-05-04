@@ -1,0 +1,31 @@
+{
+  "id": "nistrian-bardiche",
+  "name": "Nistrian Bardiche",
+  "nameZh": "尼斯特拉月牙斧",
+  "slot": "2haxe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/nistrian-bardiche.webp",
+  "durability": 135,
+  "price": 1775,
+  "properties": {
+    "critChance": 6,
+    "critEfficiency": 9,
+    "fumbleChance": 8,
+    "armorPenetration": 20,
+    "armorDamage": 20,
+    "bleedingChance": 8,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "nistra"
+  ],
+  "description": "It didn't take long for Fjall dwarves to adopt Skadian bardiches. And thanks to their mercenaring varangs, this weapon shape became known to Nistrians as well.",
+  "descriptionZh": "弗约的矮人没过多久就接受了斯卡迪亚的月牙斧，而后又通过他们那些瓦郎戈佣兵，将这种兵器传入了尼斯特拉。",
+  "damage": {
+    "value": 25,
+    "type": "slashing"
+  },
+  "range": 1
+}

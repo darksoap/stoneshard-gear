@@ -1,0 +1,28 @@
+{
+  "id": "occult-cloak",
+  "name": "Occult Cloak",
+  "nameZh": "玄秘斗篷",
+  "slot": "back",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/occult-cloak.webp",
+  "durability": 40,
+  "price": 2025,
+  "properties": {
+    "lifesteal": 3,
+    "manasteal": 6,
+    "magicPower": 6,
+    "resistances": {
+      "nature": 9,
+      "magic": 9,
+      "unholy": 6
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Long ago, Brynn was a gathering spot for a secret cult of sanguimancers, coveting the secrets of vampirism. It's unknown whether they were successful with their experiments, but they surely met their demise as it befits vampires - with wooden stakes deep in their chests.",
+  "descriptionZh": "很久以前，有个研习血魔法的地下教派经常在布林聚集，希望获得吸血的能力。尽管不知道这些人的实验最终成功没有，但他们的下场和吸血鬼相同——全都是胸口插进了木桩。",
+  "class": "light"
+}

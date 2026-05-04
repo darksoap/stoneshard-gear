@@ -1,0 +1,31 @@
+{
+  "id": "gilded-axe",
+  "name": "Gilded Axe",
+  "nameZh": "镀金斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/axes/gilded-axe.webp",
+  "durability": 130,
+  "price": 5600,
+  "properties": {
+    "critEfficiency": 20,
+    "counterChance": 4,
+    "armorPenetration": 20,
+    "bodypartDamage": 33,
+    "staggerChance": 30,
+    "maxMana": 5,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A successful attempt at making an axe look luxurious without sacrificing its battle performance.",
+  "descriptionZh": "这把手斧形制十分豪华，但战斗能力也丝毫没有牺牲。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
+}

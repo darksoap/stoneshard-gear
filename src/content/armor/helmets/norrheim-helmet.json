@@ -1,0 +1,32 @@
+{
+  "id": "norrheim-helmet",
+  "name": "Norrheim Helmet",
+  "nameZh": "诺尔海姆头盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/helmets/norrheim-helmet.webp",
+  "durability": 100,
+  "price": 1575,
+  "properties": {
+    "critChance": 2,
+    "counterChance": 2,
+    "defense": 7,
+    "evasion": 2,
+    "critAvoid": 7,
+    "resistances": {
+      "bleeding": 18,
+      "stun": 10,
+      "physical": 12,
+      "nature": 8,
+      "rending": 15
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "If a piece of armor is decorated with wild animals' horns, furs, and bones, then it most likely belonged to a member of the Norrheim clan, where a person's merit is based exclusively on their hunting prowess.",
+  "descriptionZh": "盔甲上面若是缀有兽皮、兽角或者兽骨，那么很多可能出自诺尔海姆的部族之手。对于他们而言，个体的地位完全取决于胆量与狩猎的能力。",
+  "class": "light"
+}

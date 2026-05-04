@@ -1,0 +1,27 @@
+{
+  "id": "skadian-bludgeon",
+  "name": "Skadian Bludgeon",
+  "nameZh": "斯卡迪亚锤棍",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/skadian-bludgeon.webp",
+  "durability": 120,
+  "price": 1125,
+  "properties": {
+    "critEfficiency": 18,
+    "fumbleChance": -5,
+    "armorPenetration": 20,
+    "dazeChance": 13,
+    "staggerChance": 13,
+    "skillsEnergyCost": 15
+  },
+  "description": "A bludgeon is a surprisingly deadly piece of gear. If anyone knows their maces, it's Skadians.",
+  "descriptionZh": "锤棍的攻击效果非常好，谁都没有斯卡迪亚人熟悉这种兵器。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
+}

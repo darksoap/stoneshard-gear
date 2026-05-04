@@ -1,0 +1,23 @@
+{
+  "id": "academy-circlet",
+  "name": "Academy Circlet",
+  "nameZh": "学院头环",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/helmets/academy-circlet.webp",
+  "durability": 25,
+  "price": 575,
+  "properties": {
+    "magicPower": 8,
+    "miracleChance": 1,
+    "miraclePower": 3
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "An item familiar to every Maen Academy student - the resonance created by precious metals makes it easier to overcome the hurdles of learning magic.",
+  "descriptionZh": "曼恩学院每一个学生都会有这个东西时刻相伴——贵重金属可以产生共振，能够帮助他们克服魔法学习的困难。",
+  "class": "light"
+}

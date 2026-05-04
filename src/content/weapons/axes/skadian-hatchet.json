@@ -1,0 +1,28 @@
+{
+  "id": "skadian-hatchet",
+  "name": "Skadian Hatchet",
+  "nameZh": "斯卡迪亚手斧",
+  "slot": "axe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/skadian-hatchet.webp",
+  "durability": 100,
+  "price": 1025,
+  "properties": {
+    "accuracy": 4,
+    "critEfficiency": 5,
+    "armorPenetration": 10,
+    "armorDamage": 23,
+    "bodypartDamage": 19,
+    "bleedingChance": 16,
+    "skillsEnergyCost": 15
+  },
+  "description": "These axes don't see much use in Aldor, but in Skadia they are ubiquitous. If the axeblade ever gets too chipped to use, you can always switch your grip and strike with the hammerhead.",
+  "descriptionZh": "这种斧子在奥尔多不是很常见，但斯卡迪亚到处都是。这个兵器顶端一头是斧，一头是锤，所以斧子卷刃严重的时候，还可以用锤头。",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "range": 1
+}

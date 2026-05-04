@@ -1,0 +1,29 @@
+{
+  "id": "veteran-greaves",
+  "name": "Veteran Greaves",
+  "nameZh": "老兵胫甲",
+  "slot": "legs",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/boots/veteran-greaves.webp",
+  "durability": 180,
+  "price": 2225,
+  "properties": {
+    "maxMana": -7,
+    "manaRestoration": -1,
+    "defense": 15,
+    "evasion": -5,
+    "resistances": {
+      "bleeding": 26,
+      "knockback": 22,
+      "physical": 23
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An obvious choice for any infantryman: a combination of common boots' practicality and some fairly decent protection.",
+  "descriptionZh": "既像日常的靴子一样实用，还能提供保护，显然是步兵的不二选择。",
+  "class": "medium"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "captain-waistband",
+  "name": "Captain Waistband",
+  "nameZh": "长官腰带",
+  "slot": "waist",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/captain-waistband.webp",
+  "durability": 65,
+  "price": 1225,
+  "properties": {
+    "accuracy": 1,
+    "critEfficiency": 15,
+    "counterChance": 3,
+    "fumbleChance": -5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Will hold a scabbard, a supply pouch, a key to the war chest, a map case, a list of passwords - and whatever else the situation demands.",
+  "descriptionZh": "什么都能挂，剑鞘、补给口袋、钱柜钥匙、地图卷筒、记下来的口令，还有各种乱七八糟的东西。",
+  "class": "light"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "commoner-dagger",
+  "name": "Commoner Dagger",
+  "nameZh": "平民匕首",
+  "slot": "dagger",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/commoner-dagger.webp",
+  "durability": 40,
+  "price": 50,
+  "properties": {
+    "accuracy": 3,
+    "critChance": 2,
+    "armorPenetration": 5,
+    "bleedingChance": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Swords are prohibitively expensive for most commoners, while axes and clubs can't be comfortably tucked into a belt. What else is left to an honest peasant?",
+  "descriptionZh": "多数平民百姓不得佩剑，一旦发现，罚金数额高昂，而斧头棍棒又不方便别在腰间。除了这个，老实本分的农民还能带什么呢？",
+  "damage": {
+    "value": 13,
+    "type": "piercing"
+  },
+  "range": 1
+}

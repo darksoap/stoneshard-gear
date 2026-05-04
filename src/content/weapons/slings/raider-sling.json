@@ -1,0 +1,31 @@
+{
+  "id": "raider-sling",
+  "name": "Raider Sling",
+  "nameZh": "强盗投石索",
+  "slot": "sling",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/raider-sling.webp",
+  "durability": 110,
+  "price": 650,
+  "properties": {
+    "accuracy": -57,
+    "critChance": 6,
+    "armorPenetration": 5,
+    "dazeChance": 25,
+    "staggerChance": 20,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -7
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Light to carry, yet far from harmless - a weapon well suited for clashes with village guards.",
+  "descriptionZh": "轻巧便携，但也绝非毫无杀伤力。如果跟村里的卫队起了冲突，就非常适合用这种兵器。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 7
+}

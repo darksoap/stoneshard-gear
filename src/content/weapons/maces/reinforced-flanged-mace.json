@@ -1,0 +1,30 @@
+{
+  "id": "reinforced-flanged-mace",
+  "name": "Reinforced Flanged Mace",
+  "nameZh": "钢柄凸缘钉头锤",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/reinforced-flanged-mace.webp",
+  "durability": 150,
+  "price": 2175,
+  "properties": {
+    "counterChance": 6,
+    "armorPenetration": 25,
+    "dazeChance": 20,
+    "stunChance": 13,
+    "knockbackChance": 16,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A mace that offers the best value for its price - it's simple, easy to wield, and utterly lethal.",
+  "descriptionZh": "这种钉头锤可能优于同等价位的其他各种兵器，这个兵器简单，使用方便，而且杀伤性极大。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
+}

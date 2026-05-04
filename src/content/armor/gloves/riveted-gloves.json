@@ -1,0 +1,28 @@
+{
+  "id": "riveted-gloves",
+  "name": "Riveted Gloves",
+  "nameZh": "锁铆手甲",
+  "slot": "arms",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/riveted-gloves.webp",
+  "durability": 170,
+  "price": 2225,
+  "properties": {
+    "fumbleChance": -1,
+    "maxMana": -7,
+    "manaRestoration": -1,
+    "defense": 15,
+    "resistances": {
+      "bleeding": 22,
+      "physical": 23
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A direct strike to the hands will still hurt like hell, but at least you won't lose them.",
+  "descriptionZh": "即便戴了这种手套，手上直接挨一下，依然痛彻骨髓，但起码不会残废。",
+  "class": "medium"
+}

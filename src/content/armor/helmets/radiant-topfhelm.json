@@ -1,0 +1,34 @@
+{
+  "id": "radiant-topfhelm",
+  "name": "Radiant Topfhelm",
+  "nameZh": "光辉桶盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/radiant-topfhelm.webp",
+  "durability": 350,
+  "price": 5825,
+  "properties": {
+    "accuracy": -3,
+    "maxMana": -14,
+    "manaRestoration": -4,
+    "miracleChance": 3,
+    "defense": 24,
+    "critAvoid": 14,
+    "fortitude": 8,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 35,
+      "stun": 45,
+      "physical": 30,
+      "unholy": 33
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A variant of a topfhelm improved upon by Aldorian craftsmen, boasting a slicker shape and exquisite ornaments. These were all the rage during the Radiant Wars.",
+  "descriptionZh": "这是桶盔的一种，由奥尔多的工匠改良而成——轮廓线相对更加流畅，还增加了精致的修饰，光辉战争期间尤其常见。",
+  "class": "heavy"
+}

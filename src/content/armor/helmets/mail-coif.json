@@ -1,0 +1,29 @@
+{
+  "id": "mail-coif",
+  "name": "Mail Coif",
+  "nameZh": "链甲头套",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/mail-coif.webp",
+  "durability": 160,
+  "price": 1225,
+  "properties": {
+    "maxMana": -2,
+    "defense": 8,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 9,
+      "physical": 15,
+      "slashing": 12,
+      "rending": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Mail coifs are ubiquitous - they don't cost much, are lightweight, and provide adequate protection against slashing strikes.",
+  "descriptionZh": "链甲头套随处可见，这种东西造价不贵，又轻便，而且可以有效抵御劈砍。",
+  "class": "light"
+}

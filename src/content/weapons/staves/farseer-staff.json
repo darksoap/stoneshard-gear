@@ -1,0 +1,39 @@
+{
+  "id": "farseer-staff",
+  "name": "Farseer Staff",
+  "nameZh": "先见长杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/staves/farseer-staff.webp",
+  "durability": 105,
+  "price": 5100,
+  "properties": {
+    "fumbleChance": -5,
+    "armorPenetration": 10,
+    "manaRestoration": 6,
+    "skillsEnergyCost": 25,
+    "spellsEnergyCost": -8,
+    "cooldownReduction": -5,
+    "miscastChance": -9,
+    "bonusRange": 5,
+    "fatigueGain": 12,
+    "critAvoid": 10,
+    "damages": {
+      "blunt": 13,
+      "arcane": 3,
+      "sacred": 3
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The multiple attempts to marry Hieronite teachings with elven rituals produced a number of prominent Aldorian saints capable of glimpsing into the future - nevertheless, most of the clergy rejected this path, branding it as a perversion of the church traditions.",
+  "descriptionZh": "奥尔多的圣会多次尝试将圣门教义与精灵仪礼结合，造就了若干声名显赫的先知圣徒。可是大多数祭司将这种方式斥为颠覆教会传统，不愿采用。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 1
+}

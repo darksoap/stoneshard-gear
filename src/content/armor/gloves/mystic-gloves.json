@@ -1,0 +1,34 @@
+{
+  "id": "mystic-gloves",
+  "name": "Mystic Gloves",
+  "nameZh": "神秘手套",
+  "slot": "arms",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/mystic-gloves.webp",
+  "durability": 80,
+  "price": 2500,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 2,
+    "cooldownReduction": -4,
+    "miscastChance": -4,
+    "miracleChance": 1,
+    "miraclePower": 5,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 15,
+      "physical": 11,
+      "nature": 8,
+      "magic": 8,
+      "unholy": 25
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "They're covered with peculiar symbols in accordance with an ancient, half-forgotten technique.",
+  "descriptionZh": "这幅手套背面饰有繁复的符号，用了某种几乎已被世人遗忘的古老工艺。",
+  "class": "light"
+}

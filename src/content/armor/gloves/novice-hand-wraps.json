@@ -1,0 +1,28 @@
+{
+  "id": "novice-hand-wraps",
+  "name": "Novice Hand Wraps",
+  "nameZh": "入门法师绑手",
+  "slot": "arms",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/gloves/novice-hand-wraps.webp",
+  "durability": 30,
+  "price": 50,
+  "properties": {
+    "maxMana": 4,
+    "magicPower": 4,
+    "miscastChance": -1,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The path to becoming a mage invariably starts with pain and injuries. A few layers of tightly wrapped cloth can slightly reduce the price of initial failures.",
+  "descriptionZh": "所有法师入门之初，都绕不开伤痛。虽然只是两条布带紧紧缠在手上，但施法失误的时候，也算聊胜于无了。",
+  "class": "light"
+}

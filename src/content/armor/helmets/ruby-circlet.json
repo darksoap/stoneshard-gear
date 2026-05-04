@@ -1,0 +1,25 @@
+{
+  "id": "ruby-circlet",
+  "name": "Ruby Circlet",
+  "nameZh": "红宝石头环",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/helmets/ruby-circlet.webp",
+  "durability": 55,
+  "price": 7300,
+  "properties": {
+    "spellsEnergyCost": -5,
+    "magicPower": 13,
+    "miracleChance": 3,
+    "miraclePower": 9,
+    "bonusRange": 5
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "The ability of rubies to withstand violent energies makes them particularly attractive to sorcerers who favor dangerous and unpredictable schools of magic, such as pyromancy.",
+  "descriptionZh": "部分法师热衷修习炎系咒法之类难以捉摸的危险法系，红宝石刚好能够抵御猛烈魔能的冲击，因而备受此类人士所爱。",
+  "class": "light"
+}

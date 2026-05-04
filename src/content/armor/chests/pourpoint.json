@@ -1,0 +1,30 @@
+{
+  "id": "pourpoint",
+  "name": "Pourpoint",
+  "nameZh": "武装衣",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/pourpoint.webp",
+  "durability": 75,
+  "price": 2350,
+  "properties": {
+    "counterChance": 3,
+    "damageReceived": -5,
+    "defense": 7,
+    "evasion": 5,
+    "critAvoid": 5,
+    "resistances": {
+      "bleeding": 20,
+      "physical": 11,
+      "blunt": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The fashion for wearing gambesons as civil clothing was spearheaded by King Etbert himself. Thanks to his efforts, it became a sign of good taste to wear a pourpoint when attending the court.",
+  "descriptionZh": "把夹棉软铠当常服穿，这个风尚最早是埃特伯特国王带起来的。最后，穿着武装衣上朝成了有品味的表现。",
+  "class": "light"
+}

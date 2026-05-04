@@ -1,0 +1,31 @@
+{
+  "id": "militia-sling",
+  "name": "Militia Sling",
+  "nameZh": "民兵投石索",
+  "slot": "sling",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/militia-sling.webp",
+  "durability": 90,
+  "price": 250,
+  "properties": {
+    "accuracy": -65,
+    "critChance": 4,
+    "armorPenetration": 5,
+    "dazeChance": 20,
+    "staggerChance": 15,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "When defending one's home, no weapon is too humble.",
+  "descriptionZh": "保卫家园的时候，再简单的兵器也派得上用场。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 6
+}

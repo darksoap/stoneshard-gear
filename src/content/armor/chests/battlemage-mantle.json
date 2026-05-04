@@ -1,0 +1,30 @@
+{
+  "id": "battlemage-mantle",
+  "name": "Battlemage Mantle",
+  "nameZh": "战地法师法袍",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/battlemage-mantle.webp",
+  "durability": 90,
+  "price": 4125,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 4,
+    "abilitiesEnergyCost": -5,
+    "magicPower": 7,
+    "fatigueGain": 7,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 12,
+      "physical": 14
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Battle-proven mages are always in demand and, consequently, are wealthy enough to afford custom-tailored, hard-wearing mantles.",
+  "descriptionZh": "久经沙场的法师从来不用担心无事可做，所以收入也是相当丰厚，有余钱订做经磨耐穿的袍子。",
+  "class": "light"
+}

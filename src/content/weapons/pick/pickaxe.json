@@ -1,0 +1,30 @@
+{
+  "id": "pickaxe",
+  "name": "Pickaxe",
+  "nameZh": "镐头",
+  "slot": "pick",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/pick/pickaxe.webp",
+  "durability": 60,
+  "price": 60,
+  "properties": {
+    "critChance": 1,
+    "fumbleChance": 15,
+    "armorPenetration": 10,
+    "armorDamage": 10,
+    "bodypartDamage": 10,
+    "staggerChance": 15
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "These pickaxes see use all over the realm, from the gold mines of Forholt to the convict quarries of the Northern Borderlands.",
+  "descriptionZh": "从佛尔霍特的金矿到北疆的犯人石场，到处都能见到这种鹤嘴镐。",
+  "damage": {
+    "value": 15,
+    "type": "piercing"
+  },
+  "range": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "silver-ring",
+  "name": "Silver Ring",
+  "nameZh": "银戒指",
+  "slot": "ring",
+  "tier": 2,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/rings/silver-ring.webp",
+  "durability": 30,
+  "price": 40,
+  "properties": {
+    "maxHealth": 2,
+    "resistances": {
+      "bleeding": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "According to local beliefs, silver offers protection against the evil eye and diseases.",
+  "descriptionZh": "当地人认为，银器可以驱邪治病。",
+  "class": "light"
+}

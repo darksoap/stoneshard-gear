@@ -1,0 +1,31 @@
+{
+  "id": "footman-warhammer",
+  "name": "Footman Warhammer",
+  "nameZh": "步兵战锤",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/footman-warhammer.webp",
+  "durability": 110,
+  "price": 1075,
+  "properties": {
+    "accuracy": 5,
+    "fumbleChance": -2,
+    "armorPenetration": 30,
+    "armorDamage": 40,
+    "dazeChance": 12,
+    "staggerChance": 16,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Has the capacity to injure even a heavily armored foe, but there are far better options if your opponent is light on defenses.",
+  "descriptionZh": "就算敌人身披重甲，也能砸出个窟窿。不过，如果对手防具轻便，这种战锤就远不如其他一些兵器了。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "jambiya",
+  "name": "Jambiya",
+  "nameZh": "詹比亚",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/jambiya.webp",
+  "durability": 80,
+  "price": 1950,
+  "properties": {
+    "accuracy": 3,
+    "critChance": 5,
+    "armorPenetration": 10,
+    "bodypartDamage": 10,
+    "bleedingChance": 24
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "In southern regions of Ahjat, it would be considered a traditional coming-of-age gift to a young free man.",
+  "descriptionZh": "在艾哈雅特南部，自由民成年礼经常获得这种传统礼物。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
+}

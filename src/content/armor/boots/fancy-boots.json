@@ -1,0 +1,28 @@
+{
+  "id": "fancy-boots",
+  "name": "Fancy Boots",
+  "nameZh": "华靴",
+  "slot": "legs",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/fancy-boots.webp",
+  "durability": 90,
+  "price": 1350,
+  "properties": {
+    "manaRestoration": 4,
+    "fatigueGain": 17,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 9,
+      "knockback": 8,
+      "physical": 7
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A pair of expertly-crafted boots that will add a spring to your step while promenading the streets.",
+  "descriptionZh": "穿着这双工艺精湛的靴子，大摇大摆走在街上，你会感觉自己的脚步更加轻盈。",
+  "class": "light"
+}

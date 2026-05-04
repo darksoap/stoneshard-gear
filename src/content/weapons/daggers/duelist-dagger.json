@@ -1,0 +1,29 @@
+{
+  "id": "duelist-dagger",
+  "name": "Duelist Dagger",
+  "nameZh": "对决匕首",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/duelist-dagger.webp",
+  "durability": 100,
+  "price": 1450,
+  "properties": {
+    "counterChance": 9,
+    "armorPenetration": 10,
+    "damageReduction": 11,
+    "blockPower": 7,
+    "bleedingChance": 7
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some duelists become so apt at wielding a dagger that even sword strikes are no challenge for them to parry and counter.",
+  "descriptionZh": "有些对决手匕首使得炉火纯青，连刀剑都能轻松挡下。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 1
+}

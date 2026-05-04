@@ -1,0 +1,54 @@
+{
+  "id": "klappvisor-bascinet",
+  "name": "Klappvisor Bascinet",
+  "nameZh": "喙面头盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/klappvisor-bascinet.webp",
+  "durability": 300,
+  "price": 1625,
+  "properties": {
+    "accuracy": -3,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "defense": 17,
+    "critAvoid": 12,
+    "fortitude": 12,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 31,
+      "stun": 33,
+      "physical": 30
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This bascinet's visor forms a solid barrier against blades and arrows. As a trade-off, it also greatly limits your vision.",
+  "descriptionZh": "这个头盔的面甲可以很好地抵御劈砍和穿刺攻击，不过严重限制了穿戴者的视野。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-klappvisor-bascinet",
+    "name": "Open Klappvisor Bascinet",
+    "nameZh": "喙面头盔",
+    "image": "/images/armor/helmets/open-klappvisor-bascinet.webp",
+    "durability": 300,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "defense": 12,
+      "critAvoid": 8,
+      "fortitude": 8,
+      "resistances": {
+        "bleeding": 22,
+        "stun": 33,
+        "physical": 21
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

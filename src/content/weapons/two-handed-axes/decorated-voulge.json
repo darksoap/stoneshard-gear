@@ -1,0 +1,33 @@
+{
+  "id": "decorated-voulge",
+  "name": "Decorated Voulge",
+  "nameZh": "鎏金弗日",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/decorated-voulge.webp",
+  "durability": 170,
+  "price": 7650,
+  "properties": {
+    "accuracy": 10,
+    "critChance": 3,
+    "counterChance": 6,
+    "fumbleChance": -1,
+    "armorPenetration": 25,
+    "bodypartDamage": 45,
+    "bleedingChance": 40,
+    "knockbackChance": 15,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The stamp of the Guild makes it safe to assume that this voulge was intended for some high-ranking Magistrate commander.",
+  "descriptionZh": "这根弗日上面有公会的标记，想必原本肯定是给城市联盟某位高级军官造的。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hired-blade-cowl",
+  "name": "Hired Blade Cowl",
+  "nameZh": "蒙面兜帽",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/helmets/hired-blade-cowl.webp",
+  "durability": 40,
+  "price": 250,
+  "properties": {
+    "critChance": 2,
+    "fumbleChance": -2,
+    "defense": 3,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 5,
+      "stun": 4,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "The Blades were a group of assassins operating in every major Aldorian city. They didn't last long though: betrayed by their client, most of them were found out, apprehended, and executed after a series of high-profile murders.",
+  "descriptionZh": "“尖刀会”刺客和杀手的足迹曾经遍及奥尔多的各大城市，只是存在时间不长——一系列引人注目的杀人事件之后，这个组织因遭客户出卖，多数成员身份败露、被捕、处以死刑。",
+  "class": "light"
+}

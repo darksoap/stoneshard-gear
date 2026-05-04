@@ -1,0 +1,30 @@
+{
+  "id": "guard-bow",
+  "name": "Guard Bow",
+  "nameZh": "卫兵弓",
+  "slot": "bow",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/guard-bow.webp",
+  "durability": 55,
+  "price": 400,
+  "properties": {
+    "accuracy": -60,
+    "fumbleChance": -5,
+    "armorPenetration": 10,
+    "knockbackChance": 15,
+    "staggerChance": 15,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A perfect example of a weapon's effectiveness relying entirely on the user's skill: this bow is pretty much useless in the hands of a novice archer.",
+  "descriptionZh": "这种弓充分证明了兵器好用与否完全取决于个人的能力——这弓要是给了修习弓法不久的人，就几乎是件废品。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 8
+}

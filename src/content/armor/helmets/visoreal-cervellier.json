@@ -1,0 +1,54 @@
+{
+  "id": "visoreal-cervellier",
+  "name": "Visoreal Cervellier",
+  "nameZh": "面甲内盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/visoreal-cervellier.webp",
+  "durability": 200,
+  "price": 1425,
+  "properties": {
+    "accuracy": -2,
+    "maxMana": -12,
+    "manaRestoration": -3,
+    "defense": 15,
+    "critAvoid": 6,
+    "fortitude": 10,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 27,
+      "stun": 28,
+      "physical": 26
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "High-born or not, some knights don't have a single coin to their name. Affording first-rate armor is out of the question, so is wearing a common soldier's kettle helmet. And that's where cervelliers come into play.",
+  "descriptionZh": "骑士之中，不论出身贵贱，总是会有一些人身无分文。他们穿不起像样的盔甲，也不屑于戴平常士兵的圆顶锅盔，这种时候就会选择内盔。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-visoreal-cervellier",
+    "name": "Open Visoreal Cervellier",
+    "nameZh": "面甲内盔",
+    "image": "/images/armor/helmets/open-visoreal-cervellier.webp",
+    "durability": 200,
+    "properties": {
+      "maxMana": -12,
+      "manaRestoration": -2,
+      "defense": 9,
+      "critAvoid": 4,
+      "fortitude": 6,
+      "resistances": {
+        "bleeding": 16,
+        "stun": 28,
+        "physical": 16
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

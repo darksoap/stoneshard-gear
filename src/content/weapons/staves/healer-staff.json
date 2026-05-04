@@ -1,0 +1,32 @@
+{
+  "id": "healer-staff",
+  "name": "Healer Staff",
+  "nameZh": "治疗长杖",
+  "slot": "2hstaff",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/healer-staff.webp",
+  "durability": 60,
+  "price": 400,
+  "properties": {
+    "armorPenetration": 10,
+    "manaRestoration": 3,
+    "healthRestoration": 1,
+    "healingReceived": 7,
+    "skillsEnergyCost": 10,
+    "spellsEnergyCost": -5,
+    "miscastChance": -4,
+    "fatigueGain": 6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some Aldorian healers place special enchantments on their staves, much to the displeasure of village priests.",
+  "descriptionZh": "奥尔多有些治疗师会给长杖附加特殊的魔法，乡下祭司很不喜欢这样。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 1
+}

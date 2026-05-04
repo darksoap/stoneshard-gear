@@ -1,0 +1,21 @@
+{
+  "id": "rope-belt",
+  "name": "Rope Belt",
+  "nameZh": "系腰绳",
+  "slot": "waist",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/rope-belt.webp",
+  "durability": 20,
+  "price": 25,
+  "properties": {
+    "evasion": 2
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "For when you've run out of other options.",
+  "descriptionZh": "没有腰带的时候可以救急。",
+  "class": "light"
+}

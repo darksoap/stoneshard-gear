@@ -1,0 +1,28 @@
+{
+  "id": "witch-hat",
+  "name": "Witch Hat",
+  "nameZh": "女巫帽",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/helmets/witch-hat.webp",
+  "durability": 20,
+  "price": 575,
+  "properties": {
+    "magicPower": 6,
+    "miracleChance": 3,
+    "miraclePower": 6,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 2
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Just an old, dusty hat, but for some reason you are compelled to put it on your head.",
+  "descriptionZh": "这帽子又旧又脏，可是不知道为什么，你就是想把它戴在头上。",
+  "class": "light"
+}

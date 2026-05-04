@@ -1,0 +1,40 @@
+{
+  "id": "hermit-staff",
+  "name": "Hermit Staff",
+  "nameZh": "隐士长杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/staves/hermit-staff.webp",
+  "durability": 175,
+  "price": 5100,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 15,
+    "knockbackChance": 20,
+    "staggerChance": 25,
+    "maxMana": 8,
+    "manaRestoration": 4,
+    "maxHealth": 8,
+    "healthRestoration": 4,
+    "healingReceived": 5,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5,
+    "damages": {
+      "blunt": 16,
+      "poison": 3,
+      "sacred": 3
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The reclusive Sages are long-time protectors of Aldor, yet very little is known about them. There seems to be a growing rumor that many of them have disappeared without a trace over the past few years.",
+  "descriptionZh": "诸位慧老深入简出，常年守护奥尔多，大家对他们知之甚少。最近几年，据说多位慧老相继失踪，什么痕迹都没留下。",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
+}

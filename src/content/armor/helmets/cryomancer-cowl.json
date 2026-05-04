@@ -1,0 +1,35 @@
+{
+  "id": "cryomancer-cowl",
+  "name": "Cryomancer Cowl",
+  "nameZh": "冰术兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/cryomancer-cowl.webp",
+  "durability": 60,
+  "price": 2875,
+  "properties": {
+    "maxMana": 6,
+    "manaRestoration": 2,
+    "maxHealth": 5,
+    "miscastChance": -5,
+    "defense": 4,
+    "critAvoid": 10,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 4,
+      "frost": 25
+    },
+    "magicPowers": {
+      "cryomantic": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Keeps your mind cold and your ears warm.",
+  "descriptionZh": "头脑要冷静，耳朵要保暖。",
+  "class": "light"
+}

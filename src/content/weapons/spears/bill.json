@@ -1,0 +1,31 @@
+{
+  "id": "bill",
+  "name": "Bill",
+  "nameZh": "军士长柄柴刀",
+  "slot": "spear",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/bill.webp",
+  "durability": 170,
+  "price": 3625,
+  "properties": {
+    "critEfficiency": 20,
+    "fumbleChance": 8,
+    "armorPenetration": 30,
+    "armorDamage": 16,
+    "bodypartDamage": 16,
+    "immobilizationChance": 17,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It's a common practice for such polearms to be adorned with vibrant scraps of cloth, helping soldiers distinguish friend from foe as they head into the fray.",
+  "descriptionZh": "这种长武器经常绑有颜色鲜艳的布条，以便混战之中辨认友方。",
+  "damage": {
+    "value": 27,
+    "type": "piercing"
+  },
+  "range": 1
+}

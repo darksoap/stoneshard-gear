@@ -1,0 +1,30 @@
+{
+  "id": "knightly-poleaxe",
+  "name": "Knightly Poleaxe",
+  "nameZh": "骑士长柄斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/knightly-poleaxe.webp",
+  "durability": 215,
+  "price": 7150,
+  "properties": {
+    "armorPenetration": 30,
+    "damageReduction": 12,
+    "blockPower": 13,
+    "bleedingChance": 35,
+    "knockbackChance": 35,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Aldorian knights are slow to accept novelty, but the numerous advantages of poleaxes can persuade even the most stubborn.",
+  "descriptionZh": "奥尔多的骑士接受新鲜事物的速度很慢，不过枪斧优点众多，就算是橡木疙瘩也能认识到它的好。",
+  "damage": {
+    "value": 34,
+    "type": "slashing"
+  },
+  "range": 1
+}

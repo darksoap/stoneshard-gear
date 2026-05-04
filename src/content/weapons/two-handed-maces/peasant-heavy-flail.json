@@ -1,0 +1,32 @@
+{
+  "id": "peasant-heavy-flail",
+  "name": "Peasant Heavy Flail",
+  "nameZh": "农家长连枷",
+  "slot": "2hmace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/peasant-heavy-flail.webp",
+  "durability": 65,
+  "price": 125,
+  "properties": {
+    "accuracy": -4,
+    "fumbleChance": 6,
+    "armorPenetration": 10,
+    "bodypartDamage": 20,
+    "dazeChance": 10,
+    "stunChance": 10,
+    "staggerChance": 15,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An old farm tool, hastily repurposed for war - neither sturdy nor comfortable to wield.",
+  "descriptionZh": "用了多少年的农具，为了应付打仗，仓促改造了一番，既不趁手，也不耐用。",
+  "damage": {
+    "value": 21,
+    "type": "blunt"
+  },
+  "range": 1
+}

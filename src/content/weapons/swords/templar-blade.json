@@ -1,0 +1,34 @@
+{
+  "id": "templar-blade",
+  "name": "Templar Blade",
+  "nameZh": "圣堂武士剑",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/templar-blade.webp",
+  "durability": 125,
+  "price": 6125,
+  "properties": {
+    "accuracy": 7,
+    "fumbleChance": -1,
+    "armorPenetration": 15,
+    "damageReduction": 10,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 5,
+    "damages": {
+      "slashing": 24,
+      "sacred": 2
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "There is an etching on the blade's surface, pledging loyalty to the Host and the court... the usual kind of court.",
+  "descriptionZh": "剑身可以看到一行铭文，大意为宣誓效忠圣主与王廷。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

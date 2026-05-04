@@ -1,0 +1,33 @@
+{
+  "id": "soldier-staff-sling",
+  "name": "Soldier Staff Sling",
+  "nameZh": "士兵投石杆",
+  "slot": "sling",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/slings/soldier-staff-sling.webp",
+  "durability": 125,
+  "price": 1050,
+  "properties": {
+    "accuracy": -65,
+    "critChance": 3,
+    "critEfficiency": 10,
+    "armorPenetration": 10,
+    "armorDamage": 10,
+    "bodypartDamage": 20,
+    "stunChance": 28,
+    "skillsEnergyCost": 15,
+    "cooldownReduction": -4
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The siege caught Brynn unprepared, and the defenders soon realized their supply of arrows would not last. To combat this, they quickly crafted and distributed a great number of slings.",
+  "descriptionZh": "王廷围城，打了布林个措手不及，守军很快就发现后方留存的箭撑不了多久，便迅速制造了大量投石杖，在军中广泛配发。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 7
+}

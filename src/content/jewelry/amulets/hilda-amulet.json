@@ -1,0 +1,26 @@
+{
+  "id": "hilda-amulet",
+  "name": "Hilda Amulet",
+  "nameZh": "希尔达的护身符",
+  "slot": "amulet",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "gem",
+  "image": "/images/armor/amulets/hilda-amulet.webp",
+  "durability": 50,
+  "price": 120,
+  "properties": {
+    "accuracy": 1,
+    "evasion": 1,
+    "resistances": {
+      "rending": 5
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "Prone to superstition, Hilda believes the amulet her mother gave her long ago is the very thing that helped her survive on the island.",
+  "descriptionZh": "迷信的希尔达认为自己那座岛上之所以能大难不死，完全是因为自己戴了这块护身符，这个东西母亲很早之前就送给她了。",
+  "class": "light"
+}

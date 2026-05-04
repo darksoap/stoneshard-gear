@@ -1,0 +1,32 @@
+{
+  "id": "battlemage-gambeson",
+  "name": "Battlemage Gambeson",
+  "nameZh": "战地法师软铠",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/battlemage-gambeson.webp",
+  "durability": 65,
+  "price": 2025,
+  "properties": {
+    "damageReduction": 2,
+    "abilitiesEnergyCost": -4,
+    "magicPower": 6,
+    "miscastChance": -2,
+    "defense": 6,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 14,
+      "physical": 10,
+      "nature": 15,
+      "magic": 20
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Much lighter than a common gambeson and much sturdier than a mantle, this chestpiece combines the best of both worlds.",
+  "descriptionZh": "这件防具论轻便，远胜过普通的软铠；论结实，又甚优于普通的法袍，兼具二者之长。",
+  "class": "light"
+}

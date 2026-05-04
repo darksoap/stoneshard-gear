@@ -1,0 +1,31 @@
+{
+  "id": "skaar-garment",
+  "name": "Skaar Garment",
+  "nameZh": "斯卡霍格衣服",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/skaar-garment.webp",
+  "durability": 40,
+  "price": 2600,
+  "properties": {
+    "critChance": 4,
+    "critEfficiency": 20,
+    "counterChance": 3,
+    "fumbleChance": -3,
+    "defense": 4,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 4,
+      "frost": 15
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "There's a dwarven belief that an attire blessed by Skarhogg shamans can fortify strength and resolve of any warrior who puts it on.",
+  "descriptionZh": "矮人认为衣服只要经过斯卡霍格的萨满祝福，穿上之后，力量和毅力就都会变得更强。",
+  "class": "light"
+}

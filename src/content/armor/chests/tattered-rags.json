@@ -1,0 +1,22 @@
+{
+  "id": "tattered-rags",
+  "name": "Tattered Rags",
+  "nameZh": "破布",
+  "slot": "chest",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/tattered-rags.webp",
+  "durability": 15,
+  "price": 1,
+  "properties": {
+    "defense": 1,
+    "evasion": 2
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "It's completely soaked in blood and sweat.",
+  "descriptionZh": "血迹和汗渍浸透了这块布。",
+  "class": "light"
+}

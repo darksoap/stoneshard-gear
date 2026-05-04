@@ -1,0 +1,28 @@
+{
+  "id": "rondel",
+  "name": "Rondel",
+  "nameZh": "圆头匕首",
+  "slot": "dagger",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/rondel.webp",
+  "durability": 65,
+  "price": 750,
+  "properties": {
+    "accuracy": 5,
+    "critChance": 4,
+    "armorPenetration": 10,
+    "bleedingChance": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "With its disk-shaped guard and pommel, this dagger offers a firm grip while keeping the blade from driving too deep into the enemy's body.",
+  "descriptionZh": "这种匕首护手和刀柄顶端都是圆的，这样更不容易脱手，而且插入敌人体内的时候，刀刃也不会插得太深。",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "range": 1
+}

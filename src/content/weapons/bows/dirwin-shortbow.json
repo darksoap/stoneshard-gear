@@ -1,0 +1,31 @@
+{
+  "id": "dirwin-shortbow",
+  "name": "Dirwin Shortbow",
+  "nameZh": "德温的短弓",
+  "slot": "bow",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/bows/dirwin-shortbow.webp",
+  "durability": 60,
+  "price": 375,
+  "properties": {
+    "accuracy": -55,
+    "fumbleChance": -2,
+    "armorPenetration": 10,
+    "bleedingChance": 20,
+    "immobilizationChance": 10,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "The sheer number of notches can be a source of either pride or dread. Depends on who does the tallying.",
+  "descriptionZh": "弓面上一道道箭痕令人敬畏，至于是敬还是畏，取决于你站在弓前还是弓后。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 8
+}

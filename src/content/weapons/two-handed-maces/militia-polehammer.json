@@ -1,0 +1,31 @@
+{
+  "id": "militia-polehammer",
+  "name": "Militia Polehammer",
+  "nameZh": "民兵长柄锤",
+  "slot": "2hmace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/militia-polehammer.webp",
+  "durability": 130,
+  "price": 550,
+  "properties": {
+    "accuracy": 5,
+    "armorPenetration": 35,
+    "armorDamage": 55,
+    "damageReduction": 8,
+    "blockPower": 8,
+    "dazeChance": 25,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Looks like it used to be a common hammer until some smith reinforced it with additional metal and put it on a longer shaft.",
+  "descriptionZh": "看样子本来只是普通的锤子，后来不知道哪个工匠给它加了块铁，又接了一根长杆。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

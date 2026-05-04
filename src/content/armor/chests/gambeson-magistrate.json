@@ -1,0 +1,27 @@
+{
+  "id": "gambeson-magistrate",
+  "name": "Gambeson Magistrate",
+  "nameZh": "城联夹棉软铠",
+  "slot": "chest",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/gambeson-magistrate.webp",
+  "durability": 55,
+  "price": 300,
+  "properties": {
+    "damageReduction": 4,
+    "defense": 4,
+    "evasion": 2,
+    "resistances": {
+      "bleeding": 10,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A regular quilted gambeson, painted with the blues and whites of the Magistrate. It's often worn by village militias and light infantry.",
+  "descriptionZh": "普普通通的绗麻夹棉软铠，染了城市联盟的蓝白颜色，一般是发给乡下的民兵和轻步兵穿。",
+  "class": "light"
+}

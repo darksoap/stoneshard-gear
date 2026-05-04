@@ -1,0 +1,54 @@
+{
+  "id": "gryphon-sallet",
+  "name": "Gryphon Sallet",
+  "nameZh": "狮鹫夏雷尔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/gryphon-sallet.webp",
+  "durability": 280,
+  "price": 6800,
+  "properties": {
+    "accuracy": -5,
+    "maxMana": -16,
+    "manaRestoration": -5,
+    "defense": 23,
+    "critAvoid": 12,
+    "fortitude": 15,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 40,
+      "stun": 53,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The beak-like visor of this sallet keeps the wearer's face safe from most dangers. In general, such helmets are worn by warriors of noble blood.",
+  "descriptionZh": "这种轻盔前端面甲形似鸟喙，穿戴者面部可以免受很多攻击的伤害。这种形制的头盔很受贵族战士喜爱。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-gryphon-sallet",
+    "name": "Open Gryphon Sallet",
+    "nameZh": "狮鹫夏雷尔",
+    "image": "/images/armor/helmets/open-gryphon-sallet.webp",
+    "durability": 280,
+    "properties": {
+      "maxMana": -16,
+      "manaRestoration": -3,
+      "defense": 14,
+      "critAvoid": 7,
+      "fortitude": 9,
+      "resistances": {
+        "bleeding": 24,
+        "stun": 53,
+        "physical": 20
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "katzbalger",
+  "name": "Katzbalger",
+  "nameZh": "猫皮剑",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/katzbalger.webp",
+  "durability": 110,
+  "price": 2900,
+  "properties": {
+    "accuracy": 6,
+    "armorPenetration": 10,
+    "damageReduction": 8,
+    "bleedingChance": 17,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A sword of newfangled design that has been growing in popularity among the mercenaries of the Grand Magistrate.",
+  "descriptionZh": "这把剑造型入时，颇受城市联盟的雇佣兵青睐。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

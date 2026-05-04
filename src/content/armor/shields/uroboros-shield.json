@@ -1,0 +1,33 @@
+{
+  "id": "uroboros-shield",
+  "name": "Uroboros Shield",
+  "nameZh": "衔尾蛇兄弟会盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/shields/uroboros-shield.webp",
+  "durability": 245,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 27,
+    "blockPower": 24,
+    "maxMana": -8,
+    "manaRestoration": -2,
+    "maxHealth": 6,
+    "healingReceived": 10,
+    "magicPower": 3,
+    "evasion": -8,
+    "weaponDamage": 3,
+    "damageReturned": 10,
+    "resistances": {
+      "knockback": 15
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Among the brotherhoods created after the dissolution of the Triune Hand Order, the Brotherhood of Ouroboros is the most secretive and mysterious one. Its symbol has a plethora of interpretations: the most popular one is a righteous death followed by a rebirth.",
+  "descriptionZh": "三手会解散之后出现了诸多兄弟会，其中数衔尾蛇兄弟会最为神秘。这个组织的标志存在多种解读，最常见的一种认为表示人若死得其所，就能重生。",
+  "class": "medium"
+}

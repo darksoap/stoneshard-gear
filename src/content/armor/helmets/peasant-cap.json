@@ -1,0 +1,29 @@
+{
+  "id": "peasant-cap",
+  "name": "Peasant Cap",
+  "nameZh": "农民软帽",
+  "slot": "head",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/peasant-cap.webp",
+  "durability": 60,
+  "price": 25,
+  "properties": {
+    "defense": 3,
+    "evasion": 1,
+    "resistances": {
+      "bleeding": 8,
+      "stun": 5,
+      "physical": 6,
+      "slashing": 3,
+      "rending": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The only distinguishing feature about this cap is that it hasn't been washed for way too long.",
+  "descriptionZh": "这顶帽子很长时间没洗了，这是它唯一的特点。",
+  "class": "light"
+}

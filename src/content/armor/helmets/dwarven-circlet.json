@@ -1,0 +1,30 @@
+{
+  "id": "dwarven-circlet",
+  "name": "Dwarven Circlet",
+  "nameZh": "矮人头环",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/helmets/dwarven-circlet.webp",
+  "durability": 70,
+  "price": 4150,
+  "properties": {
+    "magicPower": 11,
+    "miracleChance": 5,
+    "miraclePower": 9,
+    "bonusRange": 5,
+    "critAvoid": 5,
+    "resistances": {
+      "physical": 7,
+      "nature": 7,
+      "magic": 7
+    }
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "A customary headwear of Fjall seidrs, practitioners of the bizarre mix of Axonian magic and local pagan rituals.",
+  "descriptionZh": "弗约的赛德修炼、运用亚克逊魔法，只是会与当地的多神教习俗结合，这种头环是他们的传统头饰。",
+  "class": "light"
+}

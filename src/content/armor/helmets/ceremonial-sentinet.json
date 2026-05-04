@@ -1,0 +1,56 @@
+{
+  "id": "ceremonial-sentinet",
+  "name": "Ceremonial Sentinet",
+  "nameZh": "仪礼森提亚盔",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/ceremonial-sentinet.webp",
+  "durability": 280,
+  "price": 6800,
+  "properties": {
+    "accuracy": -4,
+    "maxMana": -13,
+    "manaRestoration": -4,
+    "cooldownReduction": -5,
+    "defense": 23,
+    "critAvoid": 10,
+    "fortitude": 23,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 40,
+      "stun": 45,
+      "physical": 34
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The gilded ornaments seem to be the craftsman's attempt at adapting the traditional Radiant Wars motifs to fit the shape of a modern helmet.",
+  "descriptionZh": "头盔上有些镀金的修饰，看起来是工匠为了适应现代头盔的形制，改变了光辉战争的传统图纹。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-ceremonial-sentinet",
+    "name": "Open Ceremonial Sentinet",
+    "nameZh": "仪礼森提亚盔",
+    "image": "/images/armor/helmets/open-ceremonial-sentinet.webp",
+    "durability": 280,
+    "properties": {
+      "maxMana": -13,
+      "manaRestoration": -2,
+      "cooldownReduction": -5,
+      "defense": 14,
+      "critAvoid": 6,
+      "fortitude": 14,
+      "resistances": {
+        "bleeding": 24,
+        "stun": 45,
+        "physical": 20
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

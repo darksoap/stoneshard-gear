@@ -1,0 +1,28 @@
+{
+  "id": "chekan",
+  "name": "Chekan",
+  "nameZh": "契坎",
+  "slot": "mace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/chekan.webp",
+  "durability": 125,
+  "price": 1200,
+  "properties": {
+    "accuracy": 2,
+    "armorPenetration": 33,
+    "armorDamage": 46,
+    "bodypartDamage": 10,
+    "dazeChance": 10,
+    "staggerChance": 10,
+    "skillsEnergyCost": 15
+  },
+  "description": "Skadian warhammers are forged to last and are sought after even outside of their country of origin.",
+  "descriptionZh": "斯卡迪亚战锤的铸造十分讲求品质，即便是其他地区的人，常常也十分青睐这种兵器。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

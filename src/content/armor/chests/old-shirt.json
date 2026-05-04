@@ -1,0 +1,28 @@
+{
+  "id": "old-shirt",
+  "name": "Old Shirt",
+  "nameZh": "旧衬衫",
+  "slot": "chest",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/old-shirt.webp",
+  "durability": 10,
+  "price": 10,
+  "properties": {
+    "skillsEnergyCost": -3,
+    "fatigueGain": 3,
+    "defense": 1,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 1,
+      "physical": 1
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A ragged shirt littered with stitches, patches, and oily spots.",
+  "descriptionZh": "破破烂烂，到处都是补丁、油污和缝补的线脚。",
+  "class": "light"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "makeshift-sling",
+  "name": "Makeshift Sling",
+  "nameZh": "简易投石索",
+  "slot": "sling",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/makeshift-sling.webp",
+  "durability": 65,
+  "price": 50,
+  "properties": {
+    "accuracy": -70,
+    "critChance": 2,
+    "armorPenetration": 5,
+    "dazeChance": 15,
+    "staggerChance": 10,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A shepherd's ol' reliable, perfectly adequate for driving stray wolves away from the flock.",
+  "descriptionZh": "羊倌随身常带这种东西，非常适合驱赶离群的狼。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 6
+}

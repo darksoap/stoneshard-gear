@@ -1,0 +1,23 @@
+{
+  "id": "verren-ring",
+  "name": "Verren Ring",
+  "nameZh": "维伦的戒指",
+  "slot": "ring",
+  "tier": 1,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/rings/verren-ring.webp",
+  "durability": 30,
+  "price": 40,
+  "properties": {
+    "fumbleChance": -1,
+    "fortitude": 5
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "Upon parting with this ring, Verren was, as always, stingy on details. It might come in handy at some point... But how?",
+  "descriptionZh": "维伦给你这枚戒指的时候，也没告诉你多少东西。这首饰后面什么时候说不定能派上用场……能派上什么用场呢？",
+  "class": "light"
+}

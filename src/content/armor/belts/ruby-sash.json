@@ -1,0 +1,22 @@
+{
+  "id": "ruby-sash",
+  "name": "Ruby Sash",
+  "nameZh": "红宝石腰带",
+  "slot": "waist",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/belts/ruby-sash.webp",
+  "durability": 25,
+  "price": 900,
+  "properties": {
+    "cooldownReduction": -4,
+    "miscastChance": -4
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "A distinguishing accessory of a noble or wealthy elf.",
+  "descriptionZh": "腰带的主人应该是某个贵族或者有钱的精灵。",
+  "class": "light"
+}

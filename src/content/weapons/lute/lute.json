@@ -1,0 +1,26 @@
+{
+  "id": "lute",
+  "name": "Lute",
+  "nameZh": "琉特",
+  "slot": "lute",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/lute/lute.webp",
+  "durability": 10,
+  "price": 100,
+  "properties": {
+    "fumbleChance": 50,
+    "dazeChance": 5
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Be it Aldorian troubadours, Nistrian vagantes, or elven gusans - a lute is beloved by minstrels all over the world. Recently it made its way even to Fjall, although not every skald was happy with such a frivolous turn of events. Many of them refuse to play the instrument, deeming it a major threat to their long-established craft and musical tradition.",
+  "descriptionZh": "不论是奥尔多的托拜都，还是尼斯特拉的瓦冈提斯，抑或精灵族的古桑，世界各地的乐人都颇为青睐琉特。这个乐器不久之前甚至传入了弗约，不过并不是所有斯考特都喜欢这个东西。很多斯考特拒绝使用这种乐器，认为此物会侵蚀弗约地区长久形成的工艺和器乐传统。",
+  "damage": {
+    "value": 8,
+    "type": "blunt"
+  },
+  "range": 1
+}

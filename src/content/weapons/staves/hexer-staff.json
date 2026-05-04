@@ -1,0 +1,33 @@
+{
+  "id": "hexer-staff",
+  "name": "Hexer Staff",
+  "nameZh": "咒师长杖",
+  "slot": "2hstaff",
+  "tier": 2,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/hexer-staff.webp",
+  "durability": 40,
+  "price": 650,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 10,
+    "spellsEnergyCost": -3,
+    "magicPower": 5,
+    "miraclePower": 5,
+    "damages": {
+      "blunt": 9,
+      "unholy": 3
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A tree branch, darkened from age and covered with strange etchings - simply looking at it fills you with a sense of deep-seated anxiety.",
+  "descriptionZh": "一根树枝，颜色因为年代久远而有些深沉，上面刻着奇怪的图纹。你只是看了一眼，内心深处就涌起了一阵焦虑。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 1
+}

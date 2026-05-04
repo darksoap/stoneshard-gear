@@ -1,0 +1,30 @@
+{
+  "id": "skonfert-sword",
+  "name": "Skonfert Sword",
+  "nameZh": "斯孔弗特剑",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/skonfert-sword.webp",
+  "durability": 130,
+  "price": 2925,
+  "properties": {
+    "accuracy": 3,
+    "counterChance": 4,
+    "armorPenetration": 10,
+    "damageReduction": 10,
+    "blockPower": 10,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Skonfert is famous for its furnaces and masterful smiths. In times of great conflict, it was there that victories were forged.",
+  "descriptionZh": "斯孔弗特炼场广博，手艺精湛的铁匠众多，因此而闻名。每逢大战，胜利往往就在那个地方铸就。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

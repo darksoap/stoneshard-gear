@@ -1,0 +1,29 @@
+{
+  "id": "mercenary-falchion",
+  "name": "Mercenary Falchion",
+  "nameZh": "佣兵砍刀",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/mercenary-falchion.webp",
+  "durability": 100,
+  "price": 2650,
+  "properties": {
+    "critChance": 6,
+    "fumbleChance": 7,
+    "armorPenetration": 7,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Light, durable, sits well in hand, and can most certainly put an arrogant knight in his place.",
+  "descriptionZh": "轻便、耐用、趁手，可以把傲慢的骑士打得心服口服。",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "range": 1
+}

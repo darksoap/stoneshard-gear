@@ -1,0 +1,30 @@
+{
+  "id": "hexer-talisman",
+  "name": "Hexer Talisman",
+  "nameZh": "咒师护符",
+  "slot": "amulet",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/amulets/hexer-talisman.webp",
+  "durability": 25,
+  "price": 200,
+  "properties": {
+    "manaRestoration": 3,
+    "maxHealth": -6,
+    "magicPower": 6,
+    "miscastChance": 3,
+    "resistances": {
+      "unholy": 9
+    },
+    "magicPowers": {
+      "arcanistic": 3
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "The forces from beyond the veil are fickle and vindictive. It's frighteningly easy to fall victim to them if you don't exercise the necessary caution.",
+  "descriptionZh": "“帷幕”后面的力量无法捉摸、睚眦必报。哪怕只是一时大意，都会为其所害。",
+  "class": "light"
+}

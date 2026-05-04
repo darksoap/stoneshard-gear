@@ -1,0 +1,23 @@
+{
+  "id": "steel-signet",
+  "name": "Steel Signet",
+  "nameZh": "钢印戒",
+  "slot": "ring",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/rings/steel-signet.webp",
+  "durability": 55,
+  "price": 60,
+  "properties": {
+    "armorPenetration": 3,
+    "damageReduction": 3,
+    "blockPower": 2
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "King Etbert used to personally award such rings to soldiers who distinguished themselves during his military campaigns.",
+  "descriptionZh": "埃特伯特国王在位之时，士兵如果战功显赫，国王就会亲自赏赐这种戒指。",
+  "class": "light"
+}

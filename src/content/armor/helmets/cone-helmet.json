@@ -1,0 +1,27 @@
+{
+  "id": "cone-helmet",
+  "name": "Cone Helmet",
+  "nameZh": "锥顶头盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/cone-helmet.webp",
+  "durability": 105,
+  "price": 275,
+  "properties": {
+    "maxMana": -1,
+    "defense": 5,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 11,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Helmets of this shape have been in use for centuries, commonly worn by those who can't afford anything better.",
+  "descriptionZh": "这种外形的头盔已经用了几百年，现在只有戴不起好头盔的人才戴这种东西。",
+  "class": "medium"
+}

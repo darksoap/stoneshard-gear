@@ -1,0 +1,32 @@
+{
+  "id": "hilda-spear",
+  "name": "Hilda Spear",
+  "nameZh": "希尔达的矛",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/spears/hilda-spear.webp",
+  "durability": 95,
+  "price": 525,
+  "properties": {
+    "accuracy": 6,
+    "fumbleChance": -4,
+    "armorPenetration": 15,
+    "bodypartDamage": 5,
+    "bleedingChance": 12,
+    "immobilizationChance": 18,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "Hilda crafted this spear herself from the debris washed ashore after the shipwreck. Her hands remember every scratch and groove on the weathered shaft.",
+  "descriptionZh": "捕鲸船遇险之后，希尔达用冲上海岸的东西做了这么一支矛。这件兵器用到现在，上面的沟沟壑壑，她都已经了然于胸。",
+  "damage": {
+    "value": 17,
+    "type": "piercing"
+  },
+  "range": 1
+}

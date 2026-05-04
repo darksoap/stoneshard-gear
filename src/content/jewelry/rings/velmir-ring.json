@@ -1,0 +1,23 @@
+{
+  "id": "velmir-ring",
+  "name": "Velmir Ring",
+  "nameZh": "韦尔米尔的戒指",
+  "slot": "ring",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/rings/velmir-ring.webp",
+  "durability": 40,
+  "price": 35,
+  "properties": {
+    "critChance": 1,
+    "counterChance": 1
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "This ring used to belong to Velmir's brother. Now it serves as a silent reminder of the path he chose for himself.",
+  "descriptionZh": "这枚戒指原本属于韦尔米尔他哥哥，如今戴在了韦尔米尔手上，静静地让他时刻铭记自己选择的人生之路。",
+  "class": "light"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "electromancer-cowl",
+  "name": "Electromancer Cowl",
+  "nameZh": "电术兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/electromancer-cowl.webp",
+  "durability": 60,
+  "price": 2875,
+  "properties": {
+    "maxMana": 8,
+    "manaRestoration": 3,
+    "spellsEnergyCost": -5,
+    "miscastChance": -4,
+    "defense": 4,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 4,
+      "shock": 20
+    },
+    "magicPowers": {
+      "electromantic": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Novice electromancers often complain about being constantly distracted by the constant electric crackling produced by these cowls. They quickly grow accustomed to it though.",
+  "descriptionZh": "初级电术法师刚戴这种兜帽的时候，经常说总会因为听到劈里啪啦的电流音分心，不过穿得久了，很快就能习惯。",
+  "class": "light"
+}

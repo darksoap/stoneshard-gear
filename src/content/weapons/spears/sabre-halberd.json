@@ -1,0 +1,31 @@
+{
+  "id": "sabre-halberd",
+  "name": "Sabre Halberd",
+  "nameZh": "军刀戟",
+  "slot": "spear",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/sabre-halberd.webp",
+  "durability": 180,
+  "price": 7650,
+  "properties": {
+    "critChance": 6,
+    "fumbleChance": 12,
+    "armorPenetration": 35,
+    "armorDamage": 30,
+    "bodypartDamage": 26,
+    "staggerChance": 22,
+    "skillsEnergyCost": 40
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "There are two kinds of halberdiers: those who favor thrusting and those who favor slashing. But in case you want to do both, this is a weapon for you.",
+  "descriptionZh": "用戟的一般是两类人，一类人喜欢突刺，一类人喜欢劈砍，适合不知道自己喜欢突刺还是劈砍的人。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
+}

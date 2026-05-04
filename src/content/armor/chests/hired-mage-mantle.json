@@ -1,0 +1,30 @@
+{
+  "id": "hired-mage-mantle",
+  "name": "Hired Mage Mantle",
+  "nameZh": "雇佣法师法袍",
+  "slot": "chest",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/hired-mage-mantle.webp",
+  "durability": 70,
+  "price": 1825,
+  "properties": {
+    "maxMana": 4,
+    "manaRestoration": 2,
+    "magicPower": 5,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 9,
+      "nature": 7,
+      "magic": 7
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A sturdy garment that can take a beating, a reasonable choice for most contracts.",
+  "descriptionZh": "这件衣服结实耐穿，禁得住摔打，大多数契据穿这个都应该不会有大问题。",
+  "class": "light"
+}

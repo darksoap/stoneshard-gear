@@ -1,0 +1,28 @@
+{
+  "id": "merchant-garment",
+  "name": "Merchant Garment",
+  "nameZh": "生意人马甲",
+  "slot": "chest",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/merchant-garment.webp",
+  "durability": 25,
+  "price": 325,
+  "properties": {
+    "skillsEnergyCost": -7,
+    "fatigueGain": 9,
+    "defense": 2,
+    "evasion": 9,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A well-to-do city merchant can be easily recognized by their attire. Such flashiness worked a bit too well in Maen - anyone dressed in a fancy garb was among the first to face the gallows.",
+  "descriptionZh": "城里生活优渥的生意人看穿着就能认出来。不过曼恩的生意人不是这样，因为衣装华丽的早都被绞死了。",
+  "class": "light"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "duelist-doublet",
+  "name": "Duelist Doublet",
+  "nameZh": "对决马甲",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/duelist-doublet.webp",
+  "durability": 60,
+  "price": 2350,
+  "properties": {
+    "critChance": 2,
+    "counterChance": 5,
+    "defense": 5,
+    "evasion": 7,
+    "resistances": {
+      "bleeding": 10,
+      "pain": 5,
+      "physical": 7
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A fair number of duelists prefer wearing all black when showing up for a fight. Why? Blood is harder to spot on dark fabric.",
+  "descriptionZh": "有的人参加对决喜欢从头到脚一身黑。为什么？因为黑的料子沾了血不容易看见。",
+  "class": "light"
+}

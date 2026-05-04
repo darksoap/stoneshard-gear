@@ -1,0 +1,30 @@
+{
+  "id": "sergeant-hatchet",
+  "name": "Sergeant Hatchet",
+  "nameZh": "军士手斧",
+  "slot": "axe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/sergeant-hatchet.webp",
+  "durability": 120,
+  "price": 2300,
+  "properties": {
+    "accuracy": 6,
+    "armorPenetration": 15,
+    "armorDamage": 25,
+    "bodypartDamage": 22,
+    "bleedingChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This small, easy to carry hatchet comes into play when a sword just doesn't cut it anymore.",
+  "descriptionZh": "这把斧子不是很大，易于挥舞，剑砍不动的时候，它就可以出场了。",
+  "damage": {
+    "value": 26,
+    "type": "slashing"
+  },
+  "range": 1
+}

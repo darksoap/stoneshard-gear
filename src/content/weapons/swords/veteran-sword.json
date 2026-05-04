@@ -1,0 +1,29 @@
+{
+  "id": "veteran-sword",
+  "name": "Veteran Sword",
+  "nameZh": "老兵配剑",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/veteran-sword.webp",
+  "durability": 120,
+  "price": 2775,
+  "properties": {
+    "counterChance": 7,
+    "armorPenetration": 10,
+    "damageReduction": 10,
+    "blockPower": 8,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "This sword has witnessed many a front line and survived plenty of close battles.",
+  "descriptionZh": "这把剑见证了许多悲壮的前线故事，经历了不少短兵相接的战役。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,26 @@
+---
+import ItemListLayout from "../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import {
+  getCategories,
+  getAvailableFilters,
+  base,
+} from "../../lib/items";
+import { slotLabels, weaponSlotSlugs } from "../../i18n/zh";
+
+const weapons = await getCollection("weapons");
+
+const subcategories = getCategories(weapons, weaponSlotSlugs, slotLabels);
+const availableFilters = getAvailableFilters(weapons);
+---
+
+<ItemListLayout
+  title="武器"
+  description={`武器列表，共${weapons.length}件`}
+  itemType="weapons"
+  collectionType="weapons"
+  items={weapons}
+  subcategories={subcategories}
+  availableFilters={availableFilters}
+  noResultsText="没有找到符合条件的武器"
+/>

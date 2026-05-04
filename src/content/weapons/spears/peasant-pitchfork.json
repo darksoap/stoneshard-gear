@@ -1,0 +1,28 @@
+{
+  "id": "peasant-pitchfork",
+  "name": "Peasant Pitchfork",
+  "nameZh": "农家草叉",
+  "slot": "spear",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/peasant-pitchfork.webp",
+  "durability": 80,
+  "price": 100,
+  "properties": {
+    "accuracy": 2,
+    "armorPenetration": 5,
+    "bleedingChance": 10,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Makes short work of haystacks and distracted opponents.",
+  "descriptionZh": "这个兵器适合对付草垛和分神的敌人。",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "range": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "drifter-sword",
+  "name": "Drifter Sword",
+  "nameZh": "旅人剑",
+  "slot": "sword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/drifter-sword.webp",
+  "durability": 80,
+  "price": 475,
+  "properties": {
+    "counterChance": 5,
+    "armorPenetration": 5,
+    "damageReduction": 6,
+    "blockPower": 4,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The roads are dangerous, the turns unpredictable - the only thing worth trusting is your own blade.",
+  "descriptionZh": "大路危险，拐个弯就不知道会遇见什么，只有这个值得信任。",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,49 @@
+---
+import ItemListLayout from "../../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import { getAvailableFilters, base } from "../../../lib/items";
+import { armorSlotLabels, armorSlotSlugs } from "../../../i18n/zh";
+
+export async function getStaticPaths() {
+  const armor = await getCollection("armor");
+  const slots = [...new Set(armor.map((a) => a.data.slot))];
+
+  return slots
+    .map((slot) => {
+      const slug = armorSlotSlugs[slot];
+      return {
+        params: { type: slug },
+        props: { slot },
+      };
+    })
+    .filter((p) => p.params.type);
+}
+
+interface Props {
+  slot: string;
+}
+
+const { slot } = Astro.props;
+const armor = await getCollection("armor");
+const filteredArmor = armor.filter((a) => a.data.slot === slot);
+
+const slotLabel = armorSlotLabels[slot] || slot;
+
+const availableFilters = getAvailableFilters(filteredArmor, {
+  includeArmorClass: true,
+});
+---
+
+<ItemListLayout
+  title={`${slotLabel} - 护甲`}
+  description={`${slotLabel}列表，共${filteredArmor.length}件`}
+  itemType="armor"
+  collectionType="armor"
+  items={filteredArmor}
+  availableFilters={availableFilters}
+  breadcrumb={[
+    { label: "护甲", href: `${base}/armor` },
+    { label: slotLabel, href: "" },
+  ]}
+  noResultsText="没有找到符合条件的装备"
+/>

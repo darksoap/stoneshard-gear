@@ -1,0 +1,31 @@
+{
+  "id": "ornate-bow",
+  "name": "Ornate Bow",
+  "nameZh": "华弓",
+  "slot": "bow",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/bows/ornate-bow.webp",
+  "durability": 85,
+  "price": 4600,
+  "properties": {
+    "accuracy": -36,
+    "fumbleChance": -8,
+    "armorPenetration": 15,
+    "bodypartDamage": 12,
+    "bleedingChance": 44,
+    "immobilizationChance": 25,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A prize from the Aldwynn Tournament of 407, claimed by Sir Tibalt der Wald, who impressed the King himself by hitting five moving targets squarely in the center in just one minute.",
+  "descriptionZh": "这是奥尔德文407年比武大会的奖品。提巴尔特·德·瓦尔杜爵士一分钟之内连中五个移动靶心，令国王大为赞赏。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 9
+}

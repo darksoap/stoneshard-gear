@@ -1,0 +1,26 @@
+{
+  "id": "silver-ruby-ring",
+  "name": "Silver Ruby Ring",
+  "nameZh": "红宝石银戒指",
+  "slot": "ring",
+  "tier": 5,
+  "rarity": "common",
+  "material": "silver",
+  "image": "/images/armor/rings/silver-ruby-ring.webp",
+  "durability": 55,
+  "price": 600,
+  "properties": {
+    "accuracy": 3,
+    "cooldownReduction": -3,
+    "resistances": {
+      "bleeding": 7,
+      "nature": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A frozen spark of the setting sun, now on your finger.",
+  "descriptionZh": "夕阳冰封的余晖落在了你的手指上。",
+  "class": "light"
+}

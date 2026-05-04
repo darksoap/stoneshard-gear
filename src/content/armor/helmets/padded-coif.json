@@ -1,0 +1,28 @@
+{
+  "id": "padded-coif",
+  "name": "Padded Coif",
+  "nameZh": "夹棉头套",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/padded-coif.webp",
+  "durability": 100,
+  "price": 600,
+  "properties": {
+    "defense": 6,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 12,
+      "stun": 9,
+      "physical": 10,
+      "blunt": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It'll make you sweat like a pig, but safety is above all.",
+  "descriptionZh": "戴上这种头套，满头大汗是很正常的事情，不过总比丢了命好。",
+  "class": "light"
+}

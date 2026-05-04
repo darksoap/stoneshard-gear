@@ -1,0 +1,188 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { getCategories, base } from "../lib/items";
+import {
+  slotLabels,
+  weaponSlotSlugs,
+  armorSlotLabels,
+  armorSlotSlugs,
+  jewelrySlotLabels,
+  jewelrySlotSlugs,
+} from "../i18n/zh";
+
+const weapons = await getCollection("weapons");
+const armor = await getCollection("armor");
+const jewelry = await getCollection("jewelry");
+
+const weaponCategories = getCategories(
+  weapons,
+  weaponSlotSlugs,
+  slotLabels,
+  `${base}/weapons`,
+);
+const armorCategories = getCategories(
+  armor,
+  armorSlotSlugs,
+  armorSlotLabels,
+  `${base}/armor`,
+);
+const jewelryCategories = getCategories(
+  jewelry,
+  jewelrySlotSlugs,
+  jewelrySlotLabels,
+  `${base}/jewelry`,
+);
+
+const totalCount = weapons.length + armor.length + jewelry.length;
+---
+
+<BaseLayout title="紫色晶石装备图鉴">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-14">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-3 text-white tracking-wide">
+        紫色晶石<span class="text-accent">装备图鉴</span>
+      </h1>
+      <div class="section-divider max-w-xs mx-auto mb-4"></div>
+      <p class="text-text-secondary text-lg">
+        共收录 <span class="text-accent-warm font-bold">{totalCount}</span> 件装备
+      </p>
+    </div>
+
+    <div class="mb-12">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-xl font-bold text-white tracking-wider">武器</h2>
+        <a
+          href={`${base}/weapons`}
+          class="text-sm text-accent hover:text-accent-hover transition-colors"
+        >
+          查看全部 →
+        </a>
+      </div>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3"
+      >
+        {
+          weaponCategories.map((cat) => {
+            const imgSrc = cat.sampleImage?.startsWith("/")
+              ? `${base}${cat.sampleImage}`
+              : cat.sampleImage;
+            return (
+              <a
+                href={cat.href}
+                class="block p-4 bg-bg-secondary border border-border-dark rounded hover:border-accent hover:bg-bg-hover transition-all group"
+              >
+                {imgSrc && (
+                  <div class="item-img-wrap w-10 h-10 rounded mb-2.5 border border-border-dark">
+                    <img
+                      src={imgSrc}
+                      alt={cat.label}
+                      class="w-full h-full object-contain p-0.5"
+                      loading="lazy"
+                      decoding="async"
+                      onerror="this.classList.add('error')"
+                    />
+                  </div>
+                )}
+                <div class="text-white font-medium group-hover:text-accent transition-colors">
+                  {cat.label}
+                </div>
+                <div class="text-text-muted text-sm mt-1">{cat.count} 件</div>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+
+    <div class="mb-12">
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-xl font-bold text-white tracking-wider">护甲</h2>
+        <a
+          href={`${base}/armor`}
+          class="text-sm text-accent hover:text-accent-hover transition-colors"
+        >
+          查看全部 →
+        </a>
+      </div>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3"
+      >
+        {
+          armorCategories.map((cat) => {
+            const imgSrc = cat.sampleImage?.startsWith("/")
+              ? `${base}${cat.sampleImage}`
+              : cat.sampleImage;
+            return (
+              <a
+                href={cat.href}
+                class="block p-4 bg-bg-secondary border border-border-dark rounded hover:border-accent hover:bg-bg-hover transition-all group"
+              >
+                {imgSrc && (
+                  <div class="item-img-wrap w-10 h-10 rounded mb-2.5 border border-border-dark">
+                    <img
+                      src={imgSrc}
+                      alt={cat.label}
+                      class="w-full h-full object-contain p-0.5"
+                      loading="lazy"
+                      onerror="this.classList.add('error')"
+                    />
+                  </div>
+                )}
+                <div class="text-white font-medium group-hover:text-accent transition-colors">
+                  {cat.label}
+                </div>
+                <div class="text-text-muted text-sm mt-1">{cat.count} 件</div>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+
+    <div>
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-xl font-bold text-white tracking-wider">首饰</h2>
+        <a
+          href={`${base}/jewelry`}
+          class="text-sm text-accent hover:text-accent-hover transition-colors"
+        >
+          查看全部 →
+        </a>
+      </div>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3"
+      >
+        {
+          jewelryCategories.map((cat) => {
+            const imgSrc = cat.sampleImage?.startsWith("/")
+              ? `${base}${cat.sampleImage}`
+              : cat.sampleImage;
+            return (
+              <a
+                href={cat.href}
+                class="block p-4 bg-bg-secondary border border-border-dark rounded hover:border-accent hover:bg-bg-hover transition-all group"
+              >
+                {imgSrc && (
+                  <div class="item-img-wrap w-10 h-10 rounded mb-2.5 border border-border-dark">
+                    <img
+                      src={imgSrc}
+                      alt={cat.label}
+                      class="w-full h-full object-contain p-0.5"
+                      loading="lazy"
+                      onerror="this.classList.add('error')"
+                    />
+                  </div>
+                )}
+                <div class="text-white font-medium group-hover:text-accent transition-colors">
+                  {cat.label}
+                </div>
+                <div class="text-text-muted text-sm mt-1">{cat.count} 件</div>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+  </div>
+</BaseLayout>

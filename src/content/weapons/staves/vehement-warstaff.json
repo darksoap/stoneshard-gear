@@ -1,0 +1,35 @@
+{
+  "id": "vehement-warstaff",
+  "name": "Vehement Warstaff",
+  "nameZh": "奋武战杖",
+  "slot": "2hstaff",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/vehement-warstaff.webp",
+  "durability": 110,
+  "price": 1075,
+  "properties": {
+    "critChance": 2,
+    "armorPenetration": 5,
+    "damageReduction": 10,
+    "knockbackChance": 12,
+    "staggerChance": 17,
+    "skillsEnergyCost": -4,
+    "spellsEnergyCost": -4,
+    "damages": {
+      "blunt": 15,
+      "sacred": 2
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Quite a few mages are drawn to the Vehement ranks, seeking to apply their knowledge and skills for the benefit of the common folk.",
+  "descriptionZh": "不少法师希望运用自己的所学和能力造福平民百姓，便加入了奋武的行列。",
+  "damage": {
+    "value": 15,
+    "type": "blunt"
+  },
+  "range": 1
+}

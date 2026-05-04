@@ -1,0 +1,31 @@
+{
+  "id": "nistrian-shield",
+  "name": "Nistrian Shield",
+  "nameZh": "尼斯特拉盾",
+  "slot": "shield",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/nistrian-shield.webp",
+  "durability": 300,
+  "price": 1175,
+  "properties": {
+    "damageReduction": 31,
+    "blockPower": 32,
+    "blockRecovery": -25,
+    "maxMana": -13,
+    "manaRestoration": -5,
+    "evasion": -16,
+    "critAvoid": 10,
+    "resistances": {
+      "knockback": 20,
+      "stun": 9
+    }
+  },
+  "tags": [
+    "nistra"
+  ],
+  "description": "To the Great Despot it is a matter of prestige to be perceived as a successor to the great Axonian Empire and its rulers. This is why so many Nistrian armor and weaponsmiths continue to dutifully replicate centuries-old designs.",
+  "descriptionZh": "大方主希望外界将尼斯特拉视为亚克逊帝国与帝国历代国王的继承者，他认为此事关乎国家威望。正是这个原因，尼斯特拉的兵甲工匠至今依然勤恳效仿古代匠人的工艺。",
+  "class": "heavy"
+}

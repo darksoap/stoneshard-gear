@@ -1,0 +1,33 @@
+{
+  "id": "recruit-flail",
+  "name": "Recruit Flail",
+  "nameZh": "新兵连枷",
+  "slot": "mace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/recruit-flail.webp",
+  "durability": 75,
+  "price": 425,
+  "properties": {
+    "accuracy": -5,
+    "critChance": 3,
+    "fumbleChance": 8,
+    "armorPenetration": 5,
+    "bodypartDamage": 12,
+    "bleedingChance": 3,
+    "dazeChance": 8,
+    "staggerChance": 15,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A flail like this can be quite unpredictable, demanding much more finesse than you might initially assume.",
+  "descriptionZh": "这种连枷看起来平平无奇，但是用起来并不容易，相当吃手上功夫。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

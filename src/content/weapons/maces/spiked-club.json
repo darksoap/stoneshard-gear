@@ -1,0 +1,34 @@
+{
+  "id": "spiked-club",
+  "name": "Spiked Club",
+  "nameZh": "钉头棒",
+  "slot": "mace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/maces/spiked-club.webp",
+  "durability": 60,
+  "price": 75,
+  "properties": {
+    "armorPenetration": 15,
+    "bodypartDamage": 7,
+    "bleedingChance": 4,
+    "dazeChance": 5,
+    "staggerChance": 10,
+    "skillsEnergyCost": 10,
+    "damages": {
+      "piercing": 2,
+      "blunt": 14
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The spikes alone are menacing enough to make any tavern loudmouth reconsider his words.",
+  "descriptionZh": "喜欢在酒馆咋呼的人，不论是谁，看到这些长钉，嘴巴都会闭得严严实实。",
+  "damage": {
+    "value": 14,
+    "type": "blunt"
+  },
+  "range": 1
+}

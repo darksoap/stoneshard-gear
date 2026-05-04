@@ -1,0 +1,37 @@
+{
+  "id": "hierophant-staff",
+  "name": "Hierophant Staff",
+  "nameZh": "司礼长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/hierophant-staff.webp",
+  "durability": 90,
+  "price": 2425,
+  "properties": {
+    "fumbleChance": -3,
+    "armorPenetration": 10,
+    "manaRestoration": 8,
+    "skillsEnergyCost": 20,
+    "spellsEnergyCost": -7,
+    "cooldownReduction": -4,
+    "miscastChance": -6,
+    "damageReceived": -3,
+    "fatigueGain": 10,
+    "damages": {
+      "blunt": 11,
+      "sacred": 4
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "These staves, still bearing the mark of the Host, are the main proof of the clerical estate's divine patronage.",
+  "descriptionZh": "这种长杖依然带有圣主的印迹，证明了教牧存在世间的神圣意义。",
+  "damage": {
+    "value": 11,
+    "type": "blunt"
+  },
+  "range": 1
+}

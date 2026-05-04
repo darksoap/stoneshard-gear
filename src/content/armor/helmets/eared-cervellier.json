@@ -1,0 +1,31 @@
+{
+  "id": "eared-cervellier",
+  "name": "Eared Cervellier",
+  "nameZh": "护耳内盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/eared-cervellier.webp",
+  "durability": 115,
+  "price": 1225,
+  "properties": {
+    "maxMana": -2,
+    "defense": 9,
+    "critAvoid": 7,
+    "fortitude": 10,
+    "resistances": {
+      "bleeding": 19,
+      "stun": 24,
+      "physical": 16,
+      "slashing": 5,
+      "rending": 5
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Judging by the eye-catching band and the pair of metal discs added for extra protection, this helmet likely belonged to a merchant's son during his service in the town militia.",
+  "descriptionZh": "头盔边沿和两侧的金属圆盘非常醒目，主要用于提供额外的防护，以前应该是谁家做生意的小孩在镇上民兵队参军时戴的。",
+  "class": "medium"
+}

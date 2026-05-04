@@ -1,0 +1,33 @@
+{
+  "id": "border-guard-brigandine",
+  "name": "Border Guard Brigandine",
+  "nameZh": "戍军板甲衣",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/border-guard-brigandine.webp",
+  "durability": 195,
+  "price": 6225,
+  "properties": {
+    "damageReduction": 3,
+    "maxMana": -2,
+    "cooldownReduction": -3,
+    "defense": 15,
+    "critAvoid": 7,
+    "fortitude": 6,
+    "resistances": {
+      "bleeding": 24,
+      "knockback": 7,
+      "physical": 22,
+      "piercing": 8,
+      "blunt": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Few corners of Aldor are as perilous as the Northern Borderlands, where the reach of raiders and monsters from Fjall is held in check only by the preparedness of the local garrisons, whose gear could inspire envy in even some noble lords.",
+  "descriptionZh": "奥尔多境内，北疆是数一数二危险的地方。弗约的强盗和怪物能侵犯王国多少领土，完全取决于当地戍边卫兵的战斗实力，所以他们装备好到连有些贵族老爷都眼红。",
+  "class": "medium"
+}

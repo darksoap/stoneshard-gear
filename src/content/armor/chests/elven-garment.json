@@ -1,0 +1,29 @@
+{
+  "id": "elven-garment",
+  "name": "Elven Garment",
+  "nameZh": "精灵上衣",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/elven-garment.webp",
+  "durability": 30,
+  "price": 1000,
+  "properties": {
+    "counterChance": 5,
+    "skillsEnergyCost": -8,
+    "fatigueGain": 12,
+    "defense": 2,
+    "evasion": 11,
+    "resistances": {
+      "bleeding": 8,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "There is a faint flowery scent coming from the cloth. It reminds you of places you've never had a chance to travel to.",
+  "descriptionZh": "衣服上有淡淡的花香，好像来自你从未去过的地方。",
+  "class": "light"
+}

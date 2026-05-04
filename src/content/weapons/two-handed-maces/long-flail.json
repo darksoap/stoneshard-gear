@@ -1,0 +1,32 @@
+{
+  "id": "long-flail",
+  "name": "Long Flail",
+  "nameZh": "长柄连枷",
+  "slot": "2hmace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/long-flail.webp",
+  "durability": 90,
+  "price": 600,
+  "properties": {
+    "accuracy": -6,
+    "fumbleChance": 8,
+    "armorPenetration": 10,
+    "bodypartDamage": 25,
+    "dazeChance": 15,
+    "stunChance": 15,
+    "staggerChance": 23,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A lucky hit from such a flail can squash a cheap helmet along with the wearer's skull.",
+  "descriptionZh": "如果对方头盔粗制滥造，这种连枷只要击中目标，连头都能砸穿。",
+  "damage": {
+    "value": 24,
+    "type": "blunt"
+  },
+  "range": 1
+}

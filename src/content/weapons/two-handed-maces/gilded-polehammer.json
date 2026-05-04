@@ -1,0 +1,33 @@
+{
+  "id": "gilded-polehammer",
+  "name": "Gilded Polehammer",
+  "nameZh": "精致长柄锤",
+  "slot": "2hmace",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/gilded-polehammer.webp",
+  "durability": 190,
+  "price": 6875,
+  "properties": {
+    "accuracy": 8,
+    "armorPenetration": 50,
+    "armorDamage": 75,
+    "damageReduction": 14,
+    "blockPower": 14,
+    "dazeChance": 40,
+    "stunChance": 10,
+    "maxMana": 5,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A customary weapon of the Royal Armorbreakers - a renowned guard unit currently employed in the service of the Council.",
+  "descriptionZh": "这是破甲御卫的常配兵器，这个卫队声名赫赫，目前为王廷军效力。",
+  "damage": {
+    "value": 31,
+    "type": "blunt"
+  },
+  "range": 1
+}

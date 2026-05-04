@@ -1,0 +1,35 @@
+{
+  "id": "arcanist-cowl",
+  "name": "Arcanist Cowl",
+  "nameZh": "秘术兜帽",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/arcanist-cowl.webp",
+  "durability": 60,
+  "price": 2875,
+  "properties": {
+    "maxMana": 6,
+    "manaRestoration": 2,
+    "manasteal": 9,
+    "miscastChance": -4,
+    "defense": 4,
+    "evasion": 4,
+    "vision": 1,
+    "resistances": {
+      "bleeding": 6,
+      "physical": 4,
+      "arcane": 20
+    },
+    "magicPowers": {
+      "arcanistic": 6
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Barely forms any wrinkles when subjected to portal jumps.",
+  "descriptionZh": "就算进出传送门，基本上也不会起皱。",
+  "class": "light"
+}

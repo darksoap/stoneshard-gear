@@ -1,0 +1,30 @@
+{
+  "id": "raider-axe",
+  "name": "Raider Axe",
+  "nameZh": "强盗斧",
+  "slot": "axe",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/raider-axe.webp",
+  "durability": 110,
+  "price": 1075,
+  "properties": {
+    "critChance": 1,
+    "critEfficiency": 5,
+    "armorPenetration": 25,
+    "armorDamage": 30,
+    "bodypartDamage": 27,
+    "skillsEnergyCost": 16
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It sits snugly in the grip, ideal for lightning-fast assaults on straggling enemy caravans.",
+  "descriptionZh": "把柄趁手，非常适合突袭敌方落后的车队。",
+  "damage": {
+    "value": 22,
+    "type": "slashing"
+  },
+  "range": 1
+}

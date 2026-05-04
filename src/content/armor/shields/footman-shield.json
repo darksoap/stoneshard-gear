@@ -1,0 +1,30 @@
+{
+  "id": "footman-shield",
+  "name": "Footman Shield",
+  "nameZh": "步兵盾",
+  "slot": "shield",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/footman-shield.webp",
+  "durability": 250,
+  "price": 1000,
+  "properties": {
+    "damageReduction": 28,
+    "blockPower": 26,
+    "blockRecovery": -20,
+    "maxMana": -10,
+    "manaRestoration": -4,
+    "evasion": -12,
+    "critAvoid": 4,
+    "resistances": {
+      "knockback": 16
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A long, sturdy shield. Its rims are reinforced with iron bands.",
+  "descriptionZh": "又长又结实，外缘包了几层铁。",
+  "class": "heavy"
+}

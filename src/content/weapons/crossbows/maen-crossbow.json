@@ -1,0 +1,33 @@
+{
+  "id": "maen-crossbow",
+  "name": "Maen Crossbow",
+  "nameZh": "曼恩弩",
+  "slot": "crossbow",
+  "tier": 3,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/maen-crossbow.webp",
+  "durability": 65,
+  "price": 1400,
+  "properties": {
+    "accuracy": -28,
+    "critChance": 3,
+    "fumbleChance": -9,
+    "armorPenetration": 20,
+    "bodypartDamage": 5,
+    "immobilizationChance": 15,
+    "staggerChance": 15,
+    "skillsEnergyCost": 10,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Soldiers of the Maen garrison hold a deep appreciation for simplicity, light weight, and convenience. This crossbow combines all three qualities in its design.",
+  "descriptionZh": "曼恩的驻兵非常推崇简约和轻便，所以这把弩才有了这样的设计。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 7
+}

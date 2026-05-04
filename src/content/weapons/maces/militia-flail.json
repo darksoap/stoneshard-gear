@@ -1,0 +1,32 @@
+{
+  "id": "militia-flail",
+  "name": "Militia Flail",
+  "nameZh": "民兵连枷",
+  "slot": "mace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/militia-flail.webp",
+  "durability": 70,
+  "price": 425,
+  "properties": {
+    "accuracy": -4,
+    "critChance": 3,
+    "fumbleChance": 6,
+    "armorPenetration": 5,
+    "bodypartDamage": 7,
+    "dazeChance": 10,
+    "staggerChance": 15,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Village militias are called upon only as a last resort. And when the going gets dire, even a farming tool can become a weapon.",
+  "descriptionZh": "只有到了迫不得已的时候，村庄才会召集民兵。什么东西到了他们手里，都能变成兵器。",
+  "damage": {
+    "value": 20,
+    "type": "blunt"
+  },
+  "range": 1
+}

@@ -1,0 +1,27 @@
+{
+  "id": "travelling-cloak",
+  "name": "Travelling Cloak",
+  "nameZh": "旅人斗篷",
+  "slot": "back",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/travelling-cloak.webp",
+  "durability": 25,
+  "price": 75,
+  "properties": {
+    "manaRestoration": 2,
+    "healthRestoration": 3,
+    "fatigueGain": 10,
+    "evasion": 2,
+    "resistances": {
+      "nature": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It'll keep the rain away, help you stay warm in cold weather, and conceal you in the dark.",
+  "descriptionZh": "可以防雨，可以御寒，在暗处的时候，还能掩藏你的身影。",
+  "class": "light"
+}

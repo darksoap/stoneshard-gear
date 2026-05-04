@@ -1,0 +1,29 @@
+{
+  "id": "apprentice-mage-cowl",
+  "name": "Apprentice Mage Cowl",
+  "nameZh": "初级法师兜帽",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/apprentice-mage-cowl.webp",
+  "durability": 40,
+  "price": 475,
+  "properties": {
+    "maxMana": 3,
+    "manaRestoration": 2,
+    "magicPower": 5,
+    "miscastChance": -2,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 2
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Its colors are reminiscent of the cowls worn by students of the Academy.",
+  "descriptionZh": "这个配色让人想起了学院学生戴的兜帽。",
+  "class": "light"
+}

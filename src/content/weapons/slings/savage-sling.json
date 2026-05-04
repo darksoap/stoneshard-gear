@@ -1,0 +1,31 @@
+{
+  "id": "savage-sling",
+  "name": "Savage Sling",
+  "nameZh": "野人投石索",
+  "slot": "sling",
+  "tier": 1,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/savage-sling.webp",
+  "durability": 45,
+  "price": 50,
+  "properties": {
+    "accuracy": -70,
+    "critChance": 2,
+    "armorPenetration": 5,
+    "bodypartDamage": 5,
+    "staggerChance": 18,
+    "skillsEnergyCost": 5,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "The material leaves much to be desired, but the craftsmanship shows no small measure of ingenuity.",
+  "descriptionZh": "虽然材质不怎么理想，但是制作的工艺相当精妙。",
+  "damage": {
+    "value": 9,
+    "type": "blunt"
+  },
+  "range": 6
+}

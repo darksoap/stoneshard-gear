@@ -1,0 +1,32 @@
+{
+  "id": "kriegshammer",
+  "name": "Kriegshammer",
+  "nameZh": "克里格斯战锤",
+  "slot": "2hmace",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/kriegshammer.webp",
+  "durability": 160,
+  "price": 1450,
+  "properties": {
+    "accuracy": 6,
+    "armorPenetration": 40,
+    "armorDamage": 40,
+    "bodypartDamage": 8,
+    "damageReduction": 10,
+    "blockPower": 10,
+    "dazeChance": 30,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Can break one's jaw just by trying to spell its name.",
+  "descriptionZh": "光是念这件兵器的名字，你的嘴巴就有点吃不消了。",
+  "damage": {
+    "value": 23,
+    "type": "blunt"
+  },
+  "range": 1
+}

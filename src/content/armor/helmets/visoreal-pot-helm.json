@@ -1,0 +1,32 @@
+{
+  "id": "visoreal-pot-helm",
+  "name": "Visoreal Pot Helm",
+  "nameZh": "面甲平顶锅盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/visoreal-pot-helm.webp",
+  "durability": 250,
+  "price": 1225,
+  "properties": {
+    "accuracy": -4,
+    "maxMana": -14,
+    "manaRestoration": -4,
+    "defense": 16,
+    "critAvoid": 5,
+    "fortitude": 6,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 26,
+      "stun": 31,
+      "physical": 28
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Its glory years are long behind it. In this day and age, Aldorian armorsmiths are capable of forging much more efficient designs. And even though the visor adds an extra layer of protection, the whole thing is still outrageously outdated.",
+  "descriptionZh": "这种头盔是很久很久以前的防具，奥尔多的盔匠今时今日锻造的形制比这种好了很多。虽然加了面甲，多了一层防护，但整个头盔依然是老得不能再老的古董了。",
+  "class": "heavy"
+}

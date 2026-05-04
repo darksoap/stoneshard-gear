@@ -1,0 +1,28 @@
+{
+  "id": "soldier-hauberk",
+  "name": "Soldier Hauberk",
+  "nameZh": "步兵链甲",
+  "slot": "chest",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/chests/soldier-hauberk.webp",
+  "durability": 195,
+  "price": 1300,
+  "properties": {
+    "maxMana": -2,
+    "defense": 10,
+    "fortitude": 4,
+    "resistances": {
+      "bleeding": 19,
+      "physical": 10,
+      "slashing": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Hauberks protect well and don't restrict mobility. On the downside, you can't make one without thousands of metal rings and lots and lots of time - obviously, all of that adds to the price.",
+  "descriptionZh": "链甲上衣防护效果良好，同时不会影响行动。不过，制作这么一件防具需要锻造成千上万个链环，而且需要花费大量时间，价格不菲也是情理之中的事情。",
+  "class": "medium"
+}

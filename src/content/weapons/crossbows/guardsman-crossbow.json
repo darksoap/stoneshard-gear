@@ -1,0 +1,32 @@
+{
+  "id": "guardsman-crossbow",
+  "name": "Guardsman Crossbow",
+  "nameZh": "护卫弩",
+  "slot": "crossbow",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/guardsman-crossbow.webp",
+  "durability": 80,
+  "price": 8150,
+  "properties": {
+    "accuracy": -35,
+    "fumbleChance": -5,
+    "armorPenetration": 30,
+    "armorDamage": 15,
+    "bodypartDamage": 35,
+    "knockbackChance": 45,
+    "immobilizationChance": 40,
+    "skillsEnergyCost": 40
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Not too long before his demise, King Etbert ordered to form a unit of crossbow-wielding guardsmen. The most skilled Aldwynn bowyers were tasked with providing the weaponry, but they'd managed to produce only a few dozen crossbows before the monarch's death.",
+  "descriptionZh": "埃特伯特国王驾崩之前没有多久，下令组建了一支弩兵卫队，并命多位手艺无与伦比的奥尔德文工匠为卫队打造兵器。直到国王离世，工匠也才造出了几十把弩。",
+  "damage": {
+    "value": 35,
+    "type": "piercing"
+  },
+  "range": 8
+}

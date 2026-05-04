@@ -1,0 +1,31 @@
+{
+  "id": "reinforced-warclub",
+  "name": "Reinforced Warclub",
+  "nameZh": "钉头军棍",
+  "slot": "2hmace",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/reinforced-warclub.webp",
+  "durability": 110,
+  "price": 525,
+  "properties": {
+    "accuracy": -4,
+    "armorPenetration": 30,
+    "bodypartDamage": 8,
+    "stunChance": 10,
+    "knockbackChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A few rows of spiked iron bands is certainly one way to add to your weapon's heftiness.",
+  "descriptionZh": "这根军棍加了两个钉头铁箍，分量肯定重了不少。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
+}

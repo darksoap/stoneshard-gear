@@ -1,0 +1,29 @@
+{
+  "id": "blademaster-boots",
+  "name": "Blademaster Boots",
+  "nameZh": "剑客靴",
+  "slot": "legs",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/blademaster-boots.webp",
+  "durability": 140,
+  "price": 3525,
+  "properties": {
+    "counterChance": 5,
+    "blockRecovery": 5,
+    "defense": 10,
+    "evasion": 10,
+    "resistances": {
+      "bleeding": 20,
+      "knockback": 16,
+      "physical": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "With a proper polish, they could easily pass for a mirror.",
+  "descriptionZh": "两只靴子如果好好擦一擦，能亮得像镜子一样。",
+  "class": "light"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ornate-longaxe",
+  "name": "Ornate Longaxe",
+  "nameZh": "华纹长斧",
+  "slot": "2haxe",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/ornate-longaxe.webp",
+  "durability": 160,
+  "price": 7650,
+  "properties": {
+    "accuracy": -9,
+    "fumbleChance": -3,
+    "armorPenetration": 35,
+    "bodypartDamage": 30,
+    "damageReduction": 4,
+    "bleedingChance": 5,
+    "staggerChance": 40,
+    "skillsEnergyCost": 40
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A longaxe is a highly unusual choice for a ceremonial weapon. And by the looks of the decorations, the original owner shelled out a pretty sum for it.",
+  "descriptionZh": "很少会有人拿长斧当礼兵器，从表面的修饰来看，斧子最早的主人在这件兵器上砸了不少钱。",
+  "damage": {
+    "value": 38,
+    "type": "slashing"
+  },
+  "range": 1
+}

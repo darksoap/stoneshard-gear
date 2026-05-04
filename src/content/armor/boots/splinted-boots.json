@@ -1,0 +1,30 @@
+{
+  "id": "splinted-boots",
+  "name": "Splinted Boots",
+  "nameZh": "条板靴",
+  "slot": "legs",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/boots/splinted-boots.webp",
+  "durability": 120,
+  "price": 375,
+  "properties": {
+    "maxMana": -3,
+    "manaRestoration": -1,
+    "defense": 9,
+    "evasion": -3,
+    "resistances": {
+      "bleeding": 22,
+      "knockback": 11,
+      "physical": 15,
+      "slashing": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A cheap yet effective protection from sudden strikes to the feet.",
+  "descriptionZh": "造价低廉，但可以防止脚踝被人偷袭。",
+  "class": "medium"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "guardian-shield",
+  "name": "Guardian Shield",
+  "nameZh": "护卫大盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/shields/guardian-shield.webp",
+  "durability": 350,
+  "price": 4750,
+  "properties": {
+    "counterChance": 5,
+    "damageReduction": 37,
+    "blockPower": 37,
+    "blockRecovery": -13,
+    "maxMana": -14,
+    "manaRestoration": -4,
+    "evasion": -16,
+    "critAvoid": 8,
+    "fortitude": 10,
+    "resistances": {
+      "knockback": 24,
+      "stun": 5
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "After the Royal Guard was disbanded, many former guardsmen decided to try their luck as mercenaries. Rather predictably, they took all their equipment with them, these shields included.",
+  "descriptionZh": "王家卫队解散之后，许多守卫改行当了雇佣兵，只是没有抛弃自己从前的装备，依然带在身上，这些盾牌便是其中之一。",
+  "class": "heavy"
+}

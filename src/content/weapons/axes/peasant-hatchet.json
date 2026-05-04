@@ -1,0 +1,30 @@
+{
+  "id": "peasant-hatchet",
+  "name": "Peasant Hatchet",
+  "nameZh": "劈柴手斧",
+  "slot": "axe",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/peasant-hatchet.webp",
+  "durability": 60,
+  "price": 75,
+  "properties": {
+    "accuracy": 3,
+    "armorPenetration": 5,
+    "armorDamage": 10,
+    "bodypartDamage": 13,
+    "bleedingChance": 8,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The only thing it's decent at is splitting firewood.",
+  "descriptionZh": "这把斧子什么都不行，只能劈柴。",
+  "damage": {
+    "value": 17,
+    "type": "slashing"
+  },
+  "range": 1
+}

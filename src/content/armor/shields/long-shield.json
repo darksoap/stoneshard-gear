@@ -1,0 +1,28 @@
+{
+  "id": "long-shield",
+  "name": "Long Shield",
+  "nameZh": "长盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/long-shield.webp",
+  "durability": 245,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 30,
+    "blockPower": 27,
+    "maxMana": -10,
+    "manaRestoration": -2,
+    "evasion": -8,
+    "resistances": {
+      "knockback": 15
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A shield that combines the convenience of heater shields with the coverage of kite shields. On the downside, it's rather heavy.",
+  "descriptionZh": "这种盾牌和熨斗盾一样便利，保护范围又不逊色于筝形盾，重量是唯一的缺点。",
+  "class": "medium"
+}

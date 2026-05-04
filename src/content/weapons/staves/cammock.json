@@ -1,0 +1,30 @@
+{
+  "id": "cammock",
+  "name": "Cammock",
+  "nameZh": "木杖",
+  "slot": "2hstaff",
+  "tier": 1,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/cammock.webp",
+  "durability": 30,
+  "price": 125,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 10,
+    "spellsEnergyCost": -2,
+    "magicPower": 4,
+    "miscastChance": -1,
+    "miraclePower": 3
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "So withered that it's almost impossible to think of any good use for it.",
+  "descriptionZh": "都干成这样了，实在想不到还能有什么用处？",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
+}

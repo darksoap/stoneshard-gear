@@ -1,0 +1,29 @@
+{
+  "id": "guild-blade",
+  "name": "Guild Blade",
+  "nameZh": "公会配剑",
+  "slot": "sword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/guild-blade.webp",
+  "durability": 90,
+  "price": 1300,
+  "properties": {
+    "accuracy": 5,
+    "armorPenetration": 10,
+    "damageReduction": 6,
+    "bleedingChance": 14,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Making these swords is a routine job for the Guild's smiths - day after day, night after night...",
+  "descriptionZh": "新会的铁匠打这种剑跟家常便饭一样，从早打到晚，从晚打到早……",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
+}

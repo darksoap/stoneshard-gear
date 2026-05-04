@@ -1,0 +1,34 @@
+{
+  "id": "hermit-garment",
+  "name": "Hermit Garment",
+  "nameZh": "隐士衣服",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/chests/hermit-garment.webp",
+  "durability": 90,
+  "price": 10475,
+  "properties": {
+    "maxMana": 10,
+    "manaRestoration": 5,
+    "maxHealth": 5,
+    "healingReceived": 10,
+    "manasteal": 5,
+    "magicPower": 10,
+    "defense": 7,
+    "evasion": 5,
+    "critAvoid": 10,
+    "resistances": {
+      "bleeding": 10,
+      "physical": 11,
+      "nature": 20
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The enigmatic Sages, who made the deepest thicket of the local forests their home, are one of the greatest Aldorian mysteries. Many believe it was them who'd been protecting the land from the worst of it - and now that their numbers have dwindled, everything comes crashing down.",
+  "descriptionZh": "诸位慧老不可捉摸，隐居丛林最深的地方，奥尔多没有多少人像他们这般神秘高深。许多人认为国家之前之所以能维持相对稳定的局势，纯粹仰仗慧老，诸位老人如今一年少过一年，全国上下的时局便一塌糊涂了。",
+  "class": "light"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "court-wizard-mantle",
+  "name": "Court Wizard Mantle",
+  "nameZh": "家内法师法袍",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/court-wizard-mantle.webp",
+  "durability": 60,
+  "price": 8725,
+  "properties": {
+    "maxMana": 10,
+    "manaRestoration": 5,
+    "magicPower": 12,
+    "miracleChance": 3,
+    "miraclePower": 6,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 3,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Mages who find themself a part of a noble court are a subject of envy. The life they lead is comfy, lucrative, and devoid of any real dangers - that is until their master decides to participate in a military campaign...",
+  "descriptionZh": "法师若能得到领主供养，成为家内法师，就会成为他人艳羡的对象。他们衣食无忧，收入丰厚，而且没有性命之忧。不过，倘若主人某日决定率军参战……",
+  "class": "light"
+}

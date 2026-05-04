@@ -1,0 +1,31 @@
+{
+  "id": "ornate-longsword",
+  "name": "Ornate Longsword",
+  "nameZh": "饰纹长剑",
+  "slot": "2hsword",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/ornate-longsword.webp",
+  "durability": 145,
+  "price": 8425,
+  "properties": {
+    "accuracy": 10,
+    "counterChance": 5,
+    "armorPenetration": 20,
+    "damageReduction": 10,
+    "staggerChance": 30,
+    "manaRestoration": 4,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The blade is inscribed with words of dedication to one Idrich Jorg of Aldwynn.",
+  "descriptionZh": "剑身刻了一行字，说是献给奥尔德文的某个伊德里赫·约格。",
+  "damage": {
+    "value": 32,
+    "type": "slashing"
+  },
+  "range": 1
+}

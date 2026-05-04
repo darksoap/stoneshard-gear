@@ -1,0 +1,30 @@
+{
+  "id": "sardar-boots",
+  "name": "Sardar Boots",
+  "nameZh": "萨达尔靴",
+  "slot": "legs",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/boots/sardar-boots.webp",
+  "durability": 180,
+  "price": 4700,
+  "properties": {
+    "fumbleChance": -3,
+    "maxMana": -9,
+    "manaRestoration": -1,
+    "defense": 15,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 38,
+      "knockback": 23,
+      "physical": 23
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Maaf military leaders - sardars - enjoy great power even when not actively leading the armies. In the years between wars, most of them hoard so much wealth that they become almost reluctant to return to the battlefield...",
+  "descriptionZh": "玛弗军中的长官，也就是“萨达尔”，即便在战场之外也是掌握大权。多数萨达尔都会趁着和平时期大肆敛财，甚至因贪恋财宝而不愿重返战场……",
+  "class": "medium"
+}

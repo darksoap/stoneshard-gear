@@ -1,0 +1,33 @@
+{
+  "id": "aldian-shield",
+  "name": "Aldian Shield",
+  "nameZh": "奥尔德酋长盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/shields/aldian-shield.webp",
+  "durability": 185,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 26,
+    "blockPower": 27,
+    "maxMana": -12,
+    "manaRestoration": -3,
+    "fatigueGain": 15,
+    "evasion": -10,
+    "resistances": {
+      "bleeding": 10,
+      "knockback": 15,
+      "physical": 5,
+      "nature": 10,
+      "magic": 10
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The mastery of metalworking techniques was one of the ancient Alds' greatest strengths - some of the miraculously surviving relics from their time continue to inspire awe even today.",
+  "descriptionZh": "古代的奥尔德人最为擅长金工，那个时代的有些文物竟然留存到了当代，那个工艺放在今天也令人叹为观止。",
+  "class": "medium"
+}

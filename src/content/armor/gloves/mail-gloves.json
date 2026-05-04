@@ -1,0 +1,28 @@
+{
+  "id": "mail-gloves",
+  "name": "Mail Gloves",
+  "nameZh": "链甲手套",
+  "slot": "arms",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/mail-gloves.webp",
+  "durability": 165,
+  "price": 1000,
+  "properties": {
+    "maxMana": -2,
+    "manaRestoration": -1,
+    "defense": 12,
+    "resistances": {
+      "bleeding": 22,
+      "physical": 11,
+      "slashing": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Sensible handwear for anyone who values their fingers.",
+  "descriptionZh": "如果爱惜自己的手指，建议戴这个。",
+  "class": "medium"
+}

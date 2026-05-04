@@ -1,0 +1,26 @@
+{
+  "id": "battle-mage-circlet",
+  "name": "Battle Mage Circlet",
+  "nameZh": "战地法师头环",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "gem",
+  "image": "/images/armor/helmets/battle-mage-circlet.webp",
+  "durability": 35,
+  "price": 3450,
+  "properties": {
+    "maxMana": 6,
+    "manaRestoration": 3,
+    "magicPower": 12,
+    "miracleChance": 3,
+    "miraclePower": 7,
+    "bonusRange": 5
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Battlemages aren't averse to risks. Many of them willingly forgo proper head protection to stay unhindered while casting complex spells.",
+  "descriptionZh": "战地法师置生死于度外，许多人为了畅快施放复杂的咒法，甘愿头部不加防护。",
+  "class": "light"
+}

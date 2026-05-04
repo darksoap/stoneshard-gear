@@ -1,0 +1,29 @@
+{
+  "id": "soldier-dagger",
+  "name": "Soldier Dagger",
+  "nameZh": "士兵匕首",
+  "slot": "dagger",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/soldier-dagger.webp",
+  "durability": 85,
+  "price": 650,
+  "properties": {
+    "counterChance": 6,
+    "armorPenetration": 10,
+    "damageReduction": 6,
+    "blockPower": 4,
+    "bleedingChance": 12
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "You never know, it just might save your life one day.",
+  "descriptionZh": "说不定哪天就能救你一命。",
+  "damage": {
+    "value": 16,
+    "type": "piercing"
+  },
+  "range": 1
+}

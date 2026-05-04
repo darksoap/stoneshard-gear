@@ -1,0 +1,31 @@
+{
+  "id": "heavy-warclub",
+  "name": "Heavy Warclub",
+  "nameZh": "包铁军棍",
+  "slot": "2hmace",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/heavy-warclub.webp",
+  "durability": 85,
+  "price": 150,
+  "properties": {
+    "accuracy": -2,
+    "armorPenetration": 25,
+    "bodypartDamage": 5,
+    "stunChance": 6,
+    "knockbackChance": 20,
+    "staggerChance": 20,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Even though a strike from this club is unlikely to harm a well-armored opponent, it still has all the chances to briefly knock the wind out of them.",
+  "descriptionZh": "如果对手防护精良，这根军棍难能伤到他，不过绝对可以打得他喘不过气来。",
+  "damage": {
+    "value": 19,
+    "type": "blunt"
+  },
+  "range": 1
+}

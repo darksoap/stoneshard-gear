@@ -1,0 +1,29 @@
+{
+  "id": "veteran-longaxe",
+  "name": "Veteran Longaxe",
+  "nameZh": "老兵长斧",
+  "slot": "2haxe",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-axes/veteran-longaxe.webp",
+  "durability": 150,
+  "price": 3625,
+  "properties": {
+    "accuracy": -12,
+    "armorPenetration": 30,
+    "bodypartDamage": 25,
+    "staggerChance": 30,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It's hard to imagine armor which would protect from a direct hit with this axe.",
+  "descriptionZh": "实在不知道什么样的防具能顶得住这种长斧。",
+  "damage": {
+    "value": 33,
+    "type": "slashing"
+  },
+  "range": 1
+}

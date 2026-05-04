@@ -1,0 +1,34 @@
+{
+  "id": "joust-topfhelm",
+  "name": "Joust Topfhelm",
+  "nameZh": "长枪比武桶盔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/armor/helmets/joust-topfhelm.webp",
+  "durability": 270,
+  "price": 2750,
+  "properties": {
+    "accuracy": -5,
+    "damageReduction": 4,
+    "maxMana": -16,
+    "manaRestoration": -4,
+    "damageReceived": -5,
+    "defense": 20,
+    "critAvoid": 8,
+    "fortitude": 8,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 31,
+      "stun": 37,
+      "physical": 27
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "If you ignore the lavish decorations, it's just a simple, hopelessly outdated topfhelm: the only thing it'll help you conquer it is the hearts of fair maidens.",
+  "descriptionZh": "这顶桶盔装饰丰富，这是与普通桶盔的唯一区别，不过现在已经完全过时了——戴上它的话，除了美娇娘的芳心，其他什么都征服不了。",
+  "class": "heavy"
+}

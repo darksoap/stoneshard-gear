@@ -1,0 +1,30 @@
+{
+  "id": "fisted-warhammer",
+  "name": "Fisted Warhammer",
+  "nameZh": "拳首战锤",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/fisted-warhammer.webp",
+  "durability": 120,
+  "price": 2425,
+  "properties": {
+    "accuracy": 6,
+    "armorPenetration": 35,
+    "armorDamage": 45,
+    "dazeChance": 21,
+    "staggerChance": 24,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Initially crafted in jest, this hammer shape quickly caught on and is no longer treated as an outlandish curiosity.",
+  "descriptionZh": "这柄战锤原本只是造着玩的，但形制很快就流行开了，现在已经没人觉得稀奇古怪了。",
+  "damage": {
+    "value": 23,
+    "type": "blunt"
+  },
+  "range": 1
+}

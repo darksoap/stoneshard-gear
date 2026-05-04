@@ -1,0 +1,30 @@
+{
+  "id": "brandistock",
+  "name": "Brandistock",
+  "nameZh": "三尖戟",
+  "slot": "spear",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/brandistock.webp",
+  "durability": 130,
+  "price": 1350,
+  "properties": {
+    "accuracy": 6,
+    "critChance": 3,
+    "armorPenetration": 15,
+    "damageReduction": 6,
+    "bleedingChance": 25,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A brandistock is a fairly uncommon weapon which is sometimes issued to sergeants of the Road Guard.",
+  "descriptionZh": "三尖枪非常少见，有些巡路铁卫的军官会配备这种兵器。",
+  "damage": {
+    "value": 21,
+    "type": "piercing"
+  },
+  "range": 1
+}

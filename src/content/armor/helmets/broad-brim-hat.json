@@ -1,0 +1,29 @@
+{
+  "id": "broad-brim-hat",
+  "name": "Broad Brim Hat",
+  "nameZh": "宽沿帽",
+  "slot": "head",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/broad-brim-hat.webp",
+  "durability": 25,
+  "price": 25,
+  "properties": {
+    "fumbleChance": -1,
+    "fatigueGain": 5,
+    "defense": 2,
+    "evasion": 3,
+    "resistances": {
+      "bleeding": 3,
+      "stun": 2,
+      "physical": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Offers a bit of respite from the scorching midday sun.",
+  "descriptionZh": "能够稍微遮挡正午炙热的阳光。",
+  "class": "light"
+}

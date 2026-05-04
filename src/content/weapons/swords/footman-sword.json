@@ -1,0 +1,29 @@
+{
+  "id": "footman-sword",
+  "name": "Footman Sword",
+  "nameZh": "步兵配剑",
+  "slot": "sword",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/footman-sword.webp",
+  "durability": 100,
+  "price": 1250,
+  "properties": {
+    "counterChance": 6,
+    "armorPenetration": 10,
+    "damageReduction": 8,
+    "blockPower": 6,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Most suitable for a fight in tight formation.",
+  "descriptionZh": "非常适合队形紧密的军队作战使用。",
+  "damage": {
+    "value": 21,
+    "type": "slashing"
+  },
+  "range": 1
+}

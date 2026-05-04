@@ -1,0 +1,30 @@
+{
+  "id": "aldor-bow",
+  "name": "Aldor Bow",
+  "nameZh": "奥尔多弓",
+  "slot": "bow",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/aldor-bow.webp",
+  "durability": 100,
+  "price": 5100,
+  "properties": {
+    "accuracy": -45,
+    "fumbleChance": -12,
+    "armorPenetration": 15,
+    "knockbackChance": 30,
+    "staggerChance": 30,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Has enough power to knock a charging knight from his saddle.",
+  "descriptionZh": "足以射翻全力冲刺的披甲骑士。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 9
+}

@@ -1,0 +1,24 @@
+{
+  "id": "chain-belt",
+  "name": "Chain Belt",
+  "nameZh": "腰链",
+  "slot": "waist",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/belts/chain-belt.webp",
+  "durability": 50,
+  "price": 100,
+  "properties": {
+    "damageReduction": 4,
+    "resistances": {
+      "slashing": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "If you don't have a waist to speak of, it's not wise to wear this belt over a civil garment - the links have a notable tendency to pinch and chafe.",
+  "descriptionZh": "你要是没有腰，建议穿常服的时候不要系这个东西——这些链子又紧又磨肚皮。",
+  "class": "light"
+}

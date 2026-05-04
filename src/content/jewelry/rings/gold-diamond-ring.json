@@ -1,0 +1,24 @@
+{
+  "id": "gold-diamond-ring",
+  "name": "Gold Diamond Ring",
+  "nameZh": "钻石金戒指",
+  "slot": "ring",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/rings/gold-diamond-ring.webp",
+  "durability": 30,
+  "price": 1220,
+  "properties": {
+    "maxMana": 5,
+    "manaRestoration": 5,
+    "spellsEnergyCost": -3,
+    "magicPower": 6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Diamonds this monstrous can usually only be found in royal crowns.",
+  "descriptionZh": "这种尺寸的钻石一般只有王冠上才能见到。",
+  "class": "light"
+}

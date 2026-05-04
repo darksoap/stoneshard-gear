@@ -1,0 +1,28 @@
+{
+  "id": "splint-vambraces",
+  "name": "Splint Vambraces",
+  "nameZh": "条板护臂",
+  "slot": "arms",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/splint-vambraces.webp",
+  "durability": 90,
+  "price": 375,
+  "properties": {
+    "accuracy": 1,
+    "fumbleChance": -1,
+    "maxMana": -2,
+    "defense": 7,
+    "resistances": {
+      "bleeding": 13,
+      "physical": 7
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Readily provided to levies by most lords: once the war is over, commoners are expected to return to their crafts and fieldwork, and for that they still need their hands.",
+  "descriptionZh": "多数领主都愿意给征集的兵丁配发这个，毕竟等仗打完了，平头百姓还得各自回去，该种地的种地，该做工的做工，这些活计都离不开手。",
+  "class": "medium"
+}

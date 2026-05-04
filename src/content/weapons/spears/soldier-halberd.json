@@ -1,0 +1,31 @@
+{
+  "id": "soldier-halberd",
+  "name": "Soldier Halberd",
+  "nameZh": "步兵戟",
+  "slot": "spear",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/soldier-halberd.webp",
+  "durability": 130,
+  "price": 1625,
+  "properties": {
+    "critChance": 4,
+    "fumbleChance": 8,
+    "armorPenetration": 25,
+    "armorDamage": 20,
+    "bodypartDamage": 18,
+    "staggerChance": 16,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A halberd is beloved by the Aldorian infantry for its versatility. Being able to use your weapon for both slashing and thrusting attacks is a valuable asset on the battlefield.",
+  "descriptionZh": "戟用法多样，能砍又能刺，备受奥尔多步兵的青睐。",
+  "damage": {
+    "value": 23,
+    "type": "slashing"
+  },
+  "range": 1
+}

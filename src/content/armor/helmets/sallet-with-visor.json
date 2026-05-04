@@ -1,0 +1,54 @@
+{
+  "id": "sallet-with-visor",
+  "name": "Sallet With Visor",
+  "nameZh": "面甲夏雷尔",
+  "slot": "head",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/sallet-with-visor.webp",
+  "durability": 240,
+  "price": 3225,
+  "properties": {
+    "accuracy": -3,
+    "maxMana": -14,
+    "manaRestoration": -3,
+    "defense": 19,
+    "critAvoid": 9,
+    "fortitude": 13,
+    "vision": -2,
+    "resistances": {
+      "bleeding": 32,
+      "stun": 34,
+      "physical": 30
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Fear makes the wolf bigger than he is, and it's hard to see a damn thing in one of these sallets - as a result, they are often worn by soldiers fighting on the front line.",
+  "descriptionZh": "人面对野狼时，恐慌会令其内心夸大野兽的体型，不过戴上轻盔之后，你基本上就看不见什么东西了，所以，阵型前排的士兵一般会戴这种头盔。",
+  "class": "heavy",
+  "variant": {
+    "id": "open-sallet-with-visor",
+    "name": "Open Sallet With Visor",
+    "nameZh": "面甲夏雷尔",
+    "image": "/images/armor/helmets/open-sallet-with-visor.webp",
+    "durability": 240,
+    "properties": {
+      "maxMana": -14,
+      "manaRestoration": -2,
+      "defense": 11,
+      "critAvoid": 5,
+      "fortitude": 8,
+      "resistances": {
+        "bleeding": 19,
+        "stun": 34,
+        "physical": 18
+      }
+    },
+    "tags": [
+      "special"
+    ]
+  }
+}

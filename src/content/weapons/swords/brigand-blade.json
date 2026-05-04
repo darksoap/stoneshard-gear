@@ -1,0 +1,30 @@
+{
+  "id": "brigand-blade",
+  "name": "Brigand Blade",
+  "nameZh": "土匪剑",
+  "slot": "sword",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/brigand-blade.webp",
+  "durability": 70,
+  "price": 500,
+  "properties": {
+    "accuracy": 3,
+    "armorPenetration": 5,
+    "bodypartDamage": 4,
+    "damageReduction": 4,
+    "bleedingChance": 11,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "These swords are forged by the dozen in underground smithies, far from prying eyes and unwanted questions.",
+  "descriptionZh": "这种剑产自不见人的兵械工场，避开耳目，也省了很多没必要的询问，每次一造就是几十把。",
+  "damage": {
+    "value": 18,
+    "type": "slashing"
+  },
+  "range": 1
+}

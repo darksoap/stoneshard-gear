@@ -1,0 +1,29 @@
+{
+  "id": "phylactery-talisman",
+  "name": "Phylactery Talisman",
+  "nameZh": "灵魂水晶护符",
+  "slot": "amulet",
+  "tier": 3,
+  "rarity": "unique",
+  "material": "gem",
+  "image": "/images/armor/amulets/phylactery-talisman.webp",
+  "durability": 33,
+  "price": 666,
+  "properties": {
+    "manaRestoration": 3,
+    "healthRestoration": 3,
+    "lifesteal": 9,
+    "magicPower": 9,
+    "damageReceived": 13,
+    "vision": -1,
+    "resistances": {
+      "unholy": 33
+    }
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "A vessel for someone's soul, sealed by a forbidden ritual. It always pays to stay on your toes when dealing with dark magic...",
+  "descriptionZh": "有人通过某种禁忌仪式，将他人的灵魂封进了这颗水晶。接触黑暗魔法的时候，千万要小心……",
+  "class": "light"
+}

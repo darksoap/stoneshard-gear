@@ -1,0 +1,24 @@
+{
+  "id": "brass-agate-ring",
+  "name": "Brass Agate Ring",
+  "nameZh": "黄铜玛瑙戒指",
+  "slot": "ring",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/rings/brass-agate-ring.webp",
+  "durability": 55,
+  "price": 60,
+  "properties": {
+    "fumbleChance": -3,
+    "resistances": {
+      "physical": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A typical coming-of-age gift for a merchant's son.",
+  "descriptionZh": "如果家里是做生意的，不少男孩到了成人的年纪，都会收到这样一份成年礼。",
+  "class": "light"
+}

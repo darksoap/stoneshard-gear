@@ -1,0 +1,26 @@
+{
+  "id": "worn-cloak",
+  "name": "Worn Cloak",
+  "nameZh": "破旧的斗篷",
+  "slot": "back",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/worn-cloak.webp",
+  "durability": 20,
+  "price": 25,
+  "properties": {
+    "healthRestoration": 1,
+    "fatigueGain": 5,
+    "evasion": 1,
+    "resistances": {
+      "nature": 4
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Judging by the abundant patchwork, this cloak has been in use for many years.",
+  "descriptionZh": "斗篷上面满是补丁，看样子应该已经穿了很多年。",
+  "class": "light"
+}

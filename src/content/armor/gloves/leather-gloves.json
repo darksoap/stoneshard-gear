@@ -1,0 +1,28 @@
+{
+  "id": "leather-gloves",
+  "name": "Leather Gloves",
+  "nameZh": "皮手套",
+  "slot": "arms",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/gloves/leather-gloves.webp",
+  "durability": 60,
+  "price": 275,
+  "properties": {
+    "critEfficiency": 7,
+    "fumbleChance": -2,
+    "skillsEnergyCost": -4,
+    "defense": 3,
+    "resistances": {
+      "bleeding": 10,
+      "physical": 8
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "These gloves were crafted from finely tanned leather.",
+  "descriptionZh": "上等的熟皮，做工扎实。",
+  "class": "light"
+}

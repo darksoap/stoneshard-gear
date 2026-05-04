@@ -1,0 +1,29 @@
+{
+  "id": "serpent-order-belt",
+  "name": "Serpent Order Belt",
+  "nameZh": "地虺兄弟会腰带",
+  "slot": "waist",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "leather",
+  "image": "/images/armor/belts/serpent-order-belt.webp",
+  "durability": 30,
+  "price": 2050,
+  "properties": {
+    "maxHealth": 5,
+    "healingReceived": 5,
+    "abilitiesEnergyCost": -5,
+    "miscastChance": -5,
+    "evasion": 3,
+    "resistances": {
+      "nature": 5,
+      "poison": 15
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The Brotherhood of the Asp's knights are best known for abandoning Aldor to settle in the mountains of Ahjat. According to legends, their hidden citadel stands as a sanctuary of learning at the crossroads of religion, magic, and alchemy - concealed from prying eyes and protected by the Sultan himself.",
+  "descriptionZh": "地虺兄弟会的骑士之所以为世人所知，最主要是他们放弃奥尔多，住到了艾哈雅特的山里。传闻这些骑士的大本营位置隐蔽，与世隔绝，受到苏丹庇护，他们在那里同时研习宗教、魔法和炼金术这三门学问。",
+  "class": "light"
+}

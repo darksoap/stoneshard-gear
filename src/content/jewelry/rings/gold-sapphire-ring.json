@@ -1,0 +1,23 @@
+{
+  "id": "gold-sapphire-ring",
+  "name": "Gold Sapphire Ring",
+  "nameZh": "蓝宝石金戒指",
+  "slot": "ring",
+  "tier": 5,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/rings/gold-sapphire-ring.webp",
+  "durability": 30,
+  "price": 1220,
+  "properties": {
+    "maxMana": 5,
+    "magicPower": 7,
+    "miraclePower": 4
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Set with a masterfully cut sapphire. The dream of every sorcerer.",
+  "descriptionZh": "嵌了一颗切割精细的蓝宝石，所有魔法师都梦寐以求能有一枚这样的戒指。",
+  "class": "light"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "noble-axe",
+  "name": "Noble Axe",
+  "nameZh": "贵族斧",
+  "slot": "axe",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/noble-axe.webp",
+  "durability": 155,
+  "price": 5600,
+  "properties": {
+    "critEfficiency": 20,
+    "armorPenetration": 20,
+    "bodypartDamage": 33,
+    "staggerChance": 24,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "No armor can resist a blow dealt with such a monstrously heavy axeblade.",
+  "descriptionZh": "这把斧子头部奇重无比，一斧子劈下去，什么样的盔甲都抵挡不住。",
+  "damage": {
+    "value": 31,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "steel-vambraces",
+  "name": "Steel Vambraces",
+  "nameZh": "钢护臂",
+  "slot": "arms",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/steel-vambraces.webp",
+  "durability": 115,
+  "price": 1000,
+  "properties": {
+    "accuracy": 1,
+    "fumbleChance": -2,
+    "maxMana": -3,
+    "defense": 9,
+    "resistances": {
+      "bleeding": 17,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A natural pick for a marksman - or any soldier who values dexterity and precision.",
+  "descriptionZh": "射手都会选这种护臂，或者说不论什么兵，只要在乎手上的灵活和精准，就都会选这个。",
+  "class": "medium"
+}

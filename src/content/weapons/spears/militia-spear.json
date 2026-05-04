@@ -1,0 +1,31 @@
+{
+  "id": "militia-spear",
+  "name": "Militia Spear",
+  "nameZh": "民兵矛",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/militia-spear.webp",
+  "durability": 130,
+  "price": 500,
+  "properties": {
+    "accuracy": 4,
+    "counterChance": 6,
+    "armorPenetration": 15,
+    "damageReduction": 7,
+    "blockPower": 7,
+    "knockbackChance": 20,
+    "skillsEnergyCost": 15
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It doesn't take much time to learn how to use a spear efficiently. For this very reason, it became almost synonymous with peasant militias.",
+  "descriptionZh": "长矛学起来不难，费不了多少工夫，民兵都喜欢用这个兵器。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
+}

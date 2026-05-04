@@ -1,0 +1,28 @@
+{
+  "id": "town-shoes",
+  "name": "Town Shoes",
+  "nameZh": "平民鞋子",
+  "slot": "legs",
+  "tier": 3,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/boots/town-shoes.webp",
+  "durability": 75,
+  "price": 600,
+  "properties": {
+    "manaRestoration": 3,
+    "fatigueGain": 14,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 7,
+      "knockback": 6,
+      "physical": 6
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Fancy enough for when you're going out into the world to prove your mettle.",
+  "descriptionZh": "不论出去闯荡还是彰显你的胆量，穿这双鞋都不会丢人。",
+  "class": "light"
+}

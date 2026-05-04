@@ -1,0 +1,32 @@
+{
+  "id": "electromancer-mantle",
+  "name": "Electromancer Mantle",
+  "nameZh": "电术法袍",
+  "slot": "chest",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/electromancer-mantle.webp",
+  "durability": 60,
+  "price": 4125,
+  "properties": {
+    "maxMana": 10,
+    "manaRestoration": 4,
+    "spellsEnergyCost": -3,
+    "defense": 4,
+    "resistances": {
+      "bleeding": 4,
+      "physical": 7,
+      "shock": 20
+    },
+    "magicPowers": {
+      "electromantic": 9
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Barely touching the material sends a sharp, tingling sensation up one's arm. That is unless you're an electromancer.",
+  "descriptionZh": "随便碰一下袍子的面料，手臂就会电得发麻。不过，如果你是电术法师，就完全不会有异常的感觉了。",
+  "class": "light"
+}

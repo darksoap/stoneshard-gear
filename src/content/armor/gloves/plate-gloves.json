@@ -1,0 +1,30 @@
+{
+  "id": "plate-gloves",
+  "name": "Plate Gloves",
+  "nameZh": "板甲手甲",
+  "slot": "arms",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/gloves/plate-gloves.webp",
+  "durability": 300,
+  "price": 2900,
+  "properties": {
+    "fumbleChance": 3,
+    "damageReduction": 4,
+    "maxMana": -16,
+    "manaRestoration": -4,
+    "defense": 20,
+    "critAvoid": 9,
+    "resistances": {
+      "bleeding": 34,
+      "physical": 32
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Crafting plate gloves is a form of art which demands consummate skill and impeccable knowledge of the trade.",
+  "descriptionZh": "打造板甲手套是一门艺术，匠人需要通晓造甲的各种门道。",
+  "class": "heavy"
+}

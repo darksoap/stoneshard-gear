@@ -1,0 +1,29 @@
+{
+  "id": "recruit-dagger",
+  "name": "Recruit Dagger",
+  "nameZh": "新兵匕首",
+  "slot": "dagger",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/recruit-dagger.webp",
+  "durability": 70,
+  "price": 250,
+  "properties": {
+    "counterChance": 4,
+    "armorPenetration": 5,
+    "damageReduction": 4,
+    "blockPower": 3,
+    "bleedingChance": 8
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A crudely reforged hunting knife suitable for butchering game and slitting throats.",
+  "descriptionZh": "草草重铸的猎刀，能剖动物，也能割脖子。",
+  "damage": {
+    "value": 14,
+    "type": "piercing"
+  },
+  "range": 1
+}

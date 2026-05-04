@@ -1,0 +1,30 @@
+{
+  "id": "peasant-hat",
+  "name": "Peasant Hat",
+  "nameZh": "农民帽子",
+  "slot": "head",
+  "tier": 1,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/peasant-hat.webp",
+  "durability": 25,
+  "price": 25,
+  "properties": {
+    "manaRestoration": 2,
+    "defense": 2,
+    "evasion": 5,
+    "resistances": {
+      "bleeding": 3,
+      "stun": 2,
+      "physical": 4,
+      "blunt": 3,
+      "rending": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "In case of heat or rain, its brims can be slightly turned down.",
+  "descriptionZh": "太阳太大或者下雨的时候，帽檐都可以翻开。",
+  "class": "light"
+}

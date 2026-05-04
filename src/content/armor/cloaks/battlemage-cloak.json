@@ -1,0 +1,28 @@
+{
+  "id": "battlemage-cloak",
+  "name": "Battlemage Cloak",
+  "nameZh": "战地法师斗篷",
+  "slot": "back",
+  "tier": 4,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/battlemage-cloak.webp",
+  "durability": 35,
+  "price": 800,
+  "properties": {
+    "fumbleChance": -2,
+    "abilitiesEnergyCost": -3,
+    "miscastChance": -2,
+    "resistances": {
+      "physical": 4,
+      "nature": 12,
+      "magic": 12
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "Everything about it speaks of practicality and ease of wear: thick fabric, muted colors, simple - albeit golden - fastenings...",
+  "descriptionZh": "这个斗篷各处做工都透着实用：布料厚实，颜色克制，搭扣样式朴素——虽然是金的……",
+  "class": "light"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "vigilante-cloak",
+  "name": "Vigilante Cloak",
+  "nameZh": "义勇斗篷",
+  "slot": "back",
+  "tier": 3,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/vigilante-cloak.webp",
+  "durability": 30,
+  "price": 275,
+  "properties": {
+    "accuracy": 1,
+    "critChance": 1,
+    "critEfficiency": 5,
+    "manaRestoration": 1,
+    "resistances": {
+      "bleeding": 5,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "In the chaotic months following the uprising, the Magistrate struggled to contain the surge of crime that swept over Brynn. The tide turned with the rise of vigilantes - well-armed volunteers who eventually bolstered the ranks of the reformed city guard.",
+  "descriptionZh": "起义爆发之后，几个月里一片混乱，城联疲于应对席卷布林全城的犯罪浪潮。义勇出现之后，局势得以扭转——这些志愿者武装精良，最终加入了重组之后的城市卫队，壮大了卫队的力量。",
+  "class": "light"
+}

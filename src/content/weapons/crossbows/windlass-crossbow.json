@@ -1,0 +1,30 @@
+{
+  "id": "windlass-crossbow",
+  "name": "Windlass Crossbow",
+  "nameZh": "滑轮弩",
+  "slot": "crossbow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/crossbows/windlass-crossbow.webp",
+  "durability": 60,
+  "price": 3875,
+  "properties": {
+    "accuracy": -45,
+    "armorPenetration": 30,
+    "bodypartDamage": 30,
+    "knockbackChance": 35,
+    "immobilizationChance": 30,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Spend a few months actively using this crossbow, and even village fair strongmen will envy your muscles.",
+  "descriptionZh": "这种弩要是连着用上几个月，你身上的块头肯定连村里的大力士都会羡慕。",
+  "damage": {
+    "value": 30,
+    "type": "piercing"
+  },
+  "range": 9
+}

@@ -1,0 +1,30 @@
+{
+  "id": "sergeant-longsword",
+  "name": "Sergeant Longsword",
+  "nameZh": "军士长剑",
+  "slot": "2hsword",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-swords/sergeant-longsword.webp",
+  "durability": 150,
+  "price": 4000,
+  "properties": {
+    "accuracy": 8,
+    "armorPenetration": 20,
+    "damageReduction": 10,
+    "bleedingChance": 15,
+    "staggerChance": 15,
+    "skillsEnergyCost": 30
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A well-made sword, forged from good steel and completely bereft of any trifling decorations.",
+  "descriptionZh": "这把剑用的是上等好钢，工艺精湛，什么不必要的修饰都没有。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
+}

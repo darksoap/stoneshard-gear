@@ -1,0 +1,31 @@
+{
+  "id": "guard-halberd",
+  "name": "Guard Halberd",
+  "nameZh": "卫兵戟",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/guard-halberd.webp",
+  "durability": 105,
+  "price": 625,
+  "properties": {
+    "critChance": 3,
+    "fumbleChance": 6,
+    "armorPenetration": 20,
+    "armorDamage": 15,
+    "bodypartDamage": 14,
+    "staggerChance": 13,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "These halberds are typically forged from poor steel: city guards don't see a lot of action.",
+  "descriptionZh": "城里的守卫一般不用大动干戈，所以这类戟用的都不是好钢。",
+  "damage": {
+    "value": 20,
+    "type": "slashing"
+  },
+  "range": 1
+}

@@ -1,0 +1,32 @@
+{
+  "id": "decorated-flanged-mace",
+  "name": "Decorated Flanged Mace",
+  "nameZh": "饰纹凸缘钉头锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/maces/decorated-flanged-mace.webp",
+  "durability": 160,
+  "price": 4600,
+  "properties": {
+    "counterChance": 7,
+    "armorPenetration": 35,
+    "armorDamage": 25,
+    "dazeChance": 25,
+    "stunChance": 15,
+    "knockbackChance": 25,
+    "staggerChance": 25,
+    "skillsEnergyCost": 20
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "It's clear as day that the master smith, who meticulously crafted this weapon, put his heart and soul into it. The lord ordering it must have had money to spare.",
+  "descriptionZh": "锻造这把钉头锤的肯定是能工巧匠，而且花了不少心血，订制这把兵器的领主显然也是有不少闲钱。",
+  "damage": {
+    "value": 25,
+    "type": "blunt"
+  },
+  "range": 1
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ceremonial-dagger",
+  "name": "Ceremonial Dagger",
+  "nameZh": "仪礼匕首",
+  "slot": "dagger",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/daggers/ceremonial-dagger.webp",
+  "durability": 75,
+  "price": 3575,
+  "properties": {
+    "accuracy": 7,
+    "critChance": 6,
+    "armorPenetration": 15,
+    "bodypartDamage": 5,
+    "bleedingChance": 33,
+    "miracleChance": 1,
+    "damages": {
+      "piercing": 18,
+      "sacred": 3
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "A true piece of art - many weapon connoisseurs would pay through the nose to acquire it for their collection.",
+  "descriptionZh": "名副其实的艺术品，很多兵器鉴赏家就算花天价，也愿意把这件匕首纳为自己的藏品。",
+  "damage": {
+    "value": 18,
+    "type": "piercing"
+  },
+  "range": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gold-aquamarine-ring",
+  "name": "Gold Aquamarine Ring",
+  "nameZh": "海蓝宝石金戒指",
+  "slot": "ring",
+  "tier": 4,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/rings/gold-aquamarine-ring.webp",
+  "durability": 25,
+  "price": 580,
+  "properties": {
+    "maxMana": 4,
+    "magicPower": 4,
+    "miraclePower": 6
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Aquamarine favors the bold and the courageous: reputedly, it brings good luck in risky endeavors.",
+  "descriptionZh": "海蓝宝石眷顾勇敢无畏之人，这种宝石能令人在险境之中获得好运。",
+  "class": "light"
+}

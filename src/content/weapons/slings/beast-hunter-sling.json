@@ -1,0 +1,32 @@
+{
+  "id": "beast-hunter-sling",
+  "name": "Beast Hunter Sling",
+  "nameZh": "兽猎投石索",
+  "slot": "sling",
+  "tier": 5,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/beast-hunter-sling.webp",
+  "durability": 155,
+  "price": 3050,
+  "properties": {
+    "accuracy": -55,
+    "critChance": 10,
+    "armorPenetration": 5,
+    "bodypartDamage": 15,
+    "dazeChance": 35,
+    "staggerChance": 30,
+    "skillsEnergyCost": 15,
+    "cooldownReduction": -9
+  },
+  "tags": [
+    "fjall"
+  ],
+  "description": "In the eyes of the Fjall dwarves, the sling is a far more honorable weapon than the bow - so much so that even battle-hardened veterans readily wield it in combat.",
+  "descriptionZh": "在弗约矮人眼中，投石索远比弓更拿得出手，连久经沙场的老兵也一点都不避讳这种兵器。",
+  "damage": {
+    "value": 17,
+    "type": "blunt"
+  },
+  "range": 7
+}

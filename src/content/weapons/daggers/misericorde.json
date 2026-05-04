@@ -1,0 +1,28 @@
+{
+  "id": "misericorde",
+  "name": "Misericorde",
+  "nameZh": "慈悲",
+  "slot": "dagger",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/daggers/misericorde.webp",
+  "durability": 80,
+  "price": 1700,
+  "properties": {
+    "accuracy": 6,
+    "critChance": 5,
+    "armorPenetration": 10,
+    "bleedingChance": 20
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Knightly etiquette dictates that a mercy blow to an incapacitated opponent can only be delivered with this dagger.",
+  "descriptionZh": "骑士做事有骑士的做法，对手无力还击之后，骑士要想结果他们，只能用这种匕首。",
+  "damage": {
+    "value": 19,
+    "type": "piercing"
+  },
+  "range": 1
+}

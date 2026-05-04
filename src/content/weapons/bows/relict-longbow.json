@@ -1,0 +1,37 @@
+{
+  "id": "relict-longbow",
+  "name": "Relict Longbow",
+  "nameZh": "古弓",
+  "slot": "bow",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/bows/relict-longbow.webp",
+  "durability": 125,
+  "price": 6125,
+  "properties": {
+    "accuracy": -55,
+    "fumbleChance": -15,
+    "armorPenetration": 15,
+    "knockbackChance": 30,
+    "staggerChance": 30,
+    "manasteal": 7,
+    "skillsEnergyCost": 35,
+    "cooldownReduction": -5,
+    "magicPower": 9,
+    "damages": {
+      "piercing": 26,
+      "arcane": 4
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "This marvelous artifact appears to be at least millennia old. It's a mystery how it hasn't yet rotted away.",
+  "descriptionZh": "这件古物看着少说也有一千年的历史，为什么至今依旧完好如昨？真是奇迹。",
+  "damage": {
+    "value": 26,
+    "type": "piercing"
+  },
+  "range": 8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "arming-cap",
+  "name": "Arming Cap",
+  "nameZh": "武装帽",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/arming-cap.webp",
+  "durability": 80,
+  "price": 225,
+  "properties": {
+    "defense": 4,
+    "evasion": 2,
+    "resistances": {
+      "bleeding": 10,
+      "stun": 7,
+      "physical": 8,
+      "blunt": 2
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It might soften a club blow. Can't expect more from it.",
+  "descriptionZh": "能稍微缓冲一下棒子砸下来的冲击，其他的防护就不太行了。",
+  "class": "light"
+}

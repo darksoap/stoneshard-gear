@@ -1,0 +1,33 @@
+{
+  "id": "gilded-warstaff",
+  "name": "Gilded Warstaff",
+  "nameZh": "镀金战杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/gilded-warstaff.webp",
+  "durability": 125,
+  "price": 5600,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 15,
+    "knockbackChance": 20,
+    "staggerChance": 20,
+    "maxMana": 9,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5,
+    "cooldownReduction": -4,
+    "magicPower": 7
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A distinguished staff for a distinguished mage: with gilding this lavish, there is plenty of precious metal for magic to course through.",
+  "descriptionZh": "长杖金光煌煌，配声名赫赫的法师。镀金用料豪气，魔力定能大显身手。",
+  "damage": {
+    "value": 22,
+    "type": "blunt"
+  },
+  "range": 1
+}

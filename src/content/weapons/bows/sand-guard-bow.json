@@ -1,0 +1,32 @@
+{
+  "id": "sand-guard-bow",
+  "name": "Sand Guard Bow",
+  "nameZh": "沙野卫兵弓",
+  "slot": "bow",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/weapons/bows/sand-guard-bow.webp",
+  "durability": 110,
+  "price": 6125,
+  "properties": {
+    "accuracy": -45,
+    "fumbleChance": 7,
+    "armorPenetration": 20,
+    "bodypartDamage": 15,
+    "knockbackChance": 35,
+    "immobilizationChance": 30,
+    "skillsEnergyCost": 48,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The deserts of Ahjat are harsh, fickle, and teeming with dangers. Fortunately, the Sand Guard, tasked with escorting caravans, knows exactly how to handle them - whether it's raiding nomadic bands or something even worse...",
+  "descriptionZh": "艾哈雅特沙漠变幻莫测，危机四伏。幸而有沙野卫兵护送商队，应对沿途出没的游牧劫匪或者更骇人的威胁。",
+  "damage": {
+    "value": 31,
+    "type": "piercing"
+  },
+  "range": 11
+}

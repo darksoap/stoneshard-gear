@@ -1,0 +1,47 @@
+---
+import ItemListLayout from "../../../components/ItemListLayout.astro";
+import { getCollection } from "astro:content";
+import { getAvailableFilters, base } from "../../../lib/items";
+import { jewelrySlotLabels, jewelrySlotSlugs } from "../../../i18n/zh";
+
+export async function getStaticPaths() {
+  const jewelry = await getCollection("jewelry");
+  const slots = [...new Set(jewelry.map((j) => j.data.slot))];
+
+  return slots
+    .map((slot) => {
+      const slug = jewelrySlotSlugs[slot];
+      return {
+        params: { type: slug },
+        props: { slot },
+      };
+    })
+    .filter((p) => p.params.type);
+}
+
+interface Props {
+  slot: string;
+}
+
+const { slot } = Astro.props;
+const jewelry = await getCollection("jewelry");
+const filteredJewelry = jewelry.filter((j) => j.data.slot === slot);
+
+const slotLabel = jewelrySlotLabels[slot] || slot;
+
+const availableFilters = getAvailableFilters(filteredJewelry);
+---
+
+<ItemListLayout
+  title={`${slotLabel} - 首饰`}
+  description={`${slotLabel}列表，共${filteredJewelry.length}件`}
+  itemType="jewelry"
+  collectionType="jewelry"
+  items={filteredJewelry}
+  availableFilters={availableFilters}
+  breadcrumb={[
+    { label: "首饰", href: `${base}/jewelry` },
+    { label: slotLabel, href: "" },
+  ]}
+  noResultsText="没有找到符合条件的首饰"
+/>

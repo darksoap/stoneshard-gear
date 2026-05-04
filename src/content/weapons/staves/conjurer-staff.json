@@ -1,0 +1,35 @@
+{
+  "id": "conjurer-staff",
+  "name": "Conjurer Staff",
+  "nameZh": "法师长杖",
+  "slot": "2hstaff",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/staves/conjurer-staff.webp",
+  "durability": 50,
+  "price": 1725,
+  "properties": {
+    "armorPenetration": 10,
+    "skillsEnergyCost": 15,
+    "spellsEnergyCost": -3,
+    "magicPower": 6,
+    "miraclePower": 7,
+    "damages": {
+      "blunt": 10,
+      "fire": 1,
+      "frost": 1,
+      "arcane": 1
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "After surviving the Academy and the first handful of battles, most mages usually seek to invest their earnings into a proper staff.",
+  "descriptionZh": "大多数法师活着走出学院，参加了几次战斗之后，一般都会拿自己赚到的钱买一把像样的长杖。",
+  "damage": {
+    "value": 10,
+    "type": "blunt"
+  },
+  "range": 1
+}

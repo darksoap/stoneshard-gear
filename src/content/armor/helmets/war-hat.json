@@ -1,0 +1,28 @@
+{
+  "id": "war-hat",
+  "name": "War Hat",
+  "nameZh": "军用帽盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/war-hat.webp",
+  "durability": 130,
+  "price": 1025,
+  "properties": {
+    "maxMana": -2,
+    "defense": 10,
+    "critAvoid": 5,
+    "resistances": {
+      "bleeding": 20,
+      "stun": 15,
+      "physical": 16
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A step above the kettle helmet, tougher and more resistant to both melee and ranged weaponry.",
+  "descriptionZh": "比圆顶锅盔好上一档，更结实，抵御远近兵器的效果更好。",
+  "class": "medium"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "knightly-shield",
+  "name": "Knightly Shield",
+  "nameZh": "骑士盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/knightly-shield.webp",
+  "durability": 210,
+  "price": 3950,
+  "properties": {
+    "damageReduction": 27,
+    "blockPower": 23,
+    "blockRecovery": 5,
+    "maxMana": -8,
+    "manaRestoration": -1,
+    "evasion": -4
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Sometimes a knight needs to fight on foot. This shield is excellent for such scenarios.",
+  "descriptionZh": "骑士有时需要下马作战，这个时候就非常适合用这种盾牌。",
+  "class": "medium"
+}

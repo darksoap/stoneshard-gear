@@ -1,0 +1,30 @@
+{
+  "id": "bearded-hatchet",
+  "name": "Bearded Hatchet",
+  "nameZh": "倒钩手斧",
+  "slot": "axe",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/axes/bearded-hatchet.webp",
+  "durability": 80,
+  "price": 400,
+  "properties": {
+    "accuracy": 4,
+    "armorPenetration": 10,
+    "armorDamage": 15,
+    "bodypartDamage": 16,
+    "bleedingChance": 12,
+    "skillsEnergyCost": 10
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Lends itself to a higher grip whenever the enemy gets too close for a full swing.",
+  "descriptionZh": "如果敌人近在眼前，不宜大开大合，这种斧头也可以握着靠上的位置使用。",
+  "damage": {
+    "value": 19,
+    "type": "slashing"
+  },
+  "range": 1
+}

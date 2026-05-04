@@ -1,0 +1,31 @@
+{
+  "id": "hermit-circlet",
+  "name": "Hermit Circlet",
+  "nameZh": "隐士头箍",
+  "slot": "head",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "wood",
+  "image": "/images/armor/helmets/hermit-circlet.webp",
+  "durability": 40,
+  "price": 7300,
+  "properties": {
+    "maxMana": 4,
+    "manaRestoration": 2,
+    "maxHealth": 4,
+    "healthRestoration": 2,
+    "magicPower": 11,
+    "miracleChance": 4,
+    "miraclePower": 7,
+    "bonusRange": 10,
+    "resistances": {
+      "nature": 15
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Inexplicably, the strips of bark still appear to be fresh, alive even... What power makes it possible?",
+  "descriptionZh": "这些树皮不知道为什么至今依然新鲜，甚至还有生力……其中蕴涵了怎样的力量？",
+  "class": "light"
+}

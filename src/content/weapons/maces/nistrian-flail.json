@@ -1,0 +1,32 @@
+{
+  "id": "nistrian-flail",
+  "name": "Nistrian Flail",
+  "nameZh": "尼斯特拉连枷",
+  "slot": "mace",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/maces/nistrian-flail.webp",
+  "durability": 135,
+  "price": 2925,
+  "properties": {
+    "accuracy": -8,
+    "critChance": 5,
+    "fumbleChance": 10,
+    "armorPenetration": 15,
+    "bodypartDamage": 12,
+    "dazeChance": 23,
+    "staggerChance": 25,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "nistra"
+  ],
+  "description": "A typical weapon of Zeinesh mountain brigands. During times of conflict, they descend to the flatlands, offering to fight for the highest bidder.",
+  "descriptionZh": "切涅什的山匪惯用这种武器。战乱年代，他们会来到平原赚钱，谁价钱开得高，就给谁卖命。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
+}

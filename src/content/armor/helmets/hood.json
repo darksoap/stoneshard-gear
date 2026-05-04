@@ -1,0 +1,29 @@
+{
+  "id": "hood",
+  "name": "Hood",
+  "nameZh": "兜帽",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/helmets/hood.webp",
+  "durability": 30,
+  "price": 225,
+  "properties": {
+    "critChance": 2,
+    "fumbleChance": -1,
+    "defense": 3,
+    "evasion": 4,
+    "resistances": {
+      "bleeding": 5,
+      "stun": 4,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A woolen hood with a playfully folded tip. These were once popular among Maen townsmen.",
+  "descriptionZh": "羊毛兜帽，顶部随便折了一个尖。曼恩的城里人以前特别爱戴这种帽子。",
+  "class": "light"
+}

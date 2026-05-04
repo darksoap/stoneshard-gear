@@ -1,0 +1,39 @@
+{
+  "id": "geomancer-staff",
+  "name": "Geomancer Staff",
+  "nameZh": "地术长杖",
+  "slot": "2hstaff",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/staves/geomancer-staff.webp",
+  "durability": 160,
+  "price": 2425,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 12,
+    "blockPower": 8,
+    "knockbackChance": 16,
+    "staggerChance": 21,
+    "skillsEnergyCost": -4,
+    "spellsEnergyCost": -4,
+    "damageReceived": -4,
+    "damages": {
+      "blunt": 18,
+      "arcane": 4
+    },
+    "magicPowers": {
+      "geomantic": 5
+    }
+  },
+  "tags": [
+    "magic"
+  ],
+  "description": "A staff fashioned from nigh indestructible stone, yet somehow it still weighs lighter than wood.",
+  "descriptionZh": "这根法杖的材质是某种几乎无法摧毁的石头……可是它却比木头还要轻上很多。",
+  "damage": {
+    "value": 18,
+    "type": "blunt"
+  },
+  "range": 1
+}

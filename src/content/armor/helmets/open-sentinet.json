@@ -1,0 +1,28 @@
+{
+  "id": "open-sentinet",
+  "name": "Open Sentinet",
+  "nameZh": "敞面森提亚盔",
+  "slot": "head",
+  "tier": 3,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/open-sentinet.webp",
+  "durability": 115,
+  "price": 925,
+  "properties": {
+    "maxMana": -2,
+    "defense": 10,
+    "fortitude": 3,
+    "resistances": {
+      "bleeding": 17,
+      "stun": 17,
+      "physical": 16
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Some people spitefully suggest that, contrary to their name, sentinets weren't invented in Sentia but were brought there from the Bronze Isles. The truth is, no one knows for sure anymore.",
+  "descriptionZh": "有些人说森提亚盔名不副实，根本就不是森提亚人发明的，而是青铜群岛的舶来品。其实现在谁也不知道到底源自哪里，这样说的那些人只是心怀歹意。",
+  "class": "medium"
+}

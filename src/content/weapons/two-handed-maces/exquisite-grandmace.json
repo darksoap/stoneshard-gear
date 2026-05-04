@@ -1,0 +1,34 @@
+{
+  "id": "exquisite-grandmace",
+  "name": "Exquisite Grandmace",
+  "nameZh": "鎏金长柄锤",
+  "slot": "2hmace",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/two-handed-maces/exquisite-grandmace.webp",
+  "durability": 155,
+  "price": 7150,
+  "properties": {
+    "accuracy": 4,
+    "critChance": 6,
+    "fumbleChance": 9,
+    "armorPenetration": 40,
+    "armorDamage": 50,
+    "dazeChance": 35,
+    "knockbackChance": 15,
+    "staggerChance": 30,
+    "skillsEnergyCost": 35,
+    "magicPower": 5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Don't let the glint of gold mislead you: despite its elegant ornaments, this polemace shatters skulls and bones just as efficiently as its plain counterparts.",
+  "descriptionZh": "这件钉头锤鎏金修饰丰富，不过切勿因此低估了兵器的实战性能——它断骨碎颅的本事丝毫不比普通的长柄钉头锤差。",
+  "damage": {
+    "value": 32,
+    "type": "blunt"
+  },
+  "range": 1
+}

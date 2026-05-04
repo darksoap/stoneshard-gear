@@ -1,0 +1,27 @@
+{
+  "id": "mercenary-girdle",
+  "name": "Mercenary Girdle",
+  "nameZh": "佣兵腰带",
+  "slot": "waist",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/armor/belts/mercenary-girdle.webp",
+  "durability": 70,
+  "price": 575,
+  "properties": {
+    "damageReduction": 6,
+    "fatigueGain": 3,
+    "critAvoid": 7,
+    "resistances": {
+      "pain": 12,
+      "physical": 3
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A thin belt complete with a few metal buckles. It's still more of a fashion accessory than a functional piece of armor though.",
+  "descriptionZh": "一条细带子，加了几个金属圆盘，与其说是防具，不如说是装饰。",
+  "class": "light"
+}

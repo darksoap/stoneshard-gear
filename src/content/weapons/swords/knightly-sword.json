@@ -1,0 +1,29 @@
+{
+  "id": "knightly-sword",
+  "name": "Knightly Sword",
+  "nameZh": "骑士配剑",
+  "slot": "sword",
+  "tier": 5,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/swords/knightly-sword.webp",
+  "durability": 140,
+  "price": 5875,
+  "properties": {
+    "counterChance": 8,
+    "armorPenetration": 15,
+    "damageReduction": 12,
+    "blockPower": 10,
+    "skillsEnergyCost": 5
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "A single glance at this noble blade is all it takes to realize that only a select few are worthy to wield it.",
+  "descriptionZh": "这把剑你只要看一眼，就知道只有极少数人有资格佩戴。",
+  "damage": {
+    "value": 28,
+    "type": "slashing"
+  },
+  "range": 1
+}

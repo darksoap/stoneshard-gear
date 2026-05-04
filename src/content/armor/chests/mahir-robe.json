@@ -1,0 +1,30 @@
+{
+  "id": "mahir-robe",
+  "name": "Mahir Robe",
+  "nameZh": "玛息尔的衣服",
+  "slot": "chest",
+  "tier": 2,
+  "rarity": "unique",
+  "material": "cloth",
+  "image": "/images/armor/chests/mahir-robe.webp",
+  "durability": 40,
+  "price": 675,
+  "properties": {
+    "maxMana": 2,
+    "manaRestoration": 1,
+    "abilitiesEnergyCost": -3,
+    "fatigueGain": 5,
+    "defense": 2,
+    "resistances": {
+      "bleeding": 2,
+      "physical": 5
+    }
+  },
+  "tags": [
+    "special",
+    "exc"
+  ],
+  "description": "A manner of robe that is typically the sole possession of wandering dervishes such as Mahir. It offers reliable protection from both the scorching sun of Jacinth as well as the bone-chilling cold of its desert nights.",
+  "descriptionZh": "玛息尔这种云游四方的苦行修士，除了这么一件袍子，身上一般别无他物。这种衣服既能遮挡红锆灼热的日光，也能抵御沙漠夜间彻骨的寒意。",
+  "class": "light"
+}

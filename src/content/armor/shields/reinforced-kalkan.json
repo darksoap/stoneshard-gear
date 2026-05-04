@@ -1,0 +1,26 @@
+{
+  "id": "reinforced-kalkan",
+  "name": "Reinforced Kalkan",
+  "nameZh": "加固穹顶圆盾",
+  "slot": "shield",
+  "tier": 5,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/armor/shields/reinforced-kalkan.webp",
+  "durability": 170,
+  "price": 2975,
+  "properties": {
+    "damageReduction": 18,
+    "blockPower": 18,
+    "blockRecovery": 10,
+    "resistances": {
+      "stun": 5
+    }
+  },
+  "tags": [
+    "elven"
+  ],
+  "description": "This kalkan is larger and heavier than usual. Perhaps it once belonged to some nomadic nobleman.",
+  "descriptionZh": "这块穹顶圆盾比常见的更大、更重，过去可能属于某个游牧部落的贵族。",
+  "class": "light"
+}

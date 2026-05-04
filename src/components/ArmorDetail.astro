@@ -1,0 +1,140 @@
+---
+import PropertyTable from "./PropertyTable.astro";
+import { resistanceLabels, magicPowerLabels, bodyPartLabels } from "../i18n/zh";
+import { getFilteredProperties } from "../lib/items";
+
+interface ItemData {
+  slot: string;
+  properties: Record<string, any>;
+}
+
+interface Props {
+  data: ItemData;
+}
+
+const { data } = Astro.props;
+
+const isShield = data.slot === "shield";
+
+const resistances = data.properties.resistances as
+  | Record<string, number>
+  | undefined;
+const magicPowers = data.properties.magicPowers as
+  | Record<string, number>
+  | undefined;
+const bodyPartProtection = data.properties.bodyPartProtection as
+  | Record<string, number>
+  | undefined;
+const defenseValue =
+  typeof data.properties.defense === "number" ? data.properties.defense : null;
+const blockPowerValue =
+  typeof data.properties.blockPower === "number"
+    ? data.properties.blockPower
+    : null;
+
+const showDefenseLine =
+  isShield && (defenseValue !== null || blockPowerValue !== null);
+
+const filteredProperties = getFilteredProperties(data.properties);
+---
+
+{
+  showDefenseLine && (
+    <div class="py-4 text-center border-b border-border-dark bg-bg-secondary">
+      <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+        {defenseValue !== null && (
+          <span class="text-xl sm:text-2xl text-white font-bold tabular-nums">
+            {defenseValue}{" "}
+            <span class="text-text-secondary font-medium text-base sm:text-lg">
+              防护
+            </span>
+          </span>
+        )}
+        {blockPowerValue !== null && (
+          <span class="text-xl sm:text-2xl text-white font-bold tabular-nums">
+            {blockPowerValue}{" "}
+            <span class="text-text-secondary font-medium text-base sm:text-lg">
+              格挡力量
+            </span>
+          </span>
+        )}
+      </div>
+    </div>
+  )
+}
+
+{
+  Object.keys(filteredProperties).length > 0 && (
+    <div class="p-4 sm:p-5">
+      <PropertyTable properties={filteredProperties} />
+    </div>
+  )
+}
+
+{
+  resistances && Object.keys(resistances).length > 0 && (
+    <div class="px-4 sm:px-5 pb-4">
+      <div class="property-group">
+        <div class="group-header">抗性</div>
+        <div class="space-y-0.5">
+          {Object.entries(resistances).map(([key, value]) => (
+            <div class="stat-row px-1">
+              <span class="text-text-secondary text-sm">
+                {resistanceLabels[key] || key}
+              </span>
+              <span
+                class={`text-sm font-medium ${value > 0 ? "text-positive" : "text-negative"}`}
+              >
+                {value > 0 ? `+${value}` : value}%
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+{
+  magicPowers && Object.keys(magicPowers).length > 0 && (
+    <div class="px-4 sm:px-5 pb-4">
+      <div class="property-group">
+        <div class="group-header">魔法力量</div>
+        <div class="space-y-0.5">
+          {Object.entries(magicPowers).map(([key, value]) => (
+            <div class="stat-row px-1">
+              <span class="text-text-secondary text-sm">
+                {magicPowerLabels[key] || key}
+              </span>
+              <span
+                class={`text-sm font-medium ${value > 0 ? "text-positive" : "text-negative"}`}
+              >
+                {value > 0 ? `+${value}` : value}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+{
+  bodyPartProtection && Object.keys(bodyPartProtection).length > 0 && (
+    <div class="px-4 sm:px-5 pb-4">
+      <div class="property-group">
+        <div class="group-header">部位防护</div>
+        <div class="space-y-0.5">
+          {Object.entries(bodyPartProtection).map(([key, value]) => (
+            <div class="stat-row px-1">
+              <span class="text-text-secondary text-sm">
+                {bodyPartLabels[key] || key}
+              </span>
+              <span class="text-sm font-medium text-positive">+{value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}

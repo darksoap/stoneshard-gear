@@ -1,0 +1,31 @@
+{
+  "id": "militia-staff-sling",
+  "name": "Militia Staff Sling",
+  "nameZh": "民兵投石杆",
+  "slot": "sling",
+  "tier": 2,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/militia-staff-sling.webp",
+  "durability": 100,
+  "price": 300,
+  "properties": {
+    "accuracy": -70,
+    "armorPenetration": 10,
+    "bodypartDamage": 15,
+    "stunChance": 15,
+    "staggerChance": 25,
+    "skillsEnergyCost": 10,
+    "cooldownReduction": -3
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Peasants are seldom accustomed to close combat, so outfitting them with slings is a sound strategy - though usually overlooked by noble lords.",
+  "descriptionZh": "农民很少有人能习惯近身战斗，用投石杖是个合理的办法，可惜他们的领主很少会想到这一点。",
+  "damage": {
+    "value": 12,
+    "type": "blunt"
+  },
+  "range": 7
+}

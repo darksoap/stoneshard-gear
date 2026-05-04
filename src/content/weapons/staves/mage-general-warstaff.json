@@ -1,0 +1,39 @@
+{
+  "id": "mage-general-warstaff",
+  "name": "Mage General Warstaff",
+  "nameZh": "法将战杖",
+  "slot": "2hstaff",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/staves/mage-general-warstaff.webp",
+  "durability": 155,
+  "price": 5100,
+  "properties": {
+    "armorPenetration": 5,
+    "damageReduction": 15,
+    "knockbackChance": 20,
+    "staggerChance": 25,
+    "lifesteal": 4,
+    "manasteal": 4,
+    "skillsEnergyCost": -5,
+    "spellsEnergyCost": -5,
+    "magicPower": 8,
+    "miscastChance": -4,
+    "damages": {
+      "blunt": 16,
+      "arcane": 3,
+      "psionic": 3
+    }
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "Kasper Stern, a legendary sorcerer and mentor at the Maen Academy, lived about a century ago and was an exceptionally versatile individual. Conrad II Ironhand held the mage in such high esteem that he entrusted him with leading a part of the royal army - an unprecedented decision!",
+  "descriptionZh": "大约一百年前，曼恩学院有一教师，名作卡斯珀·斯滕，既长于咒法，又深谙军法与治政之道，鲜有人出其右，逝后成为传奇法师。“铁手”康拉德二世彼时对其欣赏有加，命其执掌先王麾下一部，开历史之先河！",
+  "damage": {
+    "value": 16,
+    "type": "blunt"
+  },
+  "range": 1
+}

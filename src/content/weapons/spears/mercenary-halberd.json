@@ -1,0 +1,31 @@
+{
+  "id": "mercenary-halberd",
+  "name": "Mercenary Halberd",
+  "nameZh": "佣兵戟",
+  "slot": "spear",
+  "tier": 4,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/mercenary-halberd.webp",
+  "durability": 155,
+  "price": 3625,
+  "properties": {
+    "critChance": 5,
+    "fumbleChance": 10,
+    "armorPenetration": 30,
+    "armorDamage": 25,
+    "bodypartDamage": 22,
+    "staggerChance": 19,
+    "skillsEnergyCost": 35
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Halberds were originally a mercenary weapon, so their widespread use among the Grand Magistrate's soldiers is hardly surprising - at least half of them hail from free companies.",
+  "descriptionZh": "戟原本是雇佣兵用的东西，因此城市联盟的军队广泛使用也是意料之中的事情——城联军的人有一半之前都是自由佣兵团的成员。",
+  "damage": {
+    "value": 27,
+    "type": "slashing"
+  },
+  "range": 1
+}

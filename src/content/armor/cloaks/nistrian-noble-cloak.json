@@ -1,0 +1,27 @@
+{
+  "id": "nistrian-noble-cloak",
+  "name": "Nistrian Noble Cloak",
+  "nameZh": "尼斯特拉贵族斗篷",
+  "slot": "back",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/cloaks/nistrian-noble-cloak.webp",
+  "durability": 40,
+  "price": 1500,
+  "properties": {
+    "damageReceived": -3,
+    "critAvoid": 9,
+    "resistances": {
+      "bleeding": 9,
+      "physical": 9,
+      "nature": 9
+    }
+  },
+  "tags": [
+    "nistra"
+  ],
+  "description": "Nistra is a fascinating land of many intertwined cultures. Nistrian nobles, who still stay true to the ancient traditions of Axonia, also eagerly embrace the customs of Pjesht highlanders - such as a preference for this style of cloak, for example.",
+  "descriptionZh": "尼斯特拉这片土地魅力无穷，多种文化交织相融。尼斯特拉的贵族虽然依旧遵守亚克逊古老的传统，但也愿意接受高地民族普耶什特的民俗，例如披着这种款式的斗篷。",
+  "class": "light"
+}

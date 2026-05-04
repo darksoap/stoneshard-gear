@@ -1,0 +1,32 @@
+{
+  "id": "heirloom-sword",
+  "name": "Heirloom Sword",
+  "nameZh": "家传宝剑",
+  "slot": "sword",
+  "tier": 4,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/swords/heirloom-sword.webp",
+  "durability": 110,
+  "price": 2775,
+  "properties": {
+    "counterChance": 6,
+    "fumbleChance": -3,
+    "armorPenetration": 10,
+    "damageReduction": 8,
+    "blockPower": 6,
+    "skillsEnergyCost": 5,
+    "spellsEnergyCost": -5,
+    "magicPower": 5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The ornate pommel bears the crest of yet another noble house that did not survive the war.",
+  "descriptionZh": "华丽的剑首刻着某个贵族的家徽，只是这个家族也覆灭于战乱之中。",
+  "damage": {
+    "value": 24,
+    "type": "slashing"
+  },
+  "range": 1
+}

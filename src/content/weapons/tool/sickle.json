@@ -1,0 +1,26 @@
+{
+  "id": "sickle",
+  "name": "Sickle",
+  "nameZh": "短把镰刀",
+  "slot": "tool",
+  "tier": 1,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/tool/sickle.webp",
+  "durability": 20,
+  "price": 30,
+  "properties": {
+    "fumbleChance": 25,
+    "bleedingChance": 5
+  },
+  "tags": [
+    "special"
+  ],
+  "description": "Sickles are generally wielded by women and children - during the harvesting season, they are tasked with cleaning up patches of grain that were missed during scything.",
+  "descriptionZh": "短把镰刀基本上是小孩和女人用——收割的时候，长把大镰刀割完之后，他们就会拿着这种镰刀再去收割漏割的庄稼。",
+  "damage": {
+    "value": 10,
+    "type": "slashing"
+  },
+  "range": 1
+}

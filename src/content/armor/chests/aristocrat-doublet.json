@@ -1,0 +1,31 @@
+{
+  "id": "aristocrat-doublet",
+  "name": "Aristocrat Doublet",
+  "nameZh": "贵族马甲",
+  "slot": "chest",
+  "tier": 5,
+  "rarity": "common",
+  "material": "cloth",
+  "image": "/images/armor/chests/aristocrat-doublet.webp",
+  "durability": 80,
+  "price": 4975,
+  "properties": {
+    "counterChance": 6,
+    "skillsEnergyCost": -5,
+    "cooldownReduction": -5,
+    "defense": 7,
+    "evasion": 7,
+    "critAvoid": 8,
+    "fortitude": 5,
+    "resistances": {
+      "bleeding": 17,
+      "physical": 10
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "From the stitching to the buckles, every single part is crafted from the finest materials and with flawless workmanship.",
+  "descriptionZh": "不论是线迹还是搭扣，每一个地方都是最好的料子和天衣无缝的做工。",
+  "class": "light"
+}

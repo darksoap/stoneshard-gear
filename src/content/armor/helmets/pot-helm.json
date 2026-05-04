@@ -1,0 +1,28 @@
+{
+  "id": "pot-helm",
+  "name": "Pot Helm",
+  "nameZh": "平顶锅盔",
+  "slot": "head",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/armor/helmets/pot-helm.webp",
+  "durability": 100,
+  "price": 350,
+  "properties": {
+    "maxMana": -4,
+    "manaRestoration": -1,
+    "defense": 8,
+    "resistances": {
+      "bleeding": 16,
+      "stun": 14,
+      "physical": 12
+    }
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Its glory years are long behind it. In this day and age, Aldorian armorsmiths are capable of forging much more efficient designs.",
+  "descriptionZh": "这种头盔是很久很久以前的防具，奥尔多的盔匠今时今日锻造的形制比这种好了很多。",
+  "class": "medium"
+}

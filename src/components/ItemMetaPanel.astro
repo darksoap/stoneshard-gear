@@ -1,0 +1,82 @@
+---
+import { materialLabels } from "../i18n/zh";
+import { base } from "../lib/items";
+
+interface Props {
+  durability: number;
+  material: string;
+  fireproof?: boolean;
+  price: number;
+  description?: string;
+  descriptionZh?: string;
+  version?: string;
+}
+
+const {
+  durability,
+  material,
+  fireproof,
+  price,
+  description,
+  descriptionZh,
+  version,
+} = Astro.props;
+const materialLabel = materialLabels[material] || material;
+---
+
+<div class="px-4 sm:px-6 py-3">
+  <div class="flex justify-between items-center">
+    <span class="text-text-muted text-sm">耐久</span>
+    <span class="text-white text-sm font-medium tabular-nums">{durability}</span
+    >
+  </div>
+  <div class="flex justify-between items-center mt-1">
+    <span class="text-text-muted text-sm">材质</span>
+    <span class="text-white text-sm font-medium">{materialLabel}</span>
+  </div>
+  {
+    fireproof && (
+      <div class="flex justify-between items-center mt-1">
+        <span class="text-text-muted text-sm">防火</span>
+        <span class="text-positive text-sm font-medium">✓</span>
+      </div>
+    )
+  }
+</div>
+
+{
+  descriptionZh && (
+    <div class="px-4 sm:px-6 py-4 text-text-secondary text-sm leading-relaxed italic border-t border-border-dark">
+      "{descriptionZh}"
+      {description && (
+        <div class="text-text-muted text-xs mt-2 not-italic">{description}</div>
+      )}
+    </div>
+  )
+}
+{
+  !descriptionZh && description && (
+    <div class="px-4 sm:px-6 py-4 text-text-secondary text-sm leading-relaxed italic border-t border-border-dark">
+      "{description}"
+    </div>
+  )
+}
+
+<div class="price-bar px-4 sm:px-6 py-3 border-t border-border-dark">
+  <div class="flex items-center justify-center gap-2 text-accent-warm">
+    <img
+      src={`${base}/images/Crowns.webp`}
+      alt="金币"
+      class="w-5 h-5 object-contain"
+    />
+    <span class="font-bold text-lg tabular-nums">{price}</span>
+  </div>
+</div>
+
+{
+  version && (
+    <div class="px-4 sm:px-6 py-2 border-t border-border-dark text-center bg-bg-primary">
+      <span class="text-text-muted text-xs">v{version}</span>
+    </div>
+  )
+}

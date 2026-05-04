@@ -1,0 +1,30 @@
+{
+  "id": "eeders-longbow",
+  "name": "Eeders Longbow",
+  "nameZh": "伊德斯长弓",
+  "slot": "bow",
+  "tier": 4,
+  "rarity": "common",
+  "material": "wood",
+  "image": "/images/weapons/bows/eeders-longbow.webp",
+  "durability": 95,
+  "price": 2900,
+  "properties": {
+    "accuracy": -55,
+    "fumbleChance": 12,
+    "armorPenetration": 20,
+    "knockbackChance": 30,
+    "immobilizationChance": 25,
+    "skillsEnergyCost": 40
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "The production process for these famous longbows isn't exactly common knowledge - the denizens of Eeders tend to keep to themselves.",
+  "descriptionZh": "伊德斯长弓远近有名，不过伊德斯人寡言少语，所以这种长弓的制作工艺并非人人皆知。",
+  "damage": {
+    "value": 28,
+    "type": "piercing"
+  },
+  "range": 10
+}

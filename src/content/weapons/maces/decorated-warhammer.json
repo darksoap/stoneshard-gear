@@ -1,0 +1,32 @@
+{
+  "id": "decorated-warhammer",
+  "name": "Decorated Warhammer",
+  "nameZh": "鎏金战锤",
+  "slot": "mace",
+  "tier": 5,
+  "rarity": "unique",
+  "material": "metal",
+  "image": "/images/weapons/maces/decorated-warhammer.webp",
+  "durability": 145,
+  "price": 5100,
+  "properties": {
+    "accuracy": 7,
+    "armorPenetration": 35,
+    "armorDamage": 56,
+    "bodypartDamage": 15,
+    "dazeChance": 20,
+    "staggerChance": 25,
+    "skillsEnergyCost": 15,
+    "cooldownReduction": -5
+  },
+  "tags": [
+    "unique"
+  ],
+  "description": "The sentiment that maces are a weapon of the peasantry is long obsolete. Adorned with gold and horsehair, this warhammer demonstrates it better than anything.",
+  "descriptionZh": "早就没有人以为钉头锤是农民用的兵器了，这把镀金马鬃战锤就是最好的例证。",
+  "damage": {
+    "value": 27,
+    "type": "blunt"
+  },
+  "range": 1
+}

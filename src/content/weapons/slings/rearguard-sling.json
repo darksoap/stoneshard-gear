@@ -1,0 +1,31 @@
+{
+  "id": "rearguard-sling",
+  "name": "Rearguard Sling",
+  "nameZh": "佣兵投石索",
+  "slot": "sling",
+  "tier": 4,
+  "rarity": "common",
+  "material": "leather",
+  "image": "/images/weapons/slings/rearguard-sling.webp",
+  "durability": 130,
+  "price": 1450,
+  "properties": {
+    "accuracy": -55,
+    "critChance": 8,
+    "armorPenetration": 5,
+    "dazeChance": 30,
+    "staggerChance": 25,
+    "skillsEnergyCost": 10,
+    "cooldownReduction": -8
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "Not all free companies are sent to the front - some are contracted to protect supply convoys and undertake other auxiliary duties.",
+  "descriptionZh": "并不是所有佣兵团都会派往前线，有些受雇是负责护卫辎重，或者承担后勤之类的辅助任务。",
+  "damage": {
+    "value": 13,
+    "type": "blunt"
+  },
+  "range": 7
+}

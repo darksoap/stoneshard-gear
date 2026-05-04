@@ -1,0 +1,75 @@
+---
+import PropertyTable from "./PropertyTable.astro";
+import { damageTypeLabels, damageTypeColors } from "../i18n/zh";
+import { getFilteredProperties } from "../lib/items";
+
+interface ItemData {
+  slot: string;
+  damage?: { value: number; type: string };
+  range?: number;
+  properties: Record<string, any>;
+}
+
+interface Props {
+  data: ItemData;
+}
+
+const { data } = Astro.props;
+
+const isRanged = ["bow", "crossbow", "sling"].includes(data.slot);
+const damages = data.properties.damages as Record<string, number> | undefined;
+const showDamage = data.damage && data.damage.value > 0;
+
+const damageTypeLabel = data.damage
+  ? damageTypeLabels[data.damage.type] || data.damage.type
+  : null;
+
+const filteredProperties = getFilteredProperties(data.properties);
+---
+
+{
+  (showDamage || (damages && Object.keys(damages).length > 0)) && (
+    <div class="py-4 text-center border-b border-border-dark bg-bg-secondary">
+      <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+        {showDamage && (
+          <span class="text-xl sm:text-2xl text-white font-bold tabular-nums">
+            {data.damage!.value}{" "}
+            <span class="text-text-secondary font-medium text-base sm:text-lg">
+              {damageTypeLabel}伤害
+            </span>
+          </span>
+        )}
+        {damages &&
+          Object.entries(damages).map(([type, value]) => {
+            if (showDamage && type === data.damage!.type) return null;
+            const color = damageTypeColors[type] || "#e8e8e8";
+            const label = damageTypeLabels[type] || type;
+            return (
+              <span
+                class="text-xl sm:text-2xl font-bold tabular-nums"
+                style={`color: ${color}`}
+              >
+                +{value}{" "}
+                <span class="font-medium text-base sm:text-lg">
+                  {label}伤害
+                </span>
+              </span>
+            );
+          })}
+      </div>
+      {isRanged && data.range && data.range > 0 && (
+        <div class="text-text-muted text-sm mt-2 tabular-nums">
+          射程 {data.range}
+        </div>
+      )}
+    </div>
+  )
+}
+
+{
+  Object.keys(filteredProperties).length > 0 && (
+    <div class="p-4 sm:p-5">
+      <PropertyTable properties={filteredProperties} />
+    </div>
+  )
+}

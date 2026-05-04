@@ -1,0 +1,23 @@
+{
+  "id": "lucky-talisman",
+  "name": "Lucky Talisman",
+  "nameZh": "钱币护符",
+  "slot": "amulet",
+  "tier": 2,
+  "rarity": "common",
+  "material": "gold",
+  "image": "/images/armor/amulets/lucky-talisman.webp",
+  "durability": 25,
+  "price": 200,
+  "properties": {
+    "maxMana": 2,
+    "miscastChance": -1,
+    "miracleChance": 1
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "An ancient, preferably Axonian coin with a hole drilled in it is a common charm for better luck.",
+  "descriptionZh": "很多人都喜欢给古钱币——最好是亚克逊的钱币——中间钻个孔，戴在身上招好运。",
+  "class": "light"
+}

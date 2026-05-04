@@ -1,0 +1,31 @@
+{
+  "id": "recruit-billhook",
+  "name": "Recruit Billhook",
+  "nameZh": "新兵长柄柴刀",
+  "slot": "spear",
+  "tier": 2,
+  "rarity": "common",
+  "material": "metal",
+  "image": "/images/weapons/spears/recruit-billhook.webp",
+  "durability": 110,
+  "price": 625,
+  "properties": {
+    "critEfficiency": 10,
+    "fumbleChance": 4,
+    "armorPenetration": 20,
+    "armorDamage": 8,
+    "bodypartDamage": 8,
+    "immobilizationChance": 11,
+    "skillsEnergyCost": 25
+  },
+  "tags": [
+    "aldor"
+  ],
+  "description": "It would be impossible to count how many noble lords had their lives cut short by this outrageously unassuming peasant weapon.",
+  "descriptionZh": "这种兵器一般都是农民才用，别看平平无奇，不知道多少老爷大人都死在了它的刃下。",
+  "damage": {
+    "value": 20,
+    "type": "piercing"
+  },
+  "range": 1
+}
