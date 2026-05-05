@@ -114,7 +114,6 @@ export const propertyLabels: Record<string, string> = {
   armorPenetration: '护甲穿透',
   armorDamage: '护甲破坏',
   bodypartDamage: '肢体伤害',
-  damageReduction: '格挡几率',
   blockPower: '格挡力量',
   blockRecovery: '格挡力量恢复',
   bleedingChance: '出血几率',
@@ -150,7 +149,6 @@ export const propertyLabels: Record<string, string> = {
   experienceGain: '经验收益',
   blockChance: '格挡几率',
   counterChance: '反击几率',
-  dodgeChance: '闪躲几率',
   energyRestoration: '精力自动恢复',
 };
 
@@ -178,14 +176,14 @@ export const resistanceLabels: Record<string, string> = {
 };
 
 export const magicPowerLabels: Record<string, string> = {
-  pyromantic: '炎术',
-  geomantic: '地术',
-  venomantic: '毒术',
-  electromantic: '电术',
-  cryomantic: '冰术',
-  arcanistic: '秘术',
-  astromantic: '星术',
-  psimantic: '灵术',
+  pyromantic: '炎术法力',
+  geomantic: '地术法力',
+  venomantic: '毒术法力',
+  electromantic: '电术法力',
+  cryomantic: '冰术法力',
+  arcanistic: '秘术法力',
+  astromantic: '星术法力',
+  psimantic: '灵术法力',
 };
 
 export const bodyPartLabels: Record<string, string> = {

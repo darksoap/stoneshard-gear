@@ -1,6 +1,6 @@
 ---
 import PropertyTable from "./PropertyTable.astro";
-import { resistanceLabels, magicPowerLabels, bodyPartLabels } from "../i18n/zh";
+import { resistanceLabels, bodyPartLabels } from "../i18n/zh";
 import { getFilteredProperties } from "../lib/items";
 
 interface ItemData {
@@ -13,8 +13,6 @@ interface Props {
 }
 
 const { data } = Astro.props;
-
-const isShield = data.slot === "shield";
 
 const resistances = data.properties.resistances as
   | Record<string, number>
@@ -32,8 +30,7 @@ const blockPowerValue =
     ? data.properties.blockPower
     : null;
 
-const showDefenseLine =
-  isShield && (defenseValue !== null || blockPowerValue !== null);
+const showDefenseLine = defenseValue !== null || blockPowerValue !== null;
 
 const filteredProperties = getFilteredProperties(data.properties);
 ---
@@ -64,9 +61,13 @@ const filteredProperties = getFilteredProperties(data.properties);
 }
 
 {
-  Object.keys(filteredProperties).length > 0 && (
+  (Object.keys(filteredProperties).length > 0 ||
+    (magicPowers && Object.keys(magicPowers).length > 0)) && (
     <div class="p-4 sm:p-5">
-      <PropertyTable properties={filteredProperties} />
+      <PropertyTable
+        properties={filteredProperties}
+        magicPowers={magicPowers}
+      />
     </div>
   )
 }
@@ -86,30 +87,6 @@ const filteredProperties = getFilteredProperties(data.properties);
                 class={`text-sm font-medium ${value > 0 ? "text-positive" : "text-negative"}`}
               >
                 {value > 0 ? `+${value}` : value}%
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  )
-}
-
-{
-  magicPowers && Object.keys(magicPowers).length > 0 && (
-    <div class="px-4 sm:px-5 pb-4">
-      <div class="property-group">
-        <div class="group-header">魔法力量</div>
-        <div class="space-y-0.5">
-          {Object.entries(magicPowers).map(([key, value]) => (
-            <div class="stat-row px-1">
-              <span class="text-text-secondary text-sm">
-                {magicPowerLabels[key] || key}
-              </span>
-              <span
-                class={`text-sm font-medium ${value > 0 ? "text-positive" : "text-negative"}`}
-              >
-                {value > 0 ? `+${value}` : value}
               </span>
             </div>
           ))}

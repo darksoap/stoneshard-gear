@@ -1,11 +1,12 @@
 ---
-import { propertyLabels } from "../i18n/zh";
+import { propertyLabels, magicPowerLabels } from "../i18n/zh";
 
 interface Props {
   properties: Record<string, number>;
+  magicPowers?: Record<string, number>;
 }
 
-const { properties } = Astro.props;
+const { properties, magicPowers } = Astro.props;
 
 const integerProperties = new Set([
   "blockPower",
@@ -39,19 +40,8 @@ const propertyGroups = [
     ],
   },
   {
-    name: "战斗",
+    name: "命中与暴击",
     keys: ["accuracy", "fumbleChance", "critChance", "critEfficiency"],
-  },
-  {
-    name: "效果",
-    keys: [
-      "bleedingChance",
-      "dazeChance",
-      "stunChance",
-      "staggerChance",
-      "knockbackChance",
-      "immobilizationChance",
-    ],
   },
   {
     name: "防御",
@@ -62,51 +52,52 @@ const propertyGroups = [
       "blockPower",
       "blockRecovery",
       "counterChance",
-      "dodgeChance",
-      "damageReduction",
+      "damageReceived",
+      "fortitude",
       "critAvoid",
     ],
   },
   {
-    name: "生命精力",
+    name: "生命",
+    keys: ["maxHealth", "healthRestoration", "healingReceived", "lifesteal"],
+  },
+  {
+    name: "精力",
+    keys: ["maxMana", "manaRestoration", "manasteal"],
+  },
+  {
+    name: "攻击效果",
     keys: [
-      "maxHealth",
-      "healthRestoration",
-      "healingReceived",
-      "maxMana",
-      "manaRestoration",
-      "lifesteal",
-      "manasteal",
+      "bleedingChance",
+      "dazeChance",
+      "stunChance",
+      "staggerChance",
+      "knockbackChance",
+      "immobilizationChance",
     ],
   },
   {
-    name: "法力",
+    name: "法术",
     keys: ["magicPower", "miracleChance", "miraclePower", "miscastChance"],
   },
   {
-    name: "消耗",
+    name: "技能与冷却",
     keys: [
       "abilitiesEnergyCost",
       "skillsEnergyCost",
       "spellsEnergyCost",
       "cooldownReduction",
+      "bonusRange",
     ],
   },
   {
     name: "其他",
-    keys: [
-      "fortitude",
-      "vision",
-      "bonusRange",
-      "damageReceived",
-      "experienceGain",
-      "fatigueGain",
-    ],
+    keys: ["vision", "experienceGain", "fatigueGain"],
   },
 ];
 
 function getPropertyLabel(key: string): string {
-  return propertyLabels[key] || key;
+  return propertyLabels[key] || magicPowerLabels[key] || key;
 }
 
 function formatValue(
@@ -161,6 +152,19 @@ if (otherItems.length > 0) {
     group: { name: "其他", keys: [] },
     items: otherItems,
   });
+}
+
+if (magicPowers && Object.keys(magicPowers).length > 0) {
+  const magicGroup = groupedProperties.find((g) => g.group.name === "法术");
+  const magicItems: [string, number][] = Object.entries(magicPowers);
+  if (magicGroup) {
+    magicGroup.items.push(...magicItems);
+  } else {
+    groupedProperties.push({
+      group: { name: "法术", keys: [] },
+      items: magicItems,
+    });
+  }
 }
 ---
 

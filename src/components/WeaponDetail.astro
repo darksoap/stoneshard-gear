@@ -25,6 +25,9 @@ const damageTypeLabel = data.damage
   : null;
 
 const filteredProperties = getFilteredProperties(data.properties);
+const magicPowers = data.properties.magicPowers as
+  | Record<string, number>
+  | undefined;
 ---
 
 {
@@ -67,9 +70,13 @@ const filteredProperties = getFilteredProperties(data.properties);
 }
 
 {
-  Object.keys(filteredProperties).length > 0 && (
+  (Object.keys(filteredProperties).length > 0 ||
+    (magicPowers && Object.keys(magicPowers).length > 0)) && (
     <div class="p-4 sm:p-5">
-      <PropertyTable properties={filteredProperties} />
+      <PropertyTable
+        properties={filteredProperties}
+        magicPowers={magicPowers}
+      />
     </div>
   )
 }
