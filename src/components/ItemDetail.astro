@@ -48,9 +48,10 @@ interface ItemData {
 
 interface Props {
   data: ItemData;
+  collectionType: "weapons" | "armor" | "jewelry";
 }
 
-const { data } = Astro.props;
+const { data, collectionType } = Astro.props;
 
 const imgSrc = withBase(data.image || "");
 const imgSize = getDetailImgSize(data.slot);
@@ -58,8 +59,8 @@ const imgSize = getDetailImgSize(data.slot);
 const rarityClass = `rarity-${data.rarity}`;
 const rarityLabel = rarityLabels[data.rarity] || data.rarity;
 
-const isWeaponSlot = data.slot in weaponSlotSlugs;
-const isJewelry = data.slot === "ring" || data.slot === "amulet";
+const isJewelry = collectionType === "jewelry";
+const isWeaponSlot = collectionType === "weapons";
 
 const slotLabel = isWeaponSlot
   ? slotLabels[data.slot] || data.slot

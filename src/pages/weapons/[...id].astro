@@ -19,5 +19,5 @@ const { data } = Astro.props;
 ---
 
 <BaseLayout title={`${data.nameZh} - 武器`} description={data.descriptionZh || data.description || `${data.nameZh}的详细信息`}>
-  <ItemDetail data={data} />
+  <ItemDetail data={data} collectionType="weapons" />
 </BaseLayout>
