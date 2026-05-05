@@ -11,7 +11,7 @@
   "price": 2900,
   "properties": {
     "fumbleChance": 3,
-    "damageReduction": 4,
+    "blockChance": 4,
     "maxMana": -16,
     "manaRestoration": -4,
     "defense": 20,

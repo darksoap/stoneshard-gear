@@ -12,7 +12,7 @@
   "properties": {
     "counterChance": 6,
     "armorPenetration": 10,
-    "damageReduction": 6,
+    "blockChance": 6,
     "blockPower": 4,
     "bleedingChance": 12
   },

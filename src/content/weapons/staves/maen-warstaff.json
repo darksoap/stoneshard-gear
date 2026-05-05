@@ -12,7 +12,7 @@
   "properties": {
     "accuracy": 4,
     "armorPenetration": 5,
-    "damageReduction": 12,
+    "blockChance": 12,
     "knockbackChance": 16,
     "staggerChance": 21,
     "skillsEnergyCost": -4,

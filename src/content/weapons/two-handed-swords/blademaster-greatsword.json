@@ -14,7 +14,7 @@
     "counterChance": 3,
     "fumbleChance": 13,
     "armorPenetration": 33,
-    "damageReduction": 3,
+    "blockChance": 3,
     "bleedingChance": 31,
     "skillsEnergyCost": 30
   },

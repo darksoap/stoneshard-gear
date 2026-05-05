@@ -13,7 +13,7 @@
     "accuracy": 2,
     "counterChance": 4,
     "armorPenetration": 10,
-    "damageReduction": 4,
+    "blockChance": 4,
     "bleedingChance": 20,
     "immobilizationChance": 20,
     "skillsEnergyCost": 20

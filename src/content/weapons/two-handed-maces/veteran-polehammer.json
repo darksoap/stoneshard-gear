@@ -13,7 +13,7 @@
     "accuracy": 8,
     "armorPenetration": 45,
     "armorDamage": 65,
-    "damageReduction": 12,
+    "blockChance": 12,
     "blockPower": 12,
     "dazeChance": 41,
     "skillsEnergyCost": 30

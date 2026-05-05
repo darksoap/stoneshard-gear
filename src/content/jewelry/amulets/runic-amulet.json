@@ -11,7 +11,7 @@
   "price": 220,
   "properties": {
     "fumbleChance": -2,
-    "damageReduction": 2,
+    "blockChance": 2,
     "evasion": 2
   },
   "tags": [

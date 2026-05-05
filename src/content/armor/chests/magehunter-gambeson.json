@@ -10,7 +10,7 @@
   "durability": 85,
   "price": 4300,
   "properties": {
-    "damageReduction": 6,
+    "blockChance": 6,
     "abilitiesEnergyCost": -6,
     "magicPower": 4,
     "defense": 9,

@@ -12,7 +12,7 @@
   "properties": {
     "fumbleChance": -3,
     "armorPenetration": 5,
-    "damageReduction": 7,
+    "blockChance": 7,
     "blockPower": 5
   },
   "tags": [

@@ -11,7 +11,7 @@
   "price": 1000,
   "properties": {
     "critChance": 1,
-    "damageReduction": 2,
+    "blockChance": 2,
     "maxMana": -4,
     "manaRestoration": -1,
     "defense": 10,

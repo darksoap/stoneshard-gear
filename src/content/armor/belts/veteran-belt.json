@@ -11,7 +11,7 @@
   "price": 575,
   "properties": {
     "counterChance": 2,
-    "damageReduction": 5,
+    "blockChance": 5,
     "critAvoid": 7,
     "resistances": {
       "pain": 12,

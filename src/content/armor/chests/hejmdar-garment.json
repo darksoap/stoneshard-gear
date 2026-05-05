@@ -10,7 +10,7 @@
   "durability": 55,
   "price": 2025,
   "properties": {
-    "damageReduction": 4,
+    "blockChance": 4,
     "damageReceived": -5,
     "defense": 7,
     "evasion": 6,

@@ -15,7 +15,7 @@
     "counterChance": 1,
     "armorPenetration": 50,
     "armorDamage": 50,
-    "damageReduction": 14,
+    "blockChance": 14,
     "blockPower": 14,
     "dazeChance": 36,
     "skillsEnergyCost": 30

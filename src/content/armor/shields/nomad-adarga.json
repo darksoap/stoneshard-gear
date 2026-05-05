@@ -10,7 +10,7 @@
   "durability": 165,
   "price": 975,
   "properties": {
-    "damageReduction": 15,
+    "blockChance": 15,
     "blockPower": 19,
     "blockRecovery": 5,
     "maxMana": -4,

@@ -12,7 +12,7 @@
   "properties": {
     "critEfficiency": 9,
     "armorPenetration": 13,
-    "damageReduction": 13,
+    "blockChance": 13,
     "bleedingChance": 13,
     "knockbackChance": 13,
     "staggerChance": 26,

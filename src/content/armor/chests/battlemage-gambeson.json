@@ -10,7 +10,7 @@
   "durability": 65,
   "price": 2025,
   "properties": {
-    "damageReduction": 2,
+    "blockChance": 2,
     "abilitiesEnergyCost": -4,
     "magicPower": 6,
     "miscastChance": -2,

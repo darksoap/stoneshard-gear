@@ -13,7 +13,7 @@
     "counterChance": 6,
     "fumbleChance": -3,
     "armorPenetration": 10,
-    "damageReduction": 8,
+    "blockChance": 8,
     "blockPower": 6,
     "skillsEnergyCost": 5,
     "spellsEnergyCost": -5,

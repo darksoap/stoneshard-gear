@@ -13,7 +13,7 @@
     "accuracy": 8,
     "critChance": 4,
     "armorPenetration": 20,
-    "damageReduction": 8,
+    "blockChance": 8,
     "bleedingChance": 30,
     "skillsEnergyCost": 30
   },

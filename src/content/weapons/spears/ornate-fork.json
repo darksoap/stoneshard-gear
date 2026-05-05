@@ -14,7 +14,7 @@
     "critChance": 5,
     "counterChance": 7,
     "armorPenetration": 30,
-    "damageReduction": 10,
+    "blockChance": 10,
     "bleedingChance": 45,
     "immobilizationChance": 20,
     "skillsEnergyCost": 30,

@@ -11,7 +11,7 @@
   "price": 1575,
   "properties": {
     "counterChance": 7,
-    "damageReduction": 13,
+    "blockChance": 13,
     "blockPower": 12,
     "blockRecovery": 15
   },

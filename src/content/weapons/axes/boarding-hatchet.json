@@ -13,7 +13,7 @@
     "counterChance": 6,
     "armorPenetration": 15,
     "bodypartDamage": 17,
-    "damageReduction": 8,
+    "blockChance": 8,
     "bleedingChance": 17,
     "skillsEnergyCost": 20
   },

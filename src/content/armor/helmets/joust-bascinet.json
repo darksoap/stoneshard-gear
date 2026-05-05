@@ -11,7 +11,7 @@
   "price": 1625,
   "properties": {
     "accuracy": -3,
-    "damageReduction": 4,
+    "blockChance": 4,
     "maxMana": -16,
     "manaRestoration": -5,
     "damageReceived": -5,

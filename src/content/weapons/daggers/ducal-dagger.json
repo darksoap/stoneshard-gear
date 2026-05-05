@@ -14,7 +14,7 @@
     "counterChance": 10,
     "fumbleChance": -2,
     "armorPenetration": 15,
-    "damageReduction": 11,
+    "blockChance": 11,
     "blockPower": 9,
     "bleedingChance": 20
   },

@@ -14,7 +14,7 @@
     "armorPenetration": 40,
     "armorDamage": 40,
     "bodypartDamage": 8,
-    "damageReduction": 10,
+    "blockChance": 10,
     "blockPower": 10,
     "dazeChance": 30,
     "skillsEnergyCost": 25

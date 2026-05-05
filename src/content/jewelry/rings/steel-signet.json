@@ -11,7 +11,7 @@
   "price": 60,
   "properties": {
     "armorPenetration": 3,
-    "damageReduction": 3,
+    "blockChance": 3,
     "blockPower": 2
   },
   "tags": [

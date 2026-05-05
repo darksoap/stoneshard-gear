@@ -12,7 +12,7 @@
   "properties": {
     "armorPenetration": 5,
     "bodypartDamage": 20,
-    "damageReduction": 6,
+    "blockChance": 6,
     "bleedingChance": 24,
     "skillsEnergyCost": 10
   },

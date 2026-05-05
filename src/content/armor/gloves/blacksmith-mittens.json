@@ -11,7 +11,7 @@
   "price": 75,
   "properties": {
     "fumbleChance": 1,
-    "damageReduction": 1,
+    "blockChance": 1,
     "skillsEnergyCost": -3,
     "defense": 2,
     "resistances": {

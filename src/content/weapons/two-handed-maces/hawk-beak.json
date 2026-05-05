@@ -14,7 +14,7 @@
     "critEfficiency": 10,
     "armorPenetration": 40,
     "armorDamage": 40,
-    "damageReduction": 12,
+    "blockChance": 12,
     "blockPower": 12,
     "bleedingChance": 10,
     "dazeChance": 35,

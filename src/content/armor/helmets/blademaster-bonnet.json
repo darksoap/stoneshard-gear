@@ -13,7 +13,7 @@
     "critChance": 5,
     "critEfficiency": 10,
     "counterChance": 3,
-    "damageReduction": 3,
+    "blockChance": 3,
     "defense": 6,
     "evasion": 7,
     "resistances": {

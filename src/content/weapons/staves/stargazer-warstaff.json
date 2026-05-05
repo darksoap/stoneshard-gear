@@ -13,7 +13,7 @@
     "counterChance": 3,
     "fumbleChance": -3,
     "armorPenetration": 5,
-    "damageReduction": 15,
+    "blockChance": 15,
     "knockbackChance": 20,
     "staggerChance": 25,
     "skillsEnergyCost": -5,

@@ -10,7 +10,7 @@
   "durability": 80,
   "price": 775,
   "properties": {
-    "damageReduction": 6,
+    "blockChance": 6,
     "defense": 6,
     "evasion": 2,
     "resistances": {

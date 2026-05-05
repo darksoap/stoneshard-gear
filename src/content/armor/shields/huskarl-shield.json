@@ -11,7 +11,7 @@
   "price": 1875,
   "properties": {
     "counterChance": 4,
-    "damageReduction": 23,
+    "blockChance": 23,
     "blockPower": 22,
     "maxMana": -8,
     "manaRestoration": -2,

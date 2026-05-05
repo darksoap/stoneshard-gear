@@ -14,7 +14,7 @@
     "critChance": 1,
     "critEfficiency": 5,
     "armorPenetration": 10,
-    "damageReduction": 3,
+    "blockChance": 3,
     "bleedingChance": 9,
     "skillsEnergyCost": 5
   },

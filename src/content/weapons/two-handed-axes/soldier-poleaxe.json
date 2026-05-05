@@ -11,7 +11,7 @@
   "price": 1500,
   "properties": {
     "armorPenetration": 20,
-    "damageReduction": 8,
+    "blockChance": 8,
     "blockPower": 9,
     "bleedingChance": 25,
     "knockbackChance": 25,

@@ -12,7 +12,7 @@
   "properties": {
     "counterChance": 5,
     "armorPenetration": 5,
-    "damageReduction": 12,
+    "blockChance": 12,
     "blockRecovery": 5,
     "knockbackChance": 16,
     "staggerChance": 21,

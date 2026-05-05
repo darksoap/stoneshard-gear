@@ -14,7 +14,7 @@
     "critChance": 1,
     "critEfficiency": 15,
     "fumbleChance": -5,
-    "damageReduction": 2,
+    "blockChance": 2,
     "skillsEnergyCost": -7,
     "defense": 6,
     "resistances": {

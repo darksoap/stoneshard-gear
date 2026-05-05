@@ -13,7 +13,7 @@
     "accuracy": 2,
     "critChance": 2,
     "counterChance": 4,
-    "damageReduction": 2,
+    "blockChance": 2,
     "defense": 8,
     "evasion": 5,
     "resistances": {

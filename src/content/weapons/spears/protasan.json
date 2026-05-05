@@ -13,7 +13,7 @@
     "accuracy": 10,
     "counterChance": 12,
     "armorPenetration": 30,
-    "damageReduction": 16,
+    "blockChance": 16,
     "blockPower": 13,
     "knockbackChance": 35,
     "skillsEnergyCost": 30

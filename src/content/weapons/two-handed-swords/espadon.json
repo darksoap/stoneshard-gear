@@ -14,7 +14,7 @@
     "critChance": 3,
     "counterChance": 10,
     "armorPenetration": 30,
-    "damageReduction": 14,
+    "blockChance": 14,
     "blockPower": 13,
     "skillsEnergyCost": 35
   },

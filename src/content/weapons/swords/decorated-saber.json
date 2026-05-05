@@ -14,7 +14,7 @@
     "fumbleChance": -3,
     "armorPenetration": 10,
     "bodypartDamage": 25,
-    "damageReduction": 8,
+    "blockChance": 8,
     "bleedingChance": 28,
     "skillsEnergyCost": 5,
     "spellsEnergyCost": -5

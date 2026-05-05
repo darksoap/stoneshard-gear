@@ -14,7 +14,7 @@
     "fumbleChance": -4,
     "armorPenetration": 55,
     "armorDamage": 70,
-    "damageReduction": 14,
+    "blockChance": 14,
     "blockPower": 14,
     "bleedingChance": 10,
     "dazeChance": 40,

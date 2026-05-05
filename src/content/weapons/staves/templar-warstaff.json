@@ -11,7 +11,7 @@
   "price": 5100,
   "properties": {
     "armorPenetration": 5,
-    "damageReduction": 10,
+    "blockChance": 10,
     "knockbackChance": 15,
     "staggerChance": 20,
     "maxMana": 5,

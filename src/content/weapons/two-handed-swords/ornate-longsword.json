@@ -13,7 +13,7 @@
     "accuracy": 10,
     "counterChance": 5,
     "armorPenetration": 20,
-    "damageReduction": 10,
+    "blockChance": 10,
     "staggerChance": 30,
     "manaRestoration": 4,
     "skillsEnergyCost": 20

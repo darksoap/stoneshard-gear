@@ -12,7 +12,7 @@
   "properties": {
     "counterChance": 6,
     "armorPenetration": 15,
-    "damageReduction": 10,
+    "blockChance": 10,
     "blockPower": 9,
     "skillsEnergyCost": 25
   },

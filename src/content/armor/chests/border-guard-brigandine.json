@@ -10,7 +10,7 @@
   "durability": 195,
   "price": 6225,
   "properties": {
-    "damageReduction": 3,
+    "blockChance": 3,
     "maxMana": -2,
     "cooldownReduction": -3,
     "defense": 15,

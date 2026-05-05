@@ -10,7 +10,7 @@
   "durability": 35,
   "price": 50,
   "properties": {
-    "damageReduction": 3,
+    "blockChance": 3,
     "resistances": {
       "rending": 3
     }

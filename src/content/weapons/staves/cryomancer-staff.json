@@ -11,7 +11,7 @@
   "price": 2425,
   "properties": {
     "armorPenetration": 5,
-    "damageReduction": 12,
+    "blockChance": 12,
     "knockbackChance": 16,
     "staggerChance": 33,
     "skillsEnergyCost": -4,

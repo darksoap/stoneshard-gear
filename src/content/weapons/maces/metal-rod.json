@@ -11,7 +11,7 @@
   "price": 5,
   "properties": {
     "fumbleChance": 3,
-    "damageReduction": 1
+    "blockChance": 1
   },
   "tags": [
     "special"

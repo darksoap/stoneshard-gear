@@ -12,7 +12,7 @@
   "properties": {
     "critChance": 2,
     "armorPenetration": 5,
-    "damageReduction": 10,
+    "blockChance": 10,
     "knockbackChance": 12,
     "staggerChance": 17,
     "skillsEnergyCost": -4,

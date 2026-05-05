@@ -10,7 +10,7 @@
   "durability": 70,
   "price": 575,
   "properties": {
-    "damageReduction": 6,
+    "blockChance": 6,
     "fatigueGain": 3,
     "critAvoid": 7,
     "resistances": {

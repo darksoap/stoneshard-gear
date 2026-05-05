@@ -15,7 +15,7 @@
     "counterChance": 8,
     "armorPenetration": 20,
     "bodypartDamage": 5,
-    "damageReduction": 7,
+    "blockChance": 7,
     "blockPower": 5,
     "knockbackChance": 25,
     "skillsEnergyCost": 20

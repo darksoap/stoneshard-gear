@@ -13,7 +13,7 @@
     "accuracy": 8,
     "armorPenetration": 50,
     "armorDamage": 75,
-    "damageReduction": 14,
+    "blockChance": 14,
     "blockPower": 14,
     "dazeChance": 40,
     "stunChance": 10,
