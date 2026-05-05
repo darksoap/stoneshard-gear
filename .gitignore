@@ -32,4 +32,4 @@ venv/
 
 .trae/
 .vscode/
-public/images/*.png
+public/images/*.png*.html
